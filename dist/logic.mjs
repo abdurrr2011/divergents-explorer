@@ -5,7 +5,7 @@ export const testLabels={required:'Required',alternative:'One accepted route',op
 export function testState(r,key){return r.tests?.[key]?.status||'unknown';}
 export function noEnglish(r){return testState(r,'ENGLISH')==='not_required';}
 export function noSAT(r){return ['not_required','optional'].includes(testState(r,'SAT'));}
-export function money(t){if(t?.amount==null)return 'Tuition awaiting verification';return `${new Intl.NumberFormat('en',{maximumFractionDigits:2}).format(t.amount)} ${t.currency} / ${t.period==='year'?'year':t.period}`;}
+export function money(t){if(t?.amount==null)return `Tuition awaiting verification${t?.currency?' · '+t.currency:''}`;return `${new Intl.NumberFormat('en',{maximumFractionDigits:2}).format(t.amount)} ${t.currency} / ${t.period==='year'?'year':t.period}`;}
 export function enrich(d){return d.routes.map(r=>({...r,p:d.programmes.find(p=>p.id===r.programmeId),i:d.institutions.find(i=>i.id===d.programmes.find(p=>p.id===r.programmeId)?.institutionId),awards:d.awards.filter(a=>a.routeIds.includes(r.id)),deadlines:d.deadlines.filter(a=>a.routeIds.includes(r.id))}));}
 export function filterRoutes(routes,f={}){
  const query=(f.q||'').toLocaleLowerCase().normalize('NFKC').replace(/ұбт|ент|unt/g,'unt');
@@ -21,7 +21,7 @@ export function filterRoutes(routes,f={}){
  if(f.language&&!r.p.languages.includes(f.language))return false;
  if(f.cycle&&r.cycle!==f.cycle)return false;
  if(f.funding&&!r.awards.some(a=>a.coverage===f.funding))return false;
- if(f.currency&&r.tuition.currency!==f.currency&&!(f.costUnknown&&r.tuition.amount==null))return false;
+ if(f.currency&&r.tuition.currency!==f.currency&&!(f.costUnknown&&r.tuition.currency==null&&r.tuition.amount==null))return false;
  if(f.max!==' '&&f.max!=null&&f.max!==''){
  if(r.tuition.amount==null){if(!f.costUnknown)return false;}
  else if(r.tuition.period!=='year'||!f.currency||r.tuition.currency!==f.currency||r.tuition.amount>+f.max)return false;
