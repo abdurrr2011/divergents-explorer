@@ -1,0 +1,375 @@
+{
+  "checked": "2026-11-14T17:59:08.964Z",
+  "results": [
+    {
+      "url": "https://www.berea.edu/admissions",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.berea.edu/admissions/admission-information/apply/checklist-items/international-faqs",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://berea.smartcatalogiq.com/en/current/catalog/majors-and-minors",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://berea.smartcatalogiq.com/en/current/catalog/majors-and-minors/computer-science/computer-and-information-science-b-a",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://berea.smartcatalogiq.com/en/current/catalog/majors-and-minors/art/art-studio-b-a/",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.smc.edu/admission-aid/apply/international-students/submit-documents.php",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.smc.edu/admission-aid/apply/international-students/documents/smc--iec-english-proficiency-8-18-2026.pdf",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://berea.smartcatalogiq.com/en/current/catalog/majors-and-minors/biological-sciences/biological-sciences-b-a",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.smc.edu/admission-aid/apply/international-students/tuition-fees.php",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://catalog.smc.edu/current/degrees-certificates-transfer/computer-science.php",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://catalog.smc.edu/current/academics/transferring-from-smc.php",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://catalog.smc.edu/current/degrees-certificates-transfer/psychology.php",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://catalog.smc.edu/current/degrees-certificates-transfer/business.php",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.aalto.fi/en/admission-services/english-taught-bachelors-programmes-i-am-applying-with-a-high-school-diploma",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.aalto.fi/en/admission-services/scholarships-and-tuition-fees",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.aalto.fi/en/admission-services/admission-to-bachelors-programme-in-design-and-media-bachelor-and-master-of-arts-3-yrs-2-yrs",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.aalto.fi/en/study-options/data-science-bachelor-of-science-and-master-of-science-technology",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.aalto.fi/en/study-options/chemical-engineering-bachelor-of-science-and-master-of-science-technology",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.aalto.fi/en/admission-services/apply-to-bachelors-programmes-in-english",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://usic.sheffield.ac.uk/how-to-apply/entry-requirements",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://sheffield.ac.uk/international/entry-requirements/kazakhstan",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://usic.sheffield.ac.uk/how-to-apply/fees",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.aalto.fi/en/study-options/bachelors-programme-in-economics",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.aalto.fi/en/study-options/design-and-media-bachelor-of-arts-and-master-of-arts-art-and-design",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://usic.sheffield.ac.uk/programmes/international-foundation-year/science-and-engineering",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://usic.sheffield.ac.uk/programmes/international-foundation-year/business-social-sciences-and-humanities",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://admission.kaist.ac.kr/intl-undergraduate/before/sub02",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://admission.kaist.ac.kr/intl-undergraduate/application/ApplicationGuide/ApplicationTimeline",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://admission.kaist.ac.kr/intl-undergraduate/support/scholarships/kaist/",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://admission.kaist.ac.kr/intl-undergraduate/support/coa",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.kaist.ac.kr/en/html/edu/03.html",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://cs.kaist.ac.kr/education/undergraduate",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://bio.kaist.ac.kr/page/ko/selectPage.do?menuSeq=3357&pageSeq=3406",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://ee.kaist.ac.kr/en/under-req/2023/",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://join.hkust.edu.hk/admissions/international-qualifications?general_requirement=All",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://join.hkust.edu.hk/fees-and-scholarships",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://ee.kaist.ac.kr/en/under-curr-list/",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://join.hkust.edu.hk/global-learners-scholarship",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://join.hkust.edu.hk/our-programs/joint-school-program/mathematics-and-economics",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://join.hkust.edu.hk/our-programs/joint-school-program/biotechnology-and-business",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://join.hkust.edu.hk/our-programs/joint-school-program/data-science-and-technology",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://study.unimelb.edu.au/how-to-apply/undergraduate-study/international-applications/applications",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://study.unimelb.edu.au/how-to-apply/undergraduate-study/recognised-vce-equivalent-qualifications/qualifications/kazakhstan",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://study.unimelb.edu.au/how-to-apply/english-language-requirements/undergraduate-english-language-requirements",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://study.unimelb.edu.au/how-to-apply/undergraduate-study/international-applications/fees-and-payments",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://mse.kaist.ac.kr/index.php?document_srl=14065&mid=mse_undercurriculum",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://study.unimelb.edu.au/find/courses/undergraduate/bachelor-of-science/structure/",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://study.unimelb.edu.au/find/courses/undergraduate/bachelor-of-commerce/structure/",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://admission.kaist.ac.kr/wz/api/common/files/view/intl-undergraduate/pdf/Admissions_Guide_for_2027_admission.pdf",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://uct.ac.za/students/non-south-african-school-leaving-examination-requirements",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.uct.ac.za/students/applications-admission-requirements/language-requirements",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://ebe.uct.ac.za/school-apg/bachelor-architectural-studies",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.uct.ac.za/students/applications/key-dates",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://sit.uct.ac.za/ba-informatics",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://www4.cbc.uba.ar/inscripciones/nodniarg.php",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.fadu.uba.ar/diseno-grafico/",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.uba.ar/estudiantesextranjeros",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.derecho.uba.ar/ingresantes/info_ingresantes_cbc_extranjeros.php",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://join.hkust.edu.hk/faq",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://astanait.edu.kz/en/college",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://astanait.edu.kz/en/bachelor",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://ukptk.edu.kz/abiturientu",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://astanait.edu.kz/en/how-to-apply",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://astanait.edu.kz/en/aitu-excellence-test",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://ukptk.edu.kz/abiturientu/specialties",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://astanait.edu.kz/educational-grants",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://astanait.edu.kz/Software-Engineering-bachelor",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.gov.kz/org/sci/press/news/details/1256968?lang=ru",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://astanait.edu.kz/en/electronic-engineering-bachelor",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://astanait.edu.kz/en/itmanagement-bachelor",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://apply.nu.edu.kz/en/programs/bsc-computer-science",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://nu.edu.kz/admissions/how-to-apply/foundation-undergraduate/regular-admissions/",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.diploma.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://nu.edu.kz/admissions/how-to-apply/foundation-undergraduate/financial-aid-end-scholarships/",
+      "status": 200,
+      "result": "ok"
+    }
+  ]
+}

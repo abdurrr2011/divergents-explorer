@@ -1,0 +1,1419 @@
+{
+  "institutions": [
+    {
+      "id": "inst-berea",
+      "name": "Berea College",
+      "country": "United States",
+      "region": "North America",
+      "city": "Berea, Kentucky",
+      "aliases": [
+        "Береа"
+      ],
+      "sourceIds": [
+        "src-berea-intl",
+        "src-berea-majors"
+      ]
+    },
+    {
+      "id": "inst-smc",
+      "name": "Santa Monica College",
+      "country": "United States",
+      "region": "North America",
+      "city": "Santa Monica, California",
+      "aliases": [
+        "SMC",
+        "Санта-Моника"
+      ],
+      "sourceIds": [
+        "src-smc-intl-docs",
+        "src-smc-fees-2026"
+      ]
+    },
+    {
+      "id": "inst-aalto",
+      "name": "Aalto University",
+      "country": "Finland",
+      "region": "Europe",
+      "city": "Espoo",
+      "aliases": [
+        "Аалто"
+      ],
+      "sourceIds": [
+        "src-aalto-round-a-2027",
+        "src-aalto-fees"
+      ]
+    },
+    {
+      "id": "inst-sheffield-ic",
+      "name": "University of Sheffield International College",
+      "country": "United Kingdom",
+      "region": "Europe",
+      "city": "Sheffield",
+      "aliases": [
+        "USIC",
+        "Sheffield",
+        "Шеффилд"
+      ],
+      "sourceIds": [
+        "src-sheffield-foundation-entry",
+        "src-sheffield-kazakhstan"
+      ]
+    }
+  ],
+  "programmes": [
+    {
+      "id": "prog-berea-cs",
+      "institutionId": "inst-berea",
+      "name": "Computer and Information Science",
+      "field": "Technology",
+      "qualification": "Bachelor of Arts",
+      "duration": "Four years; individual progression varies",
+      "credits": "Normally at least 32 Berea course credits across degree; see major requirements",
+      "languages": [
+        "English"
+      ],
+      "description": "Build software and study how computers represent and process information.",
+      "curriculum": "Software design, data structures and algorithms, upper-level design/foundations courses, general education and electives.",
+      "practical": "Capstone can be a computing design practicum, an internship, or an approved undergraduate research experience.",
+      "campus": "Berea, Kentucky",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "src-berea-cs",
+        "src-berea-majors"
+      ]
+    },
+    {
+      "id": "prog-berea-bio",
+      "institutionId": "inst-berea",
+      "name": "Biological Sciences",
+      "field": "Health & life sciences",
+      "qualification": "Bachelor of Arts",
+      "duration": "Four years; individual progression varies",
+      "credits": "Normally at least 32 Berea course credits across degree; see major requirements",
+      "languages": [
+        "English"
+      ],
+      "description": "Investigate living systems, from cells and genes to organisms and ecosystems.",
+      "curriculum": "Four-credit biological sciences core plus six distribution credits; subjects include cellular biology, diversity, genetics, ecology/evolution. General education is additional.",
+      "practical": "Field ecology and laboratory-oriented courses appear in the curriculum; a guaranteed external internship is not established.",
+      "campus": "Berea, Kentucky",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "src-berea-bio",
+        "src-berea-majors"
+      ]
+    },
+    {
+      "id": "prog-berea-art",
+      "institutionId": "inst-berea",
+      "name": "Art: Studio",
+      "field": "Arts & design",
+      "qualification": "Bachelor of Arts",
+      "duration": "Four years; individual progression varies",
+      "credits": "Normally at least 32 Berea course credits across degree; see major requirements",
+      "languages": [
+        "English"
+      ],
+      "description": "Develop ideas through drawing, colour, print, fibres, sculpture and intermedia.",
+      "curriculum": "Four studio foundation courses, portfolio review by fourth term, a medium studied to advanced level, and a capstone; general education is additional.",
+      "practical": "Studio practice and a final capstone. The fourth-term portfolio review is during the degree, not a verified pre-admission portfolio requirement.",
+      "campus": "Berea, Kentucky",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "src-berea-art",
+        "src-berea-majors"
+      ]
+    },
+    {
+      "id": "prog-smc-cs",
+      "institutionId": "inst-smc",
+      "name": "Computer Science",
+      "field": "Technology",
+      "qualification": "Associate in Science",
+      "duration": "Credit-based; 60 units. Time depends on placement and course load; two years is not guaranteed.",
+      "credits": "At least 60 US semester units for associate degree; computer science emphasis 23 units",
+      "languages": [
+        "English"
+      ],
+      "description": "Learn programming, digital systems and data structures before employment or a separate transfer application.",
+      "curriculum": "Computer systems, assembly language, digital logic, C programming and calculus, followed by C++ or Java/data-structures options. General education is additional.",
+      "practical": "Applied coursework; guaranteed internship not verified. Transfer preparation must match the intended receiving university.",
+      "campus": "Santa Monica main campus; check course delivery",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "src-smc-cs",
+        "src-smc-transfer"
+      ]
+    },
+    {
+      "id": "prog-smc-business",
+      "institutionId": "inst-smc",
+      "name": "Business Administration 2.0",
+      "field": "Business & economics",
+      "qualification": "Associate in Science for Transfer (AS-T)",
+      "duration": "Credit-based; 60 units. Time depends on placement and course load; two years is not guaranteed.",
+      "credits": "60 US semester units; SMC business emphasis 29 units",
+      "languages": [
+        "English"
+      ],
+      "description": "Study how organisations account, make decisions and work within markets and law.",
+      "curriculum": "Financial and managerial accounting, business law/communication, micro- and macroeconomics, statistics and mathematics; Cal-GETC general education.",
+      "practical": "Applied coursework; guaranteed internship not verified. Transfer preparation must match the intended receiving university.",
+      "campus": "Santa Monica main campus; check course delivery",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "src-smc-business",
+        "src-smc-transfer"
+      ]
+    },
+    {
+      "id": "prog-smc-psychology",
+      "institutionId": "inst-smc",
+      "name": "Psychology",
+      "field": "Social sciences",
+      "qualification": "Associate in Arts for Transfer (AA-T)",
+      "duration": "Credit-based; 60 units. Time depends on placement and course load; two years is not guaranteed.",
+      "credits": "60 US semester units for the degree",
+      "languages": [
+        "English"
+      ],
+      "description": "Explore cognition, emotion, behaviour and scientific research methods.",
+      "curriculum": "Psychology major courses and general education including Cal-GETC; degree requires a minimum overall GPA of 2.0 and C/P in major courses.",
+      "practical": "Applied coursework; guaranteed internship not verified. Transfer preparation must match the intended receiving university.",
+      "campus": "Santa Monica main campus; check course delivery",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "src-smc-psychology",
+        "src-smc-transfer"
+      ]
+    },
+    {
+      "id": "prog-aalto-data-science",
+      "institutionId": "inst-aalto",
+      "name": "Data Science",
+      "field": "Technology",
+      "qualification": "Bachelor of Science (Technology)",
+      "duration": "3-year bachelor; separate 2-year master study right",
+      "credits": "180 ECTS bachelor + 120 ECTS master",
+      "languages": [
+        "English"
+      ],
+      "description": "Use mathematics, programming and statistical reasoning to understand data.",
+      "curriculum": "180 ECTS: basic studies, data-science major including thesis/seminar, minor and electives. Topics include mathematics, programming, statistics and machine learning.",
+      "practical": "Bachelor thesis and project-oriented study. Guaranteed external internship not verified.",
+      "campus": "Otaniemi, Espoo",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "src-aalto-data-science"
+      ]
+    },
+    {
+      "id": "prog-aalto-chemical",
+      "institutionId": "inst-aalto",
+      "name": "Chemical Engineering",
+      "field": "Engineering",
+      "qualification": "Bachelor of Science (Technology)",
+      "duration": "3-year bachelor; separate 2-year master study right",
+      "credits": "180 ECTS bachelor + 120 ECTS master",
+      "languages": [
+        "English"
+      ],
+      "description": "Investigate chemical processes, materials and sustainable technologies.",
+      "curriculum": "Mathematics and natural sciences with chemical engineering major, minor, electives and bachelor thesis.",
+      "practical": "Laboratory and applied study documented; guaranteed placement not verified.",
+      "campus": "Otaniemi, Espoo",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "src-aalto-chemical"
+      ]
+    },
+    {
+      "id": "prog-aalto-economics",
+      "institutionId": "inst-aalto",
+      "name": "Economics",
+      "field": "Business & economics",
+      "qualification": "Bachelor of Science (Economics and Business Administration)",
+      "duration": "3-year bachelor; separate 2-year master study right",
+      "credits": "180 ECTS bachelor + 120 ECTS master",
+      "languages": [
+        "English"
+      ],
+      "description": "Use quantitative tools to study markets, inequality and economic policy.",
+      "curriculum": "Basic economics and quantitative methods, mathematics/programming, major, minor, electives, bachelor seminar and thesis.",
+      "practical": "Thesis and optional exchange; a guaranteed internship is not established.",
+      "campus": "Otaniemi, Espoo",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "src-aalto-economics"
+      ]
+    },
+    {
+      "id": "prog-aalto-design",
+      "institutionId": "inst-aalto",
+      "name": "Design and Media",
+      "field": "Arts & design",
+      "qualification": "Bachelor of Arts (Art and Design)",
+      "duration": "3-year bachelor; separate 2-year master study right",
+      "credits": "180 ECTS bachelor + 120 ECTS master",
+      "languages": [
+        "English"
+      ],
+      "description": "Create visual, physical and digital work through art, media and design.",
+      "curriculum": "Visual communication, industrial and digital design, collaborative projects, critical thinking and design practice.",
+      "practical": "Hands-on collaborative coursework, prototyping and projects.",
+      "campus": "Otaniemi, Espoo",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "src-aalto-design"
+      ]
+    },
+    {
+      "id": "prog-sheffield-foundation-business",
+      "institutionId": "inst-sheffield-ic",
+      "name": "International Foundation Year — Business, Social Sciences and Humanities",
+      "field": "Business & economics",
+      "qualification": "International Foundation Year — preparation, not a bachelor degree",
+      "duration": "1.5 or 2 semesters, then a separately funded undergraduate degree",
+      "credits": "Not published in checked page",
+      "languages": [
+        "English"
+      ],
+      "description": "Prepare for a selected Sheffield undergraduate degree through a separate international foundation programme.",
+      "curriculum": "Academic English and project skills, then business/management/finance, economics, social sciences/humanities or architecture-related modules depending on the target degree.",
+      "practical": "Project-based and academic preparation; no guaranteed internship. Progression requires overall, module and English grades for the chosen degree.",
+      "campus": "University of Sheffield International College, Sheffield",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "src-sheffield-foundation-business"
+      ]
+    },
+    {
+      "id": "prog-sheffield-foundation-science",
+      "institutionId": "inst-sheffield-ic",
+      "name": "International Foundation Year — Science and Engineering",
+      "field": "Engineering",
+      "qualification": "International Foundation Year — preparation, not a bachelor degree",
+      "duration": "1.5 or 2 semesters, then a separately funded undergraduate degree",
+      "credits": "Not published in checked page",
+      "languages": [
+        "English"
+      ],
+      "description": "Prepare for a selected Sheffield undergraduate degree through a separate international foundation programme.",
+      "curriculum": "Academic English and project skills plus biology/chemistry, chemistry/mathematics or physics/mathematics modules depending on the target degree.",
+      "practical": "Project-based and academic preparation; no guaranteed internship. Progression requires overall, module and English grades for the chosen degree.",
+      "campus": "University of Sheffield International College, Sheffield",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "src-sheffield-foundation-science"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "route-berea-cs",
+      "programmeId": "prog-berea-cs",
+      "name": "International first-year admission",
+      "entryAfter": 11,
+      "pathway": "direct",
+      "cycle": "undated policy; 2026/27 curriculum",
+      "applicant": "Kazakhstan applicant educated outside the destination country",
+      "eligibility": "Meet university-entrance requirements in your own country and submit strong secondary/leaving results, application documents and one accepted test. Admission to the college precedes declaring a major.",
+      "recognition": "Kazakhstan diploma equivalence is assessed by Berea; entrance eligibility in the awarding country is required. Do not assume a Grade 11 certificate alone satisfies every document rule.",
+      "subjects": "General secondary preparation. No programme-specific school-subject minimum verified for this international route.",
+      "tests": {
+        "SAT": {
+          "status": "alternative",
+          "detail": "SAT 980 is one accepted test; ACT, IELTS, TOEFL or Duolingo may satisfy the published test step instead."
+        },
+        "ACT": {
+          "status": "alternative",
+          "detail": "ACT composite 19; other accepted tests may satisfy the step."
+        },
+        "IELTS": {
+          "status": "alternative",
+          "detail": "IELTS 6 overall and 5 in each area is one alternative."
+        },
+        "TOEFL": {
+          "status": "alternative",
+          "detail": "TOEFL iBT 68 is one published alternative; confirm handling of the revised TOEFL scale."
+        },
+        "ENGLISH": {
+          "status": "alternative",
+          "detail": "At least one approved test is required. SAT/ACT can satisfy that step instead of a separate English test; not an unconditional no-test route."
+        }
+      },
+      "tuition": {
+        "amount": null,
+        "currency": "USD",
+        "period": "year",
+        "note": "Gross tuition schedule not captured. All admitted international students receive the separately described funding package; do not treat unknown gross tuition as zero."
+      },
+      "mandatoryFees": "International FAQ expects a USD 2,200 enrolment deposit, with additional aid possible for students unable to pay. Other upfront travel/visa expenses need checking.",
+      "living": "Tuition, housing, food and fees are covered by the international package; personal expenses remain. No independent living estimate verified.",
+      "nextAction": "Check diploma documentation and choose one accepted test before preparing the international application.",
+      "questions": [
+        "Confirm the November 30 deadline year and timezone for your intake.",
+        "Confirm revised TOEFL-score equivalence, all application documents, and continuing aid/work obligations."
+      ],
+      "sourceIds": [
+        "src-berea-intl",
+        "src-berea-2027-funding",
+        "src-berea-cs",
+        "src-berea-majors"
+      ]
+    },
+    {
+      "id": "route-berea-bio",
+      "programmeId": "prog-berea-bio",
+      "name": "International first-year admission",
+      "entryAfter": 11,
+      "pathway": "direct",
+      "cycle": "undated policy; 2026/27 curriculum",
+      "applicant": "Kazakhstan applicant educated outside the destination country",
+      "eligibility": "Meet university-entrance requirements in your own country and submit strong secondary/leaving results, application documents and one accepted test. Admission to the college precedes declaring a major.",
+      "recognition": "Kazakhstan diploma equivalence is assessed by Berea; entrance eligibility in the awarding country is required. Do not assume a Grade 11 certificate alone satisfies every document rule.",
+      "subjects": "General secondary preparation. No programme-specific school-subject minimum verified for this international route.",
+      "tests": {
+        "SAT": {
+          "status": "alternative",
+          "detail": "SAT 980 is one accepted test; ACT, IELTS, TOEFL or Duolingo may satisfy the published test step instead."
+        },
+        "ACT": {
+          "status": "alternative",
+          "detail": "ACT composite 19; other accepted tests may satisfy the step."
+        },
+        "IELTS": {
+          "status": "alternative",
+          "detail": "IELTS 6 overall and 5 in each area is one alternative."
+        },
+        "TOEFL": {
+          "status": "alternative",
+          "detail": "TOEFL iBT 68 is one published alternative; confirm handling of the revised TOEFL scale."
+        },
+        "ENGLISH": {
+          "status": "alternative",
+          "detail": "At least one approved test is required. SAT/ACT can satisfy that step instead of a separate English test; not an unconditional no-test route."
+        }
+      },
+      "tuition": {
+        "amount": null,
+        "currency": "USD",
+        "period": "year",
+        "note": "Gross tuition schedule not captured. All admitted international students receive the separately described funding package; do not treat unknown gross tuition as zero."
+      },
+      "mandatoryFees": "International FAQ expects a USD 2,200 enrolment deposit, with additional aid possible for students unable to pay. Other upfront travel/visa expenses need checking.",
+      "living": "Tuition, housing, food and fees are covered by the international package; personal expenses remain. No independent living estimate verified.",
+      "nextAction": "Check diploma documentation and choose one accepted test before preparing the international application.",
+      "questions": [
+        "Confirm the November 30 deadline year and timezone for your intake.",
+        "Confirm revised TOEFL-score equivalence, all application documents, and continuing aid/work obligations."
+      ],
+      "sourceIds": [
+        "src-berea-intl",
+        "src-berea-2027-funding",
+        "src-berea-bio",
+        "src-berea-majors"
+      ]
+    },
+    {
+      "id": "route-berea-art",
+      "programmeId": "prog-berea-art",
+      "name": "International first-year admission",
+      "entryAfter": 11,
+      "pathway": "direct",
+      "cycle": "undated policy; 2026/27 curriculum",
+      "applicant": "Kazakhstan applicant educated outside the destination country",
+      "eligibility": "Meet university-entrance requirements in your own country and submit strong secondary/leaving results, application documents and one accepted test. Admission to the college precedes declaring a major.",
+      "recognition": "Kazakhstan diploma equivalence is assessed by Berea; entrance eligibility in the awarding country is required. Do not assume a Grade 11 certificate alone satisfies every document rule.",
+      "subjects": "General secondary preparation. No programme-specific school-subject minimum verified for this international route.",
+      "tests": {
+        "SAT": {
+          "status": "alternative",
+          "detail": "SAT 980 is one accepted test; ACT, IELTS, TOEFL or Duolingo may satisfy the published test step instead."
+        },
+        "ACT": {
+          "status": "alternative",
+          "detail": "ACT composite 19; other accepted tests may satisfy the step."
+        },
+        "IELTS": {
+          "status": "alternative",
+          "detail": "IELTS 6 overall and 5 in each area is one alternative."
+        },
+        "TOEFL": {
+          "status": "alternative",
+          "detail": "TOEFL iBT 68 is one published alternative; confirm handling of the revised TOEFL scale."
+        },
+        "ENGLISH": {
+          "status": "alternative",
+          "detail": "At least one approved test is required. SAT/ACT can satisfy that step instead of a separate English test; not an unconditional no-test route."
+        }
+      },
+      "tuition": {
+        "amount": null,
+        "currency": "USD",
+        "period": "year",
+        "note": "Gross tuition schedule not captured. All admitted international students receive the separately described funding package; do not treat unknown gross tuition as zero."
+      },
+      "mandatoryFees": "International FAQ expects a USD 2,200 enrolment deposit, with additional aid possible for students unable to pay. Other upfront travel/visa expenses need checking.",
+      "living": "Tuition, housing, food and fees are covered by the international package; personal expenses remain. No independent living estimate verified.",
+      "nextAction": "Check diploma documentation and choose one accepted test before preparing the international application.",
+      "questions": [
+        "Confirm the November 30 deadline year and timezone for your intake.",
+        "Confirm revised TOEFL-score equivalence, all application documents, and continuing aid/work obligations."
+      ],
+      "sourceIds": [
+        "src-berea-intl",
+        "src-berea-2027-funding",
+        "src-berea-art",
+        "src-berea-majors"
+      ]
+    },
+    {
+      "id": "route-smc-cs",
+      "programmeId": "prog-smc-cs",
+      "name": "International F-1 associate / transfer preparation",
+      "entryAfter": 11,
+      "pathway": "transfer",
+      "cycle": "2026/27 reference",
+      "applicant": "Kazakhstan applicant educated outside the destination country",
+      "eligibility": "Submit school records, passport, financial statement, USD 75 application fee, English evidence and personal essay. Normally age 18; age 16–17 applicants must have completed high school and meet local guardian conditions.",
+      "recognition": "SMC reviews international records. Confirm your Kazakhstan diploma and any translated documents. An associate degree does not guarantee university transfer or a scholarship.",
+      "subjects": "No programme-specific secondary-subject threshold verified; mathematics/English placement can affect time to completion.",
+      "tests": {
+        "SAT": {
+          "status": "unknown",
+          "detail": "SAT is not listed in the checked international document checklist; no explicit exemption statement verified."
+        },
+        "IELTS": {
+          "status": "alternative",
+          "detail": "IELTS 5.0 is one accepted evidence option."
+        },
+        "TOEFL": {
+          "status": "alternative",
+          "detail": "Published TOEFL alternatives include 45 iBT or score 3 on the 1–6 scale; consult the official PDF."
+        },
+        "ENGLISH": {
+          "status": "alternative",
+          "detail": "English proficiency evidence is required for the academic route. Several tests, specified prior education or language-school completions are accepted; waivers are conditional."
+        }
+      },
+      "tuition": {
+        "amount": 486,
+        "currency": "USD",
+        "period": "credit",
+        "note": "2026/27: per US semester unit, including enrollment fee, non-resident tuition and surcharge. Official 24-unit annual example is USD 11,664; a 60-unit degree plus any transfer costs is additional."
+      },
+      "mandatoryFees": "2026/27: health fee USD 28/semester; mandatory insurance USD 2,310/year plus initial USD 196 for new students. Application USD 75. Other listed fees include some optional/waivable items; check the fee schedule.",
+      "living": "SMC 2026/27 estimate: homestay living USD 13,869 for 9 months, plus personal USD 4,968 and books USD 1,064; total estimated budget USD 34,000 includes tuition/fees. Checked 14 Nov 2026.",
+      "nextAction": "Ask SMC to confirm your diploma/age eligibility and map courses to one intended transfer university.",
+      "questions": [
+        "Confirm entry-term deadline, international document translations and guardian arrangements if under 18.",
+        "Verify destination university transfer requirements, later tuition and aid separately. No full transfer guarantee verified."
+      ],
+      "sourceIds": [
+        "src-smc-intl-docs",
+        "src-smc-english",
+        "src-smc-fees-2026",
+        "src-smc-transfer",
+        "src-smc-cs"
+      ]
+    },
+    {
+      "id": "route-smc-business",
+      "programmeId": "prog-smc-business",
+      "name": "International F-1 associate / transfer preparation",
+      "entryAfter": 11,
+      "pathway": "transfer",
+      "cycle": "2026/27 reference",
+      "applicant": "Kazakhstan applicant educated outside the destination country",
+      "eligibility": "Submit school records, passport, financial statement, USD 75 application fee, English evidence and personal essay. Normally age 18; age 16–17 applicants must have completed high school and meet local guardian conditions.",
+      "recognition": "SMC reviews international records. Confirm your Kazakhstan diploma and any translated documents. An associate degree does not guarantee university transfer or a scholarship.",
+      "subjects": "No programme-specific secondary-subject threshold verified; mathematics/English placement can affect time to completion.",
+      "tests": {
+        "SAT": {
+          "status": "unknown",
+          "detail": "SAT is not listed in the checked international document checklist; no explicit exemption statement verified."
+        },
+        "IELTS": {
+          "status": "alternative",
+          "detail": "IELTS 5.0 is one accepted evidence option."
+        },
+        "TOEFL": {
+          "status": "alternative",
+          "detail": "Published TOEFL alternatives include 45 iBT or score 3 on the 1–6 scale; consult the official PDF."
+        },
+        "ENGLISH": {
+          "status": "alternative",
+          "detail": "English proficiency evidence is required for the academic route. Several tests, specified prior education or language-school completions are accepted; waivers are conditional."
+        }
+      },
+      "tuition": {
+        "amount": 486,
+        "currency": "USD",
+        "period": "credit",
+        "note": "2026/27: per US semester unit, including enrollment fee, non-resident tuition and surcharge. Official 24-unit annual example is USD 11,664; a 60-unit degree plus any transfer costs is additional."
+      },
+      "mandatoryFees": "2026/27: health fee USD 28/semester; mandatory insurance USD 2,310/year plus initial USD 196 for new students. Application USD 75. Other listed fees include some optional/waivable items; check the fee schedule.",
+      "living": "SMC 2026/27 estimate: homestay living USD 13,869 for 9 months, plus personal USD 4,968 and books USD 1,064; total estimated budget USD 34,000 includes tuition/fees. Checked 14 Nov 2026.",
+      "nextAction": "Ask SMC to confirm your diploma/age eligibility and map courses to one intended transfer university.",
+      "questions": [
+        "Confirm entry-term deadline, international document translations and guardian arrangements if under 18.",
+        "Verify destination university transfer requirements, later tuition and aid separately. No full transfer guarantee verified."
+      ],
+      "sourceIds": [
+        "src-smc-intl-docs",
+        "src-smc-english",
+        "src-smc-fees-2026",
+        "src-smc-transfer",
+        "src-smc-business"
+      ]
+    },
+    {
+      "id": "route-smc-psychology",
+      "programmeId": "prog-smc-psychology",
+      "name": "International F-1 associate / transfer preparation",
+      "entryAfter": 11,
+      "pathway": "transfer",
+      "cycle": "2026/27 reference",
+      "applicant": "Kazakhstan applicant educated outside the destination country",
+      "eligibility": "Submit school records, passport, financial statement, USD 75 application fee, English evidence and personal essay. Normally age 18; age 16–17 applicants must have completed high school and meet local guardian conditions.",
+      "recognition": "SMC reviews international records. Confirm your Kazakhstan diploma and any translated documents. An associate degree does not guarantee university transfer or a scholarship.",
+      "subjects": "No programme-specific secondary-subject threshold verified; mathematics/English placement can affect time to completion.",
+      "tests": {
+        "SAT": {
+          "status": "unknown",
+          "detail": "SAT is not listed in the checked international document checklist; no explicit exemption statement verified."
+        },
+        "IELTS": {
+          "status": "alternative",
+          "detail": "IELTS 5.0 is one accepted evidence option."
+        },
+        "TOEFL": {
+          "status": "alternative",
+          "detail": "Published TOEFL alternatives include 45 iBT or score 3 on the 1–6 scale; consult the official PDF."
+        },
+        "ENGLISH": {
+          "status": "alternative",
+          "detail": "English proficiency evidence is required for the academic route. Several tests, specified prior education or language-school completions are accepted; waivers are conditional."
+        }
+      },
+      "tuition": {
+        "amount": 486,
+        "currency": "USD",
+        "period": "credit",
+        "note": "2026/27: per US semester unit, including enrollment fee, non-resident tuition and surcharge. Official 24-unit annual example is USD 11,664; a 60-unit degree plus any transfer costs is additional."
+      },
+      "mandatoryFees": "2026/27: health fee USD 28/semester; mandatory insurance USD 2,310/year plus initial USD 196 for new students. Application USD 75. Other listed fees include some optional/waivable items; check the fee schedule.",
+      "living": "SMC 2026/27 estimate: homestay living USD 13,869 for 9 months, plus personal USD 4,968 and books USD 1,064; total estimated budget USD 34,000 includes tuition/fees. Checked 14 Nov 2026.",
+      "nextAction": "Ask SMC to confirm your diploma/age eligibility and map courses to one intended transfer university.",
+      "questions": [
+        "Confirm entry-term deadline, international document translations and guardian arrangements if under 18.",
+        "Verify destination university transfer requirements, later tuition and aid separately. No full transfer guarantee verified."
+      ],
+      "sourceIds": [
+        "src-smc-intl-docs",
+        "src-smc-english",
+        "src-smc-fees-2026",
+        "src-smc-transfer",
+        "src-smc-psychology"
+      ]
+    },
+    {
+      "id": "route-aalto-data-science",
+      "programmeId": "prog-aalto-data-science",
+      "name": "Foreign school diploma — SAT/ACT round A",
+      "entryAfter": 11,
+      "pathway": "direct",
+      "cycle": "2027",
+      "applicant": "Kazakhstan applicant educated outside the destination country",
+      "eligibility": "Foreign upper-secondary qualification granting corresponding higher-education eligibility in its awarding country, plus SAT or ACT. Applicants are ranked by test results; minima are eligibility thresholds.",
+      "recognition": "Foreign qualification must grant higher-education eligibility in the awarding country. Aalto evaluates submitted documents; translate originals into Finnish, Swedish or English. Kazakhstan diploma acceptance is not pre-certified in this catalogue.",
+      "subjects": "Strong mathematics preparation; programming and quantitative study support this field.",
+      "tests": {
+        "SAT": {
+          "status": "alternative",
+          "detail": "SAT at least 1350 overall and 700 Mathematics, or ACT at least 29 composite and 30 Mathematics. SAT or ACT required for round A; test completed 1 January 2025 or later. Minima do not guarantee selection."
+        },
+        "ACT": {
+          "status": "alternative",
+          "detail": "SAT at least 1350 overall and 700 Mathematics, or ACT at least 29 composite and 30 Mathematics. Official results must arrive by deadline."
+        },
+        "IELTS": {
+          "status": "not_required",
+          "detail": "This admission round explicitly does not require a language test result."
+        },
+        "TOEFL": {
+          "status": "not_required",
+          "detail": "This admission round explicitly does not require a language test result."
+        },
+        "ENGLISH": {
+          "status": "not_required",
+          "detail": "Sufficient English ability is expected, but a separate language test result is explicitly not required for this route."
+        }
+      },
+      "tuition": {
+        "amount": 12000,
+        "currency": "EUR",
+        "period": "year",
+        "note": "Bachelor fee for non-EU/EEA fee-liable students; schedule applies to study rights starting 1 Aug 2025 onward. Master tuition differs and is additional."
+      },
+      "mandatoryFees": "Normally EUR100 application fee for non-EU/EEA/Swiss applicants, subject to exemptions. Student Union and healthcare fees are additional; 2026 healthcare fee EUR36/semester, future fees need checking.",
+      "living": "Aalto fee page checked 14 Nov 2026 says plan for at least EUR800/month living costs; this is a minimum planning estimate, not tuition or a guaranteed housing price.",
+      "nextAction": "Confirm your diploma grants higher-education eligibility and schedule SAT or ACT early enough for official result delivery.",
+      "questions": [
+        "Confirm your individual diploma recognition and document translation requirements.",
+        "Verify current mandatory fees, residence-permit finances and actual housing budget."
+      ],
+      "sourceIds": [
+        "src-aalto-round-a-2027",
+        "src-aalto-fees",
+        "src-aalto-general",
+        "src-aalto-data-science"
+      ]
+    },
+    {
+      "id": "route-aalto-chemical",
+      "programmeId": "prog-aalto-chemical",
+      "name": "Foreign school diploma — SAT/ACT round A",
+      "entryAfter": 11,
+      "pathway": "direct",
+      "cycle": "2027",
+      "applicant": "Kazakhstan applicant educated outside the destination country",
+      "eligibility": "Foreign upper-secondary qualification granting corresponding higher-education eligibility in its awarding country, plus SAT or ACT. Applicants are ranked by test results; minima are eligibility thresholds.",
+      "recognition": "Foreign qualification must grant higher-education eligibility in the awarding country. Aalto evaluates submitted documents; translate originals into Finnish, Swedish or English. Kazakhstan diploma acceptance is not pre-certified in this catalogue.",
+      "subjects": "Strong mathematics preparation; chemistry and physics support this field.",
+      "tests": {
+        "SAT": {
+          "status": "alternative",
+          "detail": "SAT at least 1350 overall and 700 Mathematics, or ACT at least 29 composite and 30 Mathematics. SAT or ACT required for round A; test completed 1 January 2025 or later. Minima do not guarantee selection."
+        },
+        "ACT": {
+          "status": "alternative",
+          "detail": "SAT at least 1350 overall and 700 Mathematics, or ACT at least 29 composite and 30 Mathematics. Official results must arrive by deadline."
+        },
+        "IELTS": {
+          "status": "not_required",
+          "detail": "This admission round explicitly does not require a language test result."
+        },
+        "TOEFL": {
+          "status": "not_required",
+          "detail": "This admission round explicitly does not require a language test result."
+        },
+        "ENGLISH": {
+          "status": "not_required",
+          "detail": "Sufficient English ability is expected, but a separate language test result is explicitly not required for this route."
+        }
+      },
+      "tuition": {
+        "amount": 12000,
+        "currency": "EUR",
+        "period": "year",
+        "note": "Bachelor fee for non-EU/EEA fee-liable students; schedule applies to study rights starting 1 Aug 2025 onward. Master tuition differs and is additional."
+      },
+      "mandatoryFees": "Normally EUR100 application fee for non-EU/EEA/Swiss applicants, subject to exemptions. Student Union and healthcare fees are additional; 2026 healthcare fee EUR36/semester, future fees need checking.",
+      "living": "Aalto fee page checked 14 Nov 2026 says plan for at least EUR800/month living costs; this is a minimum planning estimate, not tuition or a guaranteed housing price.",
+      "nextAction": "Confirm your diploma grants higher-education eligibility and schedule SAT or ACT early enough for official result delivery.",
+      "questions": [
+        "Confirm your individual diploma recognition and document translation requirements.",
+        "Verify current mandatory fees, residence-permit finances and actual housing budget."
+      ],
+      "sourceIds": [
+        "src-aalto-round-a-2027",
+        "src-aalto-fees",
+        "src-aalto-general",
+        "src-aalto-chemical"
+      ]
+    },
+    {
+      "id": "route-aalto-economics",
+      "programmeId": "prog-aalto-economics",
+      "name": "Foreign school diploma — SAT/ACT round A",
+      "entryAfter": 11,
+      "pathway": "direct",
+      "cycle": "2027",
+      "applicant": "Kazakhstan applicant educated outside the destination country",
+      "eligibility": "Foreign upper-secondary qualification granting corresponding higher-education eligibility in its awarding country, plus SAT or ACT. Applicants are ranked by test results; minima are eligibility thresholds.",
+      "recognition": "Foreign qualification must grant higher-education eligibility in the awarding country. Aalto evaluates submitted documents; translate originals into Finnish, Swedish or English. Kazakhstan diploma acceptance is not pre-certified in this catalogue.",
+      "subjects": "Strong mathematics preparation; programming and quantitative study support this field.",
+      "tests": {
+        "SAT": {
+          "status": "alternative",
+          "detail": "SAT at least 1200 overall or ACT at least 25 composite. SAT or ACT required for round A; test completed 1 January 2025 or later. Minima do not guarantee selection."
+        },
+        "ACT": {
+          "status": "alternative",
+          "detail": "SAT at least 1200 overall or ACT at least 25 composite. Official results must arrive by deadline."
+        },
+        "IELTS": {
+          "status": "not_required",
+          "detail": "This admission round explicitly does not require a language test result."
+        },
+        "TOEFL": {
+          "status": "not_required",
+          "detail": "This admission round explicitly does not require a language test result."
+        },
+        "ENGLISH": {
+          "status": "not_required",
+          "detail": "Sufficient English ability is expected, but a separate language test result is explicitly not required for this route."
+        }
+      },
+      "tuition": {
+        "amount": 12000,
+        "currency": "EUR",
+        "period": "year",
+        "note": "Bachelor fee for non-EU/EEA fee-liable students; schedule applies to study rights starting 1 Aug 2025 onward. Master tuition differs and is additional."
+      },
+      "mandatoryFees": "Normally EUR100 application fee for non-EU/EEA/Swiss applicants, subject to exemptions. Student Union and healthcare fees are additional; 2026 healthcare fee EUR36/semester, future fees need checking.",
+      "living": "Aalto fee page checked 14 Nov 2026 says plan for at least EUR800/month living costs; this is a minimum planning estimate, not tuition or a guaranteed housing price.",
+      "nextAction": "Confirm your diploma grants higher-education eligibility and schedule SAT or ACT early enough for official result delivery.",
+      "questions": [
+        "Confirm your individual diploma recognition and document translation requirements.",
+        "Verify current mandatory fees, residence-permit finances and actual housing budget."
+      ],
+      "sourceIds": [
+        "src-aalto-round-a-2027",
+        "src-aalto-fees",
+        "src-aalto-general",
+        "src-aalto-economics"
+      ]
+    },
+    {
+      "id": "route-aalto-design",
+      "programmeId": "prog-aalto-design",
+      "name": "Design assignments + interview",
+      "entryAfter": 11,
+      "pathway": "direct",
+      "cycle": "2027",
+      "applicant": "Kazakhstan applicant educated outside the destination country",
+      "eligibility": "Foreign upper-secondary qualification granting university-level eligibility at home, plus preliminary assignments, intake assignments and interview. Each stage screens applicants. English proof is a separate requirement.",
+      "recognition": "Foreign qualification must grant higher-education eligibility in the awarding country. Aalto evaluates submitted documents; translate originals into Finnish, Swedish or English. Kazakhstan diploma acceptance is not pre-certified in this catalogue.",
+      "subjects": "Develop visual communication, creative work and a habit of explaining design decisions. Official preliminary assignments are published 17 December 2026.",
+      "tests": {
+        "SAT": {
+          "status": "not_required",
+          "detail": "Selection is based on preliminary/intake assignments and interview, rather than SAT."
+        },
+        "ACT": {
+          "status": "not_required",
+          "detail": "Not a selection component for this design route."
+        },
+        "IELTS": {
+          "status": "alternative",
+          "detail": "IELTS Academic 6.5 overall is one accepted English-evidence route."
+        },
+        "TOEFL": {
+          "status": "alternative",
+          "detail": "TOEFL iBT 92 before 21 January 2026 or 4.5 for tests on/after that date is one accepted route."
+        },
+        "ENGLISH": {
+          "status": "required",
+          "detail": "For a standard Kazakhstan secondary diploma, provide an accepted English test. Only specifically listed qualifications/country-based education can waive a test; English proficiency evidence always required."
+        }
+      },
+      "tuition": {
+        "amount": 15000,
+        "currency": "EUR",
+        "period": "year",
+        "note": "Bachelor fee for non-EU/EEA fee-liable students; schedule applies to study rights starting 1 Aug 2025 onward. Master tuition differs and is additional."
+      },
+      "mandatoryFees": "Normally EUR100 application fee for non-EU/EEA/Swiss applicants, subject to exemptions. Student Union and healthcare fees are additional; 2026 healthcare fee EUR36/semester, future fees need checking.",
+      "living": "Aalto fee page checked 14 Nov 2026 says plan for at least EUR800/month living costs; this is a minimum planning estimate, not tuition or a guaranteed housing price.",
+      "nextAction": "Review the 2027 English evidence rules and plan time for the official preliminary design assignments.",
+      "questions": [
+        "Confirm your individual diploma recognition and document translation requirements.",
+        "Verify current mandatory fees, residence-permit finances and actual housing budget."
+      ],
+      "sourceIds": [
+        "src-aalto-design-2027",
+        "src-aalto-fees",
+        "src-aalto-general",
+        "src-aalto-design"
+      ]
+    },
+    {
+      "id": "route-sheffield-foundation-business",
+      "programmeId": "prog-sheffield-foundation-business",
+      "name": "Kazakhstan school certificate — two-semester foundation",
+      "entryAfter": 11,
+      "pathway": "foundation",
+      "cycle": "2026/27 fees; current entry policy",
+      "applicant": "Kazakhstan applicant educated outside the destination country",
+      "eligibility": "Age at least 17. Kazakhstan Certificate of Completed Education with grade 3 or 4 in relevant subjects, subject to individual pathway confirmation. Two-semester English threshold is IELTS for UKVI 5.0, writing at least 5.0 and other skills at least 4.0, or equivalent.",
+      "recognition": "The International College explicitly lists Kazakhstan qualifications. This is foundation admission; progression to the university requires the target degree grades and separate degree fees. It is not direct bachelor entry.",
+      "subjects": "Relevant subjects depend on intended degree. Confirm exact subject grades and progression targets with the International College.",
+      "tests": {
+        "SAT": {
+          "status": "unknown",
+          "detail": "SAT is not listed in the checked foundation entry criteria; an explicit no-SAT statement was not verified."
+        },
+        "IELTS": {
+          "status": "alternative",
+          "detail": "Two semesters: Academic IELTS for UKVI 5.0 overall, writing 5.0, other skills 4.0, or equivalent."
+        },
+        "TOEFL": {
+          "status": "unknown",
+          "detail": "Equivalent English evidence is mentioned, but a TOEFL threshold was not verified."
+        },
+        "ENGLISH": {
+          "status": "required",
+          "detail": "English language entry criteria must be met; this route is not confirmed eligible without English evidence. Optional preparatory English adds time and cost."
+        }
+      },
+      "tuition": {
+        "amount": 23900,
+        "currency": "GBP",
+        "period": "programme",
+        "note": "2026/27 two-semester foundation tuition only. 1.5-semester options have different entry thresholds and prices. Subsequent bachelor degree tuition/living is additional."
+      },
+      "mandatoryFees": "Confirmation/security deposit and advance tuition may be required; visa/health surcharge, insurance and travel are additional. Check offer terms; no complete mandatory-fee total verified.",
+      "living": "USIC page checked 14 Nov 2026 cites outside-London minimum GBP1,136/month; GBP1,203/month for applications on/after 30 Nov 2026. These are financial-requirement/planning figures, not guaranteed actual spending.",
+      "nextAction": "Ask the International College to confirm your Kazakhstan certificate, intended degree progression grades and a full foundation-plus-degree budget.",
+      "questions": [
+        "Confirm exact relevant-subject grade requirements for your chosen degree.",
+        "Get the selected intake application/document/CAS deadline and future degree fee schedule.",
+        "Confirm all progression conditions in writing; some degrees have limited places."
+      ],
+      "sourceIds": [
+        "src-sheffield-foundation-entry",
+        "src-sheffield-foundation-fees",
+        "src-sheffield-kazakhstan",
+        "src-sheffield-foundation-business"
+      ]
+    },
+    {
+      "id": "route-sheffield-foundation-science",
+      "programmeId": "prog-sheffield-foundation-science",
+      "name": "Kazakhstan school certificate — two-semester foundation",
+      "entryAfter": 11,
+      "pathway": "foundation",
+      "cycle": "2026/27 fees; current entry policy",
+      "applicant": "Kazakhstan applicant educated outside the destination country",
+      "eligibility": "Age at least 17. Kazakhstan Certificate of Completed Education with grade 3 or 4 in relevant subjects, subject to individual pathway confirmation. Two-semester English threshold is IELTS for UKVI 5.0, writing at least 5.0 and other skills at least 4.0, or equivalent.",
+      "recognition": "The International College explicitly lists Kazakhstan qualifications. This is foundation admission; progression to the university requires the target degree grades and separate degree fees. It is not direct bachelor entry.",
+      "subjects": "Relevant subjects depend on intended degree. Confirm exact subject grades and progression targets with the International College.",
+      "tests": {
+        "SAT": {
+          "status": "unknown",
+          "detail": "SAT is not listed in the checked foundation entry criteria; an explicit no-SAT statement was not verified."
+        },
+        "IELTS": {
+          "status": "alternative",
+          "detail": "Two semesters: Academic IELTS for UKVI 5.0 overall, writing 5.0, other skills 4.0, or equivalent."
+        },
+        "TOEFL": {
+          "status": "unknown",
+          "detail": "Equivalent English evidence is mentioned, but a TOEFL threshold was not verified."
+        },
+        "ENGLISH": {
+          "status": "required",
+          "detail": "English language entry criteria must be met; this route is not confirmed eligible without English evidence. Optional preparatory English adds time and cost."
+        }
+      },
+      "tuition": {
+        "amount": 25500,
+        "currency": "GBP",
+        "period": "programme",
+        "note": "2026/27 two-semester foundation tuition only. 1.5-semester options have different entry thresholds and prices. Subsequent bachelor degree tuition/living is additional."
+      },
+      "mandatoryFees": "Confirmation/security deposit and advance tuition may be required; visa/health surcharge, insurance and travel are additional. Check offer terms; no complete mandatory-fee total verified.",
+      "living": "USIC page checked 14 Nov 2026 cites outside-London minimum GBP1,136/month; GBP1,203/month for applications on/after 30 Nov 2026. These are financial-requirement/planning figures, not guaranteed actual spending.",
+      "nextAction": "Ask the International College to confirm your Kazakhstan certificate, intended degree progression grades and a full foundation-plus-degree budget.",
+      "questions": [
+        "Confirm exact relevant-subject grade requirements for your chosen degree.",
+        "Get the selected intake application/document/CAS deadline and future degree fee schedule.",
+        "Confirm all progression conditions in writing; some degrees have limited places."
+      ],
+      "sourceIds": [
+        "src-sheffield-foundation-entry",
+        "src-sheffield-foundation-fees",
+        "src-sheffield-kazakhstan",
+        "src-sheffield-foundation-science"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "id": "award-berea-international",
+      "routeIds": [
+        "route-berea-cs",
+        "route-berea-bio",
+        "route-berea-art"
+      ],
+      "name": "Berea international funding package",
+      "coverage": "full_scholarship",
+      "benefits": "Tuition, housing, food and fees for admitted international students. Fall 2027 policy also covers supplies for all enrolled students. Personal expenses and upfront travel are not established as covered.",
+      "eligibility": "All admitted international students under the published international policy; admission is selective, with no probability estimate.",
+      "application": "Complete the international admission application and its financial documents; obtain individual deposit/aid instructions with an offer.",
+      "renewal": "Fall 2027 policy says coverage through graduation. Confirm satisfactory-progress, Work Program and continuing enrolment terms with the aid office.",
+      "upfront": "USD 2,200 deposit expected before I-20; additional aid may be available if unable to pay. Visa, travel and personal spending still need a plan.",
+      "cycle": "Fall 2027 onward policy; international FAQ undated",
+      "sourceIds": [
+        "src-berea-intl",
+        "src-berea-2027-funding"
+      ]
+    },
+    {
+      "id": "award-aalto-excellence",
+      "routeIds": [
+        "route-aalto-data-science",
+        "route-aalto-chemical",
+        "route-aalto-economics",
+        "route-aalto-design"
+      ],
+      "name": "Aalto University Excellence Scholarship",
+      "coverage": "tuition_only",
+      "benefits": "Competitive waiver of the full tuition fee. No living-cost package. Programmes can award no scholarships.",
+      "eligibility": "Fee-liable non-EU/EEA applicants, selected on the programme evaluation criteria. Eligibility is not an award guarantee.",
+      "application": "Select scholarship application on the admission form during the application period; later applications are not accepted.",
+      "renewal": "Normative study period: three years for the bachelor, full-time study according to approved study plan. Master continuation scholarship has additional conditions and is separate.",
+      "upfront": "Living expenses, study materials, union/healthcare costs, insurance and travel remain. If no waiver, tuition is normally due as one annual instalment.",
+      "cycle": "2027 admission; current scholarship policy",
+      "sourceIds": [
+        "src-aalto-fees"
+      ]
+    }
+  ],
+  "deadlines": [
+    {
+      "id": "deadline-berea-intl",
+      "routeIds": [
+        "route-berea-cs",
+        "route-berea-bio",
+        "route-berea-art"
+      ],
+      "type": "admission",
+      "label": "International application: November 30 published, year/timezone require confirmation",
+      "date": null,
+      "time": null,
+      "timezone": null,
+      "cycle": "undated policy",
+      "applicant": "International / Kazakhstan applicants",
+      "status": "awaiting_publication",
+      "nextAction": "Ask admissions which intake the published November 30 date covers, then prepare all required components.",
+      "sourceIds": [
+        "src-berea-intl"
+      ]
+    },
+    {
+      "id": "deadline-smc-next",
+      "routeIds": [
+        "route-smc-cs",
+        "route-smc-business",
+        "route-smc-psychology"
+      ],
+      "type": "admission",
+      "label": "Check the academic term application deadline",
+      "date": null,
+      "time": null,
+      "timezone": null,
+      "cycle": "2027 intake",
+      "applicant": "International / Kazakhstan applicants",
+      "status": "awaiting_publication",
+      "nextAction": "Check the official admissions page for the chosen intake before applying.",
+      "sourceIds": [
+        "src-smc-intl-docs"
+      ]
+    },
+    {
+      "id": "deadline-aalto-round-a",
+      "routeIds": [
+        "route-aalto-data-science",
+        "route-aalto-chemical",
+        "route-aalto-economics"
+      ],
+      "type": "admission",
+      "label": "Round A admission application",
+      "date": "2027-01-22",
+      "time": "23:59",
+      "timezone": "Europe/Helsinki",
+      "cycle": "2027",
+      "applicant": "International / Kazakhstan applicants",
+      "status": "confirmed",
+      "nextAction": "Submit the admission form and select the scholarship option if eligible.",
+      "sourceIds": [
+        "src-aalto-round-a-2027"
+      ]
+    },
+    {
+      "id": "deadline-aalto-round-a-tests",
+      "routeIds": [
+        "route-aalto-data-science",
+        "route-aalto-chemical",
+        "route-aalto-economics"
+      ],
+      "type": "test",
+      "label": "Official SAT/ACT and initial documents received",
+      "date": "2027-01-29",
+      "time": "23:59",
+      "timezone": "Europe/Helsinki",
+      "cycle": "2027",
+      "applicant": "International / Kazakhstan applicants",
+      "status": "confirmed",
+      "nextAction": "Order official SAT/ACT delivery early and upload required academic documents.",
+      "sourceIds": [
+        "src-aalto-round-a-2027"
+      ]
+    },
+    {
+      "id": "deadline-aalto-round-a-final",
+      "routeIds": [
+        "route-aalto-data-science",
+        "route-aalto-chemical",
+        "route-aalto-economics"
+      ],
+      "type": "document",
+      "label": "Final foreign diploma for spring 2027 graduates",
+      "date": "2027-07-31",
+      "time": "23:59",
+      "timezone": "Europe/Helsinki",
+      "cycle": "2027",
+      "applicant": "International / Kazakhstan applicants",
+      "status": "confirmed",
+      "nextAction": "Upload final diploma and any required official translation.",
+      "sourceIds": [
+        "src-aalto-round-a-2027"
+      ]
+    },
+    {
+      "id": "deadline-aalto-design-application",
+      "routeIds": [
+        "route-aalto-design"
+      ],
+      "type": "admission",
+      "label": "Design and Media admission application",
+      "date": "2027-01-22",
+      "time": "23:59",
+      "timezone": "Europe/Helsinki",
+      "cycle": "2027",
+      "applicant": "International / Kazakhstan applicants",
+      "status": "confirmed",
+      "nextAction": "Submit the Design and Media application; preliminary assignment has a separate deadline.",
+      "sourceIds": [
+        "src-aalto-design-2027"
+      ]
+    },
+    {
+      "id": "deadline-aalto-design-documents",
+      "routeIds": [
+        "route-aalto-design"
+      ],
+      "type": "document",
+      "label": "Preliminary assignments, English proof and initial documents",
+      "date": "2027-01-29",
+      "time": "23:59",
+      "timezone": "Europe/Helsinki",
+      "cycle": "2027",
+      "applicant": "International / Kazakhstan applicants",
+      "status": "confirmed",
+      "nextAction": "Upload preliminary work and ensure official English proof is available to Aalto.",
+      "sourceIds": [
+        "src-aalto-design-2027"
+      ]
+    },
+    {
+      "id": "deadline-aalto-scholarship",
+      "routeIds": [
+        "route-aalto-data-science",
+        "route-aalto-chemical",
+        "route-aalto-economics",
+        "route-aalto-design"
+      ],
+      "type": "funding",
+      "label": "Select Excellence Scholarship on admission application",
+      "date": "2027-01-22",
+      "time": "23:59",
+      "timezone": "Europe/Helsinki",
+      "cycle": "2027",
+      "applicant": "International / Kazakhstan applicants",
+      "status": "confirmed",
+      "nextAction": "Choose the scholarship option on the admission form before it closes.",
+      "sourceIds": [
+        "src-aalto-fees",
+        "src-aalto-round-a-2027",
+        "src-aalto-design-2027"
+      ],
+      "awardId": "award-aalto-excellence"
+    },
+    {
+      "id": "deadline-sheffield-foundation",
+      "routeIds": [
+        "route-sheffield-foundation-business",
+        "route-sheffield-foundation-science"
+      ],
+      "type": "admission",
+      "label": "Selected foundation intake application and visa-document cutoffs",
+      "date": null,
+      "time": null,
+      "timezone": null,
+      "cycle": "2027 intake",
+      "applicant": "International / Kazakhstan applicants",
+      "status": "awaiting_publication",
+      "nextAction": "Ask the International College for the chosen intake application and CAS/document deadlines before paying a deposit.",
+      "sourceIds": [
+        "src-sheffield-foundation-entry"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-berea-intl",
+      "url": "https://www.berea.edu/admissions/admission-information/apply/checklist-items/international-faqs",
+      "title": "Berea College — International Applicant Info",
+      "checked": "2026-11-14",
+      "cycle": "undated policy",
+      "applicant": "International applicants, including Kazakhstan",
+      "status": "verified",
+      "note": "Official FAQ checked live. November 30 is published without a year: no future dated deadline inferred. Test minima are eligibility thresholds. Aid covers tuition/housing/food/fees; deposit and personal expenses remain."
+    },
+    {
+      "id": "src-berea-2027-funding",
+      "url": "https://www.berea.edu/admissions",
+      "title": "Berea Admissions & Aid — fully funded degree from Fall 2027",
+      "checked": "2026-11-14",
+      "cycle": "Fall 2027 onward",
+      "applicant": "International applicants, including Kazakhstan",
+      "status": "verified",
+      "note": "Policy promises tuition, housing, food, fees and supplies for all enrolled students from Fall 2027; international FAQ separately confirms international package. Retention details require review."
+    },
+    {
+      "id": "src-berea-majors",
+      "url": "https://berea.smartcatalogiq.com/en/current/catalog/majors-and-minors",
+      "title": "Berea 2026–2027 Catalog — Majors & Minors",
+      "checked": "2026-11-14",
+      "cycle": "2026/27",
+      "applicant": "International applicants, including Kazakhstan",
+      "status": "verified",
+      "note": "Berea course credits are not ECTS or US semester credit hours. Most degrees require at least 32 course credits; consult major and general education requirements."
+    },
+    {
+      "id": "src-berea-cs",
+      "url": "https://berea.smartcatalogiq.com/en/current/catalog/majors-and-minors/computer-science/computer-and-information-science-b-a",
+      "title": "Berea 2026–2027 Catalog — Computer and Information Science B.A.",
+      "checked": "2026-11-14",
+      "cycle": "2026/27",
+      "applicant": "International applicants, including Kazakhstan",
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "id": "src-berea-bio",
+      "url": "https://berea.smartcatalogiq.com/en/current/catalog/majors-and-minors/biological-sciences/biological-sciences-b-a",
+      "title": "Berea 2026–2027 Catalog — Biological Sciences B.A.",
+      "checked": "2026-11-14",
+      "cycle": "2026/27",
+      "applicant": "International applicants, including Kazakhstan",
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "id": "src-berea-art",
+      "url": "https://berea.smartcatalogiq.com/en/current/catalog/majors-and-minors/art/art-studio-b-a/",
+      "title": "Berea 2026–2027 Catalog — Art: Studio B.A.",
+      "checked": "2026-11-14",
+      "cycle": "2026/27",
+      "applicant": "International applicants, including Kazakhstan",
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "id": "src-smc-intl-docs",
+      "url": "https://www.smc.edu/admission-aid/apply/international-students/submit-documents.php",
+      "title": "Santa Monica College — international application documents",
+      "checked": "2026-11-14",
+      "cycle": "current catalogue",
+      "applicant": "International applicants, including Kazakhstan",
+      "status": "verified",
+      "note": "F-1 applicants need financial evidence, passport, transcripts, fee, English evidence and essay. Special age/guardian rules for 16–17-year-olds; SAT not explicitly discussed."
+    },
+    {
+      "id": "src-smc-english",
+      "url": "https://www.smc.edu/admission-aid/apply/international-students/documents/smc--iec-english-proficiency-8-18-2026.pdf",
+      "title": "SMC Proof of English Proficiency for F-1 Visa Applicants",
+      "checked": "2026-11-14",
+      "cycle": "2026 policy",
+      "applicant": "International applicants, including Kazakhstan",
+      "status": "verified",
+      "note": "PDF revised 24 March 2026; IELTS 5, TOEFL and multiple other test/education/language-school routes. Not all waivers apply to Kazakhstan schooling."
+    },
+    {
+      "id": "src-smc-fees-2026",
+      "url": "https://www.smc.edu/admission-aid/apply/international-students/tuition-fees.php",
+      "title": "SMC International Student Tuition & Fees — Fall 2026–Summer 2027",
+      "checked": "2026-11-14",
+      "cycle": "2026/27",
+      "applicant": "International applicants, including Kazakhstan",
+      "status": "verified",
+      "note": "USD 486 per semester unit includes enrollment/non-resident tuition/surcharge. USD 11,664 assumes 24 units/year, not full two-year degree pace. Separate mandatory insurance, living and other expenses."
+    },
+    {
+      "id": "src-smc-transfer",
+      "url": "https://catalog.smc.edu/current/academics/transferring-from-smc.php",
+      "title": "SMC 2026–2027 Catalog — Transferring from SMC",
+      "checked": "2026-11-14",
+      "cycle": "2026/27",
+      "applicant": "International applicants, including Kazakhstan",
+      "status": "verified",
+      "note": "Transfer is a separate application. International/nonresident students may require higher GPA; no named campus or funding guarantee."
+    },
+    {
+      "id": "src-smc-cs",
+      "url": "https://catalog.smc.edu/current/degrees-certificates-transfer/computer-science.php",
+      "title": "SMC 2026–2027 Catalog — Computer Science",
+      "checked": "2026-11-14",
+      "cycle": "2026/27",
+      "applicant": "International applicants, including Kazakhstan",
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "id": "src-smc-business",
+      "url": "https://catalog.smc.edu/current/degrees-certificates-transfer/business.php",
+      "title": "SMC 2026–2027 Catalog — Business Administration 2.0",
+      "checked": "2026-11-14",
+      "cycle": "2026/27",
+      "applicant": "International applicants, including Kazakhstan",
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "id": "src-smc-psychology",
+      "url": "https://catalog.smc.edu/current/degrees-certificates-transfer/psychology.php",
+      "title": "SMC 2026–2027 Catalog — Psychology",
+      "checked": "2026-11-14",
+      "cycle": "2026/27",
+      "applicant": "International applicants, including Kazakhstan",
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "id": "src-aalto-round-a-2027",
+      "url": "https://www.aalto.fi/en/admission-services/english-taught-bachelors-programmes-i-am-applying-with-a-high-school-diploma",
+      "title": "Aalto — 2027 admission round A with a high school diploma",
+      "checked": "2026-11-14",
+      "cycle": "2027",
+      "applicant": "International applicants, including Kazakhstan",
+      "status": "verified",
+      "note": "Foreign secondary qualification must grant corresponding higher-education eligibility at home. SAT/ACT minima vary by study field. Language test not required for these round A programmes. Minima are not selection guarantees."
+    },
+    {
+      "id": "src-aalto-fees",
+      "url": "https://www.aalto.fi/en/admission-services/scholarships-and-tuition-fees",
+      "title": "Aalto — Scholarships and Tuition Fees",
+      "checked": "2026-11-14",
+      "cycle": "study rights beginning 1 August 2025 onward",
+      "applicant": "International applicants, including Kazakhstan",
+      "status": "verified",
+      "note": "Bachelor fees: business/technology EUR12,000/year; art EUR15,000/year. Excellence Scholarship is full tuition only. 2026 healthcare fee EUR36/semester; future fee not inferred."
+    },
+    {
+      "id": "src-aalto-general",
+      "url": "https://www.aalto.fi/en/admission-services/apply-to-bachelors-programmes-in-english",
+      "title": "Aalto — Apply to Bachelor’s programmes in English",
+      "checked": "2026-11-14",
+      "cycle": "2027",
+      "applicant": "International applicants, including Kazakhstan",
+      "status": "verified",
+      "note": "Non-EU/EEA/Swiss applicants normally pay EUR100 application fee, subject to stated exemptions."
+    },
+    {
+      "id": "src-aalto-design-2027",
+      "url": "https://www.aalto.fi/en/admission-services/admission-to-bachelors-programme-in-design-and-media-bachelor-and-master-of-arts-3-yrs-2-yrs",
+      "title": "Aalto — Design and Media admission 2027",
+      "checked": "2026-11-14",
+      "cycle": "2027",
+      "applicant": "International applicants, including Kazakhstan",
+      "status": "verified",
+      "note": "Separate art route: preliminary/intake assignments and interview, plus documented English proficiency. Schooling waivers are specific; Kazakhstan English-medium schooling alone is not a published waiver."
+    },
+    {
+      "id": "src-aalto-data-science",
+      "url": "https://www.aalto.fi/en/study-options/data-science-bachelor-of-science-and-master-of-science-technology",
+      "title": "Aalto — Data Science study option",
+      "checked": "2026-11-14",
+      "cycle": "2027 / current programme",
+      "applicant": "International applicants, including Kazakhstan",
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "id": "src-aalto-chemical",
+      "url": "https://www.aalto.fi/en/study-options/chemical-engineering-bachelor-of-science-and-master-of-science-technology",
+      "title": "Aalto — Chemical Engineering study option",
+      "checked": "2026-11-14",
+      "cycle": "2027 / current programme",
+      "applicant": "International applicants, including Kazakhstan",
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "id": "src-aalto-economics",
+      "url": "https://www.aalto.fi/en/study-options/bachelors-programme-in-economics",
+      "title": "Aalto — Economics study option",
+      "checked": "2026-11-14",
+      "cycle": "2027 / current programme",
+      "applicant": "International applicants, including Kazakhstan",
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "id": "src-aalto-design",
+      "url": "https://www.aalto.fi/en/study-options/design-and-media-bachelor-of-arts-and-master-of-arts-art-and-design",
+      "title": "Aalto — Design and Media study option",
+      "checked": "2026-11-14",
+      "cycle": "2027 / current programme",
+      "applicant": "International applicants, including Kazakhstan",
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "id": "src-sheffield-foundation-entry",
+      "url": "https://usic.sheffield.ac.uk/how-to-apply/entry-requirements",
+      "title": "University of Sheffield International College — Entry requirements",
+      "checked": "2026-11-14",
+      "cycle": "undated current policy",
+      "applicant": "International applicants, including Kazakhstan",
+      "status": "verified",
+      "note": "Foundation Kazakhstan row lists Certificate of Completed Education with grade 3 or 4 in relevant subjects. Confirm pathway-specific mapping. Progression requires grades and English standards; university degree is not guaranteed unconditionally."
+    },
+    {
+      "id": "src-sheffield-foundation-fees",
+      "url": "https://usic.sheffield.ac.uk/how-to-apply/fees",
+      "title": "University of Sheffield International College — Fees, accommodation and living costs",
+      "checked": "2026-11-14",
+      "cycle": "2026/27",
+      "applicant": "International applicants, including Kazakhstan",
+      "status": "verified",
+      "note": "Two-semester foundation fees used. Degree tuition is additional and not captured. Living financial requirement changes for applications on/after 30 November 2026; do not treat as guaranteed actual living cost."
+    },
+    {
+      "id": "src-sheffield-kazakhstan",
+      "url": "https://sheffield.ac.uk/international/entry-requirements/kazakhstan",
+      "title": "University of Sheffield — Entry requirements for students from Kazakhstan",
+      "checked": "2026-11-14",
+      "cycle": "undated current policy",
+      "applicant": "International applicants, including Kazakhstan",
+      "status": "verified",
+      "note": "Direct entry criteria include certain A-level/IB/NIS and further-study qualifications. Foundation is a separate route; standard Grade 11 diploma direct entry not asserted."
+    },
+    {
+      "id": "src-sheffield-foundation-business",
+      "url": "https://usic.sheffield.ac.uk/programmes/international-foundation-year/business-social-sciences-and-humanities",
+      "title": "USIC — International Foundation Year — Business, Social Sciences and Humanities",
+      "checked": "2026-11-14",
+      "cycle": "current programme",
+      "applicant": "International applicants, including Kazakhstan",
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "id": "src-sheffield-foundation-science",
+      "url": "https://usic.sheffield.ac.uk/programmes/international-foundation-year/science-and-engineering",
+      "title": "USIC — International Foundation Year — Science and Engineering",
+      "checked": "2026-11-14",
+      "cycle": "current programme",
+      "applicant": "International applicants, including Kazakhstan",
+      "status": "verified",
+      "note": ""
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+# Americas and Europe research — checked 14 November 2026
+
+12 routes / 12 programmes / 4 institutions: North America 6 (United States: Berea 3, Santa Monica 3); Europe 6 (Finland: Aalto 4; United Kingdom: Sheffield International College 2). All catalogue and admissions URLs were opened through web research, not inferred from snippets alone. Programme and policy cycles remain independent.
+
+Verified contrasting funding: Berea international package covers tuition plus housing/food/fees; Aalto Excellence covers tuition only. Both have separate conditions and remaining costs. Berea November 30 has no year in the checked FAQ, so no future date was assigned. Aalto has concrete 2027 deadlines. SMC fees are 2026/27 and per US semester unit; no two-year total or guaranteed transfer is claimed. Sheffield fees are for the additional foundation programme; subsequent degree tuition is not included.
+
+Recognition limits: Aalto requires a foreign qualification granting corresponding higher-education eligibility at home, with individual document evaluation. Berea requires home-country university entrance eligibility and evaluates the diploma. Sheffield explicitly lists Kazakhstan foundation qualifications, but subject mapping and degree progression conditions require confirmation. SMC diploma translation, guardian/age rules and later transfer admission require individual review. Test ENGLISH statuses are explicit: Aalto SAT/ACT round A has a published no-language-test rule; design has separate English evidence; SMC conditional alternatives do not become a blanket exemption.
+
+Coverage gaps: no Canadian or continental European country beyond Finland in this batch. No tuition or renewal terms were invented to fill gaps. No admission probabilities. Undated requirements and future deadlines are visible review tasks. Teacher should verify future fees, individual diploma recognition and offer-specific conditions before student application/payment.

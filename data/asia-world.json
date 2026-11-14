@@ -1,0 +1,1553 @@
+{
+  "institutions": [
+    {
+      "id": "aw-i-kaist",
+      "name": "KAIST",
+      "country": "South Korea",
+      "region": "Asia",
+      "city": "Daejeon",
+      "aliases": [
+        "Korea Advanced Institute of Science and Technology",
+        "Корея"
+      ],
+      "sourceIds": [
+        "aw-s-kaist-academics"
+      ]
+    },
+    {
+      "id": "aw-i-hkust",
+      "name": "Hong Kong University of Science and Technology",
+      "country": "Hong Kong",
+      "region": "Asia",
+      "city": "Hong Kong",
+      "aliases": [
+        "HKUST",
+        "Гонконг"
+      ],
+      "sourceIds": [
+        "aw-s-hkust-adm"
+      ]
+    },
+    {
+      "id": "aw-i-melb",
+      "name": "University of Melbourne",
+      "country": "Australia",
+      "region": "Oceania",
+      "city": "Melbourne",
+      "aliases": [
+        "UniMelb",
+        "Австралия"
+      ],
+      "sourceIds": [
+        "aw-s-melb-app"
+      ]
+    },
+    {
+      "id": "aw-i-uct",
+      "name": "University of Cape Town",
+      "country": "South Africa",
+      "region": "Africa",
+      "city": "Cape Town",
+      "aliases": [
+        "UCT",
+        "Кейптаун"
+      ],
+      "sourceIds": [
+        "aw-s-uct-prospectus"
+      ]
+    },
+    {
+      "id": "aw-i-uba",
+      "name": "Universidad de Buenos Aires",
+      "country": "Argentina",
+      "region": "Latin America",
+      "city": "Buenos Aires",
+      "aliases": [
+        "UBA",
+        "Буэнос-Айрес"
+      ],
+      "sourceIds": [
+        "aw-s-uba-foreign"
+      ]
+    }
+  ],
+  "programmes": [
+    {
+      "id": "aw-p-kaist-cs",
+      "institutionId": "aw-i-kaist",
+      "name": "Computer Science (major after first year)",
+      "field": "Technology",
+      "qualification": "Bachelor’s degree",
+      "duration": "Normally 4 years; confirm individual study plan",
+      "credits": "Not published in checked course list",
+      "languages": [
+        "English"
+      ],
+      "description": "Study how software, algorithms and computer systems work.",
+      "curriculum": "Current course examples: programming, data structures, algorithms, systems and AI. The 2027 admission is university-wide; choose a major after year one.",
+      "practical": "Programming project courses are listed; placements are not guaranteed.",
+      "campus": "Daejeon main campus",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "aw-s-kaist-cs",
+        "aw-s-kaist-elig",
+        "aw-s-kaist-academics"
+      ]
+    },
+    {
+      "id": "aw-p-kaist-ee",
+      "institutionId": "aw-i-kaist",
+      "name": "Electrical Engineering (major after first year)",
+      "field": "Engineering",
+      "qualification": "Bachelor’s degree",
+      "duration": "Normally 4 years; confirm individual study plan",
+      "credits": "More than 138 KAIST institutional credits; requirements for 2023 onward",
+      "languages": [
+        "English"
+      ],
+      "description": "Explore circuits, signals and electronic systems.",
+      "curriculum": "Department rules combine core electrical engineering, electives, design labs and research. Current course list includes circuits, programming and machine learning.",
+      "practical": "Electronics design labs and a co-op credit policy are documented; no guaranteed placement.",
+      "campus": "Daejeon main campus",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "aw-s-kaist-ee",
+        "aw-s-kaist-eecourses",
+        "aw-s-kaist-elig"
+      ]
+    },
+    {
+      "id": "aw-p-kaist-mse",
+      "institutionId": "aw-i-kaist",
+      "name": "Materials Science and Engineering (major after first year)",
+      "field": "Engineering",
+      "qualification": "Bachelor’s degree",
+      "duration": "Normally 4 years; confirm individual study plan",
+      "credits": "More than 138 KAIST institutional credits; 2026 onward rules",
+      "languages": [
+        "English"
+      ],
+      "description": "Investigate how the structure of materials changes their properties.",
+      "curriculum": "2026 onward rules: 18 major core credits, 24 major elective credits and research, alongside common degree requirements.",
+      "practical": "Three research credits required, with double-major exceptions.",
+      "campus": "Daejeon main campus",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "aw-s-kaist-mse",
+        "aw-s-kaist-elig"
+      ]
+    },
+    {
+      "id": "aw-p-kaist-bio",
+      "institutionId": "aw-i-kaist",
+      "name": "Biological Sciences (major after first year)",
+      "field": "Health & life sciences",
+      "qualification": "Bachelor’s degree",
+      "duration": "Normally 4 years; confirm individual study plan",
+      "credits": "At least 138 KAIST institutional credits; 2024 onward rules",
+      "languages": [
+        "English"
+      ],
+      "description": "Learn how cells, molecules and living systems function.",
+      "curriculum": "2024 onward curriculum includes molecular biology, biochemistry, biotechnology, cell biology and electives.",
+      "practical": "Biochemistry and cell-biology labs; graduation research and a documented 24-week co-op credit route.",
+      "campus": "Daejeon main campus",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "aw-s-kaist-bio",
+        "aw-s-kaist-elig"
+      ]
+    },
+    {
+      "id": "aw-p-hkust-bibu",
+      "institutionId": "aw-i-hkust",
+      "name": "Biotechnology and Business",
+      "field": "Health & life sciences",
+      "qualification": "BSc",
+      "duration": "4 years",
+      "credits": "Not published in checked overview",
+      "languages": [
+        "English"
+      ],
+      "description": "Connect life science and biotechnology with how businesses operate.",
+      "curriculum": "Life science and biotechnology plus accounting, finance, economics, marketing and operations. Programme-based direct admission is available.",
+      "practical": "Practical internship requirement not verified.",
+      "campus": "Clear Water Bay campus",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "aw-s-hkust-bibu",
+        "aw-s-hkust-faq"
+      ]
+    },
+    {
+      "id": "aw-p-hkust-maec",
+      "institutionId": "aw-i-hkust",
+      "name": "Mathematics and Economics",
+      "field": "Business & economics",
+      "qualification": "BSc",
+      "duration": "4 years",
+      "credits": "Not published in checked overview",
+      "languages": [
+        "English"
+      ],
+      "description": "Use mathematical reasoning to understand economic problems.",
+      "curriculum": "Joint science/business degree with mathematics, economics, quantitative reasoning and communication. Direct programme application available.",
+      "practical": "Internship or placement requirement not verified.",
+      "campus": "Clear Water Bay campus",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "aw-s-hkust-maec",
+        "aw-s-hkust-faq"
+      ]
+    },
+    {
+      "id": "aw-p-hkust-dsct",
+      "institutionId": "aw-i-hkust",
+      "name": "Data Science and Technology",
+      "field": "Technology",
+      "qualification": "BSc",
+      "duration": "4 years",
+      "credits": "Not published in checked overview",
+      "languages": [
+        "English"
+      ],
+      "description": "Learn to turn large datasets into useful explanations.",
+      "curriculum": "Mathematics, programming, machine learning, databases and visualisation. Enter a school first and seek major declaration after year one; this is not guaranteed direct entry to DSCT.",
+      "practical": "Overview documents hands-on data analysis; placement not guaranteed.",
+      "campus": "Clear Water Bay campus",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "aw-s-hkust-dsct",
+        "aw-s-hkust-faq"
+      ]
+    },
+    {
+      "id": "aw-p-melb-science",
+      "institutionId": "aw-i-melb",
+      "name": "Science",
+      "field": "Health & life sciences",
+      "qualification": "Bachelor of Science",
+      "duration": "3 years full time",
+      "credits": "300 University of Melbourne credit points",
+      "languages": [
+        "English"
+      ],
+      "description": "Explore science before choosing a major, including biology, computing, engineering systems or mathematics.",
+      "curriculum": "24 subjects with a major, electives and breadth study. Current catalogue offers more than 40 majors.",
+      "practical": "Practical experience depends on chosen subjects; no universal internship claimed.",
+      "campus": "Parkville campus",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "aw-s-melb-science"
+      ]
+    },
+    {
+      "id": "aw-p-melb-commerce",
+      "institutionId": "aw-i-melb",
+      "name": "Commerce",
+      "field": "Business & economics",
+      "qualification": "Bachelor of Commerce",
+      "duration": "3 years full time",
+      "credits": "300 University of Melbourne credit points",
+      "languages": [
+        "English"
+      ],
+      "description": "Study how organisations and economies make decisions.",
+      "curriculum": "Commerce foundations, a major or double major, electives and breadth subjects.",
+      "practical": "Teamwork and case studies documented; internship availability must be checked.",
+      "campus": "Parkville campus",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "aw-s-melb-commerce"
+      ]
+    },
+    {
+      "id": "aw-p-uct-it",
+      "institutionId": "aw-i-uct",
+      "name": "Informatics with a Humanities co-major",
+      "field": "Social sciences",
+      "qualification": "BA / BSocSc",
+      "duration": "3 years",
+      "credits": "Not published in checked overview",
+      "languages": [
+        "English"
+      ],
+      "description": "Combine information systems or computer science with a humanities subject.",
+      "curriculum": "Programming, databases, systems analysis, systems development and project management; co-major options include politics, sociology or psychology.",
+      "practical": "Applied systems-development coursework; placement not verified.",
+      "campus": "Cape Town; exact teaching venue to confirm",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "aw-s-uct-it"
+      ]
+    },
+    {
+      "id": "aw-p-uct-bas",
+      "institutionId": "aw-i-uct",
+      "name": "Architectural Studies",
+      "field": "Arts & design",
+      "qualification": "Bachelor of Architectural Studies",
+      "duration": "3 years full time",
+      "credits": "Not published in checked overview",
+      "languages": [
+        "English"
+      ],
+      "description": "Explore the design of buildings and their social and environmental setting.",
+      "curriculum": "Design, theory and practical concerns of the built environment. This undergraduate degree is a stage toward further professional study.",
+      "practical": "Design work is central; a portfolio is required for application.",
+      "campus": "Cape Town; exact teaching venue to confirm",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "aw-s-uct-bas"
+      ]
+    },
+    {
+      "id": "aw-p-uba-design",
+      "institutionId": "aw-i-uba",
+      "name": "Graphic Design / Diseño Gráfico",
+      "field": "Arts & design",
+      "qualification": "Diseñador/a Gráfico/a (confirm final award title)",
+      "duration": "Current faculty plan shows 5 years including CBC; confirm conflicting older plan",
+      "credits": "Contact hours listed; no credit total verified",
+      "languages": [
+        "Spanish"
+      ],
+      "description": "Study visual communication, typography and the design of information.",
+      "curriculum": "CBC first cycle, then design studios, morphology, typography, communication, history, technology and directed electives.",
+      "practical": "Drawing and design studio coursework. Placement requirement not verified.",
+      "campus": "FADU, Buenos Aires; CBC location assigned separately",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "aw-s-uba-design",
+        "aw-s-uba-foreign"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "aw-r-kaist-cs",
+      "programmeId": "aw-p-kaist-cs",
+      "name": "International freshman · choose major after year one",
+      "entryAfter": 11,
+      "pathway": "direct",
+      "cycle": "2027",
+      "applicant": "Kazakhstan applicant with an appropriate secondary qualification; no prior tests assumed",
+      "eligibility": "Foreign-citizenship and parent/schooling conditions apply. Finish high school by 31 August 2027 for fall entry; standardized report, English evidence and essays required. Interview if requested.",
+      "recognition": "Exact acceptance of a Kazakhstan Grade11 Attestat requires confirmation; do not assume UNT is an accepted standardized report.",
+      "subjects": "Strong mathematics/science preparation encouraged; major-specific school prerequisites not separately verified.",
+      "tests": {
+        "SAT": {
+          "status": "alternative",
+          "detail": "One of the accepted standardized reports; not compulsory if another accepted result is supplied."
+        },
+        "ACT": {
+          "status": "alternative",
+          "detail": "One accepted standardized report."
+        },
+        "UNT": {
+          "status": "unknown",
+          "detail": "National entrance exams are listed generically; UNT acceptance specifically not confirmed."
+        },
+        "ENGLISH": {
+          "status": "alternative",
+          "detail": "English test required unless approved English-medium-school or listed nationality exemption; request confirmation."
+        },
+        "IELTS": {
+          "status": "alternative",
+          "detail": "One English test option; recommended 6.5 in 2027 guide, not a published guaranteed-entry threshold."
+        },
+        "TOEFL": {
+          "status": "alternative",
+          "detail": "One English test option; guide has date-dependent scoring and validity rules to clarify."
+        }
+      },
+      "tuition": {
+        "amount": 6866000,
+        "currency": "KRW",
+        "period": "year",
+        "note": "Undated current cost table; not a confirmed 2027 fee. Scholarship shown separately."
+      },
+      "mandatoryFees": "2027 application fee USD80; confirm fee-waiver eligibility. Insurance and other expenses are separate.",
+      "living": "Undated official estimate: housing KRW1328000/year and food KRW5475000/year; checked 2026-11-14. Scholarship stipend may not cover all living expenses.",
+      "nextAction": "Ask admissions to confirm the exact Kazakh diploma and accepted standardized report before booking tests.",
+      "questions": [
+        "Is the student’s exact Grade11 diploma sufficient for freshman admission?",
+        "Does KAIST accept this student’s UNT as the required standardized report?",
+        "Clarify the EPT earliest-test-date table against the two-year validity rule."
+      ],
+      "sourceIds": [
+        "aw-s-kaist-elig",
+        "aw-s-kaist-guide",
+        "aw-s-kaist-cost",
+        "aw-s-kaist-dates"
+      ]
+    },
+    {
+      "id": "aw-r-kaist-ee",
+      "programmeId": "aw-p-kaist-ee",
+      "name": "International freshman · choose major after year one",
+      "entryAfter": 11,
+      "pathway": "direct",
+      "cycle": "2027",
+      "applicant": "Kazakhstan applicant with an appropriate secondary qualification; no prior tests assumed",
+      "eligibility": "Foreign-citizenship and parent/schooling conditions apply. Finish high school by 31 August 2027 for fall entry; standardized report, English evidence and essays required. Interview if requested.",
+      "recognition": "Exact acceptance of a Kazakhstan Grade11 Attestat requires confirmation; do not assume UNT is an accepted standardized report.",
+      "subjects": "Strong mathematics/science preparation encouraged; major-specific school prerequisites not separately verified.",
+      "tests": {
+        "SAT": {
+          "status": "alternative",
+          "detail": "One of the accepted standardized reports; not compulsory if another accepted result is supplied."
+        },
+        "ACT": {
+          "status": "alternative",
+          "detail": "One accepted standardized report."
+        },
+        "UNT": {
+          "status": "unknown",
+          "detail": "National entrance exams are listed generically; UNT acceptance specifically not confirmed."
+        },
+        "ENGLISH": {
+          "status": "alternative",
+          "detail": "English test required unless approved English-medium-school or listed nationality exemption; request confirmation."
+        },
+        "IELTS": {
+          "status": "alternative",
+          "detail": "One English test option; recommended 6.5 in 2027 guide, not a published guaranteed-entry threshold."
+        },
+        "TOEFL": {
+          "status": "alternative",
+          "detail": "One English test option; guide has date-dependent scoring and validity rules to clarify."
+        }
+      },
+      "tuition": {
+        "amount": 6866000,
+        "currency": "KRW",
+        "period": "year",
+        "note": "Undated current cost table; not a confirmed 2027 fee. Scholarship shown separately."
+      },
+      "mandatoryFees": "2027 application fee USD80; confirm fee-waiver eligibility. Insurance and other expenses are separate.",
+      "living": "Undated official estimate: housing KRW1328000/year and food KRW5475000/year; checked 2026-11-14. Scholarship stipend may not cover all living expenses.",
+      "nextAction": "Ask admissions to confirm the exact Kazakh diploma and accepted standardized report before booking tests.",
+      "questions": [
+        "Is the student’s exact Grade11 diploma sufficient for freshman admission?",
+        "Does KAIST accept this student’s UNT as the required standardized report?",
+        "Clarify the EPT earliest-test-date table against the two-year validity rule."
+      ],
+      "sourceIds": [
+        "aw-s-kaist-elig",
+        "aw-s-kaist-guide",
+        "aw-s-kaist-cost",
+        "aw-s-kaist-dates"
+      ]
+    },
+    {
+      "id": "aw-r-kaist-mse",
+      "programmeId": "aw-p-kaist-mse",
+      "name": "International freshman · choose major after year one",
+      "entryAfter": 11,
+      "pathway": "direct",
+      "cycle": "2027",
+      "applicant": "Kazakhstan applicant with an appropriate secondary qualification; no prior tests assumed",
+      "eligibility": "Foreign-citizenship and parent/schooling conditions apply. Finish high school by 31 August 2027 for fall entry; standardized report, English evidence and essays required. Interview if requested.",
+      "recognition": "Exact acceptance of a Kazakhstan Grade11 Attestat requires confirmation; do not assume UNT is an accepted standardized report.",
+      "subjects": "Strong mathematics/science preparation encouraged; major-specific school prerequisites not separately verified.",
+      "tests": {
+        "SAT": {
+          "status": "alternative",
+          "detail": "One of the accepted standardized reports; not compulsory if another accepted result is supplied."
+        },
+        "ACT": {
+          "status": "alternative",
+          "detail": "One accepted standardized report."
+        },
+        "UNT": {
+          "status": "unknown",
+          "detail": "National entrance exams are listed generically; UNT acceptance specifically not confirmed."
+        },
+        "ENGLISH": {
+          "status": "alternative",
+          "detail": "English test required unless approved English-medium-school or listed nationality exemption; request confirmation."
+        },
+        "IELTS": {
+          "status": "alternative",
+          "detail": "One English test option; recommended 6.5 in 2027 guide, not a published guaranteed-entry threshold."
+        },
+        "TOEFL": {
+          "status": "alternative",
+          "detail": "One English test option; guide has date-dependent scoring and validity rules to clarify."
+        }
+      },
+      "tuition": {
+        "amount": 6866000,
+        "currency": "KRW",
+        "period": "year",
+        "note": "Undated current cost table; not a confirmed 2027 fee. Scholarship shown separately."
+      },
+      "mandatoryFees": "2027 application fee USD80; confirm fee-waiver eligibility. Insurance and other expenses are separate.",
+      "living": "Undated official estimate: housing KRW1328000/year and food KRW5475000/year; checked 2026-11-14. Scholarship stipend may not cover all living expenses.",
+      "nextAction": "Ask admissions to confirm the exact Kazakh diploma and accepted standardized report before booking tests.",
+      "questions": [
+        "Is the student’s exact Grade11 diploma sufficient for freshman admission?",
+        "Does KAIST accept this student’s UNT as the required standardized report?",
+        "Clarify the EPT earliest-test-date table against the two-year validity rule."
+      ],
+      "sourceIds": [
+        "aw-s-kaist-elig",
+        "aw-s-kaist-guide",
+        "aw-s-kaist-cost",
+        "aw-s-kaist-dates"
+      ]
+    },
+    {
+      "id": "aw-r-kaist-bio",
+      "programmeId": "aw-p-kaist-bio",
+      "name": "International freshman · choose major after year one",
+      "entryAfter": 11,
+      "pathway": "direct",
+      "cycle": "2027",
+      "applicant": "Kazakhstan applicant with an appropriate secondary qualification; no prior tests assumed",
+      "eligibility": "Foreign-citizenship and parent/schooling conditions apply. Finish high school by 31 August 2027 for fall entry; standardized report, English evidence and essays required. Interview if requested.",
+      "recognition": "Exact acceptance of a Kazakhstan Grade11 Attestat requires confirmation; do not assume UNT is an accepted standardized report.",
+      "subjects": "Strong mathematics/science preparation encouraged; major-specific school prerequisites not separately verified.",
+      "tests": {
+        "SAT": {
+          "status": "alternative",
+          "detail": "One of the accepted standardized reports; not compulsory if another accepted result is supplied."
+        },
+        "ACT": {
+          "status": "alternative",
+          "detail": "One accepted standardized report."
+        },
+        "UNT": {
+          "status": "unknown",
+          "detail": "National entrance exams are listed generically; UNT acceptance specifically not confirmed."
+        },
+        "ENGLISH": {
+          "status": "alternative",
+          "detail": "English test required unless approved English-medium-school or listed nationality exemption; request confirmation."
+        },
+        "IELTS": {
+          "status": "alternative",
+          "detail": "One English test option; recommended 6.5 in 2027 guide, not a published guaranteed-entry threshold."
+        },
+        "TOEFL": {
+          "status": "alternative",
+          "detail": "One English test option; guide has date-dependent scoring and validity rules to clarify."
+        }
+      },
+      "tuition": {
+        "amount": 6866000,
+        "currency": "KRW",
+        "period": "year",
+        "note": "Undated current cost table; not a confirmed 2027 fee. Scholarship shown separately."
+      },
+      "mandatoryFees": "2027 application fee USD80; confirm fee-waiver eligibility. Insurance and other expenses are separate.",
+      "living": "Undated official estimate: housing KRW1328000/year and food KRW5475000/year; checked 2026-11-14. Scholarship stipend may not cover all living expenses.",
+      "nextAction": "Ask admissions to confirm the exact Kazakh diploma and accepted standardized report before booking tests.",
+      "questions": [
+        "Is the student’s exact Grade11 diploma sufficient for freshman admission?",
+        "Does KAIST accept this student’s UNT as the required standardized report?",
+        "Clarify the EPT earliest-test-date table against the two-year validity rule."
+      ],
+      "sourceIds": [
+        "aw-s-kaist-elig",
+        "aw-s-kaist-guide",
+        "aw-s-kaist-cost",
+        "aw-s-kaist-dates"
+      ]
+    },
+    {
+      "id": "aw-r-hkust-bibu",
+      "programmeId": "aw-p-hkust-bibu",
+      "name": "Kazakhstan qualification · international applicant",
+      "entryAfter": 11,
+      "pathway": "direct",
+      "cycle": "2027/28",
+      "applicant": "Kazakhstan applicant with an appropriate secondary qualification; no prior tests assumed",
+      "eligibility": "Meet general, programme and English requirements. Kazakhstan route lists Attestat plus UNT, or NIS Grade12 with three Higher Level passes. Published competitiveness reference scores are not minimum guarantees.",
+      "recognition": "Attestat + UNT and NIS Grade12 explicitly listed; individual documents and programme subjects still assessed.",
+      "subjects": "Mathematics and one senior Chemistry or Biology subject.",
+      "tests": {
+        "UNT": {
+          "status": "alternative",
+          "detail": "Required with ordinary Attestat; NIS Grade12 is a separate accepted qualification route."
+        },
+        "SAT": {
+          "status": "not_required",
+          "detail": "The listed Kazakhstan Attestat+UNT/NIS route has no published SAT requirement; SAT is not assumed to replace UNT."
+        },
+        "ENGLISH": {
+          "status": "alternative",
+          "detail": "English proficiency evidence required; qualifying school credentials or an accepted test may satisfy it."
+        },
+        "IELTS": {
+          "status": "alternative",
+          "detail": "Academic IELTS6.0 is one accepted English route; verify all evidence options for the chosen qualification."
+        }
+      },
+      "tuition": {
+        "amount": 260000,
+        "currency": "HKD",
+        "period": "year",
+        "note": "Published non-local tuition for 2027/28; annual increases and offer terms must be checked."
+      },
+      "mandatoryFees": "Application and visa fees not verified.",
+      "living": "Official fees page: HKD65000/year personal-expense estimate; fall2026 hall estimate HKD21000–51000/residential year, excluding meals/air-conditioning/laundry. 2027/28 hall fees awaiting publication; checked 2026-11-14.",
+      "nextAction": "Check the programme’s school-subject requirements and prepare English evidence.",
+      "questions": [
+        "Confirm the student’s senior subjects match the programme.",
+        "Is Kazakhstan treated as an underrepresented nationality for Global Learners Scholarship?"
+      ],
+      "sourceIds": [
+        "aw-s-hkust-adm",
+        "aw-s-hkust-fees",
+        "aw-s-hkust-bibu"
+      ]
+    },
+    {
+      "id": "aw-r-hkust-maec",
+      "programmeId": "aw-p-hkust-maec",
+      "name": "Kazakhstan qualification · international applicant",
+      "entryAfter": 11,
+      "pathway": "direct",
+      "cycle": "2027/28",
+      "applicant": "Kazakhstan applicant with an appropriate secondary qualification; no prior tests assumed",
+      "eligibility": "Meet general, programme and English requirements. Kazakhstan route lists Attestat plus UNT, or NIS Grade12 with three Higher Level passes. Published competitiveness reference scores are not minimum guarantees.",
+      "recognition": "Attestat + UNT and NIS Grade12 explicitly listed; individual documents and programme subjects still assessed.",
+      "subjects": "Senior Mathematics and one of Physics, Chemistry, Biology or Economics.",
+      "tests": {
+        "UNT": {
+          "status": "alternative",
+          "detail": "Required with ordinary Attestat; NIS Grade12 is a separate accepted qualification route."
+        },
+        "SAT": {
+          "status": "not_required",
+          "detail": "The listed Kazakhstan Attestat+UNT/NIS route has no published SAT requirement; SAT is not assumed to replace UNT."
+        },
+        "ENGLISH": {
+          "status": "alternative",
+          "detail": "English proficiency evidence required; qualifying school credentials or an accepted test may satisfy it."
+        },
+        "IELTS": {
+          "status": "alternative",
+          "detail": "Academic IELTS6.0 is one accepted English route; verify all evidence options for the chosen qualification."
+        }
+      },
+      "tuition": {
+        "amount": 260000,
+        "currency": "HKD",
+        "period": "year",
+        "note": "Published non-local tuition for 2027/28; annual increases and offer terms must be checked."
+      },
+      "mandatoryFees": "Application and visa fees not verified.",
+      "living": "Official fees page: HKD65000/year personal-expense estimate; fall2026 hall estimate HKD21000–51000/residential year, excluding meals/air-conditioning/laundry. 2027/28 hall fees awaiting publication; checked 2026-11-14.",
+      "nextAction": "Check the programme’s school-subject requirements and prepare English evidence.",
+      "questions": [
+        "Confirm the student’s senior subjects match the programme.",
+        "Is Kazakhstan treated as an underrepresented nationality for Global Learners Scholarship?"
+      ],
+      "sourceIds": [
+        "aw-s-hkust-adm",
+        "aw-s-hkust-fees",
+        "aw-s-hkust-maec"
+      ]
+    },
+    {
+      "id": "aw-r-hkust-dsct",
+      "programmeId": "aw-p-hkust-dsct",
+      "name": "Kazakhstan qualification · international applicant",
+      "entryAfter": 11,
+      "pathway": "direct",
+      "cycle": "2027/28",
+      "applicant": "Kazakhstan applicant with an appropriate secondary qualification; no prior tests assumed",
+      "eligibility": "Meet general, programme and English requirements. Kazakhstan route lists Attestat plus UNT, or NIS Grade12 with three Higher Level passes. Published competitiveness reference scores are not minimum guarantees.",
+      "recognition": "Attestat + UNT and NIS Grade12 explicitly listed; individual documents and programme subjects still assessed.",
+      "subjects": "Science GroupA: Mathematics plus Physics or Chemistry; engineering choice has its own listed science options.",
+      "tests": {
+        "UNT": {
+          "status": "alternative",
+          "detail": "Required with ordinary Attestat; NIS Grade12 is a separate accepted qualification route."
+        },
+        "SAT": {
+          "status": "not_required",
+          "detail": "The listed Kazakhstan Attestat+UNT/NIS route has no published SAT requirement; SAT is not assumed to replace UNT."
+        },
+        "ENGLISH": {
+          "status": "alternative",
+          "detail": "English proficiency evidence required; qualifying school credentials or an accepted test may satisfy it."
+        },
+        "IELTS": {
+          "status": "alternative",
+          "detail": "Academic IELTS6.0 is one accepted English route; verify all evidence options for the chosen qualification."
+        }
+      },
+      "tuition": {
+        "amount": 260000,
+        "currency": "HKD",
+        "period": "year",
+        "note": "Published non-local tuition for 2027/28; annual increases and offer terms must be checked."
+      },
+      "mandatoryFees": "Application and visa fees not verified.",
+      "living": "Official fees page: HKD65000/year personal-expense estimate; fall2026 hall estimate HKD21000–51000/residential year, excluding meals/air-conditioning/laundry. 2027/28 hall fees awaiting publication; checked 2026-11-14.",
+      "nextAction": "Check the programme’s school-subject requirements and prepare English evidence.",
+      "questions": [
+        "Confirm the student’s senior subjects match the programme.",
+        "Is Kazakhstan treated as an underrepresented nationality for Global Learners Scholarship?",
+        "Confirm first-year major-declaration rules; admission to a school is not a guaranteed DSCT place."
+      ],
+      "sourceIds": [
+        "aw-s-hkust-adm",
+        "aw-s-hkust-fees",
+        "aw-s-hkust-dsct"
+      ]
+    },
+    {
+      "id": "aw-r-melb-science",
+      "programmeId": "aw-p-melb-science",
+      "name": "NIS Grade12 / other approved qualification · direct international",
+      "entryAfter": 11,
+      "pathway": "direct",
+      "cycle": "2027",
+      "applicant": "Kazakhstan applicant with an appropriate secondary qualification; no prior tests assumed",
+      "eligibility": "Verified Kazakhstan recognition example is NIS Grade12 with BBB and course prerequisites. Ordinary Grade11 alone is not confirmed. Approved English evidence and international student visa required.",
+      "recognition": "Published NIS Grade12 route only. A Divergents Grade11 student may need an additional approved qualification or foundation; extra time/cost not included.",
+      "subjects": "Mathematics plus Biology/Chemistry/Physics, or Mathematics plus Further Mathematics, and approved English. Prerequisites generally require C unless stated otherwise.",
+      "tests": {
+        "SAT": {
+          "status": "not_required",
+          "detail": "No SAT requirement published for this NIS Grade12 route."
+        },
+        "UNT": {
+          "status": "unknown",
+          "detail": "No confirmation that UNT qualifies or replaces NIS Grade12."
+        },
+        "ENGLISH": {
+          "status": "alternative",
+          "detail": "Approved prior English studies, a recognised test or an approved pathway can satisfy evidence; waiver not assumed."
+        },
+        "IELTS": {
+          "status": "alternative",
+          "detail": "Academic6.5 overall and6.0 in each component is a listed option."
+        },
+        "TOEFL": {
+          "status": "alternative",
+          "detail": "Listed current score81 with component minima; check current test-version rules."
+        }
+      },
+      "tuition": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "year",
+        "note": "International subject-based tuition; exact annual quote not verified. Do not use domestic CSP fees."
+      },
+      "mandatoryFees": "Undated international policy lists AUD17000 tuition deposit and required Overseas Student Health Cover; other course costs may apply.",
+      "living": "Living-cost estimate not verified; obtain a dated housing and living budget.",
+      "nextAction": "Check whether the student needs a recognised foundation or other qualification before applying.",
+      "questions": [
+        "Which approved pathway accepts the student’s actual Grade11 Attestat, and what extra cost/time is required?",
+        "Obtain programme-specific international tuition and OSHC quote."
+      ],
+      "sourceIds": [
+        "aw-s-melb-kz",
+        "aw-s-melb-english",
+        "aw-s-melb-app",
+        "aw-s-melb-fees"
+      ]
+    },
+    {
+      "id": "aw-r-melb-commerce",
+      "programmeId": "aw-p-melb-commerce",
+      "name": "NIS Grade12 / other approved qualification · direct international",
+      "entryAfter": 11,
+      "pathway": "direct",
+      "cycle": "2027",
+      "applicant": "Kazakhstan applicant with an appropriate secondary qualification; no prior tests assumed",
+      "eligibility": "Verified Kazakhstan recognition example is NIS Grade12 with ABB and course prerequisites. Ordinary Grade11 alone is not confirmed. Approved English evidence and international student visa required.",
+      "recognition": "Published NIS Grade12 route only. A Divergents Grade11 student may need an additional approved qualification or foundation; extra time/cost not included.",
+      "subjects": "Mathematics and approved English. Prerequisites generally require C unless stated otherwise.",
+      "tests": {
+        "SAT": {
+          "status": "not_required",
+          "detail": "No SAT requirement published for this NIS Grade12 route."
+        },
+        "UNT": {
+          "status": "unknown",
+          "detail": "No confirmation that UNT qualifies or replaces NIS Grade12."
+        },
+        "ENGLISH": {
+          "status": "alternative",
+          "detail": "Approved prior English studies, a recognised test or an approved pathway can satisfy evidence; waiver not assumed."
+        },
+        "IELTS": {
+          "status": "alternative",
+          "detail": "Academic6.5 overall and6.0 in each component is a listed option."
+        },
+        "TOEFL": {
+          "status": "alternative",
+          "detail": "Listed current score81 with component minima; check current test-version rules."
+        }
+      },
+      "tuition": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "year",
+        "note": "International subject-based tuition; exact annual quote not verified. Do not use domestic CSP fees."
+      },
+      "mandatoryFees": "Undated international policy lists AUD17000 tuition deposit and required Overseas Student Health Cover; other course costs may apply.",
+      "living": "Living-cost estimate not verified; obtain a dated housing and living budget.",
+      "nextAction": "Check whether the student needs a recognised foundation or other qualification before applying.",
+      "questions": [
+        "Which approved pathway accepts the student’s actual Grade11 Attestat, and what extra cost/time is required?",
+        "Obtain programme-specific international tuition and OSHC quote."
+      ],
+      "sourceIds": [
+        "aw-s-melb-kz",
+        "aw-s-melb-english",
+        "aw-s-melb-app",
+        "aw-s-melb-fees"
+      ]
+    },
+    {
+      "id": "aw-r-uct-it",
+      "programmeId": "aw-p-uct-it",
+      "name": "International school-leaver · qualification assessment needed",
+      "entryAfter": 11,
+      "pathway": "direct",
+      "cycle": "2027",
+      "applicant": "Kazakhstan applicant with an appropriate secondary qualification; no prior tests assumed",
+      "eligibility": "Foreign school certificate must qualify for matriculation exemption and meet faculty subjects/grades. 2027 undergraduate applications closed 31 July2026. Choose Information Systems or Computer Science plus a Humanities co-major.",
+      "recognition": "Kazakhstan Grade11 equivalence not confirmed; obtain Matriculation Board assessment. Published NSC marks are not Kazakh grade thresholds.",
+      "subjects": "Faculty-specific equivalence must be checked. Mathematics level depends on Information Systems versus Computer Science major.",
+      "tests": {
+        "SAT": {
+          "status": "unknown",
+          "detail": "Not verified for this foreign-school route."
+        },
+        "UNT": {
+          "status": "unknown",
+          "detail": "No UNT equivalence or exemption verified."
+        },
+        "ENGLISH": {
+          "status": "alternative",
+          "detail": "English evidence required unless qualifying schooling applies; approved academic English course is another route."
+        },
+        "IELTS": {
+          "status": "alternative",
+          "detail": "Academic6.5 overall with6.0 each component, valid within2years."
+        },
+        "TOEFL": {
+          "status": "alternative",
+          "detail": "iBT88 overall; Listening19 Writing19 Reading20 Speaking22, valid within2years."
+        }
+      },
+      "tuition": {
+        "amount": null,
+        "currency": "ZAR",
+        "period": "year",
+        "note": "Exact international tuition and international fee components not verified; request non-SADC quote."
+      },
+      "mandatoryFees": "Application, international fee components, insurance and study-visa costs require confirmation.",
+      "living": "No dated living-cost estimate verified.",
+      "nextAction": "Request diploma-equivalence advice and check the next published admission cycle.",
+      "questions": [
+        "Does the exact Kazakhstan qualification qualify for matriculation exemption?",
+        "Which subject equivalents and additional tests apply?",
+        "What are total non-SADC fees and 2028 admission dates?"
+      ],
+      "sourceIds": [
+        "aw-s-uct-elig",
+        "aw-s-uct-prospectus",
+        "aw-s-uct-english",
+        "aw-s-uct-dates",
+        "aw-s-uct-it"
+      ]
+    },
+    {
+      "id": "aw-r-uct-bas",
+      "programmeId": "aw-p-uct-bas",
+      "name": "International school-leaver · qualification assessment needed",
+      "entryAfter": 11,
+      "pathway": "direct",
+      "cycle": "2027",
+      "applicant": "Kazakhstan applicant with an appropriate secondary qualification; no prior tests assumed",
+      "eligibility": "Foreign school certificate must qualify for matriculation exemption and meet faculty subjects/grades. 2027 undergraduate applications closed 31 July2026. Portfolio also required.",
+      "recognition": "Kazakhstan Grade11 equivalence not confirmed; obtain Matriculation Board assessment. Published NSC marks are not Kazakh grade thresholds.",
+      "subjects": "Faculty-specific equivalence must be checked. Portfolio and design preparation.",
+      "tests": {
+        "SAT": {
+          "status": "unknown",
+          "detail": "Not verified for this foreign-school route."
+        },
+        "UNT": {
+          "status": "unknown",
+          "detail": "No UNT equivalence or exemption verified."
+        },
+        "ENGLISH": {
+          "status": "alternative",
+          "detail": "English evidence required unless qualifying schooling applies; approved academic English course is another route."
+        },
+        "IELTS": {
+          "status": "alternative",
+          "detail": "Academic6.5 overall with6.0 each component, valid within2years."
+        },
+        "TOEFL": {
+          "status": "alternative",
+          "detail": "iBT88 overall; Listening19 Writing19 Reading20 Speaking22, valid within2years."
+        }
+      },
+      "tuition": {
+        "amount": null,
+        "currency": "ZAR",
+        "period": "year",
+        "note": "Exact international tuition and international fee components not verified; request non-SADC quote."
+      },
+      "mandatoryFees": "Application, international fee components, insurance and study-visa costs require confirmation.",
+      "living": "No dated living-cost estimate verified.",
+      "nextAction": "Request diploma-equivalence advice and check the next published admission cycle.",
+      "questions": [
+        "Does the exact Kazakhstan qualification qualify for matriculation exemption?",
+        "Which subject equivalents and additional tests apply?",
+        "What are total non-SADC fees and 2028 admission dates?"
+      ],
+      "sourceIds": [
+        "aw-s-uct-elig",
+        "aw-s-uct-prospectus",
+        "aw-s-uct-english",
+        "aw-s-uct-dates",
+        "aw-s-uct-bas"
+      ]
+    },
+    {
+      "id": "aw-r-uba-design",
+      "programmeId": "aw-p-uba-design",
+      "name": "Foreign applicant · integrated CBC first cycle · Spanish C1",
+      "entryAfter": 11,
+      "pathway": "direct",
+      "cycle": "2027",
+      "applicant": "Kazakhstan applicant with an appropriate secondary qualification; no prior tests assumed",
+      "eligibility": "Foreign entrants begin with CBC; no entrance examination. Non-Spanish-language school qualification requires SIELE Global C1 or UBA advanced Spanish C1 certificate. Foreign applicants without DNI have a specific pre-entry process. CBC is the first cycle of this degree, not a separate guaranteed external foundation.",
+      "recognition": "Secondary diploma must undergo applicable Argentine recognition/revalidation and legalisation; exact Kazakhstan requirements unconfirmed. The 2024 B2 concession is historical only.",
+      "subjects": "CBC includes mathematics, scientific/social thought, design introduction, semiology and drawing.",
+      "tests": {
+        "SAT": {
+          "status": "not_required",
+          "detail": "UBA states foreign undergraduate entrants do not take an admission examination; CBC academic progression still required."
+        },
+        "ENGLISH": {
+          "status": "unknown",
+          "detail": "Spanish C1 is required; an explicit English-test exemption was not verified."
+        },
+        "IELTS": {
+          "status": "unknown",
+          "detail": "Not verified; do not mistake Spanish instruction for confirmed exemption."
+        }
+      },
+      "tuition": {
+        "amount": null,
+        "currency": "ARS",
+        "period": "year",
+        "note": "Current tuition policy for this foreign applicant category not verified; do not assume zero."
+      },
+      "mandatoryFees": "Diploma recognition, translations, legalisation, Spanish testing and migration costs may apply; amounts unverified.",
+      "living": "No dated Buenos Aires living-cost estimate verified.",
+      "nextAction": "Check diploma recognition and the current CBC foreign-applicant document list.",
+      "questions": [
+        "Confirm foreign-applicant fee policy for2027.",
+        "Confirm Kazakhstan secondary diploma recognition and migration steps.",
+        "Confirm current Graphic Design duration: faculty plan shows five years; older material differs."
+      ],
+      "sourceIds": [
+        "aw-s-uba-foreign",
+        "aw-s-uba-cbc",
+        "aw-s-uba-recognition",
+        "aw-s-uba-design"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "id": "aw-a-kaist",
+      "routeIds": [
+        "aw-r-kaist-cs",
+        "aw-r-kaist-ee",
+        "aw-r-kaist-mse",
+        "aw-r-kaist-bio"
+      ],
+      "name": "KAIST Scholarship",
+      "coverage": "full_scholarship",
+      "benefits": "Full tuition for 8 semesters, KRW350000 monthly living allowance and medical insurance. This is maintenance support, not a guarantee that every expense is paid.",
+      "eligibility": "International Student Admission applicants admitted with scholarship; citizenship and academic admission rules apply.",
+      "application": "Tick KAIST scholarship in the financial-resources section of the admission form; no separate award application.",
+      "renewal": "Maintain GPA above 2.7/4.3 after freshman year; confirm terms in offer.",
+      "upfront": "Application fee, travel, visa, initial housing and living costs may remain; amounts not verified.",
+      "cycle": "undated",
+      "sourceIds": [
+        "aw-s-kaist-aid",
+        "aw-s-kaist-cost"
+      ]
+    },
+    {
+      "id": "aw-a-hkust-global",
+      "routeIds": [
+        "aw-r-hkust-bibu",
+        "aw-r-hkust-maec",
+        "aw-r-hkust-dsct"
+      ],
+      "name": "Global Learners Scholarship · nationality eligibility unconfirmed",
+      "coverage": "tuition_only",
+      "benefits": "Full tuition waiver for successful awardees. Discretionary top-ups are not promised; living costs remain.",
+      "eligibility": "Underrepresented-nationality undergraduate applicants; Kazakhstan eligibility is not established by the checked page.",
+      "application": "Automatic consideration; no separate application. Ask admissions to confirm nationality eligibility.",
+      "renewal": "Normal study duration subject to satisfactory academic performance; exact academic condition to confirm.",
+      "upfront": "Application, visa, travel and living costs may be due before any award support.",
+      "cycle": "undated",
+      "sourceIds": [
+        "aw-s-hkust-aid"
+      ]
+    }
+  ],
+  "deadlines": [
+    {
+      "id": "aw-d-kaist-app",
+      "routeIds": [
+        "aw-r-kaist-cs",
+        "aw-r-kaist-ee",
+        "aw-r-kaist-mse",
+        "aw-r-kaist-bio"
+      ],
+      "type": "admission",
+      "label": "KAIST regular application and documents",
+      "date": "2027-01-14",
+      "time": "18:00",
+      "timezone": "Asia/Seoul",
+      "cycle": "2027",
+      "applicant": "International undergraduate applicants from Kazakhstan",
+      "status": "confirmed",
+      "nextAction": "Confirm diploma eligibility and upload the application before the deadline.",
+      "sourceIds": [
+        "aw-s-kaist-dates",
+        "aw-s-kaist-guide"
+      ]
+    },
+    {
+      "id": "aw-d-kaist-rec",
+      "routeIds": [
+        "aw-r-kaist-cs",
+        "aw-r-kaist-ee",
+        "aw-r-kaist-mse",
+        "aw-r-kaist-bio"
+      ],
+      "type": "document",
+      "label": "KAIST optional recommendation letters",
+      "date": "2027-01-21",
+      "time": "18:00",
+      "timezone": "Asia/Seoul",
+      "cycle": "2027",
+      "applicant": "International undergraduate applicants from Kazakhstan",
+      "status": "confirmed",
+      "nextAction": "If submitting recommendations, give teachers time to use the official portal.",
+      "sourceIds": [
+        "aw-s-kaist-dates",
+        "aw-s-kaist-guide"
+      ]
+    },
+    {
+      "id": "aw-d-kaist-aid",
+      "routeIds": [
+        "aw-r-kaist-cs",
+        "aw-r-kaist-ee",
+        "aw-r-kaist-mse",
+        "aw-r-kaist-bio"
+      ],
+      "type": "funding",
+      "label": "KAIST scholarship selection in application",
+      "date": "2027-01-14",
+      "time": "18:00",
+      "timezone": "Asia/Seoul",
+      "cycle": "2027",
+      "applicant": "International undergraduate applicants from Kazakhstan",
+      "status": "confirmed",
+      "nextAction": "Select the scholarship option in the admission application.",
+      "sourceIds": [
+        "aw-s-kaist-aid",
+        "aw-s-kaist-dates"
+      ],
+      "awardId": "aw-a-kaist"
+    },
+    {
+      "id": "aw-d-hkust-priority",
+      "routeIds": [
+        "aw-r-hkust-bibu",
+        "aw-r-hkust-maec",
+        "aw-r-hkust-dsct"
+      ],
+      "type": "admission",
+      "label": "HKUST priority round",
+      "date": "2026-11-25",
+      "time": null,
+      "timezone": null,
+      "cycle": "2027/28",
+      "applicant": "International undergraduate applicants from Kazakhstan",
+      "status": "confirmed",
+      "nextAction": "Review qualification and English evidence before submitting.",
+      "sourceIds": [
+        "aw-s-hkust-adm"
+      ]
+    },
+    {
+      "id": "aw-d-melb-feb",
+      "routeIds": [
+        "aw-r-melb-science",
+        "aw-r-melb-commerce"
+      ],
+      "type": "admission",
+      "label": "Melbourne direct international start-year intake",
+      "date": "2026-11-30",
+      "time": null,
+      "timezone": null,
+      "cycle": "2027",
+      "applicant": "International undergraduate applicants from Kazakhstan",
+      "status": "confirmed",
+      "nextAction": "Confirm qualification and apply through the direct international portal.",
+      "sourceIds": [
+        "aw-s-melb-app"
+      ]
+    },
+    {
+      "id": "aw-d-melb-july",
+      "routeIds": [
+        "aw-r-melb-science",
+        "aw-r-melb-commerce"
+      ],
+      "type": "admission",
+      "label": "Melbourne direct international mid-year intake",
+      "date": "2027-05-31",
+      "time": null,
+      "timezone": null,
+      "cycle": "2027",
+      "applicant": "International undergraduate applicants from Kazakhstan",
+      "status": "confirmed",
+      "nextAction": "Check the July intake is offered for the chosen course.",
+      "sourceIds": [
+        "aw-s-melb-app"
+      ]
+    },
+    {
+      "id": "aw-d-uct-closed",
+      "routeIds": [
+        "aw-r-uct-it",
+        "aw-r-uct-bas"
+      ],
+      "type": "admission",
+      "label": "UCT 2027 undergraduate applications · closed",
+      "date": "2026-07-31",
+      "time": null,
+      "timezone": null,
+      "cycle": "2027",
+      "applicant": "International undergraduate applicants from Kazakhstan",
+      "status": "confirmed",
+      "nextAction": "The2027 application window has passed; check the next published cycle.",
+      "sourceIds": [
+        "aw-s-uct-dates"
+      ]
+    },
+    {
+      "id": "aw-d-uct-docs",
+      "routeIds": [
+        "aw-r-uct-it",
+        "aw-r-uct-bas"
+      ],
+      "type": "document",
+      "label": "UCT 2027 international supporting documents",
+      "date": "2026-09-30",
+      "time": null,
+      "timezone": null,
+      "cycle": "2027",
+      "applicant": "International undergraduate applicants from Kazakhstan",
+      "status": "confirmed",
+      "nextAction": "Existing applicants should confirm any outstanding documents directly.",
+      "sourceIds": [
+        "aw-s-uct-dates"
+      ]
+    },
+    {
+      "id": "aw-d-uct-new",
+      "routeIds": [
+        "aw-r-uct-it",
+        "aw-r-uct-bas"
+      ],
+      "type": "admission",
+      "label": "UCT next intake dates awaiting publication",
+      "date": null,
+      "time": null,
+      "timezone": null,
+      "cycle": "2028",
+      "applicant": "International undergraduate applicants from Kazakhstan",
+      "status": "awaiting_publication",
+      "nextAction": "Check official admissions dates for2028; do not reuse the2027 deadline.",
+      "sourceIds": [
+        "aw-s-uct-dates"
+      ]
+    },
+    {
+      "id": "aw-d-uba-preentry",
+      "routeIds": [
+        "aw-r-uba-design"
+      ],
+      "type": "admission",
+      "label": "UBA foreign applicants without DNI: pre-entry closes",
+      "date": "2026-11-26",
+      "time": null,
+      "timezone": null,
+      "cycle": "2027",
+      "applicant": "International undergraduate applicants from Kazakhstan",
+      "status": "confirmed",
+      "nextAction": "Read the foreign-applicant pre-entry process; window opens12November2026.",
+      "sourceIds": [
+        "aw-s-uba-cbc"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "aw-s-kaist-elig",
+      "url": "https://admission.kaist.ac.kr/intl-undergraduate/before/sub02",
+      "title": "KAIST international undergraduate eligibility",
+      "checked": "2026-11-14",
+      "cycle": "2027",
+      "applicant": "International undergraduate applicants",
+      "status": "verified",
+      "note": "Foreign citizenship and parent/schooling rules; no transfer; undeclared first year. Kazakhstan diploma equivalence not individually confirmed."
+    },
+    {
+      "id": "aw-s-kaist-guide",
+      "url": "https://admission.kaist.ac.kr/wz/api/common/files/view/intl-undergraduate/pdf/Admissions_Guide_for_2027_admission.pdf",
+      "title": "KAIST undergraduate admissions guide: Spring & Fall 2027",
+      "checked": "2026-11-14",
+      "cycle": "2027",
+      "applicant": "International undergraduate applicants",
+      "status": "verified",
+      "note": "Fetched official PDF using shell after web timeout. Standardized scores and EPT required in 2027; English-medium school exemption possible. EPT earliest-test-date table needs clarification against two-year validity rule."
+    },
+    {
+      "id": "aw-s-kaist-dates",
+      "url": "https://admission.kaist.ac.kr/intl-undergraduate/application/ApplicationGuide/ApplicationTimeline",
+      "title": "KAIST application timeline 2027",
+      "checked": "2026-11-14",
+      "cycle": "2027",
+      "applicant": "International undergraduate applicants",
+      "status": "verified",
+      "note": "Calendar has stale 2023 subheading but explicit 2027 heading and dates; dates match current 2027 guide."
+    },
+    {
+      "id": "aw-s-kaist-aid",
+      "url": "https://admission.kaist.ac.kr/intl-undergraduate/support/scholarships/kaist/",
+      "title": "KAIST Scholarship",
+      "checked": "2026-11-14",
+      "cycle": "undated",
+      "applicant": "International undergraduate applicants",
+      "status": "verified",
+      "note": "Current undated award terms; recheck against offer. Tuition eight semesters, monthly maintenance and insurance; living expenses may remain."
+    },
+    {
+      "id": "aw-s-kaist-cost",
+      "url": "https://admission.kaist.ac.kr/intl-undergraduate/support/coa",
+      "title": "KAIST main-campus cost of attendance",
+      "checked": "2026-11-14",
+      "cycle": "undated",
+      "applicant": "International undergraduate applicants",
+      "status": "verified",
+      "note": "KRW values; current table undated and subject to change. Not a confirmed 2027 fee schedule."
+    },
+    {
+      "id": "aw-s-kaist-academics",
+      "url": "https://www.kaist.ac.kr/en/html/edu/03.html",
+      "title": "KAIST academics",
+      "checked": "2026-11-14",
+      "cycle": "current catalogue",
+      "applicant": "International undergraduate applicants",
+      "status": "verified",
+      "note": "English main teaching language, departments and freshman exploration."
+    },
+    {
+      "id": "aw-s-kaist-cs",
+      "url": "https://cs.kaist.ac.kr/education/undergraduate",
+      "title": "KAIST School of Computing undergraduate courses",
+      "checked": "2026-11-14",
+      "cycle": "current catalogue",
+      "applicant": "International undergraduate applicants",
+      "status": "verified",
+      "note": "Current course list; Korean navigation with English course descriptions. No claimed 2027 total-credit figure."
+    },
+    {
+      "id": "aw-s-kaist-ee",
+      "url": "https://ee.kaist.ac.kr/en/under-req/2023/",
+      "title": "KAIST Electrical Engineering requirements for 2023 and later",
+      "checked": "2026-11-14",
+      "cycle": "2023 and later",
+      "applicant": "International undergraduate applicants",
+      "status": "verified",
+      "note": "Department degree requirements, not admissions cycle."
+    },
+    {
+      "id": "aw-s-kaist-eecourses",
+      "url": "https://ee.kaist.ac.kr/en/under-curr-list/",
+      "title": "KAIST Electrical Engineering undergraduate curriculum",
+      "checked": "2026-11-14",
+      "cycle": "current catalogue",
+      "applicant": "International undergraduate applicants",
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "id": "aw-s-kaist-mse",
+      "url": "https://mse.kaist.ac.kr/index.php?document_srl=14065&mid=mse_undercurriculum",
+      "title": "KAIST Materials Science undergraduate curriculum",
+      "checked": "2026-11-14",
+      "cycle": "2026 and later",
+      "applicant": "International undergraduate applicants",
+      "status": "verified",
+      "note": "Degree requirements list more than 138 institutional credits and research requirement; common requirements separate."
+    },
+    {
+      "id": "aw-s-kaist-bio",
+      "url": "https://bio.kaist.ac.kr/page/ko/selectPage.do?menuSeq=3357&pageSeq=3406",
+      "title": "KAIST Biological Sciences undergraduate requirements",
+      "checked": "2026-11-14",
+      "cycle": "2024 and later",
+      "applicant": "International undergraduate applicants",
+      "status": "verified",
+      "note": "Korean source; English summary; degree requirements separate from 2027 admission."
+    },
+    {
+      "id": "aw-s-hkust-adm",
+      "url": "https://join.hkust.edu.hk/admissions/international-qualifications?general_requirement=All",
+      "title": "HKUST international qualifications and Kazakhstan requirements",
+      "checked": "2026-11-14",
+      "cycle": "2027/28",
+      "applicant": "International undergraduate applicants",
+      "status": "verified",
+      "note": "Attestat plus UNT or NIS Grade12. Published reference scores describe competitiveness, not guaranteed entry minima. English IELTS6.0 is one accepted evidence route."
+    },
+    {
+      "id": "aw-s-hkust-fees",
+      "url": "https://join.hkust.edu.hk/fees-and-scholarships",
+      "title": "HKUST fees and scholarships",
+      "checked": "2026-11-14",
+      "cycle": "2027/28",
+      "applicant": "International undergraduate applicants",
+      "status": "verified",
+      "note": "Non-local tuition HKD260000/year; housing estimates explicitly fall2026, not 2027/28."
+    },
+    {
+      "id": "aw-s-hkust-aid",
+      "url": "https://join.hkust.edu.hk/global-learners-scholarship",
+      "title": "HKUST Global Learners Scholarship",
+      "checked": "2026-11-14",
+      "cycle": "undated",
+      "applicant": "International undergraduate applicants",
+      "status": "partial",
+      "note": "Automatic consideration for underrepresented nationalities; Kazakhstan eligibility must be confirmed. Full tuition only; discretionary top-up excluded."
+    },
+    {
+      "id": "aw-s-hkust-bibu",
+      "url": "https://join.hkust.edu.hk/our-programs/joint-school-program/biotechnology-and-business",
+      "title": "HKUST Biotechnology and Business",
+      "checked": "2026-11-14",
+      "cycle": "current catalogue",
+      "applicant": "International undergraduate applicants",
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "id": "aw-s-hkust-maec",
+      "url": "https://join.hkust.edu.hk/our-programs/joint-school-program/mathematics-and-economics",
+      "title": "HKUST Mathematics and Economics",
+      "checked": "2026-11-14",
+      "cycle": "current catalogue",
+      "applicant": "International undergraduate applicants",
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "id": "aw-s-hkust-dsct",
+      "url": "https://join.hkust.edu.hk/our-programs/joint-school-program/data-science-and-technology",
+      "title": "HKUST Data Science and Technology",
+      "checked": "2026-11-14",
+      "cycle": "current catalogue",
+      "applicant": "International undergraduate applicants",
+      "status": "verified",
+      "note": "School entry then major declaration; Engineering extended AI major must be dropped if DSCT selected."
+    },
+    {
+      "id": "aw-s-melb-kz",
+      "url": "https://study.unimelb.edu.au/how-to-apply/undergraduate-study/recognised-vce-equivalent-qualifications/qualifications/kazakhstan",
+      "title": "Melbourne recognised Kazakhstan NIS Grade12 qualification",
+      "checked": "2026-11-14",
+      "cycle": "undated",
+      "applicant": "International undergraduate applicants",
+      "status": "verified",
+      "note": "This page verifies NIS Grade12 only, not ordinary Grade11 Attestat."
+    },
+    {
+      "id": "aw-s-melb-english",
+      "url": "https://study.unimelb.edu.au/how-to-apply/english-language-requirements/undergraduate-english-language-requirements",
+      "title": "Melbourne undergraduate English requirements",
+      "checked": "2026-11-14",
+      "cycle": "current catalogue",
+      "applicant": "International undergraduate applicants",
+      "status": "verified",
+      "note": "English test or qualifying prior studies/pathway; thresholds checked in current table."
+    },
+    {
+      "id": "aw-s-melb-app",
+      "url": "https://study.unimelb.edu.au/how-to-apply/undergraduate-study/international-applications/applications",
+      "title": "Melbourne international undergraduate applications",
+      "checked": "2026-11-14",
+      "cycle": "2027",
+      "applicant": "International undergraduate applicants",
+      "status": "verified",
+      "note": "Direct international application dates, distinct from domestic VTAC deadlines."
+    },
+    {
+      "id": "aw-s-melb-fees",
+      "url": "https://study.unimelb.edu.au/how-to-apply/undergraduate-study/international-applications/fees-and-payments",
+      "title": "Melbourne international undergraduate fees and payments",
+      "checked": "2026-11-14",
+      "cycle": "undated",
+      "applicant": "International undergraduate applicants",
+      "status": "verified",
+      "note": "Subject-based tuition; AUD17000 deposit; OSHC required; international SSAF covered. Full fee quote not extracted."
+    },
+    {
+      "id": "aw-s-melb-science",
+      "url": "https://study.unimelb.edu.au/find/courses/undergraduate/bachelor-of-science/structure/",
+      "title": "Melbourne Bachelor of Science structure",
+      "checked": "2026-11-14",
+      "cycle": "current catalogue",
+      "applicant": "International undergraduate applicants",
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "id": "aw-s-melb-commerce",
+      "url": "https://study.unimelb.edu.au/find/courses/undergraduate/bachelor-of-commerce/structure/",
+      "title": "Melbourne Bachelor of Commerce structure",
+      "checked": "2026-11-14",
+      "cycle": "current catalogue",
+      "applicant": "International undergraduate applicants",
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "id": "aw-s-uct-elig",
+      "url": "https://uct.ac.za/students/non-south-african-school-leaving-examination-requirements",
+      "title": "UCT non-South African school-leaving examination requirements",
+      "checked": "2026-11-14",
+      "cycle": "current catalogue",
+      "applicant": "International undergraduate applicants",
+      "status": "partial",
+      "note": "Links to non-SA guidance; exact Kazakhstan credential not confirmed."
+    },
+    {
+      "id": "aw-s-uct-prospectus",
+      "url": "https://www.diploma.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+      "title": "UCT 2027 undergraduate prospectus",
+      "checked": "2026-11-14",
+      "cycle": "2027",
+      "applicant": "International undergraduate applicants",
+      "status": "verified",
+      "note": "Foreign certificates require matriculation exemption; country-specific Kazakhstan assessment unresolved."
+    },
+    {
+      "id": "aw-s-uct-english",
+      "url": "https://www.uct.ac.za/students/applications-admission-requirements/language-requirements",
+      "title": "UCT language requirements",
+      "checked": "2026-11-14",
+      "cycle": "current catalogue",
+      "applicant": "International undergraduate applicants",
+      "status": "verified",
+      "note": "English evidence conditional on schooling; IELTS6.5/component6.0, TOEFL88/components listed; other routes allowed."
+    },
+    {
+      "id": "aw-s-uct-dates",
+      "url": "https://www.uct.ac.za/students/applications/key-dates",
+      "title": "UCT key dates for 2027 admission",
+      "checked": "2026-11-14",
+      "cycle": "2027",
+      "applicant": "International undergraduate applicants",
+      "status": "verified",
+      "note": "2026 dates are for 2027 intake; undergraduate applications already closed on checked date."
+    },
+    {
+      "id": "aw-s-uct-it",
+      "url": "https://sit.uct.ac.za/ba-informatics",
+      "title": "UCT BA Informatics",
+      "checked": "2026-11-14",
+      "cycle": "current catalogue",
+      "applicant": "International undergraduate applicants",
+      "status": "verified",
+      "note": "NSC subject scores not converted into Kazakhstan marks."
+    },
+    {
+      "id": "aw-s-uct-bas",
+      "url": "https://ebe.uct.ac.za/school-apg/bachelor-architectural-studies",
+      "title": "UCT Bachelor of Architectural Studies",
+      "checked": "2026-11-14",
+      "cycle": "current catalogue",
+      "applicant": "International undergraduate applicants",
+      "status": "verified",
+      "note": "Three years; online application and portfolio. Further study needed for professional qualification."
+    },
+    {
+      "id": "aw-s-uba-foreign",
+      "url": "https://www.uba.ar/estudiantesextranjeros",
+      "title": "UBA foreign undergraduate applicants",
+      "checked": "2026-11-14",
+      "cycle": "current catalogue",
+      "applicant": "International undergraduate applicants",
+      "status": "verified",
+      "note": "CBC entry, no entrance examination, Spanish C1 proof. The B2 concession on same page applies only to 2024."
+    },
+    {
+      "id": "aw-s-uba-cbc",
+      "url": "https://www4.cbc.uba.ar/inscripciones/nodniarg.php",
+      "title": "UBA CBC foreign applicants without Argentine DNI",
+      "checked": "2026-11-14",
+      "cycle": "2027",
+      "applicant": "International undergraduate applicants",
+      "status": "verified",
+      "note": "First-term2027 pre-entry window 12–26November2026."
+    },
+    {
+      "id": "aw-s-uba-design",
+      "url": "https://www.fadu.uba.ar/diseno-grafico/",
+      "title": "UBA FADU Graphic Design study plan",
+      "checked": "2026-11-14",
+      "cycle": "current catalogue",
+      "applicant": "International undergraduate applicants",
+      "status": "verified",
+      "note": "Current faculty table shows five years including CBC; older library PDF CBC+3 differs. Duration needs confirmation."
+    },
+    {
+      "id": "aw-s-uba-recognition",
+      "url": "https://www.derecho.uba.ar/ingresantes/info_ingresantes_cbc_extranjeros.php",
+      "title": "UBA foreign entrant CBC document guidance",
+      "checked": "2026-11-14",
+      "cycle": "undated",
+      "applicant": "International undergraduate applicants",
+      "status": "partial",
+      "note": "University faculty guidance on secondary diploma revalidation, not confirmation of a particular Kazakh qualification."
+    },
+    {
+      "id": "aw-s-hkust-faq",
+      "url": "https://join.hkust.edu.hk/faq",
+      "title": "HKUST undergraduate admissions FAQ",
+      "checked": "2026-11-14",
+      "cycle": "current catalogue",
+      "applicant": "International undergraduate applicants",
+      "status": "verified",
+      "note": "English teaching language except language courses and a small number requiring Chinese."
+    }
+  ]
+}

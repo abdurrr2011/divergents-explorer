@@ -1,0 +1,1201 @@
+{
+  "institutions": [
+    {
+      "id": "kz-aitu-college",
+      "name": "Astana IT College",
+      "country": "Kazakhstan",
+      "region": "Kazakhstan",
+      "city": "Astana",
+      "aliases": [
+        "AITU College",
+        "Astana IT University College",
+        "Астана IT колледж"
+      ],
+      "sourceIds": [
+        "kz-aitu-college-source"
+      ]
+    },
+    {
+      "id": "kz-uk-college",
+      "name": "Ust-Kamenogorsk Higher Polytechnic College",
+      "country": "Kazakhstan",
+      "region": "Kazakhstan",
+      "city": "Oskemen",
+      "aliases": [
+        "UKVPK",
+        "УКВПК",
+        "Усть-Каменогорский высший политехнический колледж",
+        "Өскемен"
+      ],
+      "sourceIds": [
+        "kz-uk-college-source",
+        "kz-uk-admission-source"
+      ]
+    },
+    {
+      "id": "kz-aitu",
+      "name": "Astana IT University",
+      "country": "Kazakhstan",
+      "region": "Kazakhstan",
+      "city": "Astana",
+      "aliases": [
+        "AITU",
+        "Астана IT университеті"
+      ],
+      "sourceIds": [
+        "kz-aitu-fees-source"
+      ]
+    }
+  ],
+  "programmes": [
+    {
+      "id": "kz-aitu-college-software",
+      "institutionId": "kz-aitu-college",
+      "name": "Software Developer · 06130100",
+      "field": "Technology",
+      "qualification": "4S06130103 Software Developer",
+      "duration": "2 years 10 months (both entry bases)",
+      "credits": "Not published with a confirmed credit system",
+      "languages": [
+        "Kazakh",
+        "Russian"
+      ],
+      "description": "Create and maintain software.",
+      "curriculum": "Programming, databases and web development.",
+      "practical": "Project skills listed; placement terms unverified.",
+      "campus": "Astana EXPO campus",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "kz-aitu-college-source"
+      ]
+    },
+    {
+      "id": "kz-aitu-college-database",
+      "institutionId": "kz-aitu-college",
+      "name": "Database Administrator Technician · 06120100",
+      "field": "Technology",
+      "qualification": "4S06120103 Database Administrator Technician",
+      "duration": "2 years 10 months",
+      "credits": "Not published with a confirmed credit system",
+      "languages": [
+        "Russian"
+      ],
+      "description": "Maintain reliable databases.",
+      "curriculum": "Database administration and networks.",
+      "practical": "Applied database skills; placement terms unverified.",
+      "campus": "Astana EXPO campus",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "kz-aitu-college-source"
+      ]
+    },
+    {
+      "id": "kz-uk-software",
+      "institutionId": "kz-uk-college",
+      "name": "Software Development · 06130100",
+      "field": "Technology",
+      "qualification": "4S06130103 Software Developer",
+      "duration": "Grade 9: 3 years 10 months; Grade 11: 2 years 10 months",
+      "credits": "Not published with a confirmed credit system",
+      "languages": [
+        "Kazakh",
+        "Russian"
+      ],
+      "description": "Develop and test software.",
+      "curriculum": "Vocational specialist training; request module plan.",
+      "practical": "College advertises industrial practice; individual placements need confirmation.",
+      "campus": "Serikbayev Street 5, Oskemen",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "kz-uk-college-source",
+        "kz-uk-admission-source"
+      ]
+    },
+    {
+      "id": "kz-uk-renewables",
+      "institutionId": "kz-uk-college",
+      "name": "Renewable Energy · 07130500",
+      "field": "Engineering",
+      "qualification": "4S07130502 Energy Technician",
+      "duration": "Grade 9: 3 years 10 months; Grade 11: 2 years 10 months",
+      "credits": "Not published with a confirmed credit system",
+      "languages": [
+        "Kazakh",
+        "Russian"
+      ],
+      "description": "Operate renewable energy equipment.",
+      "curriculum": "Vocational specialist training; request module plan.",
+      "practical": "College advertises industrial practice; individual placements need confirmation.",
+      "campus": "Serikbayev Street 5, Oskemen",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "kz-uk-college-source",
+        "kz-uk-admission-source"
+      ]
+    },
+    {
+      "id": "kz-uk-mechatronics",
+      "institutionId": "kz-uk-college",
+      "name": "Mechatronics · 07140300",
+      "field": "Engineering",
+      "qualification": "4S07140302 Mechatronics Technician",
+      "duration": "Grade 9: 3 years 10 months; Grade 11: 2 years 10 months",
+      "credits": "Not published with a confirmed credit system",
+      "languages": [
+        "Kazakh",
+        "Russian"
+      ],
+      "description": "Combine mechanics, electronics and control.",
+      "curriculum": "Vocational specialist training; request module plan.",
+      "practical": "College advertises industrial practice; individual placements need confirmation.",
+      "campus": "Serikbayev Street 5, Oskemen",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "kz-uk-college-source",
+        "kz-uk-admission-source"
+      ]
+    },
+    {
+      "id": "kz-aitu-se",
+      "institutionId": "kz-aitu",
+      "name": "Software Engineering",
+      "field": "Technology",
+      "qualification": "Bachelor in Information and Communication Technologies",
+      "duration": "3 years",
+      "credits": "Not published with a confirmed credit system",
+      "languages": [
+        "English"
+      ],
+      "description": "Build reliable software systems.",
+      "curriculum": "Programming, algorithms, databases, software architecture and testing.",
+      "practical": "Educational, industrial and undergraduate practice appear in curriculum.",
+      "campus": "Astana EXPO campus",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "kz-aitu-se-source",
+        "kz-aitu-fees-source"
+      ]
+    },
+    {
+      "id": "kz-aitu-im",
+      "institutionId": "kz-aitu",
+      "name": "IT Management",
+      "field": "Business & economics",
+      "qualification": "Bachelor of Business and Management",
+      "duration": "3 years",
+      "credits": "Not published with a confirmed credit system",
+      "languages": [
+        "English"
+      ],
+      "description": "Plan technology products and teams.",
+      "curriculum": "Management, economics, finance, programming and product management.",
+      "practical": "Educational, industrial and undergraduate practice appear in curriculum.",
+      "campus": "Astana EXPO campus",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "kz-aitu-im-source",
+        "kz-aitu-fees-source"
+      ]
+    },
+    {
+      "id": "kz-aitu-ee",
+      "institutionId": "kz-aitu",
+      "name": "Electronic Engineering",
+      "field": "Engineering",
+      "qualification": "Bachelor in Engineering and Technology",
+      "duration": "3 years",
+      "credits": "Not published with a confirmed credit system",
+      "languages": [
+        "English"
+      ],
+      "description": "Design electronic systems.",
+      "curriculum": "Circuits, digital electronics, microcontrollers and embedded systems.",
+      "practical": "Educational, industrial and undergraduate practice appear in curriculum.",
+      "campus": "Astana EXPO campus",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "kz-aitu-ee-source",
+        "kz-aitu-fees-source"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "kz-aitu-college-software-after-9",
+      "programmeId": "kz-aitu-college-software",
+      "name": "Full-time college after Grade 9",
+      "entryAfter": 9,
+      "pathway": "college",
+      "cycle": "undated",
+      "applicant": "Kazakhstan school leavers",
+      "eligibility": "School certificate; competitive certificate grades.",
+      "recognition": "State-recognized diploma stated. Further university study possible; admission and credit recognition remain separate.",
+      "subjects": "Algebra and Informatics; Kazakh or Russian language",
+      "tests": {
+        "UNT": {
+          "status": "not_required",
+          "detail": "Official college page states no examinations."
+        },
+        "SAT": {
+          "status": "not_required",
+          "detail": "Official college page states no examinations."
+        },
+        "ACT": {
+          "status": "not_required",
+          "detail": "Official college page states no examinations."
+        },
+        "IELTS": {
+          "status": "not_required",
+          "detail": "Official college page states no examinations."
+        },
+        "TOEFL": {
+          "status": "not_required",
+          "detail": "Official college page states no examinations."
+        },
+        "ENGLISH": {
+          "status": "not_required",
+          "detail": "Official college page states no examinations."
+        }
+      },
+      "tuition": {
+        "amount": null,
+        "currency": "KZT",
+        "period": "unknown",
+        "note": "Current tuition not verified. Ask for the official fee schedule."
+      },
+      "mandatoryFees": "Not published; confirm before committing.",
+      "living": "Unknown; no verified living-cost estimate.",
+      "nextAction": "Ask college to confirm this entry basis and intake.",
+      "questions": [
+        "Confirm intake year, fees, exact places and progression conditions."
+      ],
+      "sourceIds": [
+        "kz-aitu-college-source"
+      ]
+    },
+    {
+      "id": "kz-aitu-college-software-after-11",
+      "programmeId": "kz-aitu-college-software",
+      "name": "Online paid college after Grade 11",
+      "entryAfter": 11,
+      "pathway": "college",
+      "cycle": "undated",
+      "applicant": "Kazakhstan school leavers",
+      "eligibility": "School certificate; online route; selection wording needs confirmation.",
+      "recognition": "State-recognized diploma stated. Further university study possible; admission and credit recognition remain separate.",
+      "subjects": "Algebra and Informatics; Kazakh or Russian, History of Kazakhstan, Algebra and Introduction to Analysis",
+      "tests": {
+        "UNT": {
+          "status": "not_required",
+          "detail": "Official college page states no examinations."
+        },
+        "SAT": {
+          "status": "not_required",
+          "detail": "Official college page states no examinations."
+        },
+        "ACT": {
+          "status": "not_required",
+          "detail": "Official college page states no examinations."
+        },
+        "IELTS": {
+          "status": "not_required",
+          "detail": "Official college page states no examinations."
+        },
+        "TOEFL": {
+          "status": "not_required",
+          "detail": "Official college page states no examinations."
+        },
+        "ENGLISH": {
+          "status": "not_required",
+          "detail": "Official college page states no examinations."
+        }
+      },
+      "tuition": {
+        "amount": null,
+        "currency": "KZT",
+        "period": "unknown",
+        "note": "Current tuition not verified. Ask for the official fee schedule."
+      },
+      "mandatoryFees": "Not published; confirm before committing.",
+      "living": "Unknown; no verified living-cost estimate.",
+      "nextAction": "Ask college to confirm this entry basis and intake.",
+      "questions": [
+        "Confirm intake year, fees, exact places and progression conditions.",
+        "Does no-competition wording override the general grade competition statement?"
+      ],
+      "sourceIds": [
+        "kz-aitu-college-source"
+      ]
+    },
+    {
+      "id": "kz-aitu-college-database-after-9",
+      "programmeId": "kz-aitu-college-database",
+      "name": "Full-time college after Grade 9",
+      "entryAfter": 9,
+      "pathway": "college",
+      "cycle": "undated",
+      "applicant": "Kazakhstan school leavers",
+      "eligibility": "School certificate; competitive certificate grades.",
+      "recognition": "State-recognized diploma stated. Further university study possible; admission and credit recognition remain separate.",
+      "subjects": "Algebra and Informatics; Kazakh or Russian language",
+      "tests": {
+        "UNT": {
+          "status": "not_required",
+          "detail": "Official college page states no examinations."
+        },
+        "SAT": {
+          "status": "not_required",
+          "detail": "Official college page states no examinations."
+        },
+        "ACT": {
+          "status": "not_required",
+          "detail": "Official college page states no examinations."
+        },
+        "IELTS": {
+          "status": "not_required",
+          "detail": "Official college page states no examinations."
+        },
+        "TOEFL": {
+          "status": "not_required",
+          "detail": "Official college page states no examinations."
+        },
+        "ENGLISH": {
+          "status": "not_required",
+          "detail": "Official college page states no examinations."
+        }
+      },
+      "tuition": {
+        "amount": null,
+        "currency": "KZT",
+        "period": "unknown",
+        "note": "Current tuition not verified. Ask for the official fee schedule."
+      },
+      "mandatoryFees": "Not published; confirm before committing.",
+      "living": "Unknown; no verified living-cost estimate.",
+      "nextAction": "Ask college to confirm this entry basis and intake.",
+      "questions": [
+        "Confirm intake year, fees, exact places and progression conditions."
+      ],
+      "sourceIds": [
+        "kz-aitu-college-source"
+      ]
+    },
+    {
+      "id": "kz-uk-software-after-9",
+      "programmeId": "kz-uk-software",
+      "name": "Full-time college after Grade 9",
+      "entryAfter": 9,
+      "pathway": "college",
+      "cycle": "2026",
+      "applicant": "Kazakhstan school leavers",
+      "eligibility": "Certificate-grade selection; confirm qualification-specific conditions and language cohort.",
+      "recognition": "College provides links to related university groups; no automatic transfer or shortened university duration confirmed.",
+      "subjects": "Certificate grades; exact weighted subjects not verified.",
+      "tests": {
+        "UNT": {
+          "status": "unknown",
+          "detail": "No explicit test exemption verified; admissions page describes certificate-grade selection."
+        },
+        "SAT": {
+          "status": "unknown",
+          "detail": "No explicit test exemption verified; admissions page describes certificate-grade selection."
+        },
+        "ACT": {
+          "status": "unknown",
+          "detail": "No explicit test exemption verified; admissions page describes certificate-grade selection."
+        },
+        "IELTS": {
+          "status": "unknown",
+          "detail": "No explicit test exemption verified; admissions page describes certificate-grade selection."
+        },
+        "TOEFL": {
+          "status": "unknown",
+          "detail": "No explicit test exemption verified; admissions page describes certificate-grade selection."
+        },
+        "ENGLISH": {
+          "status": "unknown",
+          "detail": "No explicit test exemption verified; admissions page describes certificate-grade selection."
+        }
+      },
+      "tuition": {
+        "amount": null,
+        "currency": "KZT",
+        "period": "unknown",
+        "note": "Current fee unknown. Official page gives an indicative historical 2025/26 full-time fee of KZT 430,000/year; do not treat as current."
+      },
+      "mandatoryFees": "Not published; confirm before committing.",
+      "living": "Unknown; no verified living-cost estimate.",
+      "nextAction": "Ask college for the current programme admission sheet.",
+      "questions": [
+        "Confirm current programme-level budget allocation, selection subjects and 2027 fee.",
+        "Confirm teaching language for the selected cohort."
+      ],
+      "sourceIds": [
+        "kz-uk-college-source",
+        "kz-uk-admission-source"
+      ]
+    },
+    {
+      "id": "kz-uk-software-after-11",
+      "programmeId": "kz-uk-software",
+      "name": "Full-time college after Grade 11",
+      "entryAfter": 11,
+      "pathway": "college",
+      "cycle": "2026",
+      "applicant": "Kazakhstan school leavers",
+      "eligibility": "Certificate-grade selection; confirm qualification-specific conditions and language cohort.",
+      "recognition": "College provides links to related university groups; no automatic transfer or shortened university duration confirmed.",
+      "subjects": "Certificate grades; exact weighted subjects not verified.",
+      "tests": {
+        "UNT": {
+          "status": "unknown",
+          "detail": "No explicit test exemption verified; admissions page describes certificate-grade selection."
+        },
+        "SAT": {
+          "status": "unknown",
+          "detail": "No explicit test exemption verified; admissions page describes certificate-grade selection."
+        },
+        "ACT": {
+          "status": "unknown",
+          "detail": "No explicit test exemption verified; admissions page describes certificate-grade selection."
+        },
+        "IELTS": {
+          "status": "unknown",
+          "detail": "No explicit test exemption verified; admissions page describes certificate-grade selection."
+        },
+        "TOEFL": {
+          "status": "unknown",
+          "detail": "No explicit test exemption verified; admissions page describes certificate-grade selection."
+        },
+        "ENGLISH": {
+          "status": "unknown",
+          "detail": "No explicit test exemption verified; admissions page describes certificate-grade selection."
+        }
+      },
+      "tuition": {
+        "amount": null,
+        "currency": "KZT",
+        "period": "unknown",
+        "note": "Current fee unknown. Official page gives an indicative historical 2025/26 full-time fee of KZT 430,000/year; do not treat as current."
+      },
+      "mandatoryFees": "Not published; confirm before committing.",
+      "living": "Unknown; no verified living-cost estimate.",
+      "nextAction": "Ask college for the current programme admission sheet.",
+      "questions": [
+        "Confirm current programme-level budget allocation, selection subjects and 2027 fee.",
+        "Confirm teaching language for the selected cohort."
+      ],
+      "sourceIds": [
+        "kz-uk-college-source",
+        "kz-uk-admission-source"
+      ]
+    },
+    {
+      "id": "kz-uk-renewables-after-9",
+      "programmeId": "kz-uk-renewables",
+      "name": "Full-time college after Grade 9",
+      "entryAfter": 9,
+      "pathway": "college",
+      "cycle": "2026",
+      "applicant": "Kazakhstan school leavers",
+      "eligibility": "Certificate-grade selection; confirm qualification-specific conditions and language cohort.",
+      "recognition": "College provides links to related university groups; no automatic transfer or shortened university duration confirmed.",
+      "subjects": "Certificate grades; exact weighted subjects not verified.",
+      "tests": {
+        "UNT": {
+          "status": "unknown",
+          "detail": "No explicit test exemption verified; admissions page describes certificate-grade selection."
+        },
+        "SAT": {
+          "status": "unknown",
+          "detail": "No explicit test exemption verified; admissions page describes certificate-grade selection."
+        },
+        "ACT": {
+          "status": "unknown",
+          "detail": "No explicit test exemption verified; admissions page describes certificate-grade selection."
+        },
+        "IELTS": {
+          "status": "unknown",
+          "detail": "No explicit test exemption verified; admissions page describes certificate-grade selection."
+        },
+        "TOEFL": {
+          "status": "unknown",
+          "detail": "No explicit test exemption verified; admissions page describes certificate-grade selection."
+        },
+        "ENGLISH": {
+          "status": "unknown",
+          "detail": "No explicit test exemption verified; admissions page describes certificate-grade selection."
+        }
+      },
+      "tuition": {
+        "amount": null,
+        "currency": "KZT",
+        "period": "unknown",
+        "note": "Current fee unknown. Official page gives an indicative historical 2025/26 full-time fee of KZT 430,000/year; do not treat as current."
+      },
+      "mandatoryFees": "Not published; confirm before committing.",
+      "living": "Unknown; no verified living-cost estimate.",
+      "nextAction": "Ask college for the current programme admission sheet.",
+      "questions": [
+        "Confirm current programme-level budget allocation, selection subjects and 2027 fee.",
+        "Confirm teaching language for the selected cohort."
+      ],
+      "sourceIds": [
+        "kz-uk-college-source",
+        "kz-uk-admission-source"
+      ]
+    },
+    {
+      "id": "kz-uk-renewables-after-11",
+      "programmeId": "kz-uk-renewables",
+      "name": "Full-time college after Grade 11",
+      "entryAfter": 11,
+      "pathway": "college",
+      "cycle": "2026",
+      "applicant": "Kazakhstan school leavers",
+      "eligibility": "Certificate-grade selection; confirm qualification-specific conditions and language cohort.",
+      "recognition": "College provides links to related university groups; no automatic transfer or shortened university duration confirmed.",
+      "subjects": "Certificate grades; exact weighted subjects not verified.",
+      "tests": {
+        "UNT": {
+          "status": "unknown",
+          "detail": "No explicit test exemption verified; admissions page describes certificate-grade selection."
+        },
+        "SAT": {
+          "status": "unknown",
+          "detail": "No explicit test exemption verified; admissions page describes certificate-grade selection."
+        },
+        "ACT": {
+          "status": "unknown",
+          "detail": "No explicit test exemption verified; admissions page describes certificate-grade selection."
+        },
+        "IELTS": {
+          "status": "unknown",
+          "detail": "No explicit test exemption verified; admissions page describes certificate-grade selection."
+        },
+        "TOEFL": {
+          "status": "unknown",
+          "detail": "No explicit test exemption verified; admissions page describes certificate-grade selection."
+        },
+        "ENGLISH": {
+          "status": "unknown",
+          "detail": "No explicit test exemption verified; admissions page describes certificate-grade selection."
+        }
+      },
+      "tuition": {
+        "amount": null,
+        "currency": "KZT",
+        "period": "unknown",
+        "note": "Current fee unknown. Official page gives an indicative historical 2025/26 full-time fee of KZT 430,000/year; do not treat as current."
+      },
+      "mandatoryFees": "Not published; confirm before committing.",
+      "living": "Unknown; no verified living-cost estimate.",
+      "nextAction": "Ask college for the current programme admission sheet.",
+      "questions": [
+        "Confirm current programme-level budget allocation, selection subjects and 2027 fee.",
+        "Confirm teaching language for the selected cohort."
+      ],
+      "sourceIds": [
+        "kz-uk-college-source",
+        "kz-uk-admission-source"
+      ]
+    },
+    {
+      "id": "kz-uk-mechatronics-after-9",
+      "programmeId": "kz-uk-mechatronics",
+      "name": "Full-time college after Grade 9",
+      "entryAfter": 9,
+      "pathway": "college",
+      "cycle": "2026",
+      "applicant": "Kazakhstan school leavers",
+      "eligibility": "Certificate-grade selection; confirm qualification-specific conditions and language cohort.",
+      "recognition": "College provides links to related university groups; no automatic transfer or shortened university duration confirmed.",
+      "subjects": "Certificate grades; exact weighted subjects not verified.",
+      "tests": {
+        "UNT": {
+          "status": "unknown",
+          "detail": "No explicit test exemption verified; admissions page describes certificate-grade selection."
+        },
+        "SAT": {
+          "status": "unknown",
+          "detail": "No explicit test exemption verified; admissions page describes certificate-grade selection."
+        },
+        "ACT": {
+          "status": "unknown",
+          "detail": "No explicit test exemption verified; admissions page describes certificate-grade selection."
+        },
+        "IELTS": {
+          "status": "unknown",
+          "detail": "No explicit test exemption verified; admissions page describes certificate-grade selection."
+        },
+        "TOEFL": {
+          "status": "unknown",
+          "detail": "No explicit test exemption verified; admissions page describes certificate-grade selection."
+        },
+        "ENGLISH": {
+          "status": "unknown",
+          "detail": "No explicit test exemption verified; admissions page describes certificate-grade selection."
+        }
+      },
+      "tuition": {
+        "amount": null,
+        "currency": "KZT",
+        "period": "unknown",
+        "note": "Current fee unknown. Official page gives an indicative historical 2025/26 full-time fee of KZT 430,000/year; do not treat as current."
+      },
+      "mandatoryFees": "Not published; confirm before committing.",
+      "living": "Unknown; no verified living-cost estimate.",
+      "nextAction": "Ask college for the current programme admission sheet.",
+      "questions": [
+        "Confirm current programme-level budget allocation, selection subjects and 2027 fee.",
+        "Confirm teaching language for the selected cohort."
+      ],
+      "sourceIds": [
+        "kz-uk-college-source",
+        "kz-uk-admission-source"
+      ]
+    },
+    {
+      "id": "kz-uk-mechatronics-after-11",
+      "programmeId": "kz-uk-mechatronics",
+      "name": "Full-time college after Grade 11",
+      "entryAfter": 11,
+      "pathway": "college",
+      "cycle": "2026",
+      "applicant": "Kazakhstan school leavers",
+      "eligibility": "Certificate-grade selection; confirm qualification-specific conditions and language cohort.",
+      "recognition": "College provides links to related university groups; no automatic transfer or shortened university duration confirmed.",
+      "subjects": "Certificate grades; exact weighted subjects not verified.",
+      "tests": {
+        "UNT": {
+          "status": "unknown",
+          "detail": "No explicit test exemption verified; admissions page describes certificate-grade selection."
+        },
+        "SAT": {
+          "status": "unknown",
+          "detail": "No explicit test exemption verified; admissions page describes certificate-grade selection."
+        },
+        "ACT": {
+          "status": "unknown",
+          "detail": "No explicit test exemption verified; admissions page describes certificate-grade selection."
+        },
+        "IELTS": {
+          "status": "unknown",
+          "detail": "No explicit test exemption verified; admissions page describes certificate-grade selection."
+        },
+        "TOEFL": {
+          "status": "unknown",
+          "detail": "No explicit test exemption verified; admissions page describes certificate-grade selection."
+        },
+        "ENGLISH": {
+          "status": "unknown",
+          "detail": "No explicit test exemption verified; admissions page describes certificate-grade selection."
+        }
+      },
+      "tuition": {
+        "amount": null,
+        "currency": "KZT",
+        "period": "unknown",
+        "note": "Current fee unknown. Official page gives an indicative historical 2025/26 full-time fee of KZT 430,000/year; do not treat as current."
+      },
+      "mandatoryFees": "Not published; confirm before committing.",
+      "living": "Unknown; no verified living-cost estimate.",
+      "nextAction": "Ask college for the current programme admission sheet.",
+      "questions": [
+        "Confirm current programme-level budget allocation, selection subjects and 2027 fee.",
+        "Confirm teaching language for the selected cohort."
+      ],
+      "sourceIds": [
+        "kz-uk-college-source",
+        "kz-uk-admission-source"
+      ]
+    },
+    {
+      "id": "kz-aitu-se-unt",
+      "programmeId": "kz-aitu-se",
+      "name": "Domestic UNT + AET admission",
+      "entryAfter": 11,
+      "pathway": "direct",
+      "cycle": "2026",
+      "applicant": "Kazakhstan school leavers",
+      "eligibility": "Secondary school completion, qualifying UNT and AET. Grant threshold is eligibility only.",
+      "recognition": "Domestic school-leaver route; final original documents required.",
+      "subjects": "Mathematics + Informatics",
+      "tests": {
+        "UNT": {
+          "status": "required",
+          "detail": "2026 group grant-competition minimum 100. Paid minimum conflicting: 70 versus 80; confirm. Not an admitted-score prediction."
+        },
+        "AET": {
+          "status": "required",
+          "detail": "English and CS/logic modules; specified exemptions exist."
+        },
+        "IELTS": {
+          "status": "alternative",
+          "detail": "IELTS 5.5 can exempt AET English module; taking AET English is another route."
+        },
+        "TOEFL": {
+          "status": "alternative",
+          "detail": "TOEFL ITP 460 or iBT 46–59 listed for AET English-module exemption."
+        },
+        "ENGLISH": {
+          "status": "required",
+          "detail": "AET English assessment or approved evidence/exemption required."
+        },
+        "SAT": {
+          "status": "not_required",
+          "detail": "No SAT required in this documented UNT + AET route."
+        },
+        "ACT": {
+          "status": "not_required",
+          "detail": "No ACT required in this documented UNT + AET route."
+        }
+      },
+      "tuition": {
+        "amount": null,
+        "currency": "KZT",
+        "period": "unknown",
+        "note": "2026/27 price table lists KZT 2,500,000. Annual/programme billing basis not explicit; confirm before budgeting."
+      },
+      "mandatoryFees": "Not published; confirm before committing.",
+      "living": "Unknown; no verified living-cost estimate.",
+      "nextAction": "Choose UNT profile subjects, then check the AET preparation materials.",
+      "questions": [
+        "Resolve paid UNT minimum 70 vs 80 with admissions.",
+        "Confirm 2027 cycle rules, fees and original-document deadline."
+      ],
+      "sourceIds": [
+        "kz-aitu-admission-source",
+        "kz-aitu-fees-source",
+        "kz-aitu-aet-source",
+        "kz-aitu-support-source"
+      ]
+    },
+    {
+      "id": "kz-aitu-im-unt",
+      "programmeId": "kz-aitu-im",
+      "name": "Domestic UNT + AET admission",
+      "entryAfter": 11,
+      "pathway": "direct",
+      "cycle": "2026",
+      "applicant": "Kazakhstan school leavers",
+      "eligibility": "Secondary school completion, qualifying UNT and AET. Grant threshold is eligibility only.",
+      "recognition": "Domestic school-leaver route; final original documents required.",
+      "subjects": "Mathematics + Geography",
+      "tests": {
+        "UNT": {
+          "status": "required",
+          "detail": "2026 group grant-competition minimum 75. Paid minimum conflicting: 70 versus 80; confirm. Not an admitted-score prediction."
+        },
+        "AET": {
+          "status": "required",
+          "detail": "English and CS/logic modules; specified exemptions exist."
+        },
+        "IELTS": {
+          "status": "alternative",
+          "detail": "IELTS 5.5 can exempt AET English module; taking AET English is another route."
+        },
+        "TOEFL": {
+          "status": "alternative",
+          "detail": "TOEFL ITP 460 or iBT 46–59 listed for AET English-module exemption."
+        },
+        "ENGLISH": {
+          "status": "required",
+          "detail": "AET English assessment or approved evidence/exemption required."
+        },
+        "SAT": {
+          "status": "not_required",
+          "detail": "No SAT required in this documented UNT + AET route."
+        },
+        "ACT": {
+          "status": "not_required",
+          "detail": "No ACT required in this documented UNT + AET route."
+        }
+      },
+      "tuition": {
+        "amount": null,
+        "currency": "KZT",
+        "period": "unknown",
+        "note": "2026/27 price table lists KZT 2,500,000. Annual/programme billing basis not explicit; confirm before budgeting."
+      },
+      "mandatoryFees": "Not published; confirm before committing.",
+      "living": "Unknown; no verified living-cost estimate.",
+      "nextAction": "Choose UNT profile subjects, then check the AET preparation materials.",
+      "questions": [
+        "Resolve paid UNT minimum 70 vs 80 with admissions.",
+        "Confirm 2027 cycle rules, fees and original-document deadline."
+      ],
+      "sourceIds": [
+        "kz-aitu-admission-source",
+        "kz-aitu-fees-source",
+        "kz-aitu-aet-source",
+        "kz-aitu-support-source"
+      ]
+    },
+    {
+      "id": "kz-aitu-ee-unt",
+      "programmeId": "kz-aitu-ee",
+      "name": "Domestic UNT + AET admission",
+      "entryAfter": 11,
+      "pathway": "direct",
+      "cycle": "2026",
+      "applicant": "Kazakhstan school leavers",
+      "eligibility": "Secondary school completion, qualifying UNT and AET. Grant threshold is eligibility only.",
+      "recognition": "Domestic school-leaver route; final original documents required.",
+      "subjects": "Mathematics + Physics",
+      "tests": {
+        "UNT": {
+          "status": "required",
+          "detail": "2026 group grant-competition minimum 75. Paid minimum conflicting: 70 versus 80; confirm. Not an admitted-score prediction."
+        },
+        "AET": {
+          "status": "required",
+          "detail": "English and CS/logic modules; specified exemptions exist."
+        },
+        "IELTS": {
+          "status": "alternative",
+          "detail": "IELTS 5.5 can exempt AET English module; taking AET English is another route."
+        },
+        "TOEFL": {
+          "status": "alternative",
+          "detail": "TOEFL ITP 460 or iBT 46–59 listed for AET English-module exemption."
+        },
+        "ENGLISH": {
+          "status": "required",
+          "detail": "AET English assessment or approved evidence/exemption required."
+        },
+        "SAT": {
+          "status": "not_required",
+          "detail": "No SAT required in this documented UNT + AET route."
+        },
+        "ACT": {
+          "status": "not_required",
+          "detail": "No ACT required in this documented UNT + AET route."
+        }
+      },
+      "tuition": {
+        "amount": null,
+        "currency": "KZT",
+        "period": "unknown",
+        "note": "2026/27 price table lists KZT 2,500,000. Annual/programme billing basis not explicit; confirm before budgeting."
+      },
+      "mandatoryFees": "Not published; confirm before committing.",
+      "living": "Unknown; no verified living-cost estimate.",
+      "nextAction": "Choose UNT profile subjects, then check the AET preparation materials.",
+      "questions": [
+        "Resolve paid UNT minimum 70 vs 80 with admissions.",
+        "Confirm 2027 cycle rules, fees and original-document deadline."
+      ],
+      "sourceIds": [
+        "kz-aitu-admission-source",
+        "kz-aitu-fees-source",
+        "kz-aitu-aet-source",
+        "kz-aitu-support-source"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "id": "kz-aitu-college-state",
+      "routeIds": [
+        "kz-aitu-college-software-after-9",
+        "kz-aitu-college-database-after-9"
+      ],
+      "name": "Grade 9 college state-funded competition",
+      "coverage": "conditional",
+      "benefits": "Grant entry is published; exact funded places and support package need confirmation.",
+      "eligibility": "Grade 9 certificate-grade selection; award not guaranteed.",
+      "application": "Separate competition/application; obtain the current call and document checklist.",
+      "renewal": "Not verified; ask provider.",
+      "upfront": "Potential fees, travel and living expenses remain; amounts unverified.",
+      "cycle": "undated",
+      "sourceIds": [
+        "kz-aitu-college-source"
+      ]
+    },
+    {
+      "id": "kz-uk-state",
+      "routeIds": [
+        "kz-uk-software-after-9",
+        "kz-uk-software-after-11",
+        "kz-uk-renewables-after-9",
+        "kz-uk-renewables-after-11",
+        "kz-uk-mechatronics-after-9",
+        "kz-uk-mechatronics-after-11"
+      ],
+      "name": "College budget places",
+      "coverage": "conditional",
+      "benefits": "College advertises state grants and scholarships; programme allocation and amounts unverified.",
+      "eligibility": "Certificate-grade selection; confirm programme availability and residency conditions.",
+      "application": "Separate competition/application; obtain the current call and document checklist.",
+      "renewal": "Not verified; ask provider.",
+      "upfront": "Potential fees, travel and living expenses remain; amounts unverified.",
+      "cycle": "2026",
+      "sourceIds": [
+        "kz-uk-admission-source"
+      ]
+    },
+    {
+      "id": "kz-national-2026",
+      "routeIds": [
+        "kz-aitu-se-unt",
+        "kz-aitu-im-unt",
+        "kz-aitu-ee-unt"
+      ],
+      "name": "National educational grant competition · 2026 reference",
+      "coverage": "conditional",
+      "benefits": "Educational grant competition published. Benefit schedule and award-specific conditions must be checked.",
+      "eligibility": "Kazakhstan applicant route; valid UNT certificate and required documents. University minima can exceed national baseline.",
+      "application": "Separate competition/application; obtain the current call and document checklist.",
+      "renewal": "Not verified; ask provider.",
+      "upfront": "Potential fees, travel and living expenses remain; amounts unverified.",
+      "cycle": "2026",
+      "sourceIds": [
+        "kz-ministry-grant-2026",
+        "kz-aitu-admission-source"
+      ]
+    },
+    {
+      "id": "kz-ncoc-kpo-2026",
+      "routeIds": [
+        "kz-aitu-se-unt",
+        "kz-aitu-im-unt",
+        "kz-aitu-ee-unt"
+      ],
+      "name": "NCOC / KPO tuition funding · 2026/27 reference",
+      "coverage": "conditional",
+      "benefits": "Competition pays tuition for selected applicants; maintenance not confirmed.",
+      "eligibility": "Kazakhstan citizens meeting full competition conditions; valid 2026 UNT for university applicants.",
+      "application": "Separate competition/application; obtain the current call and document checklist.",
+      "renewal": "Not verified; ask provider.",
+      "upfront": "Potential fees, travel and living expenses remain; amounts unverified.",
+      "cycle": "2026/27",
+      "sourceIds": [
+        "kz-aitu-support-source"
+      ]
+    }
+  ],
+  "deadlines": [
+    {
+      "id": "kz-national-grant-close-2026",
+      "routeIds": [
+        "kz-aitu-se-unt",
+        "kz-aitu-im-unt",
+        "kz-aitu-ee-unt"
+      ],
+      "type": "funding",
+      "label": "2026 national grant application closes",
+      "date": "2026-07-20",
+      "time": null,
+      "timezone": null,
+      "cycle": "2026",
+      "applicant": "Kazakhstan school leavers",
+      "status": "historical",
+      "nextAction": "Watch for the next Ministry grant notice.",
+      "sourceIds": [
+        "kz-ministry-grant-2026"
+      ],
+      "awardId": "kz-national-2026"
+    },
+    {
+      "id": "kz-ncoc-kpo-close-2026",
+      "routeIds": [
+        "kz-aitu-se-unt",
+        "kz-aitu-im-unt",
+        "kz-aitu-ee-unt"
+      ],
+      "type": "funding",
+      "label": "NCOC/KPO 2026/27 competition closes",
+      "date": "2026-08-31",
+      "time": null,
+      "timezone": null,
+      "cycle": "2026/27",
+      "applicant": "Kazakhstan school leavers",
+      "status": "historical",
+      "nextAction": "Check the next KAZENERGY call and full eligibility.",
+      "sourceIds": [
+        "kz-aitu-support-source"
+      ],
+      "awardId": "kz-ncoc-kpo-2026"
+    },
+    {
+      "id": "kz-aitu-originals-2026",
+      "routeIds": [
+        "kz-aitu-se-unt",
+        "kz-aitu-im-unt",
+        "kz-aitu-ee-unt"
+      ],
+      "type": "document",
+      "label": "Original university documents due",
+      "date": "2026-08-24",
+      "time": null,
+      "timezone": null,
+      "cycle": "2026",
+      "applicant": "Kazakhstan school leavers",
+      "status": "historical",
+      "nextAction": "Prepare a document checklist for the next cycle.",
+      "sourceIds": [
+        "kz-aitu-admission-source"
+      ]
+    },
+    {
+      "id": "kz-aitu-2027-awaiting",
+      "routeIds": [
+        "kz-aitu-se-unt",
+        "kz-aitu-im-unt",
+        "kz-aitu-ee-unt"
+      ],
+      "type": "admission",
+      "label": "2027 admission dates awaiting confirmation",
+      "date": null,
+      "time": null,
+      "timezone": null,
+      "cycle": "2027",
+      "applicant": "Kazakhstan school leavers",
+      "status": "awaiting_publication",
+      "nextAction": "Check the university for the 2027 admission notice.",
+      "sourceIds": [
+        "kz-aitu-admission-source"
+      ]
+    },
+    {
+      "id": "kz-colleges-dates-awaiting",
+      "routeIds": [
+        "kz-aitu-college-software-after-9",
+        "kz-aitu-college-database-after-9",
+        "kz-aitu-college-software-after-11",
+        "kz-uk-software-after-9",
+        "kz-uk-software-after-11",
+        "kz-uk-renewables-after-9",
+        "kz-uk-renewables-after-11",
+        "kz-uk-mechatronics-after-9",
+        "kz-uk-mechatronics-after-11"
+      ],
+      "type": "admission",
+      "label": "College intake dates need cycle confirmation",
+      "date": null,
+      "time": null,
+      "timezone": null,
+      "cycle": "2027",
+      "applicant": "Kazakhstan school leavers",
+      "status": "awaiting_publication",
+      "nextAction": "Ask the chosen college for a dated intake notice.",
+      "sourceIds": [
+        "kz-aitu-college-source",
+        "kz-uk-admission-source"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "kz-aitu-college-source",
+      "url": "https://astanait.edu.kz/en/college",
+      "title": "AITU College: programmes and entry criteria",
+      "checked": "2026-11-14",
+      "cycle": "undated",
+      "applicant": "Kazakhstan school leavers",
+      "status": "verified",
+      "note": "Programme and entry facts checked; dates omit year. Grade 11 online page says both no competition and certificate-grade competition: ask admissions."
+    },
+    {
+      "id": "kz-uk-college-source",
+      "url": "https://ukptk.edu.kz/abiturientu/specialties",
+      "title": "UKVPK programme catalogue and study lengths",
+      "checked": "2026-11-14",
+      "cycle": "2026",
+      "applicant": "Kazakhstan school leavers",
+      "status": "verified",
+      "note": "Programme table labelled Admission 2026. Programme-level places and language cohorts need confirmation."
+    },
+    {
+      "id": "kz-uk-admission-source",
+      "url": "https://ukptk.edu.kz/abiturientu",
+      "title": "UKVPK admissions, practice and budget places",
+      "checked": "2026-11-14",
+      "cycle": "2026",
+      "applicant": "Kazakhstan school leavers",
+      "status": "verified",
+      "note": "College-level admission and budget places. Fee block explicitly 2025/26, not 2026/27. Month/day closing dates omit cycle."
+    },
+    {
+      "id": "kz-aitu-admission-source",
+      "url": "https://astanait.edu.kz/en/how-to-apply",
+      "title": "AITU admission after school: UNT subjects and thresholds",
+      "checked": "2026-11-14",
+      "cycle": "2026",
+      "applicant": "Kazakhstan school leavers",
+      "status": "partial",
+      "note": "2026 cycle explicit. Paid minimum 70 conflicts with 80 on educational-grants page; unresolved."
+    },
+    {
+      "id": "kz-aitu-fees-source",
+      "url": "https://astanait.edu.kz/en/bachelor",
+      "title": "AITU bachelor programmes and 2026/27 fee table",
+      "checked": "2026-11-14",
+      "cycle": "2026/27",
+      "applicant": "Kazakhstan school leavers",
+      "status": "verified",
+      "note": "Price table lists KZT 2,500,000; billing period requires confirmation."
+    },
+    {
+      "id": "kz-aitu-aet-source",
+      "url": "https://astanait.edu.kz/en/aitu-excellence-test",
+      "title": "AITU Excellence Test modules and exemptions",
+      "checked": "2026-11-14",
+      "cycle": "2026",
+      "applicant": "Kazakhstan school leavers",
+      "status": "verified",
+      "note": "English module or accepted certificate/foundation exemption; IELTS 5.5 shown on current page. Not a no-English-screening route."
+    },
+    {
+      "id": "kz-aitu-support-source",
+      "url": "https://astanait.edu.kz/educational-grants",
+      "title": "AITU: NCOC/KPO tuition funding call 2026/27",
+      "checked": "2026-11-14",
+      "cycle": "2026/27",
+      "applicant": "Kazakhstan school leavers",
+      "status": "partial",
+      "note": "Contains conflicting paid admission minimum (80 versus 70 in admission table). Funding deadline historical; competition has separate conditions."
+    },
+    {
+      "id": "kz-ministry-grant-2026",
+      "url": "https://www.gov.kz/org/sci/press/news/details/1256968?lang=ru",
+      "title": "Ministry: national educational grant competition opens 2026",
+      "checked": "2026-11-14",
+      "cycle": "2026",
+      "applicant": "Kazakhstan school leavers",
+      "status": "verified",
+      "note": "13–20 July 2026 competition; UNT certificate required. Universities may set higher thresholds. Not a 2027 call."
+    },
+    {
+      "id": "kz-aitu-se-source",
+      "url": "https://astanait.edu.kz/Software-Engineering-bachelor",
+      "title": "AITU Software Engineering 6B06102",
+      "checked": "2026-11-14",
+      "cycle": "current catalogue",
+      "applicant": "Kazakhstan school leavers",
+      "status": "verified",
+      "note": "Only claims stated in the linked page are verified."
+    },
+    {
+      "id": "kz-aitu-im-source",
+      "url": "https://astanait.edu.kz/en/itmanagement-bachelor",
+      "title": "AITU IT Management 6B04101",
+      "checked": "2026-11-14",
+      "cycle": "current catalogue",
+      "applicant": "Kazakhstan school leavers",
+      "status": "verified",
+      "note": "Only claims stated in the linked page are verified."
+    },
+    {
+      "id": "kz-aitu-ee-source",
+      "url": "https://astanait.edu.kz/en/electronic-engineering-bachelor",
+      "title": "AITU Electronic Engineering 6B07102",
+      "checked": "2026-11-14",
+      "cycle": "current catalogue",
+      "applicant": "Kazakhstan school leavers",
+      "status": "verified",
+      "note": "Only claims stated in the linked page are verified."
+    }
+  ]
+}
