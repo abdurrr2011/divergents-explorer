@@ -32,3 +32,8 @@ Key open questions: AITU paid UNT threshold conflict, college funded-place alloc
 Added Russian and Kazakh translations for all 769 distinct human-readable catalogue strings, plus the remaining interface copy. Grade guidance, subject and country values, programme descriptions, qualifications, admissions details, funding, deadlines, source notes, accessibility labels, empty states and copied feedback are covered. Official exam/award names, currency codes, qualification codes and source URLs retain their identifiers. English prose and canonical records remain unchanged.
 
 `npm test` now contains 25 checks, including DOM-rendered checks of all five grades, every main page, all 40 programme-route details in each language, populated shortlist/comparison, future-cycle messages, translated search, copied corrections and switching between all three languages. Catalogue translation coverage, important thresholds, number/billing-period formatting and preservation of IDs/URLs/user input are checked separately. These are DOM tests, not a claim of desktop/mobile browser verification; the browser-tool limitation above still applies.
+
+
+## Simplified shared browsing — 15 November 2026
+
+Removed current-grade selection and grade-specific content. All visitors get the same after-9/after-11/undecided entry controls; advanced filters and detail sections are collapsed. Updated translation journeys and added five legacy-grade migration checks. Total: 30 logic/DOM checks. Visual browser QA remains unavailable in this environment.

@@ -18,11 +18,11 @@ test('dynamic years, counts and tuition periods are translated with native numbe
 
 // DOM rendering checks, not browser automation. No preview server or browser is started.
 let run=0;
-async function mount(language){
+async function mount(language,legacyGrade){
  const {window}=parseHTML(await readFile('src/index.html','utf8'));
  Object.assign(globalThis,{window,document:window.document,scrollY:0});
  window.HTMLElement.prototype.focus=function(){};window.HTMLElement.prototype.scrollIntoView=function(){};window.HTMLElement.prototype.showModal=function(){this.open=true;};window.HTMLElement.prototype.close=function(){this.open=false;};window.scrollTo=()=>{};
- const stored=new Map([['divergents.preferences',JSON.stringify({lang:language,year:2027})]]);
+ const stored=new Map([['divergents.preferences',JSON.stringify({lang:language,year:2027,grade:legacyGrade})]]);
  window.localStorage={getItem:key=>stored.get(key)??null,setItem:(key,value)=>stored.set(key,value)};
  const clipboard=[];Object.defineProperty(globalThis,'navigator',{value:{clipboard:{writeText:async value=>clipboard.push(value)}},configurable:true});
  globalThis.fetch=async()=>({ok:true,json:async()=>structuredClone(catalogue)});
@@ -37,10 +37,10 @@ async function mount(language){
 const technicalWords=new Set(['d','DIVERGENTS','Divergents','EN','ARS','AUD','EUR','GBP','HKD','KRW','KZT','USD','ZAR','UNT','NUET','SAT','ACT','IELTS','TOEFL','AET','SMC','USIC','KAIST','HKUST','DSCT','FADU','UBA','UCT','CBC','DNI','SIELE','Digital','Academic','UKVI','GPA','ECTS','C','P','CSP','OSHC','SSAF','SADC','NCOC','KPO','KAZENERGY','NU','PDF','VTAC','IT','AITU','AS','T','AA','BA','BSocSc','BSc','IB','HL','NIS','NSC','I','TRF','iBT','ITP','BBB','ABB','CS','US','AI','F','AS','AA','EXPO','GETC','Cal','Java','Europe','Helsinki','Asia','Seoul','Almaty','Duolingo','A','B','UniMelb','NUFYP','CAS']);
 function visibleStrings(document){const strings=[];document.body.normalize();function visit(node){if(node.nodeType===3&&node.textContent.trim())strings.push(node.textContent.trim());else if(node.nodeType===1&&!node.hasAttribute('data-no-i18n')&&!['SCRIPT','STYLE','TEXTAREA'].includes(node.tagName)){for(const attr of ['aria-label','title','placeholder'])if(node.hasAttribute(attr))strings.push(node.getAttribute(attr));for(const child of node.childNodes)visit(child);}}visit(document.body);strings.push(document.title,document.querySelector('meta[name=description]').content);for(const el of document.querySelectorAll('textarea[placeholder]'))strings.push(el.getAttribute('placeholder'));return strings;}
 function assertLocalized(document,context){for(const string of visibleStrings(document)){const stripped=string.replace(/SIELE Global|Global Learners|AITU Excellence Test|IELTS for UKVI|A-level|Cal-GETC/g,'').replace(/\b\d[A-Z]\d+\b/g,'');const unmatched=[...stripped.matchAll(/[A-Za-z]+/g)].map(x=>x[0]).filter(word=>!technicalWords.has(word));assert.deepEqual(unmatched,[],`${context}: untranslated text: ${string}`);}}
-for(const lang of ['ru','kk'])test(`${lang}: all grades, pages, 40 details, saved comparison, empty states, deadlines, attributes and copied feedback render translated`,async()=>{
+for(const lang of ['ru','kk'])test(`${lang}: all entry pathways, pages, 40 details, saved comparison, empty states, deadlines, attributes and copied feedback render translated`,async()=>{
  const app=await mount(lang),{click,query,change,input}=app;
  assertLocalized(app.window.document,`${lang} initial`);
- for(const grade of[7,8,9,10,11]){click(`[data-grade="${grade}"]`);assertLocalized(app.window.document,`${lang} grade ${grade}`);}
+ for(const stage of ['9','11','']){click(`[data-action="entry"][data-stage="${stage}"]`);assertLocalized(app.window.document,`${lang} entry ${stage}`);}
  for(const page of['shortlist','compare','calendar','coverage','explore']){click(`[data-page="${page}"]`);assertLocalized(app.window.document,`${lang} ${page}`);}
  click('[data-action="reset"]');
  for(const r of catalogue.routes){click(`[data-action="detail"][data-id="${r.id}"]`);assert.equal(query('#detail').open,true);assertLocalized(app.window.document,`${lang} detail ${r.id}`);click('[data-action="close"]');}
@@ -53,5 +53,7 @@ for(const lang of ['ru','kk'])test(`${lang}: all grades, pages, 40 details, save
  input('#search',lang==='ru'?'компьютерные науки':'компьютерлік ғылымдар');assert.ok(query('.route-card'));assertLocalized(app.window.document,`${lang} native search`);
  click('[data-action="reset"]');click('[data-action="detail"][data-id="nu-cs-nuet"]');query('#correction').value='Мой вопрос / Менің сұрағым';click('[data-action="correction"]');await Promise.resolve();assert.ok(app.clipboard[0].includes('Мой вопрос / Менің сұрағым'));assert.ok(!app.clipboard[0].includes('Divergents source review'));assertLocalized(app.window.document,`${lang} copied feedback`);click('[data-action="close"]');
  change('#lang',lang==='ru'?'kk':'ru');assertLocalized(app.window.document,`${lang} switch to other locale`);assert.equal(JSON.parse(app.stored.get('divergents.shortlist')).length,3);
- change('#lang','en');assert.equal(query('h1').textContent,'Make your next move.');assert.equal(query('.skip').textContent,'Skip to content');assert.ok(query('[data-action="save"][data-id="nu-cs-nuet"]'));
+ change('#lang','en');assert.equal(query('h1').textContent,'Where would you like to study?');assert.equal(query('.skip').textContent,'Skip to content');assert.ok(query('[data-action="save"][data-id="nu-cs-nuet"]'));
 });
+
+for(const legacyGrade of [7,8,9,10,11])test(`shared entry view ignores legacy current grade ${legacyGrade} and exposes both pathways`,async()=>{const app=await mount('ru',legacyGrade);assert.equal(app.query('[data-grade]'),null);assert.equal(app.query('#main').querySelectorAll('.route-card').length,40);assert.equal(app.query('#advanced').hasAttribute('open'),false);assert.equal(app.query('#interests').hasAttribute('open'),false);assert.equal(app.query('header nav').children.length,3);for(const stage of ['9','11']){app.click(`[data-action="entry"][data-stage="${stage}"]`);const cards=[...app.query('#main').querySelectorAll('.route-card')];assert.ok(cards.length);assert.ok(cards.every(card=>card.querySelector('.tag').textContent.includes(stage)));}app.click('[data-action="entry"][data-stage=""]');assert.equal(app.query('#main').querySelectorAll('.route-card').length,40);assert.equal(app.query('#interests').open,true);app.change('#subject','Engineering');assert.ok(app.query('.route-card'));app.click('[data-action="reset"]');assert.equal(app.query('#main').querySelectorAll('.route-card').length,40);});

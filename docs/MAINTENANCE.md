@@ -60,3 +60,8 @@ This release has a custom Sites policy containing only the owner. Sites owns aut
 When adding or changing catalogue prose, add/update both translations in the same change. `tests/localization.test.mjs` fails if a human-readable catalogue value lacks either language. It renders every grade, all pages, every route detail, filled comparison, deadlines and correction feedback in a DOM and checks for untranslated English outside an explicit list of official names/codes. These checks use development-only `linkedom`, installed by `npm ci`; they do not launch a browser. Add every new interaction or message to this audit.
 
 The renderer translates visible text and accessible labels, preserving canonical filter values, source URLs, stable record IDs and user-written notes. Its original-text tracking prevents repeated passes from duplicating translated labels and supports switching back to English. Search indexes all three languages. Do not translate keys/IDs or filter values at rest.
+
+
+## Simplified shared browsing — 15 November 2026
+
+The latest user direction replaces current-grade selection and grade-specific recommendations with three entry choices: after Grade 9, after Grade 11, still deciding. All students use the same catalogue. Test both entry paths from each legacy grade preference; preferences must not restrict the initial catalogue. Check that the two primary filters are visible on mobile, advanced filters start closed, and expanded settings remain open during edits. Details use native disclosure controls. Search, bookmarks, comparison, funding, sources and deadlines remain available. This update supersedes earlier checklist items requiring grade buttons.
