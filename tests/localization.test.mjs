@@ -1,0 +1,57 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
+import {parseHTML} from 'linkedom';
+import {loadCatalogue} from '../scripts/catalogue.mjs';
+import {cataloguePhrases} from '../src/catalogue-i18n.mjs';
+import {translateText,localizeDOM,hasTranslation,searchAliases} from '../src/localize.mjs';
+import {enrich,filterRoutes,money} from '../src/logic.mjs';
+const catalogue=await loadCatalogue();
+const skip=new Set(['id','institutionId','programmeId','sourceIds','routeIds','awardId','prerequisiteRouteIds','url','checked','descriptionLanguage','status','entryAfter','amount','currency','period']);
+function humanStrings(value,key='',result=new Set()){if(skip.has(key))return result;if(Array.isArray(value)){for(const item of value)humanStrings(item,key,result);}else if(value&&typeof value==='object'){for(const [k,v]of Object.entries(value))humanStrings(v,k,result);}else if(typeof value==='string'&&/\p{L}/u.test(value))result.add(value);return result;}
+
+test('every human-readable catalogue value has Russian and Kazakh editorial translations',()=>{for(const text of humanStrings(catalogue))for(const lang of ['ru','kk'])assert.ok(hasTranslation(text,lang),`${lang}: ${text}`);assert.ok(cataloguePhrases.length>=humanStrings(catalogue).size);});
+test('critical admissions thresholds and uncertainty remain visible in both translations',()=>{const nu=enrich(catalogue).find(r=>r.id==='nu-cs-nuet');for(const lang of ['ru','kk']){const threshold=translateText(nu.tests.NUET.detail,lang);assert.match(threshold,/120/);assert.match(threshold,/50/);assert.match(threshold,/\p{Script=Cyrillic}/u);assert.notEqual(translateText(nu.eligibility,lang),nu.eligibility);assert.notEqual(translateText(nu.tests.ENGLISH.detail,lang),nu.tests.ENGLISH.detail);assert.ok(translateText(nu.tuition.note,lang).includes('2026/27'));assert.ok(translateText(nu.tuition.note,lang).includes('2027/28'));}});
+test('localization preserves canonical option values, route IDs, URLs and user input; repeated passes and switching are reversible',()=>{const {document}=parseHTML('<body><select><option value="Technology">Technology</option></select><button data-id="nu-cs-nuet" aria-label="Save Computer Science">Computer Science</button><a href="https://example.edu/English">Official sources</a><textarea placeholder="Correction or question">English user note</textarea></body>');const body=document.querySelector('body');const original=body.innerHTML;localizeDOM(body,'ru');const russian=body.innerHTML;assert.equal(document.querySelector('option').value,'Technology');assert.equal(document.querySelector('button').dataset.id,'nu-cs-nuet');assert.equal(document.querySelector('a').href,'https://example.edu/English');assert.equal(document.querySelector('textarea').value,'English user note');assert.equal(document.querySelector('textarea').getAttribute('placeholder'),'Исправление или вопрос');localizeDOM(body,'ru');assert.equal(body.innerHTML,russian);localizeDOM(body,'kk');assert.equal(document.querySelector('option').textContent,'Технологиялар');localizeDOM(body,'en');assert.equal(body.innerHTML,original);});
+test('translated search finds programmes and destinations while filters keep canonical values',()=>{const rs=enrich(catalogue);for(const r of rs)r.searchAliases=searchAliases(r);assert.ok(filterRoutes(rs,{q:'компьютерные науки',region:'Kazakhstan'}).some(r=>r.id==='nu-cs-nuet'));assert.ok(filterRoutes(rs,{q:'компьютерлік ғылымдар',region:'Kazakhstan'}).some(r=>r.id==='nu-cs-nuet'));assert.ok(filterRoutes(rs,{q:'Финляндия'}).every(r=>r.i.country==='Finland'));assert.ok(filterRoutes(rs,{q:'Оңтүстік Корея'}).some(r=>r.i.country==='South Korea'));assert.ok(filterRoutes(rs,{fields:['Technology']}).length>0);});
+test('dynamic years, counts and tuition periods are translated with native number formatting',()=>{assert.match(translateText('2029 cycle dates await confirmation.','ru'),/2029.*подтверждения/);assert.match(translateText('Routes awaiting 2029 deadline confirmation (40)','kk'),/2029.*40/);assert.match(translateText('40 route(s) have no confirmed deadlines in the selected 2029 cycle.','ru'),/40.*2029/);assert.match(money({amount:12000,currency:'EUR',period:'year'},'ru'),/EUR \/ год$/);assert.match(money({amount:486,currency:'USD',period:'credit'},'kk'),/USD \/ кредит$/);});
+
+// DOM rendering checks, not browser automation. No preview server or browser is started.
+let run=0;
+async function mount(language){
+ const {window}=parseHTML(await readFile('src/index.html','utf8'));
+ Object.assign(globalThis,{window,document:window.document,scrollY:0});
+ window.HTMLElement.prototype.focus=function(){};window.HTMLElement.prototype.scrollIntoView=function(){};window.HTMLElement.prototype.showModal=function(){this.open=true;};window.HTMLElement.prototype.close=function(){this.open=false;};window.scrollTo=()=>{};
+ const stored=new Map([['divergents.preferences',JSON.stringify({lang:language,year:2027})]]);
+ window.localStorage={getItem:key=>stored.get(key)??null,setItem:(key,value)=>stored.set(key,value)};
+ const clipboard=[];Object.defineProperty(globalThis,'navigator',{value:{clipboard:{writeText:async value=>clipboard.push(value)}},configurable:true});
+ globalThis.fetch=async()=>({ok:true,json:async()=>structuredClone(catalogue)});
+ globalThis.setTimeout=()=>0;
+ await import(`../src/app.mjs?localization-test=${++run}`);
+ const query=selector=>window.document.querySelector(selector);
+ const click=selector=>{const el=query(selector);assert.ok(el,`Missing clickable ${selector}`);el.dispatchEvent(new window.Event('click',{bubbles:true}));};
+ const change=(selector,value)=>{const el=query(selector);assert.ok(el,`Missing input ${selector}`);Object.defineProperty(el,'value',{value,writable:true,configurable:true});el.dispatchEvent(new window.Event('change',{bubbles:true}));};
+ const input=(selector,value)=>{const el=query(selector);el.value=value;el.dispatchEvent(new window.Event('input',{bubbles:true}));};
+ return{window,query,click,change,input,clipboard,stored};
+}
+const technicalWords=new Set(['d','DIVERGENTS','Divergents','EN','ARS','AUD','EUR','GBP','HKD','KRW','KZT','USD','ZAR','UNT','NUET','SAT','ACT','IELTS','TOEFL','AET','SMC','USIC','KAIST','HKUST','DSCT','FADU','UBA','UCT','CBC','DNI','SIELE','Digital','Academic','UKVI','GPA','ECTS','C','P','CSP','OSHC','SSAF','SADC','NCOC','KPO','KAZENERGY','NU','PDF','VTAC','IT','AITU','AS','T','AA','BA','BSocSc','BSc','IB','HL','NIS','NSC','I','TRF','iBT','ITP','BBB','ABB','CS','US','AI','F','AS','AA','EXPO','GETC','Cal','Java','Europe','Helsinki','Asia','Seoul','Almaty','Duolingo','A','B','UniMelb','NUFYP','CAS']);
+function visibleStrings(document){const strings=[];document.body.normalize();function visit(node){if(node.nodeType===3&&node.textContent.trim())strings.push(node.textContent.trim());else if(node.nodeType===1&&!node.hasAttribute('data-no-i18n')&&!['SCRIPT','STYLE','TEXTAREA'].includes(node.tagName)){for(const attr of ['aria-label','title','placeholder'])if(node.hasAttribute(attr))strings.push(node.getAttribute(attr));for(const child of node.childNodes)visit(child);}}visit(document.body);strings.push(document.title,document.querySelector('meta[name=description]').content);for(const el of document.querySelectorAll('textarea[placeholder]'))strings.push(el.getAttribute('placeholder'));return strings;}
+function assertLocalized(document,context){for(const string of visibleStrings(document)){const stripped=string.replace(/SIELE Global|Global Learners|AITU Excellence Test|IELTS for UKVI|A-level|Cal-GETC/g,'').replace(/\b\d[A-Z]\d+\b/g,'');const unmatched=[...stripped.matchAll(/[A-Za-z]+/g)].map(x=>x[0]).filter(word=>!technicalWords.has(word));assert.deepEqual(unmatched,[],`${context}: untranslated text: ${string}`);}}
+for(const lang of ['ru','kk'])test(`${lang}: all grades, pages, 40 details, saved comparison, empty states, deadlines, attributes and copied feedback render translated`,async()=>{
+ const app=await mount(lang),{click,query,change,input}=app;
+ assertLocalized(app.window.document,`${lang} initial`);
+ for(const grade of[7,8,9,10,11]){click(`[data-grade="${grade}"]`);assertLocalized(app.window.document,`${lang} grade ${grade}`);}
+ for(const page of['shortlist','compare','calendar','coverage','explore']){click(`[data-page="${page}"]`);assertLocalized(app.window.document,`${lang} ${page}`);}
+ click('[data-action="reset"]');
+ for(const r of catalogue.routes){click(`[data-action="detail"][data-id="${r.id}"]`);assert.equal(query('#detail').open,true);assertLocalized(app.window.document,`${lang} detail ${r.id}`);click('[data-action="close"]');}
+ const ids=['nu-cs-nuet','route-berea-cs','route-aalto-data-science'];
+ for(const id of ids){click(`[data-action="save"][data-id="${id}"]`);click(`[data-action="compare"][data-id="${id}"]`);}
+ click('[data-page="shortlist"]');assertLocalized(app.window.document,`${lang} saved`);assert.equal(query('#main').querySelectorAll('.route-card').length,3);
+ click('[data-page="compare"]');assertLocalized(app.window.document,`${lang} filled comparison`);assert.equal(query('table thead tr').children.length,4);
+ click('[data-page="calendar"]');change('#year','2029');assertLocalized(app.window.document,`${lang} future cycle`);assert.match(query('#main').textContent,/2029/);
+ click('[data-page="explore"]');click('[data-action="reset"]');input('#search','UNMATCHED-SEARCH-123');assertLocalized(app.window.document,`${lang} empty search`);assert.ok(query('.empty'));
+ input('#search',lang==='ru'?'компьютерные науки':'компьютерлік ғылымдар');assert.ok(query('.route-card'));assertLocalized(app.window.document,`${lang} native search`);
+ click('[data-action="reset"]');click('[data-action="detail"][data-id="nu-cs-nuet"]');query('#correction').value='Мой вопрос / Менің сұрағым';click('[data-action="correction"]');await Promise.resolve();assert.ok(app.clipboard[0].includes('Мой вопрос / Менің сұрағым'));assert.ok(!app.clipboard[0].includes('Divergents source review'));assertLocalized(app.window.document,`${lang} copied feedback`);click('[data-action="close"]');
+ change('#lang',lang==='ru'?'kk':'ru');assertLocalized(app.window.document,`${lang} switch to other locale`);assert.equal(JSON.parse(app.stored.get('divergents.shortlist')).length,3);
+ change('#lang','en');assert.equal(query('h1').textContent,'Make your next move.');assert.equal(query('.skip').textContent,'Skip to content');assert.ok(query('[data-action="save"][data-id="nu-cs-nuet"]'));
+});

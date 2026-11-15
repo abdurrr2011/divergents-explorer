@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-15",
+  "scope": "Russian and Kazakh localisation",
+  "cataloguePhrases": 769,
+  "tests": 25,
+  "automatedResult": "passed",
+  "browserVerification": "Unavailable: no cua_repl.js tool exposed; DOM checks only",
+  "canonicalCatalogueChanged": false,
+  "routeCount": 40,
+  "access": "Owner-private; preserved"
+}

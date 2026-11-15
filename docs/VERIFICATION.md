@@ -25,3 +25,10 @@ The new Site was created independently from the personal explorer. The initial n
 40 routes / 34 programmes / 13 institutions / 74 official-source records / 9 awards / 31 deadline records. Region counts: Kazakhstan 16; North America 6; Europe 6; Asia 7; Latin America 1; Africa 2; Oceania 2. Breadth is deliberately sparse outside the main regions; foreign diploma recognition is not universally settled.
 
 Key open questions: AITU paid UNT threshold conflict, college funded-place allocations, current tuition periods, programme-specific foreign diploma recognition, KAIST English validity wording, HKUST scholarship nationality eligibility, Melbourne/UCT fees, UBA equivalence/fees/duration and NU complete grant package/renewal. See regional notes and validation report. A school-appointed teacher or counsellor must review source claims before using a route to advise an individual application.
+
+
+## Complete localisation update — 15 November 2026
+
+Added Russian and Kazakh translations for all 769 distinct human-readable catalogue strings, plus the remaining interface copy. Grade guidance, subject and country values, programme descriptions, qualifications, admissions details, funding, deadlines, source notes, accessibility labels, empty states and copied feedback are covered. Official exam/award names, currency codes, qualification codes and source URLs retain their identifiers. English prose and canonical records remain unchanged.
+
+`npm test` now contains 25 checks, including DOM-rendered checks of all five grades, every main page, all 40 programme-route details in each language, populated shortlist/comparison, future-cycle messages, translated search, copied corrections and switching between all three languages. Catalogue translation coverage, important thresholds, number/billing-period formatting and preservation of IDs/URLs/user input are checked separately. These are DOM tests, not a claim of desktop/mobile browser verification; the browser-tool limitation above still applies.

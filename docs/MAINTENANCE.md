@@ -51,3 +51,12 @@ At desktop (1440×1000) and phone (390×844):
 ## Approved school access later
 
 This release has a custom Sites policy containing only the owner. Sites owns authentication; the app has no separate student login or credential store. After explicit approval of the audience and access method, the owner can add named viewers with the Sites access controls. The current account supports custom and public audiences and external visitor invitations. An invitation may send email; obtain rollout authorisation first. Each visitor signs in with the permitted ChatGPT account. Remove leavers from the allowlist; keep editor access restricted. Workspace-wide groups require platform support and an approved group selection; do not assume they exist here. Never publish publicly just to avoid a sign-in problem.
+
+
+## Complete language coverage
+
+`src/i18n.mjs` contains core labels, `src/ui-i18n.mjs` contains all other interface phrases and `src/catalogue-i18n.mjs` contains catalogue translations. Phrase rows are `[English, Russian, Kazakh]`. Keep the English source string exact and translate the full meaning, including uncertainty, cycle, applicant category and fee period. Preserve numerical thresholds, original URLs and official exam/degree/currency identifiers. Translate names and explanatory text; official brand/test names may remain recognisable. A translation is not a newly verified admissions claim.
+
+When adding or changing catalogue prose, add/update both translations in the same change. `tests/localization.test.mjs` fails if a human-readable catalogue value lacks either language. It renders every grade, all pages, every route detail, filled comparison, deadlines and correction feedback in a DOM and checks for untranslated English outside an explicit list of official names/codes. These checks use development-only `linkedom`, installed by `npm ci`; they do not launch a browser. Add every new interaction or message to this audit.
+
+The renderer translates visible text and accessible labels, preserving canonical filter values, source URLs, stable record IDs and user-written notes. Its original-text tracking prevents repeated passes from duplicating translated labels and supports switching back to English. Search indexes all three languages. Do not translate keys/IDs or filter values at rest.

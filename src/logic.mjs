@@ -5,12 +5,12 @@ export const testLabels={required:'Required',alternative:'One accepted route',op
 export function testState(r,key){return r.tests?.[key]?.status||'unknown';}
 export function noEnglish(r){return testState(r,'ENGLISH')==='not_required';}
 export function noSAT(r){return ['not_required','optional'].includes(testState(r,'SAT'));}
-export function money(t){if(t?.amount==null)return `Tuition awaiting verification${t?.currency?' · '+t.currency:''}`;return `${new Intl.NumberFormat('en',{maximumFractionDigits:2}).format(t.amount)} ${t.currency} / ${t.period==='year'?'year':t.period}`;}
+export function money(t,locale='en'){if(t?.amount==null)return `Tuition awaiting verification${t?.currency?' · '+t.currency:''}`;return `${new Intl.NumberFormat(locale,{maximumFractionDigits:2}).format(t.amount)} ${t.currency} / ${({en:{year:'year',programme:'programme',credit:'credit',unknown:'unknown'},ru:{year:'год',programme:'программу',credit:'кредит',unknown:'период неизвестен'},kk:{year:'жыл',programme:'бағдарлама',credit:'кредит',unknown:'кезеңі белгісіз'}}[locale]||{})[t.period]||t.period}`;}
 export function enrich(d){return d.routes.map(r=>({...r,p:d.programmes.find(p=>p.id===r.programmeId),i:d.institutions.find(i=>i.id===d.programmes.find(p=>p.id===r.programmeId)?.institutionId),awards:d.awards.filter(a=>a.routeIds.includes(r.id)),deadlines:d.deadlines.filter(a=>a.routeIds.includes(r.id))}));}
 export function filterRoutes(routes,f={}){
  const query=(f.q||'').toLocaleLowerCase().normalize('NFKC').replace(/ұбт|ент|unt/g,'unt');
  return routes.filter(r=>{
- const search=[r.name,r.p.name,r.p.field,r.i.name,r.i.city,r.i.country,...(r.i.aliases||[]),...Object.keys(r.tests||{}).filter(k=>testState(r,k)!=='unknown')].join(' ').toLocaleLowerCase().normalize('NFKC').replace(/ұбт|ент|unt/g,'unt');
+ const search=[r.name,r.p.name,r.p.field,r.i.name,r.i.city,r.i.country,...(r.i.aliases||[]),...(r.searchAliases||[]),...Object.keys(r.tests||{}).filter(k=>testState(r,k)!=='unknown')].join(' ').toLocaleLowerCase().normalize('NFKC').replace(/ұбт|ент|unt/g,'unt');
  if(query&&!query.split(/\s+/).every(q=>search.includes(q)))return false;
  if(f.stage&&r.entryAfter!==+f.stage)return false;
  if(f.region&&r.i.region!==f.region)return false;
