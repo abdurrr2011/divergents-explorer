@@ -65,3 +65,12 @@ The renderer translates visible text and accessible labels, preserving canonical
 ## Simplified shared browsing — 15 November 2026
 
 The latest user direction replaces current-grade selection and grade-specific recommendations with three entry choices: after Grade 9, after Grade 11, still deciding. All students use the same catalogue. Test both entry paths from each legacy grade preference; preferences must not restrict the initial catalogue. Check that the two primary filters are visible on mobile, advanced filters start closed, and expanded settings remain open during edits. Details use native disclosure controls. Search, bookmarks, comparison, funding, sources and deadlines remain available. This update supersedes earlier checklist items requiring grade buttons.
+
+
+## Minimal catalogue and localised currencies — 15 November 2026
+
+The latest user direction removes the interests and advanced-filter panels from the main view. Only search, country, subject and the after-9/after-11/all-options choices remain. Do not restore the large filter panel or repeated guidance without a specific request. Five collapsible detail groups preserve the substantive admissions, costs, funding, deadlines and evidence. Main card prices are explicitly reference tuition; the applicable fee cycle remains in detail.
+
+`src/currency.mjs` owns display names and amount formatting for all nine catalogue currencies. The renderer applies it after translating catalogue prose, so ISO codes do not leak from hand-translated source notes. `data/` retains the exact native amount and ISO currency; never change an amount merely because the interface language changes. The displayed currency is not converted to another currency. Currency tests cover suffix/prefix/attached codes and every catalogue phrase. When introducing a new currency, extend the supported code list and verify native labels in all three languages. URLs, canonical IDs and student-written notes remain untouched.
+
+The earlier checklist for advanced filters applies to the pure logic library, not the current main-page controls. Run `npm run check` for the current 37-check suite. Browser visual QA remains unavailable in this environment; DOM tests are labelled accordingly.

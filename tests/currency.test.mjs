@@ -1,0 +1,10 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import {currencyCodes,currencyAmount,localizeCurrencies} from '../src/currency.mjs';
+import {translateText} from '../src/localize.mjs';
+import {cataloguePhrases} from '../src/catalogue-i18n.mjs';
+import {money} from '../src/logic.mjs';
+const rawCode=/(?<![\p{L}_])(?:USD|EUR|KZT|GBP|HKD|KRW|AUD|ZAR|ARS)(?![\p{L}_])/u;
+test('USD prices use Russian and Kazakh currency names with the same source amount',()=>{const tuition={amount:15000,currency:'USD',period:'year'};const before=JSON.stringify(tuition);assert.equal(money(tuition,'ru'),'15\u00a0000 долларов США / год');assert.equal(money(tuition,'kk'),'15\u00a0000 АҚШ доллары / жыл');assert.equal(JSON.stringify(tuition),before);assert.match(money(tuition,'en'),/15,000 US dollars/);});
+test('all catalogue currencies are readable in every interface language, with no implicit conversion',()=>{for(const locale of ['en','ru','kk'])for(const currency of currencyCodes){const result=currencyAmount(15000,currency,locale);assert.doesNotMatch(result,rawCode);assert.equal(result.replace(/\D/g,''),'15000');}assert.match(currencyAmount(0,'KZT','kk'),/0 теңге/);assert.match(currencyAmount(1234.5,'USD','ru'),/1\u00a0234,5/);});
+test('prefix, suffix and attached currency codes in explanatory text are localised',()=>{for(const locale of ['en','ru','kk'])for(const text of ['USD 2,200','486 USD','HKD65000/year','KRW1328000/year','2,500,000 KZT','USD','EUR'])assert.doesNotMatch(localizeCurrencies(text,locale),rawCode);assert.match(localizeCurrencies('USD 2,200','ru'),/2\u00a0200 долларов США/);assert.equal(localizeCurrencies('record_USD_plan','ru'),'record_USD_plan');});
+test('no source-derived prose falls back to ISO currency codes in Russian or Kazakh',()=>{for(const [source]of cataloguePhrases)for(const locale of ['ru','kk'])assert.doesNotMatch(translateText(source,locale),rawCode,`${locale}: ${source}`);});

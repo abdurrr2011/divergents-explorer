@@ -1,3 +1,4 @@
+import {currencyAmount} from './currency.mjs';
 export const regions=['Kazakhstan','North America','Europe','Asia','Latin America','Africa','Oceania'];
 export const fields=['Technology','Engineering','Business & economics','Health & life sciences','Arts & design','Social sciences','General preparation'];
 export const coverageLabels={full_scholarship:'Full scholarship · tuition + living support',tuition_limited_support:'Full tuition + limited support',tuition_only:'Full tuition only',partial:'Partial award',conditional:'Conditional aid'};
@@ -5,7 +6,11 @@ export const testLabels={required:'Required',alternative:'One accepted route',op
 export function testState(r,key){return r.tests?.[key]?.status||'unknown';}
 export function noEnglish(r){return testState(r,'ENGLISH')==='not_required';}
 export function noSAT(r){return ['not_required','optional'].includes(testState(r,'SAT'));}
-export function money(t,locale='en'){if(t?.amount==null)return `Tuition awaiting verification${t?.currency?' · '+t.currency:''}`;return `${new Intl.NumberFormat(locale,{maximumFractionDigits:2}).format(t.amount)} ${t.currency} / ${({en:{year:'year',programme:'programme',credit:'credit',unknown:'unknown'},ru:{year:'год',programme:'программу',credit:'кредит',unknown:'период неизвестен'},kk:{year:'жыл',programme:'бағдарлама',credit:'кредит',unknown:'кезеңі белгісіз'}}[locale]||{})[t.period]||t.period}`;}
+export function money(t,locale='en'){
+ const labels={en:{unknown:'Price to confirm',year:'year',programme:'programme',credit:'credit',unknownPeriod:'period to confirm'},ru:{unknown:'Стоимость уточняется',year:'год',programme:'программу',credit:'кредит',unknownPeriod:'период уточняется'},kk:{unknown:'Бағасы нақтыланады',year:'жыл',programme:'бағдарлама',credit:'кредит',unknownPeriod:'кезеңі нақтыланады'}}[locale];
+ if(t?.amount==null)return labels.unknown;
+ return `${currencyAmount(t.amount,t.currency,locale)} / ${labels[t.period]||labels.unknownPeriod}`;
+}
 export function enrich(d){return d.routes.map(r=>({...r,p:d.programmes.find(p=>p.id===r.programmeId),i:d.institutions.find(i=>i.id===d.programmes.find(p=>p.id===r.programmeId)?.institutionId),awards:d.awards.filter(a=>a.routeIds.includes(r.id)),deadlines:d.deadlines.filter(a=>a.routeIds.includes(r.id))}));}
 export function filterRoutes(routes,f={}){
  const query=(f.q||'').toLocaleLowerCase().normalize('NFKC').replace(/ұбт|ент|unt/g,'unt');

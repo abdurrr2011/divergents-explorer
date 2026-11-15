@@ -1,3 +1,4 @@
+import {localizeCurrencies} from './currency.mjs';
 import {cataloguePhrases} from './catalogue-i18n.mjs';
 import {uiPhrases} from './ui-i18n.mjs';
 import {translations} from './i18n.mjs';
@@ -7,12 +8,12 @@ const core=Object.entries(translations.en).map(([key,en])=>[en,translations.ru[k
 for(const [en,ru,kk]of [...cataloguePhrases,...core,...uiPhrases]){maps.ru.set(en,ru);maps.kk.set(en,kk);}
 const patterns=Object.fromEntries(Object.entries(maps).map(([lang,map])=>[lang,new RegExp(`(?<![\\p{L}\\p{N}_])(?:${[...map.keys()].sort((a,b)=>b.length-a.length).map(escapeRE).join('|')})(?![\\p{L}\\p{N}_])`,'gu')]));
 export function translateText(value,lang='en'){
- const text=String(value??'');if(lang==='en'||!maps[lang])return text;
+ const text=String(value??'');if(lang==='en'||!maps[lang])return localizeCurrencies(text,lang);
  const trimmed=text.trim();let match;
  if((match=trimmed.match(/^(\d+) route\(s\) have no confirmed deadlines in the selected (\d{4}) cycle\.$/)))return lang==='ru'?`${match[1]} маршрут(а) без подтверждённых сроков для набора ${match[2]}.`:`${match[2]} қабылдау кезеңінде ${match[1]} жолдың расталған мерзімі жоқ.`;
  if((match=trimmed.match(/^Routes awaiting (\d{4}) deadline confirmation \((\d+)\)$/)))return lang==='ru'?`Пути, ожидающие подтверждения сроков ${match[1]} (${match[2]})`:`${match[1]} мерзімдерін растауды күтетін жолдар (${match[2]})`;
  if((match=trimmed.match(/^(\d{4}) cycle dates await confirmation\.$/)))return lang==='ru'?`Даты набора ${match[1]} ожидают подтверждения.`:`${match[1]} қабылдау күндері растауды күтеді.`;
- return text.replace(patterns[lang],key=>maps[lang].get(key));
+ return localizeCurrencies(text.replace(patterns[lang],key=>maps[lang].get(key)),lang);
 }
 // Store original strings per node/attribute so repeated rendering and language changes
 // cannot translate a previously translated label twice. Values and IDs stay canonical.

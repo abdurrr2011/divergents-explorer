@@ -1,11 +1,17 @@
 {
   "date": "2026-11-15",
-  "scope": "Russian and Kazakh localisation",
+  "scope": "Complete currency localisation and minimal catalogue",
   "cataloguePhrases": 769,
-  "tests": 25,
+  "tests": 37,
   "automatedResult": "passed",
   "browserVerification": "Unavailable: no cua_repl.js tool exposed; DOM checks only",
   "canonicalCatalogueChanged": false,
   "routeCount": 40,
-  "access": "Owner-private; preserved"
+  "access": "Owner-private; preserved",
+  "visibleCurrencyCodes": false,
+  "mainFilters": [
+    "country",
+    "subject"
+  ],
+  "detailGroups": 5
 }

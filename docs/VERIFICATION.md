@@ -37,3 +37,8 @@ Added Russian and Kazakh translations for all 769 distinct human-readable catalo
 ## Simplified shared browsing — 15 November 2026
 
 Removed current-grade selection and grade-specific content. All visitors get the same after-9/after-11/undecided entry controls; advanced filters and detail sections are collapsed. Updated translation journeys and added five legacy-grade migration checks. Total: 30 logic/DOM checks. Visual browser QA remains unavailable in this environment.
+
+
+## Minimal interface and currency names — 15 November 2026
+
+Currency prices and source-derived prose now use names in English, Russian or Kazakh instead of visible ISO codes. Numeric source records and currency keys remain unchanged. Removed the interest panel and advanced controls from the main view, shortened cards, and merged detailed information into five sections. Added dedicated currency regressions and minimal-view DOM assertions; the full suite has 37 checks. No browser-visual verification is claimed.

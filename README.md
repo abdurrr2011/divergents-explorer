@@ -8,7 +8,7 @@ Node 22+ and Python 3. No runtime dependencies; install the development-only DOM
 
 ```sh
 npm ci            # development-only test dependencies
-npm run check     # data validation, 30 scenario/localization tests, static build
+npm run check     # data validation, 37 scenario/localization/currency tests, static build
 npm run links     # official-source link report (curl, network required)
 npm start         # http://localhost:4173 after building
 ```
@@ -21,7 +21,11 @@ See `docs/SCHEMA.md`, `docs/MAINTENANCE.md`, `docs/PLAN.md`, regional research n
 
 40 applicant routes across 34 programmes, 13 institutions and 74 official-source records (checked 14 November 2026): Kazakhstan 16, North America 6, Europe 6, Asia 7, Latin America 1, Africa 2, Oceania 2. This is representative coverage, not a comprehensive directory. The seven regions all exist in navigation and the schema. Each route names its applicant category and own source cycle. Admission, fee and award cycles can differ. No future deadline is inferred from a historical date.
 
-Full interface and catalogue text: English, Kazakh, Russian. Russian and Kazakh descriptions are labelled as translations from English; international exam names, currency codes and official abbreviations remain identifiable. Translated programme, field and place names are searchable. The shared starting view offers After Grade 9, After Grade 11 and Still deciding. There is no current-grade selector or grade-specific experience. All students can browse both entry pathways; legacy grade preferences are ignored. Country and subject are the primary filters; other controls are under More filters. Programme sections expand on demand. Subject filters combine as OR; other filter dimensions combine as AND. Unknown tuition can be included, but different currencies and nonannual totals are never converted into an annual budget silently. Unknown test states are opt-in; confirmed no-required-English always requires explicit evidence.
+Full interface and catalogue text: English, Kazakh, Russian. Currency names and number/billing-period formatting follow the selected language; amounts stay in their original currency, without exchange-rate conversion. Canonical records retain ISO currency keys, source URLs and official exam identifiers. Translated programme, field and place names are searchable.
+
+The shared starting view offers After Grade 9, After Grade 11 and All options. There is no current-grade selection. Main-page controls are search, country and subject only. Cards show the programme, institution/location, entry stage, reference tuition and actions. The admissions-route subtitle appears only when needed to distinguish multiple routes into the same programme at the same stage. Legacy grade preferences are ignored.
+
+The interest panel, advanced-filter interface, repeated descriptions and technical filter chips were removed at the user's request. The pure filter library remains tested for data consumers; those extra controls are no longer exposed in the main interface. Programme details are organised into five disclosure groups: programme, admissions, costs/scholarships, deadlines and official sources. Source-cycle and funding conditions remain available there and in comparison.
 
 NU Computer Science includes regular GPA admission, NUET financial support with an offer prerequisite, and SAT/ACT funding as separate routes. NUFYP is a separate preparatory programme. NU 2027/28 entry and support dates coexist with the older 2026/27 fee reference. The financial-support benefits package remains conditional until fully verified; it is not labelled a full scholarship.
 
@@ -42,4 +46,4 @@ For a future release: inspect the existing manifest; reuse its project ID. Acqui
 A school counsellor/teacher should own data review; appoint a technical maintainer for builds/releases. Before inviting the school, approve the audience and sign-in method, designate the reviewer and optional correction destination, resolve relevant eligibility questions, complete browser QA and authorise any school branding. No invitations or public sharing are included in this release.
 
 
-The simplified shared view supersedes the original grade-based product brief. Primary navigation is Explore, Shortlist and Compare; Deadlines and Coverage remain available in the footer.
+The minimal shared view supersedes the original grade-based product brief and broad main-page filter interface. Primary navigation is Explore, Shortlist and Compare; Deadlines and Coverage remain available in the footer.
