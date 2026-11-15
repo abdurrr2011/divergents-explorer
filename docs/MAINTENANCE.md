@@ -74,3 +74,10 @@ The latest user direction removes the interests and advanced-filter panels from 
 `src/currency.mjs` owns display names and amount formatting for all nine catalogue currencies. The renderer applies it after translating catalogue prose, so ISO codes do not leak from hand-translated source notes. `data/` retains the exact native amount and ISO currency; never change an amount merely because the interface language changes. The displayed currency is not converted to another currency. Currency tests cover suffix/prefix/attached codes and every catalogue phrase. When introducing a new currency, extend the supported code list and verify native labels in all three languages. URLs, canonical IDs and student-written notes remain untouched.
 
 The earlier checklist for advanced filters applies to the pure logic library, not the current main-page controls. Run `npm run check` for the current 37-check suite. Browser visual QA remains unavailable in this environment; DOM tests are labelled accordingly.
+
+
+## Worldwide selectors — 15 November 2026
+
+Keep all 249 destination choices and all 120 subject choices available even where programme coverage is empty. Updating a selector never makes its admission route verified. Maintain distinctions between an uncovered destination, an uncovered field and a combination of filters that happens to return zero matches. Do not add invented examples to fill an empty category.
+
+New programme records need discovery tags via optional `subjectCodes` or the programme-ID map in `src/subjects.mjs`. Choose the most specific category supported by the programme content. Use a broad code for general or preparatory study rather than matching it to every child field. Parent selections include tagged descendants; child selections do not claim precision absent from broad tags. Country and subject codes must stay stable across languages. The main interface remains two selectors and search; do not add more panels to expose this hierarchy. See `docs/TAXONOMY.md` and run `npm run check` (45 checks).

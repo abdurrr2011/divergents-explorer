@@ -10,3 +10,8 @@ Each regional JSON file contains arrays: institutions, programmes, routes, award
 - deadline: id, routeIds[], awardId (optional), type (`admission`, `funding`, `test`, `nomination`, `document`), label, date (YYYY-MM-DD|null), time (HH:mm|null), timezone (IANA/string|null), cycle, applicant, status (`confirmed`, `historical`, `awaiting_publication`), nextAction, sourceIds[]. Cycle is independent from student entry year. Do not advance historical dates.
 
 Sources on an entity apply only to its written, scoped claims. If an entity combines different cycles, say so in its prose or split the entity; dates and awards always carry independent cycles. Unknown or conflicting facts belong in questions and source notes. An editor must verify all decision-critical fields before treating a route as application-ready. `verified source` means the official page was checked, not that every aspect of eligibility is settled.
+
+
+### Navigation reference lists
+
+The institution country name resolves through `src/destinations.mjs` to the ISO alpha-2 code used by the selector. It remains independent of verified destination coverage. Programme `field` retains its original broad family for compatibility. Optional `subjectCodes` accepts an array of 2-, 3- or 4-digit reference IDs; absent arrays use the editor-maintained `programmeSubjects` map in `src/subjects.mjs`. The validator requires a valid mapping. These are discovery tags, not a claim that a university formally assigns that ISCED code. Do not infer acceptance, scholarships or curriculum solely from a classification.

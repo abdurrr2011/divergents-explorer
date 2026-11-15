@@ -42,3 +42,10 @@ Removed current-grade selection and grade-specific content. All visitors get the
 ## Minimal interface and currency names — 15 November 2026
 
 Currency prices and source-derived prose now use names in English, Russian or Kazakh instead of visible ISO codes. Numeric source records and currency keys remain unchanged. Removed the interest panel and advanced controls from the main view, shortened cards, and merged detailed information into five sections. Added dedicated currency regressions and minimal-view DOM assertions; the full suite has 37 checks. No browser-visual verification is claimed.
+
+
+## Complete destination and subject selectors — 15 November 2026
+
+Added 249 ISO country/territory options and 120 ISCED-based subject choices (11 broad, 29 narrow, 80 defined detailed fields), with all three language labels. Verified the 80 detailed IDs against the downloaded official UNESCO 2015 list; see `TAXONOMY-REFERENCE.json`. Editorial classification tags cover all 34 programmes. The 40 source-backed routes and their admissions/financial facts were not expanded or invented.
+
+The 45-check suite verifies destination uniqueness, translations and locale sorting, legacy country compatibility, hierarchy matching, all programme mappings, country/field/stage combinations, distinct empty/coverage states and selection persistence through language switching. Existing currency, admissions and minimal-interface checks still run. Actual browser visual QA remains unavailable.

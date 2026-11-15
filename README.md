@@ -8,7 +8,7 @@ Node 22+ and Python 3. No runtime dependencies; install the development-only DOM
 
 ```sh
 npm ci            # development-only test dependencies
-npm run check     # data validation, 37 scenario/localization/currency tests, static build
+npm run check     # data validation, 45 scenario/localization/currency/world-filter tests, static build
 npm run links     # official-source link report (curl, network required)
 npm start         # http://localhost:4173 after building
 ```
@@ -47,3 +47,10 @@ A school counsellor/teacher should own data review; appoint a technical maintain
 
 
 The minimal shared view supersedes the original grade-based product brief and broad main-page filter interface. Primary navigation is Explore, Shortlist and Compare; Deadlines and Coverage remain available in the footer.
+
+
+## Complete destination and subject lists
+
+The two simple selectors expose all 249 ISO 3166-1 countries/territories and 120 subject choices: 11 broad, 29 narrow and 80 defined detailed UNESCO ISCED-F 2013 fields. Names are provided in English, Russian and Kazakh. `src/destination-data.mjs` stores the destination snapshot; `src/subject-data.mjs` stores adapted subject labels. `src/subjects.mjs` maps the 34 programme records to discovery categories. Broad/interdisciplinary preparation stays broad and does not automatically match every specific specialism.
+
+This expands navigation, not the researched programme catalogue. There are still 40 source-backed applicant routes. Unresearched country/subject selections show explicit coverage gaps; combinations that merely exclude existing records use the ordinary empty-search state. Country ISO keys and subject IDs persist through language changes. The older English country/family values remain accepted by the filter library. See `docs/TAXONOMY.md` for standards, attribution, refresh and editorial mapping rules.

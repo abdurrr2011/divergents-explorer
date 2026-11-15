@@ -1,3 +1,5 @@
+import {countryRecords,countryCode} from './destinations.mjs';
+import {subjectRecords,subjectCodesFor} from './subjects.mjs';
 import {localizeCurrencies} from './currency.mjs';
 import {cataloguePhrases} from './catalogue-i18n.mjs';
 import {uiPhrases} from './ui-i18n.mjs';
@@ -32,5 +34,5 @@ export function localizeDOM(root,lang){
  }
  visit(root);
 }
-export function searchAliases(route){return ['ru','kk'].flatMap(lang=>[route.name,route.p.name,route.p.field,route.p.qualification,route.i.name,route.i.city,route.i.country].map(text=>translateText(text,lang)));}
+export function searchAliases(route){return ['ru','kk'].flatMap(lang=>[route.name,route.p.name,route.p.field,route.p.qualification,route.i.name,route.i.city,route.i.country].map(text=>translateText(text,lang)).concat(countryRecords.find(row=>row.code===countryCode(route.i.country))?.labels[lang]||[],subjectRecords.filter(row=>subjectCodesFor(route.p).some(code=>code.startsWith(row.code))).map(row=>row.labels[lang])));}
 export function hasTranslation(text,lang){return lang==='en'||maps[lang]?.has(text);}
