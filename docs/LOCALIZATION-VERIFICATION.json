@@ -1,8 +1,8 @@
 {
   "date": "2026-11-16",
-  "scope": "Minimal visual interface, six-card batches, progressive detail and route switching",
+  "scope": "Compact four-fact comparison, typed upcoming deadlines and preserved English states",
   "cataloguePhrases": 1345,
-  "tests": 59,
+  "tests": 66,
   "automatedResult": "passed",
   "browserVerification": "Unavailable: no cua_repl.js tool exposed; DOM checks only",
   "canonicalCatalogueChanged": false,
@@ -22,5 +22,6 @@
   "internalSubjectTags": 120,
   "initialCards": 6,
   "cardBatchSize": 6,
-  "detailGroupsInitiallyOpen": 0
+  "detailGroupsInitiallyOpen": 0,
+  "comparisonFacts": 4
 }

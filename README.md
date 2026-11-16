@@ -8,7 +8,7 @@ Node 22+ and Python 3. No runtime dependencies; install the development-only DOM
 
 ```sh
 npm ci            # development-only test dependencies
-npm run check     # data validation, 59 scenario/localization/currency/world-filter tests, static build
+npm run check     # data validation, 66 scenario/localization/currency/world-filter tests, static build
 npm run links     # official-source link report (curl, network required)
 npm start         # http://localhost:4173 after building
 ```
@@ -65,4 +65,12 @@ Explore initially shows six routes. Show more reveals six at a time, while searc
 
 Details start with one short description, entry stage and duration. Full admissions/cost/evidence content and next actions live in five closed disclosure groups. Programmes with multiple routes have a route selector; NU GPA admission, NUET financial support and SAT/ACT remain separate saved/comparison choices. The deadline page leads with confirmed dates for the chosen cycle; other cycles and unpublished dates are collapsed. About initially shows a brief introduction and counts; geography, editorial review, privacy and sources are expandable.
 
-The 59-test suite verifies these behaviours in all three languages, including the entire catalogue and route switching. Browser visual QA remains unavailable because no supported browser-control tool is exposed.
+The 66-test suite verifies these behaviours in all three languages, including the entire catalogue and route switching. Browser visual QA remains unavailable because no supported browser-control tool is exposed.
+
+## Simple comparison — 16 November 2026
+
+Comparison uses up to three compact cards with four facts: reference tuition in native currency and billing period, scholarship coverage options, compact exams/English roles and the nearest upcoming confirmed deadline for the selected intake. Desktop facts align across cards; phone cards stack. Remove an option with its labelled × button or clear the comparison. The floating comparison tray is omitted on this page.
+
+Complete admissions, eligibility, curriculum, cost scope, awards and official evidence remain available through each card's Details button. Unknown English remains unknown, conditional English alternatives stay conditional, and tuition-only awards are distinct from maintenance-supported full scholarships. Costs and awards remain reference claims with their own cycles, regardless of the selected intake. No historical or unpublished deadline can become the upcoming date. `src/comparison.mjs` owns these compact summaries; it does not change catalogue records.
+
+`npm run check` passes 66 checks; browser layout verification remains unavailable in this environment.

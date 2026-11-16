@@ -2,14 +2,14 @@
 
 ## Current result
 
-`npm run check` passes: validation has zero structural errors, all 59 logic/DOM/localisation/currency tests pass, and the static build contains 60 routes across 54 programmes and 33 institutions. A separate `node --check src/app.mjs` passes. There are 160 editorial warnings/questions, deliberately recorded in `VALIDATION-REPORT.json`; a green structural check does not confirm every applicant's eligibility.
+`npm run check` passes: validation has zero structural errors, all 66 logic/DOM/localisation/currency tests pass, and the static build contains 60 routes across 54 programmes and 33 institutions. A separate `node --check src/app.mjs` passes. There are 160 editorial warnings/questions, deliberately recorded in `VALIDATION-REPORT.json`; a green structural check does not confirm every applicant's eligibility.
 
 The interface now has 12 simple interest choices with explanations instead of a 120-item technical hierarchy. Every programme maps to a group; detailed classification stays internal. Country navigation retains 249 multilingual ISO entries. Counts distinguish institutions from admissions options. Current catalogue has 146 official-source records, 14 award records and 50 deadline records. Latest source check: 16 November 2026.
 
 ## Automated scope
 
 - `npm run validate`: IDs, foreign keys, source metadata/cycles, dates/times, currencies, tuition units, aggregate English state, duplicate/conflicting route keys, funding labels, valid subject tags and simple-interest mapping. Full report: `VALIDATION-REPORT.json`.
-- `npm test`: 59 checks covering entry paths, legacy grade preferences, friendly interests/descriptions, country/stage combinations, appropriate coverage gaps, translated search, every human-readable catalogue value, every route detail and page in Russian/Kazakh, threshold preservation, unknown English exclusion, optional English application step, UNT/NUET/SAT distinction, funding coverage, native currency names/periods, shortlist/comparison, storage logic, deadline cycles and switching languages. DOM checks use development-only linkedom and preserve IDs/URLs/user notes.
+- `npm test`: 66 checks covering entry paths, legacy grade preferences, friendly interests/descriptions, country/stage combinations, appropriate coverage gaps, translated search, every human-readable catalogue value, every route detail and page in Russian/Kazakh, threshold preservation, unknown English exclusion, optional English application step, UNT/NUET/SAT distinction, funding coverage, native currency names/periods, shortlist/comparison, storage logic, deadline cycles and switching languages. DOM checks use development-only linkedom and preserve IDs/URLs/user notes.
 - `npm run build`: copies static sources and combines independent data batches into dist/catalogue.json. Metadata uses the latest source check rather than a hardcoded date.
 - `npm run links`: 137 successful HTTP responses, 5 manual checks/timeouts and 4 unavailable HTTP 503 responses out of 146 distinct URLs. The Sciences Po site timed out; Satbayev and UKPTK returned 503 to curl. Research used official pages/indexed official evidence with limitations recorded in the sources. A blocked or temporarily unavailable response is not proof that a URL is permanently broken. Full report: `LINK-REPORT.json`. Manual rechecks remain necessary.
 
@@ -42,3 +42,9 @@ The personal explorer is a separate Site and was not edited. Source synchronisat
 Replaced the old green/cream/orange stylesheet with a coherent white/light-grey/system-font interface and blue controls. Initial results are capped at six, with six-at-a-time Show more and full-catalogue search. Responsive rules use three/two/one card columns, a scrollable mobile comparison and a viewport-bounded modal. Reduced motion and visible focus are included.
 
 Nine new DOM journey checks cover result batching/search/reset, initially concise details, switching between the three distinct NU undergraduate routes, exact saved comparison route IDs, collapsed historical deadlines and collapsed editorial detail in all three languages. The catalogue records and claims are unchanged. This is structural/logic verification, not an assertion that the new visual layout has been browser-tested.
+
+## Compact comparison — 16 November 2026
+
+The comparison's large table was replaced with up to three concise cards and four facts each: reference cost, scholarship options, exams/English and nearest upcoming confirmed deadline. Full source-backed information is available through the existing programme-detail dialog. The intake can be edited and options can be removed or cleared; the redundant floating tray is hidden on this page.
+
+Seven new automated checks cover compact test roles, all aggregate English states, correct-cycle/upcoming-date selection without modifying source records, actual NUET deadline sequencing, three-language cards and coverage distinctions, resuming exact stored route IDs, future intake, detail access, removal and empty states. Total: 66 passing checks, zero structural validation errors. Browser visual verification remains unavailable. CSS stacks cards on phones and aligns four facts on supported desktop subgrid layouts. Catalogue data/claims are unchanged.

@@ -40,7 +40,7 @@ At desktop (1440×1000) and phone (390×844), when a supported browser tool is a
 - Find a Kazakhstan college after Grade 9, read its qualification/practical training/funding, then browse after Grade 11. Compare a domestic university with an international option.
 - Open NUET for NU Computer Science: English, 120/50 thresholds, regular GPA offer prerequisite, separate funding steps and applicable dates. Follow the prerequisite link. Compare with the SAT/ACT category and foundation.
 - Open new university routes. Confirm foreign diploma-recognition limitations, extra preparation, historical fee references and unknown amounts stay visible. No ordinary Grade 11 certificate is assumed equivalent everywhere.
-- Save routes, reload, remove saved routes. Compare up to three, refuse a fourth with a message, remove a comparison. Scroll the comparison on a phone.
+- Save routes, reload, remove saved routes. Compare up to three, refuse a fourth with a message, remove a comparison. Check that the compact comparison cards stack on a phone.
 - Check that institution counts differ from route counts where a university has multiple admission options.
 - Select Iceland or transport/safety to see an honest coverage gap; choose a covered country/stage combination with no result to see an ordinary empty search. Never add demo programmes to fill a gap.
 - Change entry year to 2029: older records stay reference-only; new dates await confirmation. Check deadline types, applicant scope, source dates and funding conditions.
@@ -74,10 +74,16 @@ Counts must distinguish institutions, programmes and applicant routes. Current c
 
 `src/currency.mjs` owns display names and amount formatting for the 16 supported currency codes. Apply localisation after translating prose. Retain source amounts and ISO keys in data; do not convert costs when switching language. Extend the supported codes when introducing another currency, then check all three languages. URLs, IDs and student-written notes stay unchanged.
 
-Run `npm run check` (59 tests) and inspect link/validation reports. Unknown English never passes a no-required-English query; an explicitly optional test may pass for the application step, while later language coursework/exams must remain in the detail. A conditional education waiver is an alternative, not an unconditional exemption.
+Run `npm run check` (66 tests) and inspect link/validation reports. Unknown English never passes a no-required-English query; an explicitly optional test may pass for the application step, while later language coursework/exams must remain in the detail. A conditional education waiver is an alternative, not an unconditional exemption.
 
 ## Current visual interface
 
 Maintain the white/light-grey/system-font design and its single blue action colour. Avoid restoring the former decorative hero, numerous status panels or long explanatory paragraphs in the starting view. Initial results show six cards; Show more adds six. Search must still find any of the 60 routes regardless of the visible batch. Filters reset the batch, while saving/comparison should preserve it. Test keyboard focus when adding results and changing a detail route.
 
 In the manual desktop/phone checklist, also check all three responsive card-column layouts, native segmented entry buttons, long translated prices/names, the NU route selector, the five initially closed detail sections, collapsed historical deadlines, and expandable About content. Browser QA remains pending until supported controls are available.
+
+## Keep comparison concise
+
+The comparison page shows exactly four main facts per option; use Details for the full conditions and evidence. Do not restore the former nine-row prose table. Preserve exact route IDs when saving/removing options, including the three distinct NU admissions/support routes. English unknown/optional/alternative/required states must not be collapsed into an exemption. Awards remain reference options, not promised funding.
+
+A comparison's year input affects its nearest-deadline view only. Select only confirmed dates for that cycle that are today or later in Asia/Aqtobe; retain old/unpublished records in programme details. If none qualifies, show a confirmation-needed state. Check switching to a future intake, clearing/removing options, full-scholarship versus tuition-only labels, unknown cost/English states and the three-language UI. Browser QA must check desktop alignment and phone stacking when supported controls become available.
