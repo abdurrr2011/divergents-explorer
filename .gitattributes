@@ -5,3 +5,6 @@
 *.webp binary
 *.bundle binary
 *.zip binary
+
+# Keep generated hosting output out of the default source-review focus.
+/dist/** linguist-generated=true

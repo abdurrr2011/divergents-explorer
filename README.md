@@ -1,6 +1,9 @@
-# Divergents Explorer
-
-**Find a direction. Compare your options. Take the next step.**
+<div align="center">
+  <img src="assets/divergents-mark.svg" alt="Divergents Explorer project mark" width="96" height="96">
+  <h1>Divergents Explorer</h1>
+  <p><strong>Find a direction. Compare your options. Take the next step.</strong></p>
+  <p>Colleges, universities and a clearer next step — for students in Kazakhstan.</p>
+</div>
 
 [![Validate and build](https://github.com/abdurrr2011/divergents-explorer/actions/workflows/check.yml/badge.svg)](https://github.com/abdurrr2011/divergents-explorer/actions/workflows/check.yml)
 
@@ -8,7 +11,7 @@ English · [Русский](docs/README.ru.md) · [Қазақша](docs/README.k
 
 A multilingual college and university explorer for students in Kazakhstan, developed for private review by Divergents Leadership School.
 
-[Private application](https://divergents-university-college-explorer.surecarrot2.chatgpt.site) · [Project handbook](docs/PROJECT-HANDBOOK.md) · [Maintenance guide](docs/MAINTENANCE.md) · [Roadmap](docs/ROADMAP.md) · [Changelog](CHANGELOG.md)
+[Private application](https://divergents-university-college-explorer.surecarrot2.chatgpt.site) · [Project handbook](docs/PROJECT-HANDBOOK.md) · [Maintenance guide](docs/MAINTENANCE.md) · [Roadmap](docs/ROADMAP.md) · [Changelog](CHANGELOG.md) · [Project status](PROJECT_STATUS.md) · [Troubleshooting](TROUBLESHOOTING.md)
 
 ## What students can do
 
@@ -32,6 +35,10 @@ A multilingual college and university explorer for students in Kazakhstan, devel
 The 12 simple interest groups organise browsing; they are not the number of degree options. Internal classification supports 120 subject categories and navigation includes 249 countries and territories. Actual researched coverage remains incomplete, especially transport, teaching, languages and services. See the [expansion priorities](docs/ROADMAP.md).
 
 Source cycles stay independent of the student's planned entry year. Unknown eligibility, costs and tests remain explicit. A sourced listing does not guarantee admission, diploma recognition or funding.
+
+## Source previews
+
+[GitHub Releases](https://github.com/abdurrr2011/divergents-explorer/releases) provides labelled source-preview snapshots. Download a source archive or clone the repository, then follow the local setup below. These are source releases, not desktop installers or a public school launch. Read [project status](PROJECT_STATUS.md) and [licensing](LICENSE.md) before distribution or deployment.
 
 ## Run locally
 
