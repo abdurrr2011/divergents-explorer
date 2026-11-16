@@ -1,11 +1,11 @@
 {
   "date": "2026-11-16",
-  "scope": "Twelve simple interests and twenty researched university additions",
+  "scope": "Minimal visual interface, six-card batches, progressive detail and route switching",
   "cataloguePhrases": 1345,
-  "tests": 50,
+  "tests": 59,
   "automatedResult": "passed",
   "browserVerification": "Unavailable: no cua_repl.js tool exposed; DOM checks only",
-  "canonicalCatalogueChanged": true,
+  "canonicalCatalogueChanged": false,
   "institutionCount": 33,
   "programmeCount": 54,
   "routeCount": 60,
@@ -19,5 +19,8 @@
   "detailGroups": 5,
   "destinations": 249,
   "interestChoices": 12,
-  "internalSubjectTags": 120
+  "internalSubjectTags": 120,
+  "initialCards": 6,
+  "cardBatchSize": 6,
+  "detailGroupsInitiallyOpen": 0
 }

@@ -2,14 +2,14 @@
 
 ## Current result
 
-`npm run check` passes: validation has zero structural errors, all 50 logic/DOM/localisation/currency tests pass, and the static build contains 60 routes across 54 programmes and 33 institutions. A separate `node --check src/app.mjs` passes. There are 160 editorial warnings/questions, deliberately recorded in `VALIDATION-REPORT.json`; a green structural check does not confirm every applicant's eligibility.
+`npm run check` passes: validation has zero structural errors, all 59 logic/DOM/localisation/currency tests pass, and the static build contains 60 routes across 54 programmes and 33 institutions. A separate `node --check src/app.mjs` passes. There are 160 editorial warnings/questions, deliberately recorded in `VALIDATION-REPORT.json`; a green structural check does not confirm every applicant's eligibility.
 
 The interface now has 12 simple interest choices with explanations instead of a 120-item technical hierarchy. Every programme maps to a group; detailed classification stays internal. Country navigation retains 249 multilingual ISO entries. Counts distinguish institutions from admissions options. Current catalogue has 146 official-source records, 14 award records and 50 deadline records. Latest source check: 16 November 2026.
 
 ## Automated scope
 
 - `npm run validate`: IDs, foreign keys, source metadata/cycles, dates/times, currencies, tuition units, aggregate English state, duplicate/conflicting route keys, funding labels, valid subject tags and simple-interest mapping. Full report: `VALIDATION-REPORT.json`.
-- `npm test`: 50 checks covering entry paths, legacy grade preferences, friendly interests/descriptions, country/stage combinations, appropriate coverage gaps, translated search, every human-readable catalogue value, every route detail and page in Russian/Kazakh, threshold preservation, unknown English exclusion, optional English application step, UNT/NUET/SAT distinction, funding coverage, native currency names/periods, shortlist/comparison, storage logic, deadline cycles and switching languages. DOM checks use development-only linkedom and preserve IDs/URLs/user notes.
+- `npm test`: 59 checks covering entry paths, legacy grade preferences, friendly interests/descriptions, country/stage combinations, appropriate coverage gaps, translated search, every human-readable catalogue value, every route detail and page in Russian/Kazakh, threshold preservation, unknown English exclusion, optional English application step, UNT/NUET/SAT distinction, funding coverage, native currency names/periods, shortlist/comparison, storage logic, deadline cycles and switching languages. DOM checks use development-only linkedom and preserve IDs/URLs/user notes.
 - `npm run build`: copies static sources and combines independent data batches into dist/catalogue.json. Metadata uses the latest source check rather than a hardcoded date.
 - `npm run links`: 137 successful HTTP responses, 5 manual checks/timeouts and 4 unavailable HTTP 503 responses out of 146 distinct URLs. The Sciences Po site timed out; Satbayev and UKPTK returned 503 to curl. Research used official pages/indexed official evidence with limitations recorded in the sources. A blocked or temporarily unavailable response is not proof that a URL is permanently broken. Full report: `LINK-REPORT.json`. Manual rechecks remain necessary.
 
@@ -36,3 +36,9 @@ The managed environment exposes no cua_repl.js browser-control tool. The Sites s
 Native Sites access inspection on 16 November confirms custom owner-only access, no groups and zero external visitors. Deployment preserves that audience. Signed-out HTTP and service-authorised asset checks establish the private gate and whether published files match the package; they do not establish an interactive authenticated browser session.
 
 The personal explorer is a separate Site and was not edited. Source synchronisation uses ordinary Git with short-lived credentials held only in process memory because the supported helper scripts are absent. The release packages the exact pushed source's dist and hosting manifest and uses the native owner-private deployment operation. `DEPLOYMENT.md` records the procedure. School invitations still require explicit approval of audience and sign-in method.
+
+## Visual and information redesign — 16 November 2026
+
+Replaced the old green/cream/orange stylesheet with a coherent white/light-grey/system-font interface and blue controls. Initial results are capped at six, with six-at-a-time Show more and full-catalogue search. Responsive rules use three/two/one card columns, a scrollable mobile comparison and a viewport-bounded modal. Reduced motion and visible focus are included.
+
+Nine new DOM journey checks cover result batching/search/reset, initially concise details, switching between the three distinct NU undergraduate routes, exact saved comparison route IDs, collapsed historical deadlines and collapsed editorial detail in all three languages. The catalogue records and claims are unchanged. This is structural/logic verification, not an assertion that the new visual layout has been browser-tested.

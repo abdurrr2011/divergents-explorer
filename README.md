@@ -8,7 +8,7 @@ Node 22+ and Python 3. No runtime dependencies; install the development-only DOM
 
 ```sh
 npm ci            # development-only test dependencies
-npm run check     # data validation, 50 scenario/localization/currency/world-filter tests, static build
+npm run check     # data validation, 59 scenario/localization/currency/world-filter tests, static build
 npm run links     # official-source link report (curl, network required)
 npm start         # http://localhost:4173 after building
 ```
@@ -56,3 +56,13 @@ The country selector keeps all 249 ISO 3166-1 countries/territories. The interes
 `src/interests.mjs` owns these groups and their mappings. The 120 technical ISCED tags remain internal to `src/subject-data.mjs` and `src/subjects.mjs`; students no longer choose from that long hierarchy. All 54 programmes have valid tags and a simple interest group. `src/destination-data.mjs` stores multilingual destination names. See `docs/TAXONOMY.md` for attribution and editorial mapping rules.
 
 The catalogue is researched separately from navigation. An unresearched country/interest shows an explicit coverage gap. A combination that excludes existing records shows the ordinary empty-search state. Country and interest IDs remain stable across languages. Transport/safety is currently an uncovered interest; other groups have examples. Africa and Latin America still have one institution each. Programme-specific recognition, extra preparation and future fees remain explicit checks, including Twente/NTU/UNNC Grade 11 limitations and TUM fee inconsistency. The four `docs/EXPANSION-*.md` files document this release's research.
+
+## Minimal visual redesign — 16 November 2026
+
+The current interface uses white and light-grey surfaces, system fonts, large headings, a compact segmented entry selector and blue actions. No external fonts, imagery or new runtime dependencies were added. Desktop cards use three columns, tablet two and phone one. Focus indicators and reduced-motion preferences are supported.
+
+Explore initially shows six routes. Show more reveals six at a time, while search and filters always run across the full catalogue. A new filter resets the visible batch. Loading more moves keyboard focus to the first new detail button. This is presentation pagination; no records are deleted or hidden from search.
+
+Details start with one short description, entry stage and duration. Full admissions/cost/evidence content and next actions live in five closed disclosure groups. Programmes with multiple routes have a route selector; NU GPA admission, NUET financial support and SAT/ACT remain separate saved/comparison choices. The deadline page leads with confirmed dates for the chosen cycle; other cycles and unpublished dates are collapsed. About initially shows a brief introduction and counts; geography, editorial review, privacy and sources are expandable.
+
+The 59-test suite verifies these behaviours in all three languages, including the entire catalogue and route switching. Browser visual QA remains unavailable because no supported browser-control tool is exposed.

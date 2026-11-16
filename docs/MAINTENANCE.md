@@ -74,4 +74,10 @@ Counts must distinguish institutions, programmes and applicant routes. Current c
 
 `src/currency.mjs` owns display names and amount formatting for the 16 supported currency codes. Apply localisation after translating prose. Retain source amounts and ISO keys in data; do not convert costs when switching language. Extend the supported codes when introducing another currency, then check all three languages. URLs, IDs and student-written notes stay unchanged.
 
-Run `npm run check` (50 tests) and inspect link/validation reports. Unknown English never passes a no-required-English query; an explicitly optional test may pass for the application step, while later language coursework/exams must remain in the detail. A conditional education waiver is an alternative, not an unconditional exemption.
+Run `npm run check` (59 tests) and inspect link/validation reports. Unknown English never passes a no-required-English query; an explicitly optional test may pass for the application step, while later language coursework/exams must remain in the detail. A conditional education waiver is an alternative, not an unconditional exemption.
+
+## Current visual interface
+
+Maintain the white/light-grey/system-font design and its single blue action colour. Avoid restoring the former decorative hero, numerous status panels or long explanatory paragraphs in the starting view. Initial results show six cards; Show more adds six. Search must still find any of the 60 routes regardless of the visible batch. Filters reset the batch, while saving/comparison should preserve it. Test keyboard focus when adding results and changing a detail route.
+
+In the manual desktop/phone checklist, also check all three responsive card-column layouts, native segmented entry buttons, long translated prices/names, the NU route selector, the five initially closed detail sections, collapsed historical deadlines, and expandable About content. Browser QA remains pending until supported controls are available.
