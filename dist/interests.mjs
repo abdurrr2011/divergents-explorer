@@ -188,14 +188,14 @@ export const interests = [
       "104"
     ],
     "labels": {
-      "en": "Transport and Safety",
-      "ru": "Транспорт и безопасность",
-      "kk": "Көлік және қауіпсіздік"
+      "en": "Transport and Logistics",
+      "ru": "Транспорт и логистика",
+      "kk": "Көлік және логистика"
     },
     "descriptions": {
-      "en": "Transport, aviation, navigation, public safety and defence.",
-      "ru": "Транспорт, авиация, навигация, безопасность людей и оборона.",
-      "kk": "Көлік, авиация, навигация, адамдардың қауіпсіздігі және қорғаныс."
+      "en": "Transport systems, moving goods and planning deliveries.",
+      "ru": "Транспортные системы, перевозка товаров и планирование доставки.",
+      "kk": "Көлік жүйелері, жүк тасымалдау және жеткізуді жоспарлау."
     }
   },
   {

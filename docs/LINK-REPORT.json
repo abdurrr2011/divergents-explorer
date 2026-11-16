@@ -1,18 +1,28 @@
 {
-  "checked": "2026-11-16T03:07:15.835Z",
+  "checked": "2026-11-16T15:12:19.281Z",
   "results": [
-    {
-      "url": "https://www.berea.edu/admissions/admission-information/apply/checklist-items/international-faqs",
-      "status": 200,
-      "result": "ok"
-    },
     {
       "url": "https://www.berea.edu/admissions",
       "status": 200,
       "result": "ok"
     },
     {
+      "url": "https://www.berea.edu/admissions/admission-information/apply/checklist-items/international-faqs",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://berea.smartcatalogiq.com/en/current/catalog/majors-and-minors/art/art-studio-b-a/",
+      "status": 200,
+      "result": "ok"
+    },
+    {
       "url": "https://berea.smartcatalogiq.com/en/current/catalog/majors-and-minors/biological-sciences/biological-sciences-b-a",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://berea.smartcatalogiq.com/en/current/catalog/majors-and-minors",
       "status": 200,
       "result": "ok"
     },
@@ -32,22 +42,17 @@
       "result": "ok"
     },
     {
-      "url": "https://berea.smartcatalogiq.com/en/current/catalog/majors-and-minors",
+      "url": "https://www.smc.edu/admission-aid/apply/international-students/tuition-fees.php",
       "status": 200,
       "result": "ok"
     },
     {
-      "url": "https://berea.smartcatalogiq.com/en/current/catalog/majors-and-minors/art/art-studio-b-a/",
+      "url": "https://catalog.smc.edu/current/degrees-certificates-transfer/business.php",
       "status": 200,
       "result": "ok"
     },
     {
       "url": "https://catalog.smc.edu/current/degrees-certificates-transfer/computer-science.php",
-      "status": 200,
-      "result": "ok"
-    },
-    {
-      "url": "https://www.smc.edu/admission-aid/apply/international-students/tuition-fees.php",
       "status": 200,
       "result": "ok"
     },
@@ -62,12 +67,7 @@
       "result": "ok"
     },
     {
-      "url": "https://catalog.smc.edu/current/degrees-certificates-transfer/business.php",
-      "status": 200,
-      "result": "ok"
-    },
-    {
-      "url": "https://www.aalto.fi/en/admission-services/english-taught-bachelors-programmes-i-am-applying-with-a-high-school-diploma",
+      "url": "https://www.aalto.fi/en/admission-services/apply-to-bachelors-programmes-in-english",
       "status": 200,
       "result": "ok"
     },
@@ -77,22 +77,7 @@
       "result": "ok"
     },
     {
-      "url": "https://www.aalto.fi/en/study-options/chemical-engineering-bachelor-of-science-and-master-of-science-technology",
-      "status": 200,
-      "result": "ok"
-    },
-    {
-      "url": "https://www.aalto.fi/en/study-options/data-science-bachelor-of-science-and-master-of-science-technology",
-      "status": 200,
-      "result": "ok"
-    },
-    {
-      "url": "https://www.aalto.fi/en/study-options/bachelors-programme-in-economics",
-      "status": 200,
-      "result": "ok"
-    },
-    {
-      "url": "https://www.aalto.fi/en/study-options/design-and-media-bachelor-of-arts-and-master-of-arts-art-and-design",
+      "url": "https://www.aalto.fi/en/admission-services/english-taught-bachelors-programmes-i-am-applying-with-a-high-school-diploma",
       "status": 200,
       "result": "ok"
     },
@@ -102,12 +87,17 @@
       "result": "ok"
     },
     {
-      "url": "https://www.aalto.fi/en/admission-services/apply-to-bachelors-programmes-in-english",
+      "url": "https://www.aalto.fi/en/study-options/chemical-engineering-bachelor-of-science-and-master-of-science-technology",
       "status": 200,
       "result": "ok"
     },
     {
-      "url": "https://sheffield.ac.uk/international/entry-requirements/kazakhstan",
+      "url": "https://www.aalto.fi/en/study-options/design-and-media-bachelor-of-arts-and-master-of-arts-art-and-design",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.aalto.fi/en/study-options/data-science-bachelor-of-science-and-master-of-science-technology",
       "status": 200,
       "result": "ok"
     },
@@ -122,6 +112,11 @@
       "result": "ok"
     },
     {
+      "url": "https://www.aalto.fi/en/study-options/bachelors-programme-in-economics",
+      "status": 200,
+      "result": "ok"
+    },
+    {
       "url": "https://usic.sheffield.ac.uk/programmes/international-foundation-year/business-social-sciences-and-humanities",
       "status": 200,
       "result": "ok"
@@ -132,7 +127,7 @@
       "result": "ok"
     },
     {
-      "url": "https://admission.kaist.ac.kr/intl-undergraduate/application/ApplicationGuide/ApplicationTimeline",
+      "url": "https://sheffield.ac.uk/international/entry-requirements/kazakhstan",
       "status": 200,
       "result": "ok"
     },
@@ -142,7 +137,17 @@
       "result": "ok"
     },
     {
+      "url": "https://www.kaist.ac.kr/en/html/edu/03.html",
+      "status": 200,
+      "result": "ok"
+    },
+    {
       "url": "https://admission.kaist.ac.kr/intl-undergraduate/support/scholarships/kaist/",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://admission.kaist.ac.kr/intl-undergraduate/application/ApplicationGuide/ApplicationTimeline",
       "status": 200,
       "result": "ok"
     },
@@ -157,37 +162,7 @@
       "result": "ok"
     },
     {
-      "url": "https://www.kaist.ac.kr/en/html/edu/03.html",
-      "status": 200,
-      "result": "ok"
-    },
-    {
       "url": "https://bio.kaist.ac.kr/page/ko/selectPage.do?menuSeq=3357&pageSeq=3406",
-      "status": 200,
-      "result": "ok"
-    },
-    {
-      "url": "https://ee.kaist.ac.kr/en/under-curr-list/",
-      "status": 200,
-      "result": "ok"
-    },
-    {
-      "url": "https://join.hkust.edu.hk/admissions/international-qualifications?general_requirement=All",
-      "status": 200,
-      "result": "ok"
-    },
-    {
-      "url": "https://join.hkust.edu.hk/global-learners-scholarship",
-      "status": 200,
-      "result": "ok"
-    },
-    {
-      "url": "https://join.hkust.edu.hk/fees-and-scholarships",
-      "status": 200,
-      "result": "ok"
-    },
-    {
-      "url": "https://join.hkust.edu.hk/our-programs/joint-school-program/biotechnology-and-business",
       "status": 200,
       "result": "ok"
     },
@@ -197,17 +172,32 @@
       "result": "ok"
     },
     {
+      "url": "https://join.hkust.edu.hk/admissions/international-qualifications?general_requirement=All",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://join.hkust.edu.hk/fees-and-scholarships",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://join.hkust.edu.hk/global-learners-scholarship",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://ee.kaist.ac.kr/en/under-curr-list/",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://join.hkust.edu.hk/our-programs/joint-school-program/biotechnology-and-business",
+      "status": 200,
+      "result": "ok"
+    },
+    {
       "url": "https://join.hkust.edu.hk/our-programs/joint-school-program/mathematics-and-economics",
-      "status": 200,
-      "result": "ok"
-    },
-    {
-      "url": "https://mse.kaist.ac.kr/index.php?document_srl=14065&mid=mse_undercurriculum",
-      "status": 200,
-      "result": "ok"
-    },
-    {
-      "url": "https://study.unimelb.edu.au/how-to-apply/undergraduate-study/international-applications/applications",
       "status": 200,
       "result": "ok"
     },
@@ -217,12 +207,17 @@
       "result": "ok"
     },
     {
+      "url": "https://study.unimelb.edu.au/how-to-apply/english-language-requirements/undergraduate-english-language-requirements",
+      "status": 200,
+      "result": "ok"
+    },
+    {
       "url": "https://study.unimelb.edu.au/how-to-apply/undergraduate-study/international-applications/fees-and-payments",
       "status": 200,
       "result": "ok"
     },
     {
-      "url": "https://study.unimelb.edu.au/how-to-apply/english-language-requirements/undergraduate-english-language-requirements",
+      "url": "https://study.unimelb.edu.au/how-to-apply/undergraduate-study/international-applications/applications",
       "status": 200,
       "result": "ok"
     },
@@ -237,12 +232,17 @@
       "result": "ok"
     },
     {
+      "url": "https://study.unimelb.edu.au/find/courses/undergraduate/bachelor-of-commerce/structure/",
+      "status": 200,
+      "result": "ok"
+    },
+    {
       "url": "https://admission.kaist.ac.kr/wz/api/common/files/view/intl-undergraduate/pdf/Admissions_Guide_for_2027_admission.pdf",
       "status": 200,
       "result": "ok"
     },
     {
-      "url": "https://study.unimelb.edu.au/find/courses/undergraduate/bachelor-of-commerce/structure/",
+      "url": "https://mse.kaist.ac.kr/index.php?document_srl=14065&mid=mse_undercurriculum",
       "status": 200,
       "result": "ok"
     },
@@ -262,6 +262,21 @@
       "result": "ok"
     },
     {
+      "url": "https://www.uct.ac.za/students/applications/key-dates",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.uct.ac.za/students/applications-admission-requirements/language-requirements",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://sit.uct.ac.za/ba-informatics",
+      "status": 200,
+      "result": "ok"
+    },
+    {
       "url": "https://www.fadu.uba.ar/diseno-grafico/",
       "status": 200,
       "result": "ok"
@@ -272,17 +287,7 @@
       "result": "ok"
     },
     {
-      "url": "https://www.uct.ac.za/students/applications-admission-requirements/language-requirements",
-      "status": 200,
-      "result": "ok"
-    },
-    {
-      "url": "https://www.uct.ac.za/students/applications/key-dates",
-      "status": 200,
-      "result": "ok"
-    },
-    {
-      "url": "https://sit.uct.ac.za/ba-informatics",
+      "url": "https://www.derecho.uba.ar/ingresantes/info_ingresantes_cbc_extranjeros.php",
       "status": 200,
       "result": "ok"
     },
@@ -292,17 +297,12 @@
       "result": "ok"
     },
     {
-      "url": "https://www.derecho.uba.ar/ingresantes/info_ingresantes_cbc_extranjeros.php",
+      "url": "https://en.apu.ac.jp/st/st_off-campus/",
       "status": 200,
       "result": "ok"
     },
     {
       "url": "https://en.apu.ac.jp/st/st_about/",
-      "status": 200,
-      "result": "ok"
-    },
-    {
-      "url": "https://en.apu.ac.jp/st/st_off-campus/",
       "status": 200,
       "result": "ok"
     },
@@ -317,17 +317,12 @@
       "result": "ok"
     },
     {
-      "url": "https://www.nottingham.edu.cn/en/study-with-us/undergraduate/fees-and-scholarships/international.aspx",
-      "status": 200,
-      "result": "ok"
-    },
-    {
       "url": "https://www.ntu.edu.sg/admissions/undergraduate/undergraduate-programme/bachelor-of-computing-in-computer-science",
       "status": 200,
       "result": "ok"
     },
     {
-      "url": "https://www.nottingham.edu.cn/en/study-with-us/undergraduate/courses/prospectus.aspx?id=e2fb67bf-c345-4ea6-8c1a-eba3135d7638&language=en-GB",
+      "url": "https://www.nottingham.edu.cn/en/study-with-us/undergraduate/fees-and-scholarships/international.aspx",
       "status": 200,
       "result": "ok"
     },
@@ -337,17 +332,12 @@
       "result": "ok"
     },
     {
-      "url": "https://www.nottingham.edu.cn/en/Study-with-us/Global-recruitment/International-applicants.aspx?country=Kazakhstan&level=Undergraduate+and+Postgraduate",
+      "url": "https://id.metu.edu.tr/en/undergraduate/",
       "status": 200,
       "result": "ok"
     },
     {
       "url": "https://www.nottingham.edu.cn/en/study-with-us/undergraduate/fees-and-scholarships/",
-      "status": 200,
-      "result": "ok"
-    },
-    {
-      "url": "https://id.metu.edu.tr/en/undergraduate/",
       "status": 200,
       "result": "ok"
     },
@@ -367,17 +357,7 @@
       "result": "ok"
     },
     {
-      "url": "https://www.monash.edu.my/study/entry-requirements/english/tests",
-      "status": 200,
-      "result": "ok"
-    },
-    {
       "url": "https://iso.metu.edu.tr/en/system/files/2026-2027_tuition_fees_14092026.pdf",
-      "status": 200,
-      "result": "ok"
-    },
-    {
-      "url": "https://www.monash.edu.my/study/entry-requirements/english",
       "status": 200,
       "result": "ok"
     },
@@ -387,32 +367,27 @@
       "result": "ok"
     },
     {
-      "url": "https://www.diploma.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
-      "status": 200,
-      "result": "ok"
-    },
-    {
-      "url": "https://www.waikato.ac.nz/about/calendar/admission/english-language-requirements/",
-      "status": 200,
-      "result": "ok"
-    },
-    {
       "url": "https://www.monash.edu.my/study/undergraduate/jeffrey-cheah-school-medicine-health-sciences/bachelor-of-psychology",
       "status": 200,
       "result": "ok"
     },
     {
-      "url": "https://www.waikato.ac.nz/assets/Uploads/VCIES-2027-Other.pdf",
+      "url": "https://www.monash.edu.my/study/entry-requirements/english/tests",
       "status": 200,
       "result": "ok"
     },
     {
-      "url": "https://www.waikato.ac.nz/study/apply/international/entry-requirements-for-international-students/",
+      "url": "https://www.monash.edu.my/study/entry-requirements/english",
       "status": 200,
       "result": "ok"
     },
     {
-      "url": "https://admissions.apu.ac.jp/ar/faq/general/",
+      "url": "https://www.diploma.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.nottingham.edu.cn/en/Study-with-us/Global-recruitment/International-applicants.aspx?country=Kazakhstan&level=Undergraduate+and+Postgraduate",
       "status": 200,
       "result": "ok"
     },
@@ -422,17 +397,37 @@
       "result": "ok"
     },
     {
+      "url": "https://www.waikato.ac.nz/about/calendar/admission/english-language-requirements/",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.nottingham.edu.cn/en/study-with-us/undergraduate/courses/prospectus.aspx?id=e2fb67bf-c345-4ea6-8c1a-eba3135d7638&language=en-GB",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.waikato.ac.nz/assets/Uploads/VCIES-2027-Other.pdf",
+      "status": 200,
+      "result": "ok"
+    },
+    {
       "url": "https://www.waikato.ac.nz/study/qualifications/bachelor-of-science/",
       "status": 200,
       "result": "ok"
     },
     {
-      "url": "https://www.tum.de/en/studies/degree-programs/detail/mechanical-engineering-bachelor-of-science-bsc",
+      "url": "https://admissions.apu.ac.jp/ar/faq/general/",
       "status": 200,
       "result": "ok"
     },
     {
-      "url": "https://www.tum.de/en/studies/application/application-info-portal/higher-education-entrance-qualification/international-higher-education-entrance-qualification",
+      "url": "https://www.waikato.ac.nz/study/apply/international/entry-requirements-for-international-students/",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.unibo.it/en/study/first-and-single-cycle-degree/programme/2026/6343",
       "status": 200,
       "result": "ok"
     },
@@ -442,7 +437,7 @@
       "result": "ok"
     },
     {
-      "url": "https://www.unibo.it/en/study/first-and-single-cycle-degree/programme/2026/6343",
+      "url": "https://corsi.unibo.it/1cycle/Genomics/find-out-what-s-new-from-2025-2026",
       "status": 200,
       "result": "ok"
     },
@@ -457,19 +452,49 @@
       "result": "ok"
     },
     {
-      "url": "https://corsi.unibo.it/1cycle/Genomics/find-out-what-s-new-from-2025-2026",
+      "url": "https://www.tum.de/en/studies/degree-programs/detail/mechanical-engineering-bachelor-of-science-bsc",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.tum.de/en/studies/application/application-info-portal/higher-education-entrance-qualification/international-higher-education-entrance-qualification",
       "status": 200,
       "result": "ok"
     },
     {
       "url": "https://www.sciencespo.fr/college/en/academics/bachelor/",
-      "status": 200,
-      "result": "ok"
+      "status": null,
+      "result": "manual_check_required",
+      "reason": "timeout"
+    },
+    {
+      "url": "https://www.sciencespo.fr/college/en/academics/minors/north-america-minor/",
+      "status": null,
+      "result": "manual_check_required",
+      "reason": "timeout"
+    },
+    {
+      "url": "https://www.sciencespo.fr/admissions/en/undergraduate/foreign-secondary-schools/",
+      "status": null,
+      "result": "manual_check_required",
+      "reason": "timeout"
+    },
+    {
+      "url": "https://www.sciencespo.fr/admissions/en/undergraduate/foreign-secondary-schools/language-requirements/",
+      "status": null,
+      "result": "manual_check_required",
+      "reason": "timeout"
     },
     {
       "url": "https://www.utwente.nl/en/education/bachelor/programmes/creative-technology/",
       "status": 200,
       "result": "ok"
+    },
+    {
+      "url": "https://www.sciencespo.fr/students/en/fees-funding/tuition-fees/",
+      "status": null,
+      "result": "manual_check_required",
+      "reason": "timeout"
     },
     {
       "url": "https://www.utwente.nl/en/education/bachelor/programmes/creative-technology/study-programme/",
@@ -492,21 +517,6 @@
       "result": "ok"
     },
     {
-      "url": "https://www.utwente.nl/en/education/bachelor/programmes/creative-technology/enrolment/application-deadline/",
-      "status": 200,
-      "result": "ok"
-    },
-    {
-      "url": "https://umanitoba.ca/explore/programs-of-study/commerce-bcomm-honours",
-      "status": 200,
-      "result": "ok"
-    },
-    {
-      "url": "https://www.umanitoba.ca/explore/undergraduate-admissions/requirements/international-admission-requirements",
-      "status": 200,
-      "result": "ok"
-    },
-    {
       "url": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
       "status": 200,
       "result": "ok"
@@ -517,7 +527,23 @@
       "result": "ok"
     },
     {
+      "url": "https://www.sciencespo.fr/students/en/fees-funding/bursaries-financial-aid/emile-boutmy-scholarship/",
+      "status": null,
+      "result": "manual_check_required",
+      "reason": "timeout"
+    },
+    {
+      "url": "https://www.utwente.nl/en/education/bachelor/programmes/creative-technology/enrolment/application-deadline/",
+      "status": 200,
+      "result": "ok"
+    },
+    {
       "url": "https://admission.asu.edu/apply/international/first-year",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://umanitoba.ca/explore/programs-of-study/commerce-bcomm-honours",
       "status": 200,
       "result": "ok"
     },
@@ -527,32 +553,87 @@
       "result": "ok"
     },
     {
-      "url": "https://admission.asu.edu/cost-aid/international",
-      "status": 200,
-      "result": "ok"
-    },
-    {
       "url": "https://tuition.asu.edu/new-american-university/international",
       "status": 200,
       "result": "ok"
     },
     {
-      "url": "https://university.taylors.edu.my/en/study/explore-all-programmes/hospitality-tourism-and-events/undergraduate/bachelor-of-international-hospitality-management.html",
+      "url": "https://admission.asu.edu/cost-aid/international",
       "status": 200,
       "result": "ok"
     },
     {
-      "url": "https://university.taylors.edu.my/en/study/how-to-apply/key-intakes.html",
+      "url": "https://degrees.asu.edu/bachelors/major/ASU00/ESBMIBS/biomedical-informatics-and-data-science",
       "status": 200,
       "result": "ok"
     },
     {
-      "url": "https://university.taylors.edu.my/en/study/how-to-apply/undergraduate-admission.html",
+      "url": "https://www.umanitoba.ca/explore/undergraduate-admissions/requirements/international-admission-requirements",
       "status": 200,
       "result": "ok"
     },
     {
-      "url": "https://www.unbc.ca/programs-and-admissions/undergraduate/programs/environmental-science-0",
+      "url": "https://degrees.asu.edu/bachelors/major/ASU00/LADATSCIBS/data-science",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.unbc.ca/programs-and-admissions/undergraduate/programs/computer-science",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.unbc.ca/calendar/undergraduate/computer-science",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://umanitoba.ca/explore/programs-of-study/data-science-bsc",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.utwente.nl/en/education/bachelor/programmes/technical-computer-science/",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.umanitoba.ca/explore/programs-of-study/statistics-bsc",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.utwente.nl/en/education/bachelor/programmes/technical-computer-science/study-programme/",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.utwente.nl/en/education/bachelor/programmes/technical-computer-science/enrolment/admission/",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.utwente.nl/en/education/bachelor/programmes/technical-computer-science/enrolment/",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://corsi.unibo.it/1cycle/StatsMaths/overview",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.unibo.it/en/study/first-and-single-cycle-degree/programme/2026/6661",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://corsi.unibo.it/1cycle/StatsMaths/how-to-enrol",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://corsi.unibo.it/s/3394/p/en/enrolling-stats-maths-1/call-sm-2026-2027-en.pdf/@@download/file/Call%20SM%202026-2027%20EN.pdf",
       "status": 200,
       "result": "ok"
     },
@@ -567,52 +648,22 @@
       "result": "ok"
     },
     {
-      "url": "https://www.sciencespo.fr/college/en/academics/minors/north-america-minor/",
-      "status": null,
-      "result": "manual_check_required",
-      "reason": "timeout"
-    },
-    {
-      "url": "https://www.sciencespo.fr/admissions/en/undergraduate/foreign-secondary-schools/",
-      "status": null,
-      "result": "manual_check_required",
-      "reason": "timeout"
-    },
-    {
-      "url": "https://www.sciencespo.fr/admissions/en/undergraduate/foreign-secondary-schools/language-requirements/",
-      "status": null,
-      "result": "manual_check_required",
-      "reason": "timeout"
-    },
-    {
-      "url": "https://www.sciencespo.fr/students/en/fees-funding/bursaries-financial-aid/emile-boutmy-scholarship/",
-      "status": null,
-      "result": "manual_check_required",
-      "reason": "timeout"
-    },
-    {
-      "url": "https://www.sciencespo.fr/students/en/fees-funding/tuition-fees/",
-      "status": null,
-      "result": "manual_check_required",
-      "reason": "timeout"
-    },
-    {
-      "url": "https://satbayev.university/ru/undergraduate",
-      "status": 503,
-      "result": "broken_or_unavailable"
-    },
-    {
-      "url": "https://satbayev.university/ru/specialties/stroitelnaya-inzheneriya-civil-engineering?professionSubjectId=2",
-      "status": 503,
-      "result": "broken_or_unavailable"
-    },
-    {
-      "url": "https://mnu.kz/en/educational/law/",
+      "url": "https://www.unbc.ca/programs-and-admissions/undergraduate/programs/environmental-science-0",
       "status": 200,
       "result": "ok"
     },
     {
-      "url": "https://kaznmu.edu.kz/ru/бакалавриат/",
+      "url": "https://university.taylors.edu.my/en/study/how-to-apply/key-intakes.html",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://university.taylors.edu.my/en/study/how-to-apply/undergraduate-admission.html",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://university.taylors.edu.my/en/study/explore-all-programmes/hospitality-tourism-and-events/undergraduate/bachelor-of-international-hospitality-management.html",
       "status": 200,
       "result": "ok"
     },
@@ -622,7 +673,32 @@
       "result": "ok"
     },
     {
+      "url": "https://www.aalto.fi/en/study-options/finance-bachelor-of-science-and-master-of-science-economics-and-business-administration",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://satbayev.university/ru/specialties/stroitelnaya-inzheneriya-civil-engineering?professionSubjectId=2",
+      "status": 503,
+      "result": "broken_or_unavailable"
+    },
+    {
+      "url": "https://satbayev.university/ru/undergraduate",
+      "status": 503,
+      "result": "broken_or_unavailable"
+    },
+    {
+      "url": "https://kaznmu.edu.kz/ru/бакалавриат/",
+      "status": 200,
+      "result": "ok"
+    },
+    {
       "url": "https://kaznmu.edu.kz/ru/образовательные-программы/бакалавриат/",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://mnu.kz/en/educational/law/",
       "status": 200,
       "result": "ok"
     },
@@ -637,17 +713,12 @@
       "result": "ok"
     },
     {
-      "url": "https://www.kimep.kz/bang-college-of-business/kz/bachelor-of-management/",
-      "status": 200,
-      "result": "ok"
-    },
-    {
       "url": "https://www.kimep.kz/prospective-students/kz/admission/high-school-graduates/",
       "status": 200,
       "result": "ok"
     },
     {
-      "url": "https://welcome.kaznu.kz/ru/27304/page",
+      "url": "https://www.kimep.kz/bang-college-of-business/kz/bachelor-of-management/",
       "status": 200,
       "result": "ok"
     },
@@ -657,32 +728,17 @@
       "result": "ok"
     },
     {
-      "url": "https://ukptk.edu.kz/abiturientu/specialties",
-      "status": 503,
-      "result": "broken_or_unavailable"
-    },
-    {
-      "url": "https://ukptk.edu.kz/abiturientu",
-      "status": 503,
-      "result": "broken_or_unavailable"
-    },
-    {
-      "url": "https://astanait.edu.kz/en/college",
+      "url": "https://sdu.edu.kz/en/statistics-and-data-science/",
       "status": 200,
       "result": "ok"
     },
     {
-      "url": "https://sdu.edu.kz/en/admission-3-2/",
+      "url": "https://welcome.kaznu.kz/ru/27304/page",
       "status": 200,
       "result": "ok"
     },
     {
-      "url": "https://astanait.edu.kz/en/how-to-apply",
-      "status": 200,
-      "result": "ok"
-    },
-    {
-      "url": "https://astanait.edu.kz/en/aitu-excellence-test",
+      "url": "https://www.kimep.kz/school-of-computer-science-and-artificial-intelligence/kz/about-the-bachelor-of-science-in-computer-science-program/",
       "status": 200,
       "result": "ok"
     },
@@ -692,17 +748,147 @@
       "result": "ok"
     },
     {
+      "url": "https://astanait.edu.kz/en/BigDataAnalysis-bachelor",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://sdu.edu.kz/en/admission-3-2/",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.kimep.kz/school-of-computer-science-and-artificial-intelligence/en/",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://sdu.edu.kz/en/pedagogy-methods-of-primary-education/",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://sdu.edu.kz/en/multimedia-sciences/",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://astanait.edu.kz/en/how-to-apply",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.kimep.kz/college-of-social-sciences/kz/bachelor-of-journalism/",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://astanait.edu.kz/en/aitu-excellence-test",
+      "status": 200,
+      "result": "ok"
+    },
+    {
       "url": "https://astanait.edu.kz/educational-grants",
       "status": 200,
       "result": "ok"
     },
     {
-      "url": "https://astanait.edu.kz/en/electronic-engineering-bachelor",
+      "url": "https://welcome.kaznu.kz/ru/education_programs/bachelor/speciality/1516",
       "status": 200,
       "result": "ok"
     },
     {
+      "url": "https://welcome.kaznu.kz/ru/education_programs/bachelor/speciality/1633",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.monash.edu.my/study/undergraduate/fees",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://study.unimelb.edu.au/find/courses/major/data-science/structure/",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.monash.edu.my/study/undergraduate/science/bachelor-of-applied-data-science",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.ntu.edu.sg/admissions/undergraduate/undergraduate-programme/bachelor-of-science-in-data-science-artificial-intelligence",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.monash.edu.my/study/undergraduate/science/bachelor-science-food-science-technology",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.waikato.ac.nz/study/subject-regulations/data-analytics/2027/",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.waikato.ac.nz/study/subjects/data-analytics/",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.monash.edu.my/study/entry-requirements/academic/undergraduate",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.waikato.ac.nz/study/subject-regulations/teaching/2027/",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.waikato.ac.nz/study/qualifications/bachelor-of-teaching/",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://astanait.edu.kz/en/college",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.nottingham.edu.cn/en/study-with-us/undergraduate/courses/prospectus.aspx?id=ebe16d20-457d-4771-99fa-f6a87e1d9c4a&language=en-GB",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.waikato.ac.nz/study/options/subject-areas/education/onsite-initial-teaching-education/guide-to-applying/",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://ukptk.edu.kz/abiturientu",
+      "status": 503,
+      "result": "broken_or_unavailable"
+    },
+    {
+      "url": "https://ukptk.edu.kz/abiturientu/specialties",
+      "status": 503,
+      "result": "broken_or_unavailable"
+    },
+    {
       "url": "https://astanait.edu.kz/en/bachelor",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://astanait.edu.kz/Software-Engineering-bachelor",
+      "status": 200,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.monash.edu.my/study/undergraduate/arts-social-sciences/bachelor-of-digital-media-and-communication",
       "status": 200,
       "result": "ok"
     },
@@ -712,7 +898,7 @@
       "result": "ok"
     },
     {
-      "url": "https://astanait.edu.kz/Software-Engineering-bachelor",
+      "url": "https://astanait.edu.kz/en/electronic-engineering-bachelor",
       "status": 200,
       "result": "ok"
     },
@@ -735,6 +921,12 @@
       "url": "https://nu.edu.kz/admissions/how-to-apply/foundation-undergraduate/financial-aid-end-scholarships/",
       "status": 200,
       "result": "ok"
+    },
+    {
+      "url": "https://welcome.kaznu.kz/ru/7415/page",
+      "status": null,
+      "result": "manual_check_required",
+      "reason": "timeout"
     }
   ]
 }

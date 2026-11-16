@@ -526,7 +526,9 @@
     {
       "id": "ex-award-asu-namu",
       "routeIds": [
-        "ex-route-asu-graphic"
+        "ex-route-asu-graphic",
+        "more-route-asu-data",
+        "more-route-asu-biomedical-data"
       ],
       "name": "New American University — international merit award",
       "coverage": "partial",

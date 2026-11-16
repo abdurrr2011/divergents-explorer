@@ -2,7 +2,7 @@ import {deadlineState, testState} from './logic.mjs';
 
 // Summaries preserve the role of each test; omitted tests are never exemptions.
 export function comparisonTests(route) {
-  const names = {UNT: 'ЕНТ / ҰБТ / UNT', PSYCHOMETRIC: 'Psychometric assessment', PEDAGOGICAL: 'Teaching aptitude assessment'};
+  const names = {UNT: 'ЕНТ / ҰБТ / UNT', PSYCHOMETRIC: 'Psychometric assessment', PEDAGOGICAL: 'Teaching aptitude assessment', CREATIVE: 'Creative exam', PORTFOLIO: 'Portfolio'};
   const academic = Object.entries(route.tests || {})
     .filter(([key, value]) => !['ENGLISH', 'IELTS', 'TOEFL'].includes(key) && ['required', 'alternative', 'optional'].includes(value.status))
     .map(([key, value]) => ({label: names[key] || key, status: value.status}));

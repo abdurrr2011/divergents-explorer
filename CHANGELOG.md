@@ -4,6 +4,13 @@ Entries reflect preserved Git history and labelled source previews. The applicat
 
 ## Unreleased
 
+- Simplified the main filters to Country (a region-to-country panel) and Study Subjects.
+- Added 24 source-backed degree/major options and admissions routes; catalogue now has 78 options and 84 routes at 33 institutions.
+- Expanded Data Science to 12 options at 11 institutions; added finance, statistics, logistics, journalism, multimedia design, communications and food technology topics.
+- Added 59 official source records and 11 deadline records while retaining historical cycles, unknown fees and applicant-specific qualification limits.
+- Added `npm run coverage`, checks for orphan programmes and a Grade 11 discovery action for Grade 9 searches without matching routes.
+- Preserved previous translated search names when new dictionaries use different translations.
+
 - Added region-first country selection across all 249 ISO destinations.
 - Added 33 programme-backed specialities inside the 12 subject groups.
 - Restored recognisable Computer Science, Software Engineering and Data Science names and retained previous search aliases.

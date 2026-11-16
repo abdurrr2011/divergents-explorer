@@ -70,7 +70,7 @@ Only search, country, interest and after-9/after-11/all-options choices are on t
 
 Keep all 249 destination choices. Use the 12 student-facing groups from `src/interests.mjs`, with complete English/Russian/Kazakh labels and explanations. The 120 detailed ISCED tags stay internal. Add source-backed `subjectCodes` or update the fallback map; every programme must belong to a simple group. See `TAXONOMY.md`. This replaces the older 120-option technical menu.
 
-Counts must distinguish institutions, programmes and applicant routes. Current catalogue: 33 institutions / 54 programmes / 60 routes / 14 awards / 50 deadline records / 146 source records. The four `EXPANSION-*.md` notes document 20 new universities researched for this release. Africa/Latin America and transport/safety remain sparse; do not imply complete worldwide programme coverage.
+Counts must distinguish institutions, programmes and applicant routes. Current catalogue: 33 institutions / 78 programmes and major options / 84 routes / 14 awards / 61 deadline records / 205 source records. The original regional `EXPANSION-*.md` notes document the earlier university expansion; `EXPANSION-MORE.md` records the latest 24-option batch. Africa/Latin America and transport/safety remain sparse; do not imply complete worldwide programme coverage.
 
 `src/currency.mjs` owns display names and amount formatting for the 16 supported currency codes. Apply localisation after translating prose. Retain source amounts and ISO keys in data; do not convert costs when switching language. Extend the supported codes when introducing another currency, then check all three languages. URLs, IDs and student-written notes stay unchanged.
 
@@ -78,7 +78,7 @@ Run `npm run check` (69 tests) and inspect link/validation reports. Unknown Engl
 
 ## Current visual interface
 
-Maintain the white/light-grey/system-font design and its single blue action colour. Avoid restoring the former decorative hero, numerous status panels or long explanatory paragraphs in the starting view. Initial results show six cards; Show more adds six. Search must still find any of the 60 routes regardless of the visible batch. Filters reset the batch, while saving/comparison should preserve it. Test keyboard focus when adding results and changing a detail route.
+Maintain the white/light-grey/system-font design and its single blue action colour. Avoid restoring the former decorative hero, numerous status panels or long explanatory paragraphs in the starting view. Initial results show six cards; Show more adds six. Search must still find any of the 84 routes regardless of the visible batch. Filters reset the batch, while saving/comparison should preserve it. Test keyboard focus when adding results and changing a detail route.
 
 In the manual desktop/phone checklist, also check all three responsive card-column layouts, native segmented entry buttons, long translated prices/names, the NU route selector, the five initially closed detail sections, collapsed historical deadlines, and expandable About content. Browser QA remains pending until supported controls are available.
 
@@ -104,8 +104,14 @@ Full catalogue titles are kept in data and displayed inside the programme inform
 
 ## Geographic navigation and specific subjects — 16 November 2026
 
-The main filters are region, a conditional country selector, and study subject. `src/destination-regions.mjs` contains the CLDR-based geographic mapping; see GEOGRAPHY.md. Country options must be constrained to the chosen region and cleared when it changes. Region/country IDs must survive language switching. Do not restore the initial 249-item country dump.
+The two main filters are Country and Study Subjects. Country opens a region panel; choosing a region reveals a country selector within it. The selected region or country stays visible in the closed control. Done, Escape or a click outside closes the panel. `src/destination-regions.mjs` contains the CLDR-based geographic mapping; see GEOGRAPHY.md. Country options must be constrained to the chosen region and cleared when it changes. Region/country IDs must survive language switching. Do not restore the initial 249-item country dump.
 
-`src/interest-topics.mjs` adds 33 concrete specialities under the 12 broad interest groups. These use explicit stable programme IDs, not invented programme records. Add all three labels/descriptions and valid programme references when updating topics; validation and tests check coverage. A topic is distinct from an admissions route. Keep broad foundation degrees broad unless their actual subject scope supports a narrower match.
+`src/interest-topics.mjs` adds 40 concrete specialities under the 12 broad interest groups. These use explicit stable programme IDs, not invented programme records. Add all three labels/descriptions and valid programme references when updating topics; validation and tests check coverage. A topic is distinct from an admissions route. Keep broad foundation degrees broad unless their actual subject scope supports a narrower match.
 
-Use recognisable academic names (Computer Science / Информатика, Software Engineering, Data Science) instead of vague Computing/Computers labels. Full catalogue titles remain in details. Preserve old browsing labels in `programmeNameAliases` so existing search terms still work. Run `npm run check` (75 checks).
+Use recognisable academic names (Computer Science / Информатика, Software Engineering, Data Science) instead of vague Computing/Computers labels. Full catalogue titles remain in details. Preserve old browsing labels in `programmeNameAliases` so existing search terms still work. Run `npm run check` (82 checks).
+
+## Measuring catalogue breadth
+
+Run `npm run coverage` after adding records. It writes `work/coverage-report.json` with separate programme, institution and route counts for each broad interest, focused subject and exclusive editorial region. Interdisciplinary subject counts overlap. Geographic Asia in the app includes Kazakhstan; the editorial report keeps Kazakhstan separate so worldwide totals do not double-count it. Use these counts to prioritise real research, rather than adding empty menu labels. Source-backed majors must name their parent degree and additional conditions; they are not independent universities.
+
+A Grade 9 search that has matching Grade 11 programmes now offers a direct button to browse those later options while retaining the selected subject and location. No test scores are requested.

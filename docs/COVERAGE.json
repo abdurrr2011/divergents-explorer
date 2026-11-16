@@ -1,0 +1,423 @@
+{
+  "checked": "2026-11-16",
+  "totals": {
+    "institutions": 33,
+    "programmes": 78,
+    "routes": 84,
+    "awards": 14,
+    "deadlines": 61,
+    "sources": 205
+  },
+  "regions": [
+    {
+      "name": "Kazakhstan",
+      "programmes": 24,
+      "institutions": 10,
+      "routes": 30
+    },
+    {
+      "name": "North America",
+      "programmes": 14,
+      "institutions": 5,
+      "routes": 14
+    },
+    {
+      "name": "Europe",
+      "programmes": 13,
+      "institutions": 6,
+      "routes": 13
+    },
+    {
+      "name": "Asia",
+      "programmes": 18,
+      "institutions": 8,
+      "routes": 18
+    },
+    {
+      "name": "Latin America",
+      "programmes": 1,
+      "institutions": 1,
+      "routes": 1
+    },
+    {
+      "name": "Africa",
+      "programmes": 2,
+      "institutions": 1,
+      "routes": 2
+    },
+    {
+      "name": "Oceania",
+      "programmes": 6,
+      "institutions": 2,
+      "routes": 6
+    }
+  ],
+  "interests": [
+    {
+      "id": "it",
+      "name": "Computer Science and IT",
+      "programmes": 26,
+      "institutions": 20,
+      "routes": 30
+    },
+    {
+      "id": "engineering",
+      "name": "Engineering",
+      "programmes": 10,
+      "institutions": 8,
+      "routes": 12
+    },
+    {
+      "id": "business",
+      "name": "Business and Economics",
+      "programmes": 11,
+      "institutions": 8,
+      "routes": 11
+    },
+    {
+      "id": "health",
+      "name": "Medicine and Biology",
+      "programmes": 6,
+      "institutions": 6,
+      "routes": 6
+    },
+    {
+      "id": "creative",
+      "name": "Arts and Design",
+      "programmes": 11,
+      "institutions": 11,
+      "routes": 11
+    },
+    {
+      "id": "society",
+      "name": "Society and Law",
+      "programmes": 7,
+      "institutions": 7,
+      "routes": 7
+    },
+    {
+      "id": "education",
+      "name": "Teaching and Languages",
+      "programmes": 3,
+      "institutions": 2,
+      "routes": 3
+    },
+    {
+      "id": "science",
+      "name": "Natural Sciences and Mathematics",
+      "programmes": 17,
+      "institutions": 13,
+      "routes": 17
+    },
+    {
+      "id": "nature",
+      "name": "Environment and Nature",
+      "programmes": 3,
+      "institutions": 3,
+      "routes": 3
+    },
+    {
+      "id": "services",
+      "name": "Tourism and Hospitality",
+      "programmes": 3,
+      "institutions": 3,
+      "routes": 3
+    },
+    {
+      "id": "transport",
+      "name": "Transport and Logistics",
+      "programmes": 1,
+      "institutions": 1,
+      "routes": 1
+    },
+    {
+      "id": "preparation",
+      "name": "University Preparation",
+      "programmes": 3,
+      "institutions": 2,
+      "routes": 3
+    }
+  ],
+  "topics": [
+    {
+      "id": "topic-cs",
+      "name": "Computer Science",
+      "programmes": 8,
+      "institutions": 8,
+      "routes": 10
+    },
+    {
+      "id": "topic-software",
+      "name": "Software Engineering",
+      "programmes": 3,
+      "institutions": 3,
+      "routes": 5
+    },
+    {
+      "id": "topic-data",
+      "name": "Data Science",
+      "programmes": 12,
+      "institutions": 11,
+      "routes": 12
+    },
+    {
+      "id": "topic-databases",
+      "name": "Databases",
+      "programmes": 1,
+      "institutions": 1,
+      "routes": 1
+    },
+    {
+      "id": "topic-mechanical",
+      "name": "Mechanical Engineering",
+      "programmes": 1,
+      "institutions": 1,
+      "routes": 1
+    },
+    {
+      "id": "topic-civil",
+      "name": "Civil Engineering",
+      "programmes": 1,
+      "institutions": 1,
+      "routes": 1
+    },
+    {
+      "id": "topic-electronics",
+      "name": "Electrical and Electronic Engineering",
+      "programmes": 2,
+      "institutions": 2,
+      "routes": 2
+    },
+    {
+      "id": "topic-materials",
+      "name": "Materials Science",
+      "programmes": 1,
+      "institutions": 1,
+      "routes": 1
+    },
+    {
+      "id": "topic-energy",
+      "name": "Renewable Energy",
+      "programmes": 1,
+      "institutions": 1,
+      "routes": 2
+    },
+    {
+      "id": "topic-mechatronics",
+      "name": "Mechatronics and Automation",
+      "programmes": 1,
+      "institutions": 1,
+      "routes": 2
+    },
+    {
+      "id": "topic-chemical",
+      "name": "Chemical Engineering",
+      "programmes": 1,
+      "institutions": 1,
+      "routes": 1
+    },
+    {
+      "id": "topic-management",
+      "name": "Management",
+      "programmes": 3,
+      "institutions": 3,
+      "routes": 3
+    },
+    {
+      "id": "topic-economics",
+      "name": "Economics",
+      "programmes": 2,
+      "institutions": 2,
+      "routes": 2
+    },
+    {
+      "id": "topic-commerce",
+      "name": "Business and Commerce",
+      "programmes": 3,
+      "institutions": 3,
+      "routes": 3
+    },
+    {
+      "id": "topic-medicine",
+      "name": "Medicine",
+      "programmes": 1,
+      "institutions": 1,
+      "routes": 1
+    },
+    {
+      "id": "topic-biology",
+      "name": "Biology",
+      "programmes": 2,
+      "institutions": 2,
+      "routes": 2
+    },
+    {
+      "id": "topic-biotech",
+      "name": "Biotechnology",
+      "programmes": 1,
+      "institutions": 1,
+      "routes": 1
+    },
+    {
+      "id": "topic-genomics",
+      "name": "Genomics and Genetics",
+      "programmes": 1,
+      "institutions": 1,
+      "routes": 1
+    },
+    {
+      "id": "topic-graphic",
+      "name": "Graphic Design",
+      "programmes": 3,
+      "institutions": 3,
+      "routes": 3
+    },
+    {
+      "id": "topic-product",
+      "name": "Industrial Design",
+      "programmes": 2,
+      "institutions": 2,
+      "routes": 2
+    },
+    {
+      "id": "topic-media",
+      "name": "Design and Creative Technology",
+      "programmes": 3,
+      "institutions": 3,
+      "routes": 3
+    },
+    {
+      "id": "topic-art",
+      "name": "Fine Arts",
+      "programmes": 1,
+      "institutions": 1,
+      "routes": 1
+    },
+    {
+      "id": "topic-architecture",
+      "name": "Architecture",
+      "programmes": 1,
+      "institutions": 1,
+      "routes": 1
+    },
+    {
+      "id": "topic-psychology",
+      "name": "Psychology",
+      "programmes": 2,
+      "institutions": 2,
+      "routes": 2
+    },
+    {
+      "id": "topic-law",
+      "name": "Law",
+      "programmes": 1,
+      "institutions": 1,
+      "routes": 1
+    },
+    {
+      "id": "topic-international",
+      "name": "International and Social Studies",
+      "programmes": 2,
+      "institutions": 2,
+      "routes": 2
+    },
+    {
+      "id": "topic-teaching",
+      "name": "Teacher Education",
+      "programmes": 3,
+      "institutions": 2,
+      "routes": 3
+    },
+    {
+      "id": "topic-maths",
+      "name": "Mathematics",
+      "programmes": 3,
+      "institutions": 3,
+      "routes": 3
+    },
+    {
+      "id": "topic-science",
+      "name": "Natural Sciences",
+      "programmes": 1,
+      "institutions": 1,
+      "routes": 1
+    },
+    {
+      "id": "topic-environment",
+      "name": "Environmental Science",
+      "programmes": 1,
+      "institutions": 1,
+      "routes": 1
+    },
+    {
+      "id": "topic-conservation",
+      "name": "Nature Conservation",
+      "programmes": 1,
+      "institutions": 1,
+      "routes": 1
+    },
+    {
+      "id": "topic-tourism",
+      "name": "Tourism",
+      "programmes": 2,
+      "institutions": 2,
+      "routes": 2
+    },
+    {
+      "id": "topic-hospitality",
+      "name": "Hospitality Management",
+      "programmes": 1,
+      "institutions": 1,
+      "routes": 1
+    },
+    {
+      "id": "topic-communication",
+      "name": "Communication and Digital Media",
+      "programmes": 2,
+      "institutions": 2,
+      "routes": 2
+    },
+    {
+      "id": "topic-food-science",
+      "name": "Food Science and Technology",
+      "programmes": 1,
+      "institutions": 1,
+      "routes": 1
+    },
+    {
+      "id": "topic-logistics",
+      "name": "Logistics",
+      "programmes": 1,
+      "institutions": 1,
+      "routes": 1
+    },
+    {
+      "id": "topic-journalism",
+      "name": "Journalism",
+      "programmes": 1,
+      "institutions": 1,
+      "routes": 1
+    },
+    {
+      "id": "topic-multimedia-design",
+      "name": "Multimedia Design",
+      "programmes": 1,
+      "institutions": 1,
+      "routes": 1
+    },
+    {
+      "id": "topic-finance",
+      "name": "Finance",
+      "programmes": 1,
+      "institutions": 1,
+      "routes": 1
+    },
+    {
+      "id": "topic-statistics",
+      "name": "Statistics",
+      "programmes": 3,
+      "institutions": 3,
+      "routes": 3
+    }
+  ]
+}

@@ -1,0 +1,905 @@
+{
+  "institutions": [],
+  "programmes": [
+    {
+      "id": "more-prog-asu-data",
+      "institutionId": "ex-inst-asu",
+      "name": "Data Science, BS",
+      "field": "Technology",
+      "subjectCodes": [
+        "0613",
+        "0542"
+      ],
+      "qualification": "Bachelor of Science (BS)",
+      "duration": "120 credit hours; confirm your full-time study plan",
+      "credits": "120 US semester credit hours",
+      "languages": [
+        "English"
+      ],
+      "description": "A named data science bachelor combining computing, mathematics and statistics to analyse real datasets.",
+      "curriculum": "Calculus, linear algebra, programming, statistical inference, data mining and machine learning; focus areas include business analytics, biosciences, spatial and social data.",
+      "practical": "Applied data-analysis coursework; an internship placement is not guaranteed by this record.",
+      "campus": "Tempe campus",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "more-src-asu-data"
+      ]
+    },
+    {
+      "id": "more-prog-asu-biomedical-data",
+      "institutionId": "ex-inst-asu",
+      "name": "Biomedical Informatics and Data Science, BS",
+      "field": "Health & life sciences",
+      "subjectCodes": [
+        "0613",
+        "0542",
+        "091"
+      ],
+      "qualification": "Bachelor of Science (BS)",
+      "duration": "120 credit hours; confirm your full-time study plan",
+      "credits": "120 US semester credit hours",
+      "languages": [
+        "English"
+      ],
+      "description": "A data-focused bachelor combining computing, biology and health systems to improve clinical and population-health decisions.",
+      "curriculum": "Population and clinical informatics, clinical decision analysis, knowledge representation, biomedical artificial intelligence and health data mining.",
+      "practical": "Faculty research opportunities in areas including bioinformatics and digital health; participation and internships are not guaranteed.",
+      "campus": "Downtown Phoenix campus — College of Health Solutions",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "more-src-asu-biomedical"
+      ]
+    },
+    {
+      "id": "more-prog-manitoba-data",
+      "institutionId": "ex-inst-manitoba",
+      "name": "Data Science, Bachelor of Science Major",
+      "field": "Technology",
+      "subjectCodes": [
+        "0613",
+        "0542"
+      ],
+      "qualification": "Bachelor of Science (Major)",
+      "duration": "4 years full-time",
+      "credits": "120 Canadian credit hours",
+      "languages": [
+        "English"
+      ],
+      "description": "A named data science major combining computer science, mathematics and statistics. Students enter the faculty before declaring the major.",
+      "curriculum": "Data structures and algorithms, data science tools, real-world datasets, linear algebra and statistical computing; the degree requires 120 credit hours.",
+      "practical": "Eligible students may apply to co-op after second-year requirements; acceptance and a work placement are not guaranteed.",
+      "campus": "Fort Garry campus, Winnipeg",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "more-src-manitoba-data"
+      ]
+    },
+    {
+      "id": "more-prog-manitoba-statistics",
+      "institutionId": "ex-inst-manitoba",
+      "name": "Statistics, Bachelor of Science Major",
+      "field": "Technology",
+      "subjectCodes": [
+        "0542"
+      ],
+      "qualification": "Bachelor of Science (Major)",
+      "duration": "4 years; normally 5 with co-op",
+      "credits": "120 Canadian credit hours",
+      "languages": [
+        "English"
+      ],
+      "description": "A statistics major centred on collecting, modelling and interpreting data. This is a Statistics degree, not a degree titled Data Science.",
+      "curriculum": "Statistical computing, data collection, stochastic processes, quality control, time series, survival data and experimental design.",
+      "practical": "Optional co-op can include three or four four-month work terms and usually adds a year; admission and placements are conditional.",
+      "campus": "Fort Garry campus, Winnipeg",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "more-src-manitoba-statistics"
+      ]
+    },
+    {
+      "id": "more-prog-unbc-cs",
+      "institutionId": "extra-unbc",
+      "name": "Computer Science, BSc Major",
+      "field": "Technology",
+      "subjectCodes": [
+        "0613"
+      ],
+      "qualification": "Bachelor of Science (Major)",
+      "duration": "4 years full-time",
+      "credits": "120 Canadian credit hours",
+      "languages": [
+        "English"
+      ],
+      "description": "A computing major with data mining and artificial-intelligence opportunities. Its official degree title is Computer Science.",
+      "curriculum": "Programming, discrete mathematics, calculus, databases, computer architecture, ethics, data structures, linear algebra, software engineering, operating systems and networks.",
+      "practical": "Co-op, faculty-supervised research and practical project opportunities; access and placements require individual confirmation.",
+      "campus": "Prince George campus",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "more-src-unbc-cs",
+        "more-src-unbc-cs-calendar"
+      ]
+    },
+    {
+      "id": "more-prog-twente-tcs",
+      "institutionId": "ex-inst-twente",
+      "name": "Technical Computer Science, BSc",
+      "field": "Technology",
+      "subjectCodes": [
+        "0613"
+      ],
+      "qualification": "Bachelor of Science (BSc)",
+      "duration": "3 years full-time",
+      "credits": "180 ECTS; twelve 15-EC modules",
+      "languages": [
+        "English"
+      ],
+      "description": "Study how software, algorithms, hardware and networks work. Data Science and Artificial Intelligence is available as an elective within this computing degree.",
+      "curriculum": "Software and network systems, data and information, discrete structures, efficient algorithms, interactive technologies, electives and a final design and research semester.",
+      "practical": "Team projects include real-client software; an internship module is an option. Final study includes a design project and individual research.",
+      "campus": "Enschede campus",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "more-src-twente-tcs",
+        "more-src-twente-tcs-study"
+      ]
+    },
+    {
+      "id": "more-prog-bologna-stats-maths",
+      "institutionId": "ex-inst-bologna",
+      "name": "Statistical Sciences — Stats&Maths curriculum",
+      "field": "Technology",
+      "subjectCodes": [
+        "0542",
+        "0541"
+      ],
+      "qualification": "Laurea — first-cycle bachelor degree",
+      "duration": "3 years full-time",
+      "credits": "180 ECTS",
+      "languages": [
+        "English",
+        "Italian — check the curriculum language mix"
+      ],
+      "description": "An undergraduate statistics and mathematics curriculum for analysing data. It is distinct from Bologna’s Data Science master degree.",
+      "curriculum": "Mathematics, probability, computing and statistics, then statistical inference, models, high-dimensional data, time series and sample surveys.",
+      "practical": "Applied analysis and computing; a specific internship or placement is not verified.",
+      "campus": "Bologna campus",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "more-src-bologna-stats",
+        "more-src-bologna-stats-overview"
+      ]
+    },
+    {
+      "id": "more-prog-aalto-finance",
+      "institutionId": "inst-aalto",
+      "name": "Finance, Bachelor of Science (Economics and Business Administration)",
+      "field": "Business & economics",
+      "subjectCodes": [
+        "0412"
+      ],
+      "qualification": "Bachelor of Science (Economics and Business Administration)",
+      "duration": "3-year bachelor; optional 2-year master continuation subject to conditions",
+      "credits": "180 ECTS bachelor; master continuation is a separate 120 ECTS",
+      "languages": [
+        "English"
+      ],
+      "description": "An English-taught finance bachelor connecting investments and corporate decisions with economics, analytics and quantitative methods.",
+      "curriculum": "Financial markets, investment analysis, risk management, company valuation, corporate financial strategy and modelling with financial data.",
+      "practical": "Applied quantitative work on real financial problems and teamwork; a specific internship is not guaranteed.",
+      "campus": "Otaniemi campus, Espoo — School of Business",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "more-src-aalto-finance"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "more-route-asu-data",
+      "programmeId": "more-prog-asu-data",
+      "name": "International first-year — general admission",
+      "entryAfter": 11,
+      "pathway": "direct",
+      "cycle": "2027",
+      "applicant": "Kazakhstan applicant with a foreign secondary qualification",
+      "eligibility": "Published general international minimum is secondary-school GPA 3.00 on the 4.00 scale, plus English proficiency and required school records. The programme refers to general admission rules.",
+      "recognition": "ASU evaluates foreign school records. Do not self-convert Kazakhstan marks to a guaranteed admission result; confirm diploma completion and document translation rules.",
+      "subjects": "Prepare mathematics through calculus and practise programming; confirm Kazakhstan school-subject equivalence with ASU.",
+      "tests": {
+        "SAT": {
+          "status": "optional",
+          "detail": "SAT/ACT are optional for admission and may support placement or merit review."
+        },
+        "ACT": {
+          "status": "optional",
+          "detail": "SAT/ACT are optional for admission and may support placement or merit review."
+        },
+        "IELTS": {
+          "status": "alternative",
+          "detail": "General requirement: IELTS Academic overall 6.0; other accepted evidence is available."
+        },
+        "TOEFL": {
+          "status": "alternative",
+          "detail": "General requirement: before 21 January 2026, iBT 61; on/after that date, overall 3.5 and each section 3.5."
+        },
+        "ENGLISH": {
+          "status": "alternative",
+          "detail": "English proficiency is required through an accepted test, approved study history or qualifying preparation. Waivers are conditional, not automatic."
+        }
+      },
+      "tuition": {
+        "amount": 39062,
+        "currency": "USD",
+        "period": "year",
+        "note": "2026/27 annual international undergraduate base tuition only; college-specific fees are additional. This is not a 2027/28 quote."
+      },
+      "mandatoryFees": "2026/27 schedule separately lists tuition surcharge USD 350, technology fee USD 200, student fees USD 807 and insurance USD 2,765; programme college fees must be checked.",
+      "living": "ASU 2026/27 estimate: housing and meals USD 18,819, books/materials USD 1,320, travel USD 1,650 and personal expenses USD 2,343. Checked 16 November 2026; separate from tuition.",
+      "nextAction": "Confirm the chosen intake, diploma equivalence and total costs with admissions before applying.",
+      "questions": [
+        "Confirm Kazakhstan document evaluation, college fees and the selected intake deadline.",
+        "Confirm future tuition, mandatory fees and living costs."
+      ],
+      "sourceIds": [
+        "more-src-asu-data",
+        "ex-src-asu-admission",
+        "ex-src-asu-english",
+        "ex-src-asu-costs"
+      ]
+    },
+    {
+      "id": "more-route-asu-biomedical-data",
+      "programmeId": "more-prog-asu-biomedical-data",
+      "name": "International first-year — general admission",
+      "entryAfter": 11,
+      "pathway": "direct",
+      "cycle": "2027",
+      "applicant": "Kazakhstan applicant with a foreign secondary qualification",
+      "eligibility": "Published general international minimum is secondary-school GPA 3.00 on the 4.00 scale, plus English proficiency and required school records. The programme refers to general admission rules.",
+      "recognition": "ASU evaluates foreign school records. Do not self-convert Kazakhstan marks to a guaranteed admission result; confirm diploma completion and document translation rules.",
+      "subjects": "Prepare mathematics, biology and computing; the catalogue lists general university admission, not a nursing admission route.",
+      "tests": {
+        "SAT": {
+          "status": "optional",
+          "detail": "SAT/ACT are optional for admission and may support placement or merit review."
+        },
+        "ACT": {
+          "status": "optional",
+          "detail": "SAT/ACT are optional for admission and may support placement or merit review."
+        },
+        "IELTS": {
+          "status": "alternative",
+          "detail": "General requirement: IELTS Academic overall 6.0; other accepted evidence is available."
+        },
+        "TOEFL": {
+          "status": "alternative",
+          "detail": "General requirement: before 21 January 2026, iBT 61; on/after that date, overall 3.5 and each section 3.5."
+        },
+        "ENGLISH": {
+          "status": "alternative",
+          "detail": "English proficiency is required through an accepted test, approved study history or qualifying preparation. Waivers are conditional, not automatic."
+        }
+      },
+      "tuition": {
+        "amount": 39062,
+        "currency": "USD",
+        "period": "year",
+        "note": "2026/27 annual international undergraduate base tuition only; college-specific fees are additional. This is not a 2027/28 quote."
+      },
+      "mandatoryFees": "2026/27 schedule separately lists tuition surcharge USD 350, technology fee USD 200, student fees USD 807 and insurance USD 2,765; programme college fees must be checked.",
+      "living": "ASU 2026/27 estimate: housing and meals USD 18,819, books/materials USD 1,320, travel USD 1,650 and personal expenses USD 2,343. Checked 16 November 2026; separate from tuition.",
+      "nextAction": "Confirm the chosen intake, diploma equivalence and total costs with admissions before applying.",
+      "questions": [
+        "Confirm Kazakhstan document evaluation, college fees and the selected intake deadline.",
+        "Confirm future tuition, mandatory fees and living costs."
+      ],
+      "sourceIds": [
+        "more-src-asu-biomedical",
+        "ex-src-asu-admission",
+        "ex-src-asu-english",
+        "ex-src-asu-costs"
+      ]
+    },
+    {
+      "id": "more-route-manitoba-data",
+      "programmeId": "more-prog-manitoba-data",
+      "name": "Faculty of Science entry, then major declaration",
+      "entryAfter": 11,
+      "pathway": "direct",
+      "cycle": "current catalogue",
+      "applicant": "Kazakhstan applicant with a foreign secondary qualification",
+      "eligibility": "Apply first to the Faculty of Science under its international direct-entry rules. Declare this Major only after at least 24 university credit hours and its specific course and grade requirements; progression is not automatic.",
+      "recognition": "Kazakhstan course and diploma equivalence are not settled in this record. Ask admissions for the exact country-specific conversion and prerequisites.",
+      "subjects": "Confirm senior English, mathematics and Faculty of Science prerequisites using your exact Kazakhstan curriculum; then plan the first-year courses needed to declare the major.",
+      "tests": {
+        "SAT": {
+          "status": "unknown",
+          "detail": "Not verified; check with admissions."
+        },
+        "IELTS": {
+          "status": "alternative",
+          "detail": "IELTS Academic 6.5 overall with at least 6.0 in each module is one accepted option."
+        },
+        "ENGLISH": {
+          "status": "alternative",
+          "detail": "Provide an approved English test or documented qualifying waiver. Kazakhstan schooling is not a blanket exemption."
+        }
+      },
+      "tuition": {
+        "amount": null,
+        "currency": "CAD",
+        "period": "year",
+        "note": "Exact tuition for this applicant category and intake awaits verification."
+      },
+      "mandatoryFees": "International application fee CAD 130 on the programme page; other mandatory fees and tuition require a current schedule.",
+      "living": "Living costs not verified; request a separate housing, food, insurance and travel budget.",
+      "nextAction": "Ask Science admissions to confirm your Kazakhstan prerequisites and the first-year course plan for entering this major.",
+      "questions": [
+        "Confirm the major-specific course grades, the chosen intake deadline and current international tuition."
+      ],
+      "sourceIds": [
+        "more-src-manitoba-data",
+        "ex-src-manitoba-international",
+        "ex-src-manitoba-english"
+      ]
+    },
+    {
+      "id": "more-route-manitoba-statistics",
+      "programmeId": "more-prog-manitoba-statistics",
+      "name": "Faculty of Science entry, then major declaration",
+      "entryAfter": 11,
+      "pathway": "direct",
+      "cycle": "current catalogue",
+      "applicant": "Kazakhstan applicant with a foreign secondary qualification",
+      "eligibility": "Apply first to the Faculty of Science under its international direct-entry rules. Declare this Major only after at least 24 university credit hours and its specific course and grade requirements; progression is not automatic.",
+      "recognition": "Kazakhstan course and diploma equivalence are not settled in this record. Ask admissions for the exact country-specific conversion and prerequisites.",
+      "subjects": "Confirm senior English, mathematics and Faculty of Science prerequisites using your exact Kazakhstan curriculum; then plan the first-year courses needed to declare the major.",
+      "tests": {
+        "SAT": {
+          "status": "unknown",
+          "detail": "Not verified; check with admissions."
+        },
+        "IELTS": {
+          "status": "alternative",
+          "detail": "IELTS Academic 6.5 overall with at least 6.0 in each module is one accepted option."
+        },
+        "ENGLISH": {
+          "status": "alternative",
+          "detail": "Provide an approved English test or documented qualifying waiver. Kazakhstan schooling is not a blanket exemption."
+        }
+      },
+      "tuition": {
+        "amount": null,
+        "currency": "CAD",
+        "period": "year",
+        "note": "Exact tuition for this applicant category and intake awaits verification."
+      },
+      "mandatoryFees": "International application fee CAD 130 on the programme page; other mandatory fees and tuition require a current schedule.",
+      "living": "Living costs not verified; request a separate housing, food, insurance and travel budget.",
+      "nextAction": "Ask Science admissions to confirm your Kazakhstan prerequisites and the first-year course plan for entering this major.",
+      "questions": [
+        "Confirm the major-specific course grades, the chosen intake deadline and current international tuition."
+      ],
+      "sourceIds": [
+        "more-src-manitoba-statistics",
+        "ex-src-manitoba-international",
+        "ex-src-manitoba-english"
+      ]
+    },
+    {
+      "id": "more-route-unbc-cs",
+      "programmeId": "more-prog-unbc-cs",
+      "name": "International admission with Kazakhstan credential review",
+      "entryAfter": 11,
+      "pathway": "direct",
+      "cycle": "2027 intake awaiting confirmation",
+      "applicant": "Kazakhstan school leaver applying as an international student",
+      "eligibility": "The linked 2021 sheet lists the Kazakhstan Attestat with average 3 across English, three academic subjects and an elective. Confirm current degree-specific prerequisites.",
+      "recognition": "Country guidance is a historical reference still linked today; obtain confirmation for 2027 before relying on it.",
+      "subjects": "Confirm the Kazakhstan equivalent of the programme mathematics prerequisite; do not substitute published BC/Yukon percentages for a Kazakhstan grade rule.",
+      "tests": {
+        "ENGLISH": {
+          "status": "alternative",
+          "detail": "English evidence is required; tests and approved education-based alternatives are published."
+        },
+        "IELTS": {
+          "status": "alternative",
+          "detail": "Academic IELTS 6.5 overall, no module below 6.0, is one accepted route."
+        },
+        "TOEFL": {
+          "status": "alternative",
+          "detail": "TOEFL iBT 90, each component at least 20; confirm current test-version handling."
+        },
+        "SAT": {
+          "status": "unknown",
+          "detail": "Not verified; confirm with admissions."
+        }
+      },
+      "tuition": {
+        "amount": 31200,
+        "currency": "CAD",
+        "period": "year",
+        "note": "Approximate official international tuition for 30 credit hours. The fee year is not stated; request a 2027 quote."
+      },
+      "mandatoryFees": "Approximate student fees CAD 1,500 per academic year; course fees, books and insurance need checking.",
+      "living": "Not verified; confirm with admissions.",
+      "nextAction": "Confirm the current Kazakhstan credential rules and degree prerequisites before applying.",
+      "questions": [
+        "Obtain 2027 deadlines, current fee totals and individually confirmed funding eligibility."
+      ],
+      "sourceIds": [
+        "more-src-unbc-cs",
+        "more-src-unbc-cs-calendar",
+        "extra-unbc-country",
+        "extra-unbc-english"
+      ]
+    },
+    {
+      "id": "more-route-twente-tcs-nis",
+      "programmeId": "more-prog-twente-tcs",
+      "name": "Kazakhstan — qualifying NIS Grade 12 diploma",
+      "entryAfter": 11,
+      "pathway": "direct",
+      "cycle": "2027",
+      "applicant": "Kazakhstan applicant with a foreign secondary qualification",
+      "eligibility": "The Kazakhstan rule lists NIS Grade 12 with at least three Higher Level subjects graded A, B or C, including advanced/higher mathematics. Technical Computer Science also requires Mathematics B equivalence, English proof and mandatory matching.",
+      "recognition": "A standard Kazakhstan Grade 11 Attestat without NIS Grade 12 is explicitly not directly admissible. Confirm another recognised qualification or additional preparation; progression is not guaranteed.",
+      "subjects": "Mathematics equivalent to Dutch Mathematics B is required. Matching includes a questionnaire on interests and algorithmic, mathematical and logical thinking, plus an event; its advice is not binding.",
+      "tests": {
+        "SAT": {
+          "status": "unknown",
+          "detail": "Not verified; check with admissions."
+        },
+        "IELTS": {
+          "status": "alternative",
+          "detail": "IELTS Academic 6.0 overall and at least 5.5 in each section; other listed certificates may be used."
+        },
+        "ENGLISH": {
+          "status": "required",
+          "detail": "Kazakhstan has no country-based English exemption; submit an accepted certificate."
+        }
+      },
+      "tuition": {
+        "amount": 16869,
+        "currency": "EUR",
+        "period": "year",
+        "note": "2027/28 higher institutional non-EU/EEA rate; Technical Computer Science is explicitly in this group. Individual exemptions may differ."
+      },
+      "mandatoryFees": "Mandatory fees not fully verified; request an itemised schedule for your intake.",
+      "living": "Twente fee page checked 16 November 2026 gives an estimated EUR 1,311 per month excluding tuition, based on Nibud; this is not a housing quote.",
+      "nextAction": "Confirm your NIS or other diploma and Mathematics B equivalence, then complete Studielink, Osiris and mandatory matching.",
+      "questions": [
+        "Confirm whether your exact qualification meets the NIS or another recognised diploma route.",
+        "Confirm future tuition, mandatory fees and living costs.",
+        "Confirm the 30 April versus 1 May wording and the published CET timezone before submitting."
+      ],
+      "sourceIds": [
+        "more-src-twente-tcs",
+        "more-src-twente-tcs-admission",
+        "more-src-twente-tcs-enrolment",
+        "ex-src-twente-kazakhstan",
+        "ex-src-twente-english",
+        "ex-src-twente-fees"
+      ]
+    },
+    {
+      "id": "more-route-bologna-stats-maths",
+      "programmeId": "more-prog-bologna-stats-maths",
+      "name": "Non-EU resident abroad — SAT selection reference",
+      "entryAfter": 11,
+      "pathway": "direct",
+      "cycle": "2026/27",
+      "applicant": "Kazakhstan citizen residing outside Italy, non-EU quota applicant",
+      "eligibility": "Historical 2026/27 call: suitable foreign diploma after at least 12 years of schooling, university access in the awarding country and SAT selection. Non-EU residents abroad had 10 reserved first-intake places. Future rules are unconfirmed.",
+      "recognition": "A Kazakhstan Grade 11 Attestat alone does not establish the required 12 years. Ask Bologna which additional recognised study or qualification is acceptable; a foundation or progression route is not guaranteed here.",
+      "subjects": "Mathematics and logical reasoning; SAT Mathematics below 400/800 triggers additional learning obligations in the 2026/27 call, not automatic rejection.",
+      "tests": {
+        "SAT": {
+          "status": "required",
+          "detail": "2026/27 call requires SAT taken on or after 1 February 2024, with official College Board delivery by the applicant’s intake deadline; ranking uses SAT scores."
+        },
+        "ACT": {
+          "status": "unknown",
+          "detail": "Not verified; check with admissions."
+        },
+        "IELTS": {
+          "status": "not_required",
+          "detail": "The 2026/27 call assesses B1 English through SAT rather than asking for IELTS; recheck the next call."
+        },
+        "TOEFL": {
+          "status": "not_required",
+          "detail": "The 2026/27 call assesses B1 English through SAT rather than asking for TOEFL; recheck the next call."
+        },
+        "ENGLISH": {
+          "status": "required",
+          "detail": "B1 English is required and assessed through the English-language SAT in this historical call. This is not a route without English assessment."
+        }
+      },
+      "tuition": {
+        "amount": null,
+        "currency": "EUR",
+        "period": "year",
+        "note": "2026/27 fees depend on the university’s financial assessment; no exact Kazakhstan-applicant amount is verified. Do not assume a minimum or a grant."
+      },
+      "mandatoryFees": "2026/27 selection application costs EUR 20; enrolment charges and other mandatory fees require a current individual assessment.",
+      "living": "Living costs not verified; request a separate housing, food, insurance and travel budget.",
+      "nextAction": "Request written diploma-equivalence advice and the next Stats&Maths SAT call before paying for an application.",
+      "questions": [
+        "Confirm a recognised solution for any missing school year, the curriculum teaching-language mix and the next non-EU call."
+      ],
+      "sourceIds": [
+        "more-src-bologna-stats",
+        "more-src-bologna-stats-call",
+        "more-src-bologna-stats-enrol"
+      ]
+    },
+    {
+      "id": "more-route-aalto-finance",
+      "programmeId": "more-prog-aalto-finance",
+      "name": "Foreign school diploma — SAT/ACT round A",
+      "entryAfter": 11,
+      "pathway": "direct",
+      "cycle": "2027",
+      "applicant": "Kazakhstan applicant educated outside the destination country",
+      "eligibility": "Foreign upper-secondary qualification granting corresponding higher-education eligibility in its awarding country, plus SAT or ACT. Applicants are ranked by test results; minima are eligibility thresholds.",
+      "recognition": "Foreign qualification must grant higher-education eligibility in the awarding country. Aalto evaluates submitted documents; translate originals into Finnish, Swedish or English. Kazakhstan diploma acceptance is not pre-certified in this catalogue.",
+      "subjects": "Strong mathematics and quantitative reasoning support finance study; this is the business admission category, not the higher technology SAT threshold.",
+      "tests": {
+        "SAT": {
+          "status": "alternative",
+          "detail": "SAT at least 1200 overall or ACT at least 25 composite. SAT or ACT required for round A; test completed 1 January 2025 or later. Minima do not guarantee selection."
+        },
+        "ACT": {
+          "status": "alternative",
+          "detail": "SAT at least 1200 overall or ACT at least 25 composite. Official results must arrive by deadline."
+        },
+        "IELTS": {
+          "status": "not_required",
+          "detail": "This admission round explicitly does not require a language test result."
+        },
+        "TOEFL": {
+          "status": "not_required",
+          "detail": "This admission round explicitly does not require a language test result."
+        },
+        "ENGLISH": {
+          "status": "not_required",
+          "detail": "Sufficient English ability is expected, but a separate language test result is explicitly not required for this route."
+        }
+      },
+      "tuition": {
+        "amount": 12000,
+        "currency": "EUR",
+        "period": "year",
+        "note": "Bachelor fee for non-EU/EEA fee-liable students; schedule applies to study rights starting 1 Aug 2025 onward. Master tuition differs and is additional."
+      },
+      "mandatoryFees": "Normally EUR100 application fee for non-EU/EEA/Swiss applicants, subject to exemptions. Student Union and healthcare fees are additional; 2026 healthcare fee EUR36/semester, future fees need checking.",
+      "living": "Aalto fee page checked 14 Nov 2026 says plan for at least EUR800/month living costs; this is a minimum planning estimate, not tuition or a guaranteed housing price.",
+      "nextAction": "Confirm your diploma grants higher-education eligibility and schedule SAT or ACT early enough for official result delivery.",
+      "questions": [
+        "Confirm your individual diploma recognition and document translation requirements.",
+        "Verify current mandatory fees, residence-permit finances and actual housing budget."
+      ],
+      "sourceIds": [
+        "more-src-aalto-finance",
+        "more-src-aalto-finance-round-a",
+        "src-aalto-fees",
+        "src-aalto-general"
+      ]
+    }
+  ],
+  "awards": [],
+  "deadlines": [
+    {
+      "id": "more-deadline-twente-tcs-application",
+      "routeIds": [
+        "more-route-twente-tcs-nis"
+      ],
+      "type": "admission",
+      "label": "Complete Studielink and Osiris — main published deadline",
+      "date": "2027-04-30",
+      "time": "23:59",
+      "timezone": "CET",
+      "cycle": "2027",
+      "applicant": "Kazakhstan applicant with a foreign secondary qualification",
+      "status": "confirmed",
+      "nextAction": "Confirm your NIS or other diploma and Mathematics B equivalence, then complete Studielink, Osiris and mandatory matching.",
+      "sourceIds": [
+        "more-src-twente-tcs-enrolment"
+      ]
+    },
+    {
+      "id": "more-deadline-twente-tcs-matching-march",
+      "routeIds": [
+        "more-route-twente-tcs-nis"
+      ],
+      "type": "document",
+      "label": "Register for 12 March matching event",
+      "date": "2027-03-05",
+      "time": "23:59",
+      "timezone": "CET",
+      "cycle": "2027",
+      "applicant": "Kazakhstan applicant with a foreign secondary qualification",
+      "status": "confirmed",
+      "nextAction": "Choose campus or online matching and finish the questionnaire before the event.",
+      "sourceIds": [
+        "more-src-twente-tcs-enrolment"
+      ]
+    },
+    {
+      "id": "more-deadline-twente-tcs-matching-june",
+      "routeIds": [
+        "more-route-twente-tcs-nis"
+      ],
+      "type": "document",
+      "label": "Register for 4 June matching event",
+      "date": "2027-05-28",
+      "time": "23:59",
+      "timezone": "CET",
+      "cycle": "2027",
+      "applicant": "Kazakhstan applicant with a foreign secondary qualification",
+      "status": "confirmed",
+      "nextAction": "Register for the June matching event if you have not completed the March option.",
+      "sourceIds": [
+        "more-src-twente-tcs-enrolment"
+      ]
+    },
+    {
+      "id": "more-deadline-bologna-stats-historical",
+      "routeIds": [
+        "more-route-bologna-stats-maths"
+      ],
+      "type": "admission",
+      "label": "Historical non-EU first intake — application and official SAT receipt",
+      "date": "2026-05-04",
+      "time": "13:00",
+      "timezone": "UTC+1",
+      "cycle": "2026/27",
+      "applicant": "Kazakhstan citizen residing outside Italy, non-EU quota applicant",
+      "status": "historical",
+      "nextAction": "Use this only as a reference; check the next call and your non-EU applicant category.",
+      "sourceIds": [
+        "more-src-bologna-stats-call"
+      ]
+    },
+    {
+      "id": "more-deadline-bologna-stats-next",
+      "routeIds": [
+        "more-route-bologna-stats-maths"
+      ],
+      "type": "admission",
+      "label": "Next Stats&Maths non-EU admission call",
+      "date": null,
+      "time": null,
+      "timezone": null,
+      "cycle": "2027/28",
+      "applicant": "Kazakhstan citizen residing outside Italy, non-EU quota applicant",
+      "status": "awaiting_publication",
+      "nextAction": "Request written diploma-equivalence advice and the next Stats&Maths SAT call before paying for an application.",
+      "sourceIds": [
+        "more-src-bologna-stats-enrol"
+      ]
+    },
+    {
+      "id": "more-deadline-asu",
+      "routeIds": [
+        "more-route-asu-data",
+        "more-route-asu-biomedical-data"
+      ],
+      "type": "admission",
+      "label": "Selected intake admission and document deadlines — verify publication",
+      "date": null,
+      "time": null,
+      "timezone": null,
+      "cycle": "2027/28",
+      "applicant": "Kazakhstan applicant with a foreign secondary qualification",
+      "status": "awaiting_publication",
+      "nextAction": "Ask admissions for the current intake deadline and official document checklist before applying.",
+      "sourceIds": [
+        "ex-src-asu-admission",
+        "ex-src-asu-scholarship"
+      ]
+    },
+    {
+      "id": "more-deadline-manitoba",
+      "routeIds": [
+        "more-route-manitoba-data",
+        "more-route-manitoba-statistics"
+      ],
+      "type": "admission",
+      "label": "Selected intake admission and document deadlines — verify publication",
+      "date": null,
+      "time": null,
+      "timezone": null,
+      "cycle": "2027",
+      "applicant": "Kazakhstan applicant with a foreign secondary qualification",
+      "status": "awaiting_publication",
+      "nextAction": "Ask admissions for the current intake deadline and official document checklist before applying.",
+      "sourceIds": [
+        "more-src-manitoba-data",
+        "more-src-manitoba-statistics"
+      ]
+    },
+    {
+      "id": "more-deadline-unbc",
+      "routeIds": [
+        "more-route-unbc-cs"
+      ],
+      "type": "admission",
+      "label": "Selected intake admission and document deadlines — verify publication",
+      "date": null,
+      "time": null,
+      "timezone": null,
+      "cycle": "2027",
+      "applicant": "Kazakhstan applicant with a foreign secondary qualification",
+      "status": "awaiting_publication",
+      "nextAction": "Ask admissions for the current intake deadline and official document checklist before applying.",
+      "sourceIds": [
+        "more-src-unbc-cs"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "more-src-asu-data",
+      "url": "https://degrees.asu.edu/bachelors/major/ASU00/LADATSCIBS/data-science",
+      "title": "ASU — Data Science BS programme",
+      "checked": "2026-11-16",
+      "cycle": "current catalogue",
+      "applicant": "Kazakhstan applicant with a foreign secondary qualification",
+      "status": "verified",
+      "note": "Campus programme, curriculum and general admission link; no separate programme-specific selection requirement is listed."
+    },
+    {
+      "id": "more-src-asu-biomedical",
+      "url": "https://degrees.asu.edu/bachelors/major/ASU00/ESBMIBS/biomedical-informatics-and-data-science",
+      "title": "ASU — Biomedical Informatics and Data Science BS",
+      "checked": "2026-11-16",
+      "cycle": "current catalogue",
+      "applicant": "Kazakhstan applicant with a foreign secondary qualification",
+      "status": "verified",
+      "note": "College of Health Solutions; Downtown Phoenix campus. The Tempe campus photograph is not a photograph of this programme campus."
+    },
+    {
+      "id": "more-src-manitoba-data",
+      "url": "https://umanitoba.ca/explore/programs-of-study/data-science-bsc",
+      "title": "University of Manitoba — Data Science BSc",
+      "checked": "2026-11-16",
+      "cycle": "current catalogue",
+      "applicant": "Kazakhstan applicant with a foreign secondary qualification",
+      "status": "verified",
+      "note": "Major declaration follows Faculty of Science admission and at least 24 credit hours with required courses and grades; first-year admission does not reserve the major."
+    },
+    {
+      "id": "more-src-manitoba-statistics",
+      "url": "https://www.umanitoba.ca/explore/programs-of-study/statistics-bsc",
+      "title": "University of Manitoba — Statistics BSc",
+      "checked": "2026-11-16",
+      "cycle": "current catalogue",
+      "applicant": "Kazakhstan applicant with a foreign secondary qualification",
+      "status": "verified",
+      "note": "This record selects the four-year Major, not the separate Honours variant. Major entry has university-course and grade prerequisites."
+    },
+    {
+      "id": "more-src-unbc-cs",
+      "url": "https://www.unbc.ca/programs-and-admissions/undergraduate/programs/computer-science",
+      "title": "UNBC — Computer Science undergraduate programme",
+      "checked": "2026-11-16",
+      "cycle": "Current catalogue; undated fee estimate",
+      "applicant": "Kazakhstan applicant with a foreign secondary qualification",
+      "status": "verified",
+      "note": "Prince George BSc programme. BC/Yukon school-grade percentages are not Kazakhstan equivalence rules. International costs are approximate and the fee year is not stated."
+    },
+    {
+      "id": "more-src-unbc-cs-calendar",
+      "url": "https://www.unbc.ca/calendar/undergraduate/computer-science",
+      "title": "UNBC academic calendar — Computer Science Major",
+      "checked": "2026-11-16",
+      "cycle": "current catalogue",
+      "applicant": "Kazakhstan applicant with a foreign secondary qualification",
+      "status": "verified",
+      "note": "Major requires 120 credit hours, including at least 61 in Computer Science and 27 upper-division Computer Science credit hours. Honours is a separate variant."
+    },
+    {
+      "id": "more-src-twente-tcs",
+      "url": "https://www.utwente.nl/en/education/bachelor/programmes/technical-computer-science/",
+      "title": "University of Twente — Technical Computer Science BSc",
+      "checked": "2026-11-16",
+      "cycle": "2027",
+      "applicant": "Kazakhstan applicant with a foreign secondary qualification",
+      "status": "verified",
+      "note": "English-taught three-year bachelor in Enschede; mandatory matching applies. This is not a bachelor titled Data Science."
+    },
+    {
+      "id": "more-src-twente-tcs-study",
+      "url": "https://www.utwente.nl/en/education/bachelor/programmes/technical-computer-science/study-programme/",
+      "title": "Twente Technical Computer Science — module structure",
+      "checked": "2026-11-16",
+      "cycle": "current catalogue",
+      "applicant": "Kazakhstan applicant with a foreign secondary qualification",
+      "status": "verified",
+      "note": "Twelve 15-EC modules across three years; Data Science and Artificial Intelligence is an elective module, not the degree title."
+    },
+    {
+      "id": "more-src-twente-tcs-admission",
+      "url": "https://www.utwente.nl/en/education/bachelor/programmes/technical-computer-science/enrolment/admission/",
+      "title": "Twente Technical Computer Science — admission requirements",
+      "checked": "2026-11-16",
+      "cycle": "2027",
+      "applicant": "Kazakhstan applicant with a foreign secondary qualification",
+      "status": "verified",
+      "note": "Programme requires an equivalent pre-university diploma, English and Mathematics B level; combine with the separately sourced Kazakhstan diploma rules."
+    },
+    {
+      "id": "more-src-twente-tcs-enrolment",
+      "url": "https://www.utwente.nl/en/education/bachelor/programmes/technical-computer-science/enrolment/",
+      "title": "Twente Technical Computer Science — 2027 enrolment and matching",
+      "checked": "2026-11-16",
+      "cycle": "2027",
+      "applicant": "Kazakhstan applicant with a foreign secondary qualification",
+      "status": "partial",
+      "note": "Main procedure states 30 April 2027, 23:59 CET for Studielink and Osiris. A lower FAQ also mentions 1 May; confirm the discrepancy and daylight-saving interpretation. Use the earlier published date for preparation."
+    },
+    {
+      "id": "more-src-bologna-stats",
+      "url": "https://www.unibo.it/en/study/first-and-single-cycle-degree/programme/2026/6661",
+      "title": "University of Bologna — Statistical Sciences 2026/27",
+      "checked": "2026-11-16",
+      "cycle": "2026/27",
+      "applicant": "Kazakhstan applicant with a foreign secondary qualification",
+      "status": "verified",
+      "note": "First-cycle Statistical Sciences degree, programme code 6661. Admissions differ by curriculum; this record uses the separate SAT call for Stats&Maths."
+    },
+    {
+      "id": "more-src-bologna-stats-overview",
+      "url": "https://corsi.unibo.it/1cycle/StatsMaths/overview",
+      "title": "Bologna Stats&Maths — programme overview",
+      "checked": "2026-11-16",
+      "cycle": "2026/27",
+      "applicant": "Kazakhstan applicant with a foreign secondary qualification",
+      "status": "verified",
+      "note": "Undergraduate statistical and mathematical curriculum; do not confuse it with the separately offered Data Science master."
+    },
+    {
+      "id": "more-src-bologna-stats-call",
+      "url": "https://corsi.unibo.it/s/3394/p/en/enrolling-stats-maths-1/call-sm-2026-2027-en.pdf/@@download/file/Call%20SM%202026-2027%20EN.pdf",
+      "title": "Bologna Stats&Maths — 2026/27 official SAT admission call",
+      "checked": "2026-11-16",
+      "cycle": "2026/27",
+      "applicant": "Kazakhstan applicant with a foreign secondary qualification",
+      "status": "verified",
+      "note": "Expired reference call. Non-EU residents abroad could use only the first intake. English B1 is assessed through SAT. No later-cycle requirements or dates are inferred."
+    },
+    {
+      "id": "more-src-bologna-stats-enrol",
+      "url": "https://corsi.unibo.it/1cycle/StatsMaths/how-to-enrol",
+      "title": "Bologna Stats&Maths — enrolment, qualification and fee guidance",
+      "checked": "2026-11-16",
+      "cycle": "2026/27",
+      "applicant": "Kazakhstan applicant with a foreign secondary qualification",
+      "status": "partial",
+      "note": "Current enrolment page links the expired 2026/27 call; individual foreign-qualification evaluation and fee assessment remain necessary."
+    },
+    {
+      "id": "more-src-aalto-finance",
+      "url": "https://www.aalto.fi/en/study-options/finance-bachelor-of-science-and-master-of-science-economics-and-business-administration",
+      "title": "Aalto — Finance bachelor and master study option",
+      "checked": "2026-11-16",
+      "cycle": "2027",
+      "applicant": "Kazakhstan applicant with a foreign secondary qualification",
+      "status": "verified",
+      "note": "Bachelor is three years and 180 ECTS; the subsequent two-year, 120-ECTS master has separate tuition and continuation conditions. Programme page updated 28 October 2026."
+    },
+    {
+      "id": "more-src-aalto-finance-round-a",
+      "url": "https://www.aalto.fi/en/admission-services/english-taught-bachelors-programmes-i-am-applying-with-a-high-school-diploma",
+      "title": "Aalto round A 2027 — foreign school diploma, including Finance",
+      "checked": "2026-11-16",
+      "cycle": "2027",
+      "applicant": "International applicants, including Kazakhstan",
+      "status": "verified",
+      "note": "Finance uses the business-programme SAT 1200 or ACT 25 minima. Separate English test results are explicitly not required in round A."
+    }
+  ]
+}

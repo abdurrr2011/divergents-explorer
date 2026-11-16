@@ -8,7 +8,10 @@ export const interestTopics = [
       "prog-smc-cs",
       "aw-p-kaist-cs",
       "exp-aw-p-ntu",
-      "nu-bsc-cs"
+      "nu-bsc-cs",
+      "km-p-kimep-cs",
+      "more-prog-unbc-cs",
+      "more-prog-twente-tcs"
     ],
     "labels": {
       "en": "Computer Science",
@@ -45,7 +48,17 @@ export const interestTopics = [
     "parentId": "it",
     "programmeIds": [
       "prog-aalto-data-science",
-      "aw-p-hkust-dsct"
+      "aw-p-hkust-dsct",
+      "wm-p-monash-data",
+      "wm-p-melb-data",
+      "wm-p-ntu-data",
+      "wm-p-waikato-data",
+      "km-p-sdu-data",
+      "km-p-aitu-data",
+      "km-p-kimep-cs",
+      "more-prog-asu-data",
+      "more-prog-asu-biomedical-data",
+      "more-prog-manitoba-data"
     ],
     "labels": {
       "en": "Data Science",
@@ -325,7 +338,8 @@ export const interestTopics = [
     "parentId": "creative",
     "programmeIds": [
       "aw-p-uba-design",
-      "ex-prog-asu-graphic"
+      "ex-prog-asu-graphic",
+      "km-p-sdu-multimedia"
     ],
     "labels": {
       "en": "Graphic Design",
@@ -342,7 +356,8 @@ export const interestTopics = [
     "id": "topic-product",
     "parentId": "creative",
     "programmeIds": [
-      "exp-aw-p-metu"
+      "exp-aw-p-metu",
+      "km-p-sdu-multimedia"
     ],
     "labels": {
       "en": "Industrial Design",
@@ -360,7 +375,8 @@ export const interestTopics = [
     "parentId": "creative",
     "programmeIds": [
       "prog-aalto-design",
-      "ex-prog-twente-create"
+      "ex-prog-twente-create",
+      "km-p-sdu-multimedia"
     ],
     "labels": {
       "en": "Design and Creative Technology",
@@ -464,7 +480,9 @@ export const interestTopics = [
     "id": "topic-teaching",
     "parentId": "education",
     "programmeIds": [
-      "xk-p-sdu"
+      "xk-p-sdu",
+      "wm-p-waikato-primary",
+      "km-p-sdu-primary"
     ],
     "labels": {
       "en": "Teacher Education",
@@ -481,7 +499,9 @@ export const interestTopics = [
     "id": "topic-maths",
     "parentId": "science",
     "programmeIds": [
-      "aw-p-hkust-maec"
+      "aw-p-hkust-maec",
+      "more-prog-manitoba-statistics",
+      "more-prog-bologna-stats-maths"
     ],
     "labels": {
       "en": "Mathematics",
@@ -549,7 +569,8 @@ export const interestTopics = [
     "id": "topic-tourism",
     "parentId": "services",
     "programmeIds": [
-      "exp-aw-p-apu"
+      "exp-aw-p-apu",
+      "km-p-kaznu-tour"
     ],
     "labels": {
       "en": "Tourism",
@@ -577,6 +598,128 @@ export const interestTopics = [
       "en": "Hotels, guest services and hospitality management.",
       "ru": "Гостиницы, обслуживание гостей и управление.",
       "kk": "Қонақүйлер, қонақтарға қызмет көрсету және басқару."
+    }
+  },
+  {
+    "id": "topic-communication",
+    "parentId": "creative",
+    "programmeIds": [
+      "wm-p-monash-media",
+      "wm-p-unnc-media"
+    ],
+    "labels": {
+      "en": "Communication and Digital Media",
+      "ru": "Коммуникация и цифровые медиа",
+      "kk": "Коммуникация және цифрлық медиа"
+    },
+    "descriptions": {
+      "en": "Media, digital platforms and communication in society.",
+      "ru": "Медиа, цифровые платформы и коммуникация в обществе.",
+      "kk": "Қоғамдағы медиа, цифрлық платформалар және коммуникация."
+    }
+  },
+  {
+    "id": "topic-food-science",
+    "parentId": "engineering",
+    "programmeIds": [
+      "wm-p-monash-food"
+    ],
+    "labels": {
+      "en": "Food Science and Technology",
+      "ru": "Пищевые технологии",
+      "kk": "Тағам технологиялары"
+    },
+    "descriptions": {
+      "en": "Food processing, safety, preservation and quality.",
+      "ru": "Переработка пищи, безопасность, хранение и качество.",
+      "kk": "Тағам өңдеу, қауіпсіздік, сақтау және сапа."
+    }
+  },
+  {
+    "id": "topic-logistics",
+    "parentId": "transport",
+    "programmeIds": [
+      "km-p-kaznu-logistics"
+    ],
+    "labels": {
+      "en": "Logistics",
+      "ru": "Логистика",
+      "kk": "Логистика"
+    },
+    "descriptions": {
+      "en": "Transport networks, warehouses and supply chains.",
+      "ru": "Транспортные сети, склады и цепи поставок.",
+      "kk": "Көлік желілері, қоймалар және жеткізу тізбектері."
+    }
+  },
+  {
+    "id": "topic-journalism",
+    "parentId": "creative",
+    "programmeIds": [
+      "km-p-kimep-journalism"
+    ],
+    "labels": {
+      "en": "Journalism",
+      "ru": "Журналистика",
+      "kk": "Журналистика"
+    },
+    "descriptions": {
+      "en": "Reporting, fact-checking, storytelling and digital media.",
+      "ru": "Репортажи, проверка фактов, истории и цифровые медиа.",
+      "kk": "Репортаж, деректерді тексеру, оқиғаларды баяндау және цифрлық медиа."
+    }
+  },
+  {
+    "id": "topic-multimedia-design",
+    "parentId": "creative",
+    "programmeIds": [
+      "km-p-sdu-multimedia"
+    ],
+    "labels": {
+      "en": "Multimedia Design",
+      "ru": "Мультимедиа и дизайн",
+      "kk": "Мультимедиа және дизайн"
+    },
+    "descriptions": {
+      "en": "Design graphics, games and digital products.",
+      "ru": "Создание графики, игр и цифровых продуктов.",
+      "kk": "Графика, ойындар және цифрлық өнімдер жасау."
+    }
+  },
+  {
+    "id": "topic-finance",
+    "parentId": "business",
+    "programmeIds": [
+      "more-prog-aalto-finance"
+    ],
+    "labels": {
+      "en": "Finance",
+      "ru": "Финансы",
+      "kk": "Қаржы"
+    },
+    "descriptions": {
+      "en": "Investments, financial markets and business funding.",
+      "ru": "Инвестиции, финансовые рынки и финансирование бизнеса.",
+      "kk": "Инвестициялар, қаржы нарықтары және бизнесті қаржыландыру."
+    }
+  },
+  {
+    "id": "topic-statistics",
+    "parentId": "science",
+    "programmeIds": [
+      "more-prog-manitoba-statistics",
+      "more-prog-bologna-stats-maths",
+      "km-p-sdu-data"
+    ],
+    "labels": {
+      "en": "Statistics",
+      "ru": "Статистика",
+      "kk": "Статистика"
+    },
+    "descriptions": {
+      "en": "Use mathematics to understand data and uncertainty.",
+      "ru": "Математика для анализа данных и неопределённости.",
+      "kk": "Деректер мен белгісіздікті түсінуге арналған математика."
     }
   }
 ];

@@ -235,9 +235,10 @@ export const photoRecords = [
       "kk": "Аризона штатының университеті Темпе кампусындағы Олд-Мейн ғимаратының сырты"
     },
     "position": "50% 45%",
-    "notes": "Commons identifies Old Main at 400 East Tyler Mall on Arizona State University Tempe campus, photographed 27 June 2021. General campus landmark, not represented as the Design School building. CC BY-SA 4.0 selected from the available licences. Downloaded preview without local image edits. Visually inspected after download; real campus/exterior photograph confirmed.",
+    "notes": "Commons identifies Old Main at 400 East Tyler Mall on Arizona State University Tempe campus, photographed 27 June 2021. General campus landmark, not represented as the Design School building or the Downtown Phoenix teaching campus. CC BY-SA 4.0 selected from the available licences. Downloaded preview without local image edits. Visually inspected after download; real campus/exterior photograph confirmed.",
     "artistUrl": "https://commons.wikimedia.org/wiki/User:Beyond_My_Ken",
     "visuallyInspected": true,
+    "needsContextCaption": true,
     "src": "media/campuses/ex-inst-asu.jpg",
     "width": 960,
     "height": 558,
