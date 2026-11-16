@@ -9,8 +9,10 @@
 | Catalogue | 33 institutions, 54 programmes, 60 admission routes |
 | Evidence | 146 source records; individual cycles and verification limits retained |
 | Languages | English, Russian, Kazakh |
+| Subject navigation | 33 focused specialities in 12 broad groups |
+| Destination navigation | Region first, then regional countries; Kazakhstan shortcut |
 | Photographs | All 33 institutions covered; individual credits and rights notes recorded |
-| Automated verification | 69 logic/DOM checks, catalogue/photo validation and static build |
+| Automated verification | 75 logic/DOM checks, catalogue/photo validation and static build |
 | Remote CI | Runs on pull requests and main; see the current Actions result |
 | Browser visual verification | Pending: supported controls unavailable during development |
 | Data review | School-appointed teacher/counsellor still needed |
