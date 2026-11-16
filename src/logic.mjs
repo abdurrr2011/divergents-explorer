@@ -1,4 +1,4 @@
-import {countryMatches} from './destinations.mjs';
+import {countryMatches,countryInRegion} from './destinations.mjs';
 import {subjectMatches} from './subjects.mjs';
 import {currencyAmount} from './currency.mjs';
 export const regions=['Kazakhstan','North America','Europe','Asia','Latin America','Africa','Oceania'];
@@ -20,7 +20,7 @@ export function filterRoutes(routes,f={}){
  const search=[r.name,r.p.name,r.p.field,r.i.name,r.i.city,r.i.country,...(r.i.aliases||[]),...(r.searchAliases||[]),...Object.keys(r.tests||{}).filter(k=>testState(r,k)!=='unknown')].join(' ').toLocaleLowerCase().normalize('NFKC').replace(/ұбт|ент|unt/g,'unt');
  if(query&&!query.split(/\s+/).every(q=>search.includes(q)))return false;
  if(f.stage&&r.entryAfter!==+f.stage)return false;
- if(f.region&&r.i.region!==f.region)return false;
+ if(f.region&&!countryInRegion(r.i.country,f.region))return false;
  if(f.country&&!countryMatches(r.i.country,f.country))return false;
  if(f.fields?.length&&!f.fields.some(field=>subjectMatches(r.p,field)))return false;
  if(f.qualification&&r.p.qualification!==f.qualification)return false;

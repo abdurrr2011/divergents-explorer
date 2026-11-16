@@ -1,8 +1,8 @@
 {
   "date": "2026-11-16",
-  "scope": "Plain names for 12 interests and 54 programmes with full-title search retained",
+  "scope": "Region-to-country navigation, 33 focused topics and recognisable academic labels",
   "cataloguePhrases": 1345,
-  "tests": 69,
+  "tests": 75,
   "automatedResult": "passed",
   "browserVerification": "Unavailable: no cua_repl.js tool exposed; DOM checks only",
   "canonicalCatalogueChanged": false,
@@ -13,8 +13,9 @@
   "access": "Owner-private; preserved",
   "visibleCurrencyCodes": false,
   "mainFilters": [
-    "country",
-    "interest"
+    "region",
+    "country (after region selection)",
+    "subject"
   ],
   "detailGroups": 5,
   "destinations": 249,
@@ -26,5 +27,10 @@
   "comparisonFacts": 4,
   "campusPhotos": 33,
   "photoBytes": 6295136,
-  "plainProgrammeNames": 54
+  "plainProgrammeNames": 54,
+  "focusedTopics": 33,
+  "primaryGeographicRegions": 7,
+  "geographicShortcuts": [
+    "Kazakhstan"
+  ]
 }

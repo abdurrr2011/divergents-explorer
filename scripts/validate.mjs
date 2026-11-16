@@ -1,9 +1,10 @@
+import {countryRegions,destinationRegions} from '../src/destination-regions.mjs';
 import {programmeNames} from '../src/programme-names.mjs';
 import {countryCode,countryRecords} from '../src/destinations.mjs';
 import {subjectRecords,subjectCodesFor,subjectMatches} from '../src/subjects.mjs';
 import {writeFile,mkdir} from 'node:fs/promises';
 import {loadCatalogue,keys} from './catalogue.mjs';
-import {interests} from '../src/interests.mjs';
+import {interests,interestTopics} from '../src/interests.mjs';
 import {regions,coverageLabels} from '../src/logic.mjs';
 const c=await loadCatalogue(),errors=[],warnings=[];
 const check=(condition,msg)=>{if(!condition)errors.push(msg);};
@@ -19,4 +20,6 @@ for(const r of c.routes){check(programmes.has(r.programmeId),`${r.id}: missing p
 for(const a of c.awards){check(Object.keys(coverageLabels).includes(a.coverage),`${a.id}: invalid award coverage`);check(a.routeIds?.length,`${a.id}: unlinked award`);for(const r of a.routeIds||[])check(routes.has(r),`${a.id}: missing route ${r}`);for(const f of ['name','benefits','eligibility','application','renewal','upfront','cycle'])check(!!a[f],`${a.id}: missing ${f}`);if(a.coverage==='full_scholarship')check(/tuition/i.test(a.benefits)&&/housing|living|maintenance|food|month/i.test(a.benefits),`${a.id}: full scholarship requires sourced tuition + maintenance benefits`);}
 for(const d of c.deadlines){check(['admission','funding','test','nomination','document'].includes(d.type),`${d.id}: invalid deadline type`);check(['confirmed','historical','awaiting_publication'].includes(d.status),`${d.id}: invalid deadline status`);check(d.date===null||validDate(d.date),`${d.id}: invalid date`);check(d.status!=='confirmed'||!!d.date,`${d.id}: confirmed deadline has no date`);check(d.status!=='awaiting_publication'||d.date===null,`${d.id}: awaiting publication has date`);if(d.time!=null)check(/^([01]\d|2[0-3]):[0-5]\d$/.test(d.time),`${d.id}: invalid time`);for(const r of d.routeIds||[])check(routes.has(r),`${d.id}: missing route ${r}`);for(const f of ['cycle','applicant','nextAction','label'])check(!!d[f],`${d.id}: missing ${f}`);}
 const grouped={};for(const r of c.routes){const key=[r.programmeId,r.name,r.applicant,r.cycle].join('|');check(!grouped[key],`Conflicting or duplicate applicant route ${r.id} / ${grouped[key]}`);grouped[key]=r.id;}
+for(const country of countryRecords)check(destinationRegions.includes(countryRegions[country.code]),`${country.code}: missing geographic region`);
+for(const topic of interestTopics){check(interests.some(group=>group.id===topic.parentId),`${topic.id}: missing parent interest`);check(topic.programmeIds?.length>0,`${topic.id}: empty topic`);for(const id of topic.programmeIds||[])check(programmes.has(id),`${topic.id}: unknown programme ${id}`);for(const lang of ['en','ru','kk'])check(!!topic.labels?.[lang]&&!!topic.descriptions?.[lang],`${topic.id}: missing ${lang} text`);}
 const report={checked:today,referenceLists:{destinations:countryRecords.length,subjects:subjectRecords.length,simpleInterests:interests.length},totals:Object.fromEntries(keys.map(k=>[k,c[k].length])),errors,warnings};await mkdir('work',{recursive:true});await writeFile('work/validation-report.json',JSON.stringify(report,null,2));console.log(`${errors.length} errors; ${warnings.length} editorial warnings. Report: work/validation-report.json`);errors.forEach(e=>console.error(e));process.exitCode=errors.length?1:0;

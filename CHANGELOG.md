@@ -2,6 +2,12 @@
 
 Entries reflect preserved Git history and labelled source previews. The application remains a private review edition; a source tag does not announce school-wide availability.
 
+## Unreleased
+
+- Added region-first country selection across all 249 ISO destinations.
+- Added 33 programme-backed specialities inside the 12 subject groups.
+- Restored recognisable Computer Science, Software Engineering and Data Science names and retained previous search aliases.
+
 ## Source preview 1.0.0-preview.1
 
 - First labelled source snapshot for developer/editorial review, with project status and troubleshooting guides.

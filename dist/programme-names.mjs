@@ -1,9 +1,9 @@
-// Plain browsing labels. Full source-backed titles stay in catalogue records.
+// Recognisable academic names. Full titles remain in source-backed catalogue records.
 export const programmeNames = {
   "prog-berea-cs": {
-    "en": "Computing",
-    "ru": "Компьютеры",
-    "kk": "Компьютерлер"
+    "en": "Computer Science",
+    "ru": "Информатика",
+    "kk": "Информатика"
   },
   "prog-berea-bio": {
     "en": "Biology",
@@ -11,14 +11,14 @@ export const programmeNames = {
     "kk": "Биология"
   },
   "prog-berea-art": {
-    "en": "Art",
-    "ru": "Рисование и искусство",
-    "kk": "Сурет және өнер"
+    "en": "Fine Arts",
+    "ru": "Изобразительное искусство",
+    "kk": "Бейнелеу өнері"
   },
   "prog-smc-cs": {
-    "en": "Computing",
-    "ru": "Компьютеры",
-    "kk": "Компьютерлер"
+    "en": "Computer Science",
+    "ru": "Информатика",
+    "kk": "Информатика"
   },
   "prog-smc-business": {
     "en": "Business",
@@ -31,14 +31,14 @@ export const programmeNames = {
     "kk": "Психология"
   },
   "prog-aalto-data-science": {
-    "en": "Data analysis",
-    "ru": "Работа с данными",
-    "kk": "Деректермен жұмыс"
+    "en": "Data Science",
+    "ru": "Анализ данных",
+    "kk": "Деректерді талдау"
   },
   "prog-aalto-chemical": {
-    "en": "Chemistry and production",
-    "ru": "Химия и производство",
-    "kk": "Химия және өндіріс"
+    "en": "Chemical Engineering",
+    "ru": "Химические технологии",
+    "kk": "Химиялық технологиялар"
   },
   "prog-aalto-economics": {
     "en": "Economics",
@@ -61,19 +61,19 @@ export const programmeNames = {
     "kk": "Дайындық: ғылым және техника"
   },
   "aw-p-kaist-cs": {
-    "en": "Computing",
-    "ru": "Компьютеры",
-    "kk": "Компьютерлер"
+    "en": "Computer Science",
+    "ru": "Информатика",
+    "kk": "Информатика"
   },
   "aw-p-kaist-ee": {
-    "en": "Electricity and electronics",
-    "ru": "Электричество и электроника",
-    "kk": "Электр және электроника"
+    "en": "Electrical Engineering",
+    "ru": "Электротехника и электроника",
+    "kk": "Электр техникасы және электроника"
   },
   "aw-p-kaist-mse": {
-    "en": "Materials",
-    "ru": "Материалы и их свойства",
-    "kk": "Материалдар және олардың қасиеттері"
+    "en": "Materials Science",
+    "ru": "Материаловедение",
+    "kk": "Материалтану"
   },
   "aw-p-kaist-bio": {
     "en": "Biology",
@@ -81,19 +81,19 @@ export const programmeNames = {
     "kk": "Биология"
   },
   "aw-p-hkust-bibu": {
-    "en": "Biology and business",
-    "ru": "Биология и бизнес",
-    "kk": "Биология және бизнес"
+    "en": "Biotechnology and Business",
+    "ru": "Биотехнологии и бизнес",
+    "kk": "Биотехнология және бизнес"
   },
   "aw-p-hkust-maec": {
-    "en": "Maths and economics",
+    "en": "Mathematics and Economics",
     "ru": "Математика и экономика",
     "kk": "Математика және экономика"
   },
   "aw-p-hkust-dsct": {
-    "en": "Data and technology",
-    "ru": "Данные и технологии",
-    "kk": "Деректер және технологиялар"
+    "en": "Data Science and Technology",
+    "ru": "Анализ данных и технологии",
+    "kk": "Деректерді талдау және технологиялар"
   },
   "aw-p-melb-science": {
     "en": "Science",
@@ -106,9 +106,9 @@ export const programmeNames = {
     "kk": "Бизнес"
   },
   "aw-p-uct-it": {
-    "en": "Computing and society",
-    "ru": "Компьютеры и общество",
-    "kk": "Компьютерлер және қоғам"
+    "en": "Informatics and Humanities",
+    "ru": "Информатика и гуманитарные науки",
+    "kk": "Информатика және гуманитарлық ғылымдар"
   },
   "aw-p-uct-bas": {
     "en": "Architecture",
@@ -126,19 +126,19 @@ export const programmeNames = {
     "kk": "Туризм және табиғат"
   },
   "exp-aw-p-unnc": {
-    "en": "World affairs",
-    "ru": "Страны и мировые события",
-    "kk": "Елдер және әлем оқиғалары"
+    "en": "International Studies",
+    "ru": "Международные исследования",
+    "kk": "Халықаралық зерттеулер"
   },
   "exp-aw-p-ntu": {
-    "en": "Computing",
-    "ru": "Компьютеры",
-    "kk": "Компьютерлер"
+    "en": "Computer Science",
+    "ru": "Информатика",
+    "kk": "Информатика"
   },
   "exp-aw-p-metu": {
-    "en": "Product design",
-    "ru": "Дизайн вещей",
-    "kk": "Бұйымдар дизайны"
+    "en": "Industrial Design",
+    "ru": "Промышленный дизайн",
+    "kk": "Өнеркәсіптік дизайн"
   },
   "exp-aw-p-monash": {
     "en": "Psychology",
@@ -151,14 +151,14 @@ export const programmeNames = {
     "kk": "Экология"
   },
   "ex-prog-tum-mechanical": {
-    "en": "Machines and engineering",
-    "ru": "Машины и техника",
-    "kk": "Машиналар және техника"
+    "en": "Mechanical Engineering",
+    "ru": "Машиностроение",
+    "kk": "Машина жасау"
   },
   "ex-prog-bologna-genomics": {
-    "en": "Genes and DNA",
-    "ru": "Гены и ДНК",
-    "kk": "Гендер және ДНҚ"
+    "en": "Genomics",
+    "ru": "Геномика и генетика",
+    "kk": "Геномика және генетика"
   },
   "ex-prog-sciencespo-reims": {
     "en": "Society and North America",
@@ -181,7 +181,7 @@ export const programmeNames = {
     "kk": "Графикалық дизайн"
   },
   "extra-taylor-hospitality": {
-    "en": "Hotel business",
+    "en": "Hospitality Management",
     "ru": "Гостиничный бизнес",
     "kk": "Қонақүй бизнесі"
   },
@@ -221,9 +221,9 @@ export const programmeNames = {
     "kk": "Математика мұғалімі"
   },
   "kz-aitu-college-software": {
-    "en": "Programming",
-    "ru": "Программирование",
-    "kk": "Бағдарламалау"
+    "en": "Software Development",
+    "ru": "Разработка программ",
+    "kk": "Бағдарлама әзірлеу"
   },
   "kz-aitu-college-database": {
     "en": "Databases",
@@ -231,39 +231,39 @@ export const programmeNames = {
     "kk": "Дерекқорлар"
   },
   "kz-uk-software": {
-    "en": "Programming",
-    "ru": "Программирование",
-    "kk": "Бағдарламалау"
+    "en": "Software Development",
+    "ru": "Разработка программ",
+    "kk": "Бағдарлама әзірлеу"
   },
   "kz-uk-renewables": {
-    "en": "Clean energy",
-    "ru": "Чистая энергия",
-    "kk": "Таза энергия"
+    "en": "Renewable Energy",
+    "ru": "Возобновляемая энергетика",
+    "kk": "Жаңартылатын энергетика"
   },
   "kz-uk-mechatronics": {
-    "en": "Machines and automation",
-    "ru": "Техника и автоматика",
-    "kk": "Техника және автоматика"
+    "en": "Mechatronics",
+    "ru": "Мехатроника и автоматика",
+    "kk": "Мехатроника және автоматика"
   },
   "kz-aitu-se": {
-    "en": "Programming",
-    "ru": "Программирование",
-    "kk": "Бағдарламалау"
+    "en": "Software Engineering",
+    "ru": "Разработка программ",
+    "kk": "Бағдарлама әзірлеу"
   },
   "kz-aitu-im": {
-    "en": "IT and business",
-    "ru": "Компьютеры и бизнес",
-    "kk": "Компьютерлер және бизнес"
+    "en": "IT Management",
+    "ru": "Управление в IT",
+    "kk": "IT саласындағы басқару"
   },
   "kz-aitu-ee": {
-    "en": "Electronics",
+    "en": "Electronic Engineering",
     "ru": "Электроника",
     "kk": "Электроника"
   },
   "nu-bsc-cs": {
-    "en": "Computing",
-    "ru": "Компьютеры",
-    "kk": "Компьютерлер"
+    "en": "Computer Science",
+    "ru": "Информатика",
+    "kk": "Информатика"
   },
   "nu-foundation": {
     "en": "University preparation",
@@ -272,3 +272,275 @@ export const programmeNames = {
   }
 };
 export function programmeName(programme,lang='en'){return programmeNames[programme.id]?.[lang]||programme.name;}
+export const programmeNameAliases = {
+  "prog-berea-cs": [
+    "Computing",
+    "Компьютеры",
+    "Компьютерлер"
+  ],
+  "prog-berea-bio": [
+    "Biology",
+    "Биология",
+    "Биология"
+  ],
+  "prog-berea-art": [
+    "Art",
+    "Рисование и искусство",
+    "Сурет және өнер"
+  ],
+  "prog-smc-cs": [
+    "Computing",
+    "Компьютеры",
+    "Компьютерлер"
+  ],
+  "prog-smc-business": [
+    "Business",
+    "Бизнес",
+    "Бизнес"
+  ],
+  "prog-smc-psychology": [
+    "Psychology",
+    "Психология",
+    "Психология"
+  ],
+  "prog-aalto-data-science": [
+    "Data analysis",
+    "Работа с данными",
+    "Деректермен жұмыс"
+  ],
+  "prog-aalto-chemical": [
+    "Chemistry and production",
+    "Химия и производство",
+    "Химия және өндіріс"
+  ],
+  "prog-aalto-economics": [
+    "Economics",
+    "Экономика",
+    "Экономика"
+  ],
+  "prog-aalto-design": [
+    "Design and media",
+    "Дизайн и медиа",
+    "Дизайн және медиа"
+  ],
+  "prog-sheffield-foundation-business": [
+    "Preparation: business and society",
+    "Подготовка: бизнес и общество",
+    "Дайындық: бизнес және қоғам"
+  ],
+  "prog-sheffield-foundation-science": [
+    "Preparation: science and engineering",
+    "Подготовка: наука и техника",
+    "Дайындық: ғылым және техника"
+  ],
+  "aw-p-kaist-cs": [
+    "Computing",
+    "Компьютеры",
+    "Компьютерлер"
+  ],
+  "aw-p-kaist-ee": [
+    "Electricity and electronics",
+    "Электричество и электроника",
+    "Электр және электроника"
+  ],
+  "aw-p-kaist-mse": [
+    "Materials",
+    "Материалы и их свойства",
+    "Материалдар және олардың қасиеттері"
+  ],
+  "aw-p-kaist-bio": [
+    "Biology",
+    "Биология",
+    "Биология"
+  ],
+  "aw-p-hkust-bibu": [
+    "Biology and business",
+    "Биология и бизнес",
+    "Биология және бизнес"
+  ],
+  "aw-p-hkust-maec": [
+    "Maths and economics",
+    "Математика и экономика",
+    "Математика және экономика"
+  ],
+  "aw-p-hkust-dsct": [
+    "Data and technology",
+    "Данные и технологии",
+    "Деректер және технологиялар"
+  ],
+  "aw-p-melb-science": [
+    "Science",
+    "Естественные науки",
+    "Жаратылыстану"
+  ],
+  "aw-p-melb-commerce": [
+    "Business",
+    "Бизнес",
+    "Бизнес"
+  ],
+  "aw-p-uct-it": [
+    "Computing and society",
+    "Компьютеры и общество",
+    "Компьютерлер және қоғам"
+  ],
+  "aw-p-uct-bas": [
+    "Architecture",
+    "Архитектура",
+    "Сәулет"
+  ],
+  "aw-p-uba-design": [
+    "Graphic design",
+    "Графический дизайн",
+    "Графикалық дизайн"
+  ],
+  "exp-aw-p-apu": [
+    "Tourism and the environment",
+    "Туризм и природа",
+    "Туризм және табиғат"
+  ],
+  "exp-aw-p-unnc": [
+    "World affairs",
+    "Страны и мировые события",
+    "Елдер және әлем оқиғалары"
+  ],
+  "exp-aw-p-ntu": [
+    "Computing",
+    "Компьютеры",
+    "Компьютерлер"
+  ],
+  "exp-aw-p-metu": [
+    "Product design",
+    "Дизайн вещей",
+    "Бұйымдар дизайны"
+  ],
+  "exp-aw-p-monash": [
+    "Psychology",
+    "Психология",
+    "Психология"
+  ],
+  "exp-aw-p-waikato": [
+    "The environment",
+    "Экология",
+    "Экология"
+  ],
+  "ex-prog-tum-mechanical": [
+    "Machines and engineering",
+    "Машины и техника",
+    "Машиналар және техника"
+  ],
+  "ex-prog-bologna-genomics": [
+    "Genes and DNA",
+    "Гены и ДНК",
+    "Гендер және ДНҚ"
+  ],
+  "ex-prog-sciencespo-reims": [
+    "Society and North America",
+    "Общество и Северная Америка",
+    "Қоғам және Солтүстік Америка"
+  ],
+  "ex-prog-twente-create": [
+    "Technology and design",
+    "Технологии и дизайн",
+    "Технология және дизайн"
+  ],
+  "ex-prog-manitoba-commerce": [
+    "Business",
+    "Бизнес",
+    "Бизнес"
+  ],
+  "ex-prog-asu-graphic": [
+    "Graphic design",
+    "Графический дизайн",
+    "Графикалық дизайн"
+  ],
+  "extra-taylor-hospitality": [
+    "Hotel business",
+    "Гостиничный бизнес",
+    "Қонақүй бизнесі"
+  ],
+  "extra-unbc-conservation": [
+    "Nature conservation",
+    "Защита природы",
+    "Табиғатты қорғау"
+  ],
+  "xk-p-sat": [
+    "Construction",
+    "Строительство",
+    "Құрылыс"
+  ],
+  "xk-p-med": [
+    "Medicine",
+    "Медицина",
+    "Медицина"
+  ],
+  "xk-p-mnu": [
+    "Law",
+    "Право",
+    "Құқық"
+  ],
+  "xk-p-kimep": [
+    "Business management",
+    "Управление бизнесом",
+    "Бизнесті басқару"
+  ],
+  "xk-p-kaznu": [
+    "Business management",
+    "Управление бизнесом",
+    "Бизнесті басқару"
+  ],
+  "xk-p-sdu": [
+    "Teaching maths",
+    "Учитель математики",
+    "Математика мұғалімі"
+  ],
+  "kz-aitu-college-software": [
+    "Programming",
+    "Программирование",
+    "Бағдарламалау"
+  ],
+  "kz-aitu-college-database": [
+    "Databases",
+    "Базы данных",
+    "Дерекқорлар"
+  ],
+  "kz-uk-software": [
+    "Programming",
+    "Программирование",
+    "Бағдарламалау"
+  ],
+  "kz-uk-renewables": [
+    "Clean energy",
+    "Чистая энергия",
+    "Таза энергия"
+  ],
+  "kz-uk-mechatronics": [
+    "Machines and automation",
+    "Техника и автоматика",
+    "Техника және автоматика"
+  ],
+  "kz-aitu-se": [
+    "Programming",
+    "Программирование",
+    "Бағдарламалау"
+  ],
+  "kz-aitu-im": [
+    "IT and business",
+    "Компьютеры и бизнес",
+    "Компьютерлер және бизнес"
+  ],
+  "kz-aitu-ee": [
+    "Electronics",
+    "Электроника",
+    "Электроника"
+  ],
+  "nu-bsc-cs": [
+    "Computing",
+    "Компьютеры",
+    "Компьютерлер"
+  ],
+  "nu-foundation": [
+    "University preparation",
+    "Подготовка к университету",
+    "Университетке дайындық"
+  ]
+};
