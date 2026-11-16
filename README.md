@@ -16,7 +16,7 @@ A multilingual college and university explorer for students in Kazakhstan, devel
 ## What students can do
 
 - Browse college entry after Grade 9 and college or university entry after Grade 11.
-- Search by subject, institution, city or country in English, Russian and Kazakh.
+- Choose a region, then a country, and search by recognisable specialities such as Computer Science, Software Engineering and Data Science in English, Russian and Kazakh.
 - Save options locally and compare up to three admissions routes.
 - Check tuition in its native currency, scholarship coverage, exams and sourced deadlines.
 - Explore real campus photography with recorded credits and provenance.
@@ -32,7 +32,7 @@ A multilingual college and university explorer for students in Kazakhstan, devel
 | Campus photo records | 33 |
 | Interface languages | 3 |
 
-The 12 simple interest groups organise browsing; they are not the number of degree options. Internal classification supports 120 subject categories and navigation includes 249 countries and territories. Actual researched coverage remains incomplete, especially transport, teaching, languages and services. See the [expansion priorities](docs/ROADMAP.md).
+The subject menu has 33 specific specialities inside 12 broader groups. Each specific topic links to actual researched programmes. These are browsing choices, not additional degree records. Countries are selected by region first; Kazakhstan also has a shortcut. Internal classification supports 120 subject categories and navigation includes 249 countries and territories. Actual researched coverage remains incomplete, especially transport, teaching, languages and services. See the [expansion priorities](docs/ROADMAP.md).
 
 Source cycles stay independent of the student's planned entry year. Unknown eligibility, costs and tests remain explicit. A sourced listing does not guarantee admission, diploma recognition or funding.
 
@@ -80,7 +80,7 @@ See [architecture](docs/ARCHITECTURE.md) and [Git workflow](docs/GIT-WORKFLOW.md
 
 ## Quality and maintenance
 
-`npm run check` validates catalogue and photographs, runs 69 automated checks and builds `dist/`. `npm run links` produces a separate source-link report. [GitHub Actions](https://github.com/abdurrr2011/divergents-explorer/actions/workflows/check.yml) repeats these checks for pull requests and pushes to main; its run page records the current result.
+`npm run check` validates catalogue and photographs, runs 75 automated checks and builds `dist/`. `npm run links` produces a separate source-link report. [GitHub Actions](https://github.com/abdurrr2011/divergents-explorer/actions/workflows/check.yml) repeats these checks for pull requests and pushes to main; its run page records the current result.
 
 Browser visual QA is still pending because supported browser controls were unavailable during development. Editorial questions remain in the validation reports. New data must identify the official source, applicable intake, applicant category and date checked. Read [CONTRIBUTING.md](CONTRIBUTING.md) before editing.
 

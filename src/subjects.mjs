@@ -22,7 +22,7 @@ export const programmeSubjects={
 };
 export function subjectCodesFor(programme){return programme.subjectCodes||programmeSubjects[programme.id]||[];}
 export function subjectMatches(programme,selected){
- if(interestById(selected))return matchesInterest(subjectCodesFor(programme),selected);
+ if(interestById(selected))return matchesInterest(subjectCodesFor(programme),selected,programme.id);
  if(!/^\d{2,4}$/.test(selected))return programme.field===selected;
  return subjectCodesFor(programme).some(code=>code.startsWith(selected));
 }

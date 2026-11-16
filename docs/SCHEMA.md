@@ -19,3 +19,7 @@ The institution country name resolves through `src/destinations.mjs` to the ISO 
 ### Plain browsing labels
 
 Programme `name` remains the full source-backed catalogue title. `src/programme-names.mjs` maps stable programme IDs to short `{en,ru,kk}` display names. All three are required by validation. This presentation mapping does not create a new qualification or alter an admissions route. Full titles are visible in details and remain searchable alongside short names.
+
+### Geographic regions and focused study topics
+
+`src/destination-regions.mjs` maps stable ISO country codes to geographic browsing regions; it is independent of legacy institution research-region labels. Kazakhstan is also a shortcut. `src/interest-topics.mjs` contains `{id,parentId,programmeIds,labels,descriptions}` with all three languages. Topic IDs are local navigation values; programme IDs must exist. They neither create a degree nor change the source's admissions claims. `programmeNameAliases` retains previous display names for search.

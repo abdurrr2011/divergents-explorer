@@ -22,4 +22,4 @@ Create a branch for new work, run `npm run check`, push that branch, open a pull
 
 ## Verification
 
-Local validation, 69 tests and static build pass. Browser visual verification remains unavailable in the development environment. Remote CI results must be checked separately on GitHub. See the PR and Actions pages for live status.
+Local validation, 75 tests and static build pass. Browser visual verification remains unavailable in the development environment. Remote CI results must be checked separately on GitHub. See the PR and Actions pages for live status.

@@ -60,3 +60,9 @@ This verifies source files, image metadata/coverage and DOM behaviour. No actual
 ## Plain names — 16 November 2026
 
 All 12 categories and 54 programmes have plain browsing labels in all three languages. Full programme names/codes remain in the information disclosure; canonical catalogue/route records are unchanged. Existing translated-search checks were extended to find new plain labels and retained full names, including Data Science and Genomics. `npm run check`: 69 checks pass; the updated validator also verifies all programme-name language mappings. Browser controls remain unavailable; this is DOM/logic/data verification.
+
+## Region-first destinations and focused subjects — 16 November 2026
+
+75 tests pass, including the six new geographic/topic checks and expanded language journeys. All 249 destinations map to one primary geographic region; Kazakhstan also works as a shortcut and a country inside Asia. Country lists reveal only regional members, reset stale selections, compose with stage/subject filters and retain codes through language changes. All 33 focused topics resolve to actual programmes and distinguish Computer Science from Software Engineering. Original/previous browsing names remain searchable.
+
+Programme/route counts remain 54/60; this update expands subject navigation rather than inventing catalogue entries. Geographic source/version and conventions are documented in GEOGRAPHY.md. Source records, photos and admissions/award rules remain unchanged. Actual browser verification remains unavailable; the new flows have DOM/logic/data coverage.

@@ -327,3 +327,8 @@ dialog::backdrop { background: #00000050; backdrop-filter: blur(7px); -webkit-ba
 @media(max-width: 700px) { .campus-photo--card { margin: -24px -24px 22px; } }
 
 .photo-context { position: absolute; top: 10px; left: 10px; right: 10px; padding: 6px 9px; border-radius: 6px; background: rgba(0,0,0,.65); color: #fff; font-size: 10px; line-height: 1.5; width: fit-content; max-width: calc(100% - 20px); }
+
+/* Region first; its country selector is rendered only after choosing a region. */
+.filters>label { min-width: 150px; }
+.filters { flex-wrap: wrap; }
+@media(max-width:700px){.filters>label{min-width:0}.filters>label:has(#subject){flex-basis:100%}}

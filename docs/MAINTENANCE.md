@@ -101,3 +101,11 @@ Run `npm run validate:photos` and inspect `work/photo-validation-report.json`; t
 `src/interests.mjs` contains short category labels; its explanatory sentences preserve each broad scope. `src/programme-names.mjs` contains the plain name for every programme in English, Russian and Kazakh. Maintain those labels together with any new programme record. The data validator requires all three. Use everyday subject words rather than codes, formal degree titles or admissions steps in browsing headings.
 
 Full catalogue titles are kept in data and displayed inside the programme information disclosure, where codes and any major-selection conditions remain visible. Search must support both the plain label and the full title. Never change IDs, source-cycle claims, qualifications or eligibility simply to shorten text. Bookmarks and exact applicant routes remain stable.
+
+## Geographic navigation and specific subjects — 16 November 2026
+
+The main filters are region, a conditional country selector, and study subject. `src/destination-regions.mjs` contains the CLDR-based geographic mapping; see GEOGRAPHY.md. Country options must be constrained to the chosen region and cleared when it changes. Region/country IDs must survive language switching. Do not restore the initial 249-item country dump.
+
+`src/interest-topics.mjs` adds 33 concrete specialities under the 12 broad interest groups. These use explicit stable programme IDs, not invented programme records. Add all three labels/descriptions and valid programme references when updating topics; validation and tests check coverage. A topic is distinct from an admissions route. Keep broad foundation degrees broad unless their actual subject scope supports a narrower match.
+
+Use recognisable academic names (Computer Science / Информатика, Software Engineering, Data Science) instead of vague Computing/Computers labels. Full catalogue titles remain in details. Preserve old browsing labels in `programmeNameAliases` so existing search terms still work. Run `npm run check` (75 checks).

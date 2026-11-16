@@ -34,3 +34,7 @@ Maintain mappings when programmes are added; alternatively provide `subjectCodes
 ## Simple interest mapping
 
 Use detailed tags supported by programme content. `src/interests.mjs` maps their prefixes to student-facing groups and excludes overlapping branches where needed (economics belongs to business; architecture to design; biology to medicine/biology; ecology to nature). A broad Science tag stays in science without claiming every specific discipline. Programmes can appear in multiple relevant groups. The validator rejects a programme with no simple group. Translate group labels and explanations together.
+
+## Current subject menu
+
+The student menu now adds 33 specific specialities in `src/interest-topics.mjs` beneath the 12 broader groups. Topics use explicit programme IDs and recognisable academic names, while internal ISCED tags remain available to logic and validation. All current focused topics have researched examples. Country navigation now begins with region; see GEOGRAPHY.md.

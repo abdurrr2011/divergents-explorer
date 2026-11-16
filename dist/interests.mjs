@@ -1,4 +1,5 @@
-// Short student-facing groups; descriptions preserve their broader scope.
+import {interestTopics} from './interest-topics.mjs';
+export {interestTopics};
 export const interests = [
   {
     "id": "it",
@@ -6,9 +7,9 @@ export const interests = [
       "06"
     ],
     "labels": {
-      "en": "Computers",
-      "ru": "Компьютеры",
-      "kk": "Компьютерлер"
+      "en": "Computer Science and IT",
+      "ru": "Информатика и IT",
+      "kk": "Информатика және IT"
     },
     "descriptions": {
       "en": "Programming, apps, data and artificial intelligence.",
@@ -26,8 +27,8 @@ export const interests = [
     ],
     "labels": {
       "en": "Engineering",
-      "ru": "Техника",
-      "kk": "Техника"
+      "ru": "Инженерия и техника",
+      "kk": "Инженерия және техника"
     },
     "descriptions": {
       "en": "Design machines, electronics, energy systems and buildings.",
@@ -42,9 +43,9 @@ export const interests = [
       "0311"
     ],
     "labels": {
-      "en": "Business",
-      "ru": "Бизнес",
-      "kk": "Бизнес"
+      "en": "Business and Economics",
+      "ru": "Бизнес и экономика",
+      "kk": "Бизнес және экономика"
     },
     "descriptions": {
       "en": "How companies, money, markets and management work.",
@@ -59,9 +60,9 @@ export const interests = [
       "051"
     ],
     "labels": {
-      "en": "Health",
-      "ru": "Медицина",
-      "kk": "Медицина"
+      "en": "Medicine and Biology",
+      "ru": "Медицина и биология",
+      "kk": "Медицина және биология"
     },
     "descriptions": {
       "en": "Human health, living organisms, medicines and care.",
@@ -77,9 +78,9 @@ export const interests = [
       "0731"
     ],
     "labels": {
-      "en": "Art and design",
-      "ru": "Творчество",
-      "kk": "Шығармашылық"
+      "en": "Arts and Design",
+      "ru": "Искусство и дизайн",
+      "kk": "Өнер және дизайн"
     },
     "descriptions": {
       "en": "Drawing, architecture, music, film and journalism.",
@@ -99,9 +100,9 @@ export const interests = [
       "0321"
     ],
     "labels": {
-      "en": "Society",
-      "ru": "Общество",
-      "kk": "Қоғам"
+      "en": "Society and Law",
+      "ru": "Общество и право",
+      "kk": "Қоғам және құқық"
     },
     "descriptions": {
       "en": "Psychology, history, politics, society and the law.",
@@ -116,9 +117,9 @@ export const interests = [
       "023"
     ],
     "labels": {
-      "en": "Teaching and languages",
-      "ru": "Языки и обучение",
-      "kk": "Тілдер және оқыту"
+      "en": "Teaching and Languages",
+      "ru": "Педагогика и языки",
+      "kk": "Педагогика және тілдер"
     },
     "descriptions": {
       "en": "Teaching others, learning languages and translation.",
@@ -136,9 +137,9 @@ export const interests = [
       "052"
     ],
     "labels": {
-      "en": "Science",
-      "ru": "Наука",
-      "kk": "Ғылым"
+      "en": "Natural Sciences and Mathematics",
+      "ru": "Наука и математика",
+      "kk": "Ғылым және математика"
     },
     "descriptions": {
       "en": "Physics, chemistry, mathematics, statistics and research.",
@@ -153,9 +154,9 @@ export const interests = [
       "052"
     ],
     "labels": {
-      "en": "Nature",
-      "ru": "Природа",
-      "kk": "Табиғат"
+      "en": "Environment and Nature",
+      "ru": "Экология и природа",
+      "kk": "Экология және табиғат"
     },
     "descriptions": {
       "en": "Ecology, conservation, agriculture and veterinary care.",
@@ -170,9 +171,9 @@ export const interests = [
       "102"
     ],
     "labels": {
-      "en": "Travel and services",
-      "ru": "Туризм и услуги",
-      "kk": "Туризм және қызмет"
+      "en": "Tourism and Hospitality",
+      "ru": "Туризм и гостиничный бизнес",
+      "kk": "Туризм және қонақүй бизнесі"
     },
     "descriptions": {
       "en": "Hotels, travel, food service, sport and everyday services.",
@@ -187,9 +188,9 @@ export const interests = [
       "104"
     ],
     "labels": {
-      "en": "Transport",
-      "ru": "Транспорт",
-      "kk": "Көлік"
+      "en": "Transport and Safety",
+      "ru": "Транспорт и безопасность",
+      "kk": "Көлік және қауіпсіздік"
     },
     "descriptions": {
       "en": "Transport, aviation, navigation, public safety and defence.",
@@ -203,9 +204,9 @@ export const interests = [
       "00"
     ],
     "labels": {
-      "en": "Preparation",
-      "ru": "Подготовка",
-      "kk": "Дайындық"
+      "en": "University Preparation",
+      "ru": "Подготовка к поступлению",
+      "kk": "Оқуға түсуге дайындық"
     },
     "descriptions": {
       "en": "An extra preparatory stage: language, maths and study skills.",
@@ -214,8 +215,8 @@ export const interests = [
     }
   }
 ];
-export function interestById(id){return interests.find(row=>row.id===id);}
-export function matchesInterest(codes,id){const interest=interestById(id);return !!interest&&codes.some(code=>interest.prefixes.some(prefix=>code.startsWith(prefix))&&!(interest.exclude||[]).some(prefix=>code.startsWith(prefix)));}
+export function interestById(id){return interests.find(row=>row.id===id)||interestTopics.find(row=>row.id===id);}
+export function matchesInterest(codes,id,programmeId){const interest=interestById(id);if(!interest)return false;if(interest.programmeIds)return interest.programmeIds.includes(programmeId);return codes.some(code=>interest.prefixes.some(prefix=>code.startsWith(prefix))&&!(interest.exclude||[]).some(prefix=>code.startsWith(prefix)));}
 export function interestDescription(id,lang='en'){return interestById(id)?.descriptions[lang]||'';}
 export function catalogueSummary(routes,lang='en'){
  const count=new Set(routes.map(r=>r.i.id)).size,total=routes.length;
