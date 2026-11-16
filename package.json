@@ -14,5 +14,19 @@
   },
   "devDependencies": {
     "linkedom": "^0.18.15"
+  },
+  "description": "Multilingual college and university explorer for Kazakhstan students",
+  "license": "UNLICENSED",
+  "author": "Abdurakhman Sagyngaliyev (https://github.com/abdurrr2011)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdurrr2011/divergents-explorer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/abdurrr2011/divergents-explorer/issues"
+  },
+  "homepage": "https://github.com/abdurrr2011/divergents-explorer#readme",
+  "engines": {
+    "node": ">=22"
   }
 }
