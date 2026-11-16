@@ -15,3 +15,7 @@ Sources on an entity apply only to its written, scoped claims. If an entity comb
 ### Navigation reference lists
 
 The institution country name resolves through `src/destinations.mjs` to the ISO alpha-2 code used by the selector. It remains independent of verified destination coverage. Programme `field` retains its original broad family for compatibility. The 12 student-facing interest groups and explanations live in `src/interests.mjs`; their IDs are local filter values rather than admissions claims. Optional `subjectCodes` accepts an array of 2-, 3- or 4-digit reference IDs; absent arrays use the editor-maintained `programmeSubjects` map in `src/subjects.mjs`. The validator requires a valid mapping and at least one simple interest group. These are discovery tags, not a claim that a university formally assigns that ISCED code. Do not infer acceptance, scholarships or curriculum solely from a classification.
+
+### Plain browsing labels
+
+Programme `name` remains the full source-backed catalogue title. `src/programme-names.mjs` maps stable programme IDs to short `{en,ru,kk}` display names. All three are required by validation. This presentation mapping does not create a new qualification or alter an admissions route. Full titles are visible in details and remain searchable alongside short names.

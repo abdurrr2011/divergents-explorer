@@ -84,3 +84,11 @@ All 33 institutions have a real, source-checked campus photograph in programme c
 The 33 files total 6.30 MB; each is below 390 KB. 29 photo records have verified free licences/public-domain status. Reuse terms for four institution records (three source photos) remain unconfirmed: NU, AITU/its college and Oskemen college. They are documented for the owner-private review edition and must be cleared or replaced before wider rollout. The request for images is not a copyright permission grant.
 
 Run `npm run validate:photos` or `npm run check` (69 tests). The photo validator checks complete institution coverage, local files/raster signatures, dimensions, byte budget, HTTPS provenance, licences and translations; it writes `work/photo-validation-report.json`. Current result: zero errors, five review notes (four reuse reviews and one 389 KB image above the 350 KB target).
+
+## Plain direction and programme names — 16 November 2026
+
+The 12 interest labels now use everyday words: computers, engineering, business, health, creativity, society, teaching/languages, science, nature, tourism/services, transport and preparation. Their descriptions and classification rules remain the same.
+
+All 54 programmes have plain browsing names in `src/programme-names.mjs` for English/Russian/Kazakh. Cards, detail headings, saved options, comparison, calendar links and the comparison tray use these names. Full source-backed catalogue titles, qualification codes, curriculum and first-year/entry conditions remain in programme details. The underlying catalogue IDs, admission/funding rules and saved-route keys are unchanged. Search accepts both plain and full names in all three languages.
+
+Add all three plain labels when adding a programme; `npm run validate` checks completeness. Prefer familiar subject words and retain a foundation/preparation cue where applicable. Do not change the source programme record merely to shorten a title. All 69 existing checks pass, including extended translated-search coverage.

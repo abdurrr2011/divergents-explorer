@@ -1,6 +1,6 @@
 {
   "date": "2026-11-16",
-  "scope": "Campus photos for all institutions, translated alt/captions and graceful image failure",
+  "scope": "Plain names for 12 interests and 54 programmes with full-title search retained",
   "cataloguePhrases": 1345,
   "tests": 69,
   "automatedResult": "passed",
@@ -25,5 +25,6 @@
   "detailGroupsInitiallyOpen": 0,
   "comparisonFacts": 4,
   "campusPhotos": 33,
-  "photoBytes": 6295136
+  "photoBytes": 6295136,
+  "plainProgrammeNames": 54
 }

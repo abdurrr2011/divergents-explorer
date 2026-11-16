@@ -56,3 +56,7 @@ Seven new automated checks cover compact test roles, all aggregate English state
 `npm run validate:photos` reports zero errors and five review notes: four institution records need reuse permission review before wider rollout and one file exceeds the preferred 350 KB budget (389 KB, below the 1.5 MB cap). See `PHOTO-CREDITS.md` and `PHOTO-VALIDATION-REPORT.json`. 29 records are freely licensed/public domain. The four remaining records are owner-private source-photo review assets, not claimed as licensed for public distribution. No catalogue admission/funding facts or audience were changed.
 
 This verifies source files, image metadata/coverage and DOM behaviour. No actual browser layout or signed-in owner interaction is claimed because supported browser controls are unavailable. The private deployment also receives a service-authorised file/hash check, including all 33 local image files.
+
+## Plain names — 16 November 2026
+
+All 12 categories and 54 programmes have plain browsing labels in all three languages. Full programme names/codes remain in the information disclosure; canonical catalogue/route records are unchanged. Existing translated-search checks were extended to find new plain labels and retained full names, including Data Science and Genomics. `npm run check`: 69 checks pass; the updated validator also verifies all programme-name language mappings. Browser controls remain unavailable; this is DOM/logic/data verification.

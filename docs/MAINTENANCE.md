@@ -95,3 +95,9 @@ Prefer a freely licensed real campus photo, with its exact source page, credited
 Verify the institution/country/campus and look at the actual downloaded image. Never substitute a logo or an unrelated/generated campus photograph. A university's general campus must not be presented as a guaranteed programme teaching building. For a partner campus context, set `needsContextCaption:true` and state that relationship visibly; Sheffield demonstrates this. AITU and its college intentionally share one verified EXPO location. Preserve artist names and licence codes, and translate captions/alt fully. No student identities are collected by this feature.
 
 Run `npm run validate:photos` and inspect `work/photo-validation-report.json`; then `npm run check`. Test all image placements and the image-load failure state in all languages. Check actual desktop/phone cropping in a supported browser before school rollout. Browser controls remain unavailable here. `docs/PHOTO-CREDITS.md` lists current source/rights notes; clear or replace the four unconfirmed-reuse institution records before expanding the audience.
+
+## Plain names
+
+`src/interests.mjs` contains short category labels; its explanatory sentences preserve each broad scope. `src/programme-names.mjs` contains the plain name for every programme in English, Russian and Kazakh. Maintain those labels together with any new programme record. The data validator requires all three. Use everyday subject words rather than codes, formal degree titles or admissions steps in browsing headings.
+
+Full catalogue titles are kept in data and displayed inside the programme information disclosure, where codes and any major-selection conditions remain visible. Search must support both the plain label and the full title. Never change IDs, source-cycle claims, qualifications or eligibility simply to shorten text. Bookmarks and exact applicant routes remain stable.
