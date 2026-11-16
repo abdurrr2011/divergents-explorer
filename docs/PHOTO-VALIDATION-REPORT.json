@@ -1,0 +1,14 @@
+{
+  "checked": "2026-11-16",
+  "institutions": 33,
+  "photos": 33,
+  "totalBytes": 6295136,
+  "errors": [],
+  "warnings": [
+    "nu: reuse terms need review before wider rollout (Reuse terms unspecified)",
+    "kz-aitu-college: reuse terms need review before wider rollout (Reuse terms unspecified)",
+    "kz-aitu: reuse terms need review before wider rollout (Reuse terms unspecified)",
+    "kz-uk-college: image exceeds target 350 KB",
+    "kz-uk-college: reuse terms need review before wider rollout (Reuse terms unspecified)"
+  ]
+}

@@ -32,7 +32,7 @@ export function localizeDOM(root,lang){
   if(node.nodeType===3){node.textContent=localValue(node,'text',node.textContent,lang);return;}
   if(node.nodeType===1){
    if(node.hasAttribute('data-no-i18n')||['SCRIPT','STYLE','CODE','PRE'].includes(node.tagName))return;
-   for(const key of ['aria-label','title','placeholder'])if(node.hasAttribute(key))node.setAttribute(key,localValue(node,key,node.getAttribute(key),lang));
+   for(const key of ['aria-label','title','placeholder','alt'])if(node.hasAttribute(key))node.setAttribute(key,localValue(node,key,node.getAttribute(key),lang));
    if(['INPUT','TEXTAREA'].includes(node.tagName))return;
   }
   for(const child of [...(node.childNodes||[])])visit(child);

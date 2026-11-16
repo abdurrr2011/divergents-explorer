@@ -8,7 +8,7 @@ Node 22+ and Python 3. No runtime dependencies; install the development-only DOM
 
 ```sh
 npm ci            # development-only test dependencies
-npm run check     # data validation, 66 scenario/localization/currency/world-filter tests, static build
+npm run check     # data validation, 69 scenario/localization/currency/world-filter tests, static build
 npm run links     # official-source link report (curl, network required)
 npm start         # http://localhost:4173 after building
 ```
@@ -65,7 +65,7 @@ Explore initially shows six routes. Show more reveals six at a time, while searc
 
 Details start with one short description, entry stage and duration. Full admissions/cost/evidence content and next actions live in five closed disclosure groups. Programmes with multiple routes have a route selector; NU GPA admission, NUET financial support and SAT/ACT remain separate saved/comparison choices. The deadline page leads with confirmed dates for the chosen cycle; other cycles and unpublished dates are collapsed. About initially shows a brief introduction and counts; geography, editorial review, privacy and sources are expandable.
 
-The 66-test suite verifies these behaviours in all three languages, including the entire catalogue and route switching. Browser visual QA remains unavailable because no supported browser-control tool is exposed.
+The 69-test suite verifies these behaviours in all three languages, including the entire catalogue and route switching. Browser visual QA remains unavailable because no supported browser-control tool is exposed.
 
 ## Simple comparison — 16 November 2026
 
@@ -74,3 +74,13 @@ Comparison uses up to three compact cards with four facts: reference tuition in 
 Complete admissions, eligibility, curriculum, cost scope, awards and official evidence remain available through each card's Details button. Unknown English remains unknown, conditional English alternatives stay conditional, and tuition-only awards are distinct from maintenance-supported full scholarships. Costs and awards remain reference claims with their own cycles, regardless of the selected intake. No historical or unpublished deadline can become the upcoming date. `src/comparison.mjs` owns these compact summaries; it does not change catalogue records.
 
 `npm run check` passes 66 checks; browser layout verification remains unavailable in this environment.
+
+## Campus photographs — 16 November 2026
+
+All 33 institutions have a real, source-checked campus photograph in programme cards, shortlists, comparison and detail. Files are local JPEGs under `public/media/campuses`; the build copies `public/` into `dist/`. It does not hotlink image hosts or send student browsing activity to image providers. Images load lazily, reserve their dimensions and use a fixed crop; a failed image leaves the catalogue usable. Captions/alt follow English, Russian or Kazakh. Source/credit links are on each photo, with the complete list under About → Photo credits.
+
+`src/campus-photos.mjs` is the independent media manifest. Keep admissions sources in `data/`; photo provenance is not admissions evidence. See `docs/PHOTO-CREDITS.md` for sources, licences and campus-specific context. AITU/its college intentionally share their verified EXPO campus; Sheffield shows a labelled partner-campus context image.
+
+The 33 files total 6.30 MB; each is below 390 KB. 29 photo records have verified free licences/public-domain status. Reuse terms for four institution records (three source photos) remain unconfirmed: NU, AITU/its college and Oskemen college. They are documented for the owner-private review edition and must be cleared or replaced before wider rollout. The request for images is not a copyright permission grant.
+
+Run `npm run validate:photos` or `npm run check` (69 tests). The photo validator checks complete institution coverage, local files/raster signatures, dimensions, byte budget, HTTPS provenance, licences and translations; it writes `work/photo-validation-report.json`. Current result: zero errors, five review notes (four reuse reviews and one 389 KB image above the 350 KB target).

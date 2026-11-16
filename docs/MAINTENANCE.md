@@ -74,7 +74,7 @@ Counts must distinguish institutions, programmes and applicant routes. Current c
 
 `src/currency.mjs` owns display names and amount formatting for the 16 supported currency codes. Apply localisation after translating prose. Retain source amounts and ISO keys in data; do not convert costs when switching language. Extend the supported codes when introducing another currency, then check all three languages. URLs, IDs and student-written notes stay unchanged.
 
-Run `npm run check` (66 tests) and inspect link/validation reports. Unknown English never passes a no-required-English query; an explicitly optional test may pass for the application step, while later language coursework/exams must remain in the detail. A conditional education waiver is an alternative, not an unconditional exemption.
+Run `npm run check` (69 tests) and inspect link/validation reports. Unknown English never passes a no-required-English query; an explicitly optional test may pass for the application step, while later language coursework/exams must remain in the detail. A conditional education waiver is an alternative, not an unconditional exemption.
 
 ## Current visual interface
 
@@ -87,3 +87,11 @@ In the manual desktop/phone checklist, also check all three responsive card-colu
 The comparison page shows exactly four main facts per option; use Details for the full conditions and evidence. Do not restore the former nine-row prose table. Preserve exact route IDs when saving/removing options, including the three distinct NU admissions/support routes. English unknown/optional/alternative/required states must not be collapsed into an exemption. Awards remain reference options, not promised funding.
 
 A comparison's year input affects its nearest-deadline view only. Select only confirmed dates for that cycle that are today or later in Asia/Aqtobe; retain old/unpublished records in programme details. If none qualifies, show a confirmation-needed state. Check switching to a future intake, clearing/removing options, full-scholarship versus tuition-only labels, unknown cost/English states and the three-language UI. Browser QA must check desktop alignment and phone stacking when supported controls become available.
+
+## Photo maintenance
+
+Prefer a freely licensed real campus photo, with its exact source page, credited creator and licence URL; school-supplied photography needs authorised reuse. Store downloaded raster bytes in `public/media/campuses/<institution-id>.jpg` and add the corresponding record to `src/campus-photos.mjs`. Copy an existing row, update actual dimensions/bytes, checked date, credit/licence, source/image URLs and all three captions/alts. Keep filenames stable and avoid external hotlinks. Use a source thumbnail of roughly 800–1200 pixels, normally under 350 KB; images above 1.5 MB are rejected. The build copies public assets recursively.
+
+Verify the institution/country/campus and look at the actual downloaded image. Never substitute a logo or an unrelated/generated campus photograph. A university's general campus must not be presented as a guaranteed programme teaching building. For a partner campus context, set `needsContextCaption:true` and state that relationship visibly; Sheffield demonstrates this. AITU and its college intentionally share one verified EXPO location. Preserve artist names and licence codes, and translate captions/alt fully. No student identities are collected by this feature.
+
+Run `npm run validate:photos` and inspect `work/photo-validation-report.json`; then `npm run check`. Test all image placements and the image-load failure state in all languages. Check actual desktop/phone cropping in a supported browser before school rollout. Browser controls remain unavailable here. `docs/PHOTO-CREDITS.md` lists current source/rights notes; clear or replace the four unconfirmed-reuse institution records before expanding the audience.

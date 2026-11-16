@@ -1,8 +1,8 @@
 {
   "date": "2026-11-16",
-  "scope": "Compact four-fact comparison, typed upcoming deadlines and preserved English states",
+  "scope": "Campus photos for all institutions, translated alt/captions and graceful image failure",
   "cataloguePhrases": 1345,
-  "tests": 66,
+  "tests": 69,
   "automatedResult": "passed",
   "browserVerification": "Unavailable: no cua_repl.js tool exposed; DOM checks only",
   "canonicalCatalogueChanged": false,
@@ -23,5 +23,7 @@
   "initialCards": 6,
   "cardBatchSize": 6,
   "detailGroupsInitiallyOpen": 0,
-  "comparisonFacts": 4
+  "comparisonFacts": 4,
+  "campusPhotos": 33,
+  "photoBytes": 6295136
 }
