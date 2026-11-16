@@ -1,29 +1,25 @@
-# GitHub import status
+# GitHub source handoff
 
-Target: `abdurrr2011/divergents-explorer`, intended private visibility.
+Repository: https://github.com/abdurrr2011/divergents-explorer
 
-Repository creation is currently blocked: the connected GitHub integration returns HTTP 403 `Resource not accessible by integration` for both GraphQL createRepository and REST POST /user/repos. No repository, push, pull request or remote merge has succeeded. The local `github` remote is configured for the intended repository; the original `origin` still points to Sites.
+The owner explicitly requested public source-repository visibility. The deployed Sites application remains owner-private; repository visibility does not change its audience. Third-party media rights and editorial limits remain documented, and no licence grant is implied by source publication.
 
-## Prepared source
+## History and branches
 
-The local main branch retains all 11 original development commits. `chore/professional-handoff` adds repository documentation, CI and contribution templates. The Git bundle contains the complete available history; no history was invented, squashed or rewritten. Local checks pass independently of remote CI.
+The main source history contains all 11 original development commits. The professional-handoff branch adds README, contribution/security/licensing guidance, CI configuration, issue/PR templates and a coverage roadmap without rewriting those commits. Preserve merge commits rather than squashing the import.
 
-## Finish after access is available
+The original `origin` remote remains the Sites source repository. `github` points to this GitHub repository. Keep credentials out of both remote URLs and all tracked files.
 
-Create an empty private `divergents-explorer` repository on the account and permit the integration to access it. Do not initialise a separate README or licence. In this checkout:
-
-```sh
-git push github main
-git push -u github chore/professional-handoff
-gh pr create --repo abdurrr2011/divergents-explorer --base main --head chore/professional-handoff --title "Prepare professional repository handoff" --body-file docs/GITHUB-PR-BODY.md
-```
-
-Review the remote CI and the PR diff, then merge with a merge commit, preserving history:
+## Synchronise
 
 ```sh
-gh pr merge --repo abdurrr2011/divergents-explorer --merge <PR_NUMBER>
+git fetch github
 git switch main
 git pull --ff-only github main
 ```
 
-If the remote was initialised separately, fetch and inspect it before integrating. Do not force-push or silently discard its commits. `git pull` downloads changes; `git push` uploads them. No deployment or audience change is included in this repository handoff.
+Create a branch for new work, run `npm run check`, push that branch, open a pull request and merge after review/checks. Never force-push or overwrite remote commits. A source push does not deploy the application or approve a rollout audience.
+
+## Verification
+
+Local validation, 69 tests and static build pass. Browser visual verification remains unavailable in the development environment. Remote CI results must be checked separately on GitHub. See the PR and Actions pages for live status.

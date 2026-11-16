@@ -61,7 +61,7 @@ Browser visual QA is still pending because supported browser controls were unava
 
 ## Privacy, access and media
 
-The deployed application remains owner-private. This repository's intended visibility is private; creating a GitHub repository does not authorise public or school-wide rollout. Credentials, student records and local work files must never be committed.
+The deployed application remains owner-private. The source repository is public at the owner's explicit request. This does not authorise public or school-wide access to the deployed application. Credentials, student records and local work files must never be committed.
 
 Photograph and taxonomy licences are recorded separately. Reuse terms for three source photographs covering four institution records need confirmation before wider distribution. See [photo credits](docs/PHOTO-CREDITS.md) and [licensing](LICENSE.md).
 
