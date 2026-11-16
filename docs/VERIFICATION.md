@@ -2,40 +2,43 @@
 
 ## Current result
 
-`npm run check` passes: validation has zero structural errors, all 69 logic/DOM/localisation/currency tests pass, and the static build contains 60 routes across 54 programmes and 33 institutions. A separate `node --check src/app.mjs` passes. There are 160 editorial warnings/questions, deliberately recorded in `VALIDATION-REPORT.json`; a green structural check does not confirm every applicant's eligibility.
+`npm run check` passes: zero structural catalogue errors, all 82 logic/DOM/localisation/currency checks pass, all 33 institution photo records validate, and the static build contains 84 routes across 78 programme/major options at 33 institutions. There are 235 editorial warnings/questions, deliberately recorded in `VALIDATION-REPORT.json`; structural validity does not confirm every applicant's eligibility. Photos retain five existing review notes.
 
-The interface now has 12 simple interest choices with explanations instead of a 120-item technical hierarchy. Every programme maps to a group; detailed classification stays internal. Country navigation retains 249 multilingual ISO entries. Counts distinguish institutions from admissions options. Current catalogue has 146 official-source records, 14 award records and 50 deadline records. Latest source check: 16 November 2026.
+The two main filters are Country and Study Subjects. Country opens a main-region panel and shows that region's countries inside the same control; 249 destinations remain supported. Forty programme-backed topics sit inside twelve broad interests. All broad interests now have real routes. Data Science returns 12 options at 11 institutions. Grade 9 searches with only later options offer a Grade 11 action without losing the subject. No scores or personal data are requested.
 
-## Automated scope
+## Repeatable verification
 
-- `npm run validate`: IDs, foreign keys, source metadata/cycles, dates/times, currencies, tuition units, aggregate English state, duplicate/conflicting route keys, funding labels, valid subject tags and simple-interest mapping. Full report: `VALIDATION-REPORT.json`.
-- `npm test`: 69 checks covering entry paths, legacy grade preferences, friendly interests/descriptions, country/stage combinations, appropriate coverage gaps, translated search, every human-readable catalogue value, every route detail and page in Russian/Kazakh, threshold preservation, unknown English exclusion, optional English application step, UNT/NUET/SAT distinction, funding coverage, native currency names/periods, shortlist/comparison, storage logic, deadline cycles and switching languages. DOM checks use development-only linkedom and preserve IDs/URLs/user notes.
-- `npm run build`: copies static sources and combines independent data batches into dist/catalogue.json. Metadata uses the latest source check rather than a hardcoded date.
-- `npm run links`: 137 successful HTTP responses, 5 manual checks/timeouts and 4 unavailable HTTP 503 responses out of 146 distinct URLs. The Sciences Po site timed out; Satbayev and UKPTK returned 503 to curl. Research used official pages/indexed official evidence with limitations recorded in the sources. A blocked or temporarily unavailable response is not proof that a URL is permanently broken. Full report: `LINK-REPORT.json`. Manual rechecks remain necessary.
+- `npm run check`: catalogue/source/currency/date/reference validation, no orphan programmes, photo validation, 82 checks and static build. Language journeys inspect every route detail and page in Russian/Kazakh, previous translated search names, test roles, English uncertainty, currencies, shortlist/comparison, deadlines and regional reset behaviour. DOM rendering uses development-only linkedom; it is not browser automation.
+- `npm run coverage`: region, broad-interest and focused-topic counts in `work/coverage-report.json`; checked snapshot: `COVERAGE.json`. Programme/route/institution totals remain distinct.
+- `npm run links`: 184 distinct URLs checked — 173 successful, seven timeouts/manual checks and four HTTP 503 responses. Sciences Po pages and one KazNU page timed out; Satbayev and UKPTK returned 503. No new URL returned 404. A blocked/temporarily unavailable fetch is not proof of a permanently broken page. Full snapshot: `LINK-REPORT.json`.
+
+There are 205 official-source records, 14 award records and 61 deadline records. Their fee, award and admission cycles remain independent. New source-specific limits and conflicts are recorded in `EXPANSION-MORE.md` and in route questions. No old deadline was shifted into a future cycle.
 
 ## Catalogue coverage
 
-| Region | Institutions | Programmes | Routes |
+| Region | Institutions | Programme/major options | Routes |
 | --- | ---: | ---: | ---: |
-| Kazakhstan | 10 | 16 | 22 |
-| North America | 5 | 9 | 9 |
-| Europe | 6 | 10 | 10 |
-| Asia | 8 | 13 | 13 |
+| Kazakhstan | 10 | 24 | 30 |
+| North America | 5 | 14 | 14 |
+| Europe | 6 | 13 | 13 |
+| Asia | 8 | 18 | 18 |
 | Latin America | 1 | 1 | 1 |
 | Africa | 1 | 2 | 2 |
-| Oceania | 2 | 3 | 3 |
+| Oceania | 2 | 6 | 6 |
 
-20 actual universities were added in this release. Transport/safety has no researched programme yet; all other interest groups have examples. Africa/Latin America remain thin. The catalogue is representative, not comprehensive. Four `EXPANSION-*.md` documents describe new evidence and individual limits.
-
-Important open questions include foreign diploma recognition, NTU/Twente additional-qualification requirements, UNNC preliminary-year entry, TUM fee inconsistency, APU admissions pages blocked to automated fetching, historical UNBC Kazakhstan guidance, current fees and awards. Older questions about AITU's conflicting paid UNT minimum, college funded-place allocations, NU support-package details and other routes remain visible. Admission, fee and award cycles are kept independently; no historical date was moved forward.
+These exclusive editorial regions keep Kazakhstan separate from Asia to avoid double-counting. Geographic Asia in the app also includes Kazakhstan. Africa and Latin America remain thin; transport has one example. Degree majors/concentrations name their parent degree and progression conditions. This batch adds 24 options at existing institutions, rather than 24 new universities.
 
 ## Browser and access scope
 
-The managed environment exposes no cua_repl.js browser-control tool. The Sites skill directs us not to improvise a replacement browser path or launch preview without it. Desktop/mobile layout, actual browser reload persistence, keyboard interactions, phone scrolling and signed-in owner navigation are therefore not browser-verified. DOM tests are not a substitute. The current manual checklist is in `MAINTENANCE.md`.
+The managed environment exposes no cua_repl.js browser-control tool. The Sites skill directs us not to improvise a replacement browser path or launch a preview without it. Desktop/mobile appearance, actual browser reload persistence, keyboard interactions and authenticated owner navigation remain unverified in a real browser. DOM checks do not substitute for these; use the manual checklist in `MAINTENANCE.md`.
 
-Native Sites access inspection on 16 November confirms custom owner-only access, no groups and zero external visitors. Deployment preserves that audience. Signed-out HTTP and service-authorised asset checks establish the private gate and whether published files match the package; they do not establish an interactive authenticated browser session.
+Native Sites inspection confirms custom owner-only access, no groups and zero external visitors. Publication preserves that audience. Signed-out HTTP and authorised asset-hash checks verify the private gate and package contents; they do not establish an interactive signed-in browser session. The public GitHub source repository and owner-private application are separate audiences.
 
-The personal explorer is a separate Site and was not edited. Source synchronisation uses ordinary Git with short-lived credentials held only in process memory because the supported helper scripts are absent. The release packages the exact pushed source's dist and hosting manifest and uses the native owner-private deployment operation. `DEPLOYMENT.md` records the procedure. School invitations still require explicit approval of audience and sign-in method.
+The personal explorer is a separate Site and is untouched. Source synchronisation uses ordinary Git with short-lived credentials kept only in process memory because the supported helper scripts are absent. Publication packages the exact pushed source's `dist/` and hosting manifest. School access still needs approval of the audience and sign-in method. A designated teacher/counsellor should own source and annual-cycle review.
+
+## Earlier verification milestones
+
+The sections below record earlier changes; their counts are historical. The current result above supersedes them.
 
 ## Visual and information redesign — 16 November 2026
 

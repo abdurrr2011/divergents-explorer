@@ -16,7 +16,7 @@ A multilingual college and university explorer for students in Kazakhstan, devel
 ## What students can do
 
 - Browse college entry after Grade 9 and college or university entry after Grade 11.
-- Choose a region, then a country, and search by recognisable specialities such as Computer Science, Software Engineering and Data Science in English, Russian and Kazakh.
+- Use two main filters — Country (region, then country) and Study Subjects — and search by recognisable specialities such as Computer Science, Software Engineering and Data Science in English, Russian and Kazakh.
 - Save options locally and compare up to three admissions routes.
 - Check tuition in its native currency, scholarship coverage, exams and sourced deadlines.
 - Explore real campus photography with recorded credits and provenance.
@@ -26,13 +26,13 @@ A multilingual college and university explorer for students in Kazakhstan, devel
 | Catalogue | Records |
 | --- | ---: |
 | Institutions | 33 |
-| Programmes | 54 |
-| Admissions routes | 60 |
-| Official source records | 146 |
+| Programmes and major options | 78 |
+| Admissions routes | 84 |
+| Official source records | 205 |
 | Campus photo records | 33 |
 | Interface languages | 3 |
 
-The subject menu has 33 specific specialities inside 12 broader groups. Each specific topic links to actual researched programmes. These are browsing choices, not additional degree records. Countries are selected by region first; Kazakhstan also has a shortcut. Internal classification supports 120 subject categories and navigation includes 249 countries and territories. Actual researched coverage remains incomplete, especially transport, teaching, languages and services. See the [expansion priorities](docs/ROADMAP.md).
+The subject menu has 40 specific specialities inside 12 broader groups. Each specific topic links to actual researched programmes. These are browsing choices, not additional degree records. The Country control opens the region menu, then the countries inside the selected region; Kazakhstan also has a shortcut. Internal classification supports 120 subject categories and navigation includes 249 countries and territories. Data Science has 12 degree/major options at 11 institutions. All 12 broad interests have real examples. Coverage is still sparse in transport, teaching, languages, services, Africa and Latin America. See the [latest research notes](docs/EXPANSION-MORE.md) and [expansion priorities](docs/ROADMAP.md).
 
 Source cycles stay independent of the student's planned entry year. Unknown eligibility, costs and tests remain explicit. A sourced listing does not guarantee admission, diploma recognition or funding.
 
@@ -80,7 +80,7 @@ See [architecture](docs/ARCHITECTURE.md) and [Git workflow](docs/GIT-WORKFLOW.md
 
 ## Quality and maintenance
 
-`npm run check` validates catalogue and photographs, runs 75 automated checks and builds `dist/`. `npm run links` produces a separate source-link report. [GitHub Actions](https://github.com/abdurrr2011/divergents-explorer/actions/workflows/check.yml) repeats these checks for pull requests and pushes to main; its run page records the current result.
+`npm run check` validates catalogue and photographs, runs 82 automated checks and builds `dist/`. `npm run links` produces a separate source-link report; `npm run coverage` reports programmes and institutions by subject and region. [GitHub Actions](https://github.com/abdurrr2011/divergents-explorer/actions/workflows/check.yml) repeats these checks for pull requests and pushes to main; its run page records the current result.
 
 Browser visual QA is still pending because supported browser controls were unavailable during development. Editorial questions remain in the validation reports. New data must identify the official source, applicable intake, applicant category and date checked. Read [CONTRIBUTING.md](CONTRIBUTING.md) before editing.
 

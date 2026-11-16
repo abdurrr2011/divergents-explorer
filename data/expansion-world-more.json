@@ -1,0 +1,924 @@
+{
+  "institutions": [],
+  "programmes": [
+    {
+      "id": "wm-p-monash-data",
+      "institutionId": "exp-aw-i-monash",
+      "name": "Applied Data Science",
+      "field": "Technology",
+      "subjectCodes": [
+        "0613",
+        "0542"
+      ],
+      "qualification": "Bachelor of Applied Data Science",
+      "duration": "3 years full time",
+      "credits": "144 Monash credit points",
+      "languages": [
+        "English"
+      ],
+      "description": "Use statistics, computing and a chosen science discipline to investigate real data.",
+      "curriculum": "Data challenges, mathematical and IT techniques, applied science studies and electives.",
+      "practical": "Third-year project-based unit involves industry; studio case studies throughout the course.",
+      "campus": "Sunway City campus, Malaysia",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "wm-s-monash-data"
+      ]
+    },
+    {
+      "id": "wm-p-melb-data",
+      "institutionId": "aw-i-melb",
+      "name": "Data Science major in the Bachelor of Science",
+      "field": "Technology",
+      "subjectCodes": [
+        "0613",
+        "0542"
+      ],
+      "qualification": "Bachelor of Science, Data Science major",
+      "duration": "3 years full time",
+      "credits": "300 Melbourne points for BSc; major is 100 points within it",
+      "languages": [
+        "English"
+      ],
+      "description": "Study statistical and computational methods for analysing large datasets.",
+      "curriculum": "Eight major subjects in years two and three, including a capstone; the rest is BSc core, electives and breadth.",
+      "practical": "12.5-point capstone; an internship is not guaranteed.",
+      "campus": "Parkville campus",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "wm-s-melb-major",
+        "wm-s-melb-bsc"
+      ]
+    },
+    {
+      "id": "wm-p-ntu-data",
+      "institutionId": "exp-aw-i-ntu",
+      "name": "Data Science and Artificial Intelligence",
+      "field": "Technology",
+      "subjectCodes": [
+        "0613",
+        "0542"
+      ],
+      "qualification": "Bachelor of Computing (Hons); selected-intake title needs confirmation",
+      "duration": "4 years, direct honours",
+      "credits": "Total credits not verified",
+      "languages": [
+        "English"
+      ],
+      "description": "Combine statistics, computing and artificial intelligence to understand data and build models.",
+      "curriculum": "Data preparation, modelling and visualisation, AI, analytics, electives and responsible technology.",
+      "practical": "Projects, capstone work and industry immersion are documented.",
+      "campus": "NTU Singapore campus",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "wm-s-ntu-data"
+      ]
+    },
+    {
+      "id": "wm-p-waikato-data",
+      "institutionId": "exp-aw-i-waikato",
+      "name": "Data Analytics major in the Bachelor of Science",
+      "field": "Technology",
+      "subjectCodes": [
+        "0613",
+        "0542"
+      ],
+      "qualification": "Bachelor of Science, Data Analytics major",
+      "duration": "3 years full time",
+      "credits": "360 NZ qualification points; 135-point single major",
+      "languages": [
+        "English"
+      ],
+      "description": "Combine computing and statistics to extract useful information and reason about uncertainty.",
+      "curriculum": "2027 major combines introductory computing, statistics, data analysis and advanced data analysis.",
+      "practical": "Computing laboratories; research and work-integrated options depend on the chosen papers.",
+      "campus": "Hamilton campus",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "wm-s-waikato-data",
+        "wm-s-waikato-bsc",
+        "wm-s-waikato-data-practice"
+      ]
+    },
+    {
+      "id": "wm-p-monash-media",
+      "institutionId": "exp-aw-i-monash",
+      "name": "Digital Media and Communication",
+      "field": "Social sciences",
+      "subjectCodes": [
+        "0321"
+      ],
+      "qualification": "Bachelor of Digital Media and Communication",
+      "duration": "3 years full time",
+      "credits": "144 Monash credit points",
+      "languages": [
+        "English"
+      ],
+      "description": "Explore how digital platforms, media content and communication affect society.",
+      "curriculum": "Digital media studies, communication foundations, professional practice and electives.",
+      "practical": "Digital research project or internship application; confirm placement arrangements.",
+      "campus": "Sunway City campus, Malaysia",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "wm-s-monash-media"
+      ]
+    },
+    {
+      "id": "wm-p-monash-food",
+      "institutionId": "exp-aw-i-monash",
+      "name": "Food Science and Technology",
+      "field": "Engineering",
+      "subjectCodes": [
+        "0721"
+      ],
+      "qualification": "Bachelor of Food Science and Technology",
+      "duration": "3 years full time",
+      "credits": "Total credits not verified",
+      "languages": [
+        "English"
+      ],
+      "description": "Investigate how to turn raw ingredients into safe, nutritious food.",
+      "curriculum": "Chemistry, microbiology, food processing, preservation, packaging and quality management.",
+      "practical": "Required eight-week internship plus laboratory and pilot food-processing work.",
+      "campus": "Sunway City campus, Malaysia",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "wm-s-monash-food"
+      ]
+    },
+    {
+      "id": "wm-p-unnc-media",
+      "institutionId": "exp-aw-i-unnc",
+      "name": "International Communications Studies",
+      "field": "Social sciences",
+      "subjectCodes": [
+        "0321"
+      ],
+      "qualification": "BA (Hons) International Communications Studies",
+      "duration": "4 years with preliminary year; 3-year entry depends on qualifications",
+      "credits": "Total credits not verified",
+      "languages": [
+        "English"
+      ],
+      "description": "Study media, communication and cultural change across international settings.",
+      "curriculum": "Communication and media theory, research skills and cultural analysis; confirm selected-cycle modules.",
+      "practical": "Practical project and internship requirements need programme-specific confirmation.",
+      "campus": "Ningbo campus, China",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "wm-s-unnc-media"
+      ]
+    },
+    {
+      "id": "wm-p-waikato-primary",
+      "institutionId": "exp-aw-i-waikato",
+      "name": "Primary Teaching",
+      "field": "Social sciences",
+      "subjectCodes": [
+        "0113"
+      ],
+      "qualification": "Bachelor of Teaching (Primary)",
+      "duration": "3 years full time",
+      "credits": "360 NZ qualification points",
+      "languages": [
+        "English"
+      ],
+      "description": "Learn how primary-age children learn and how to plan and assess classroom teaching.",
+      "curriculum": "Primary education studies with curriculum teaching, reflective practice and school experience.",
+      "practical": "School experience starts in year one; graduation supports an application for provisional teacher registration.",
+      "campus": "Hamilton or Tauranga; confirm international on-campus availability",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "wm-s-waikato-teaching",
+        "wm-s-waikato-primary"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "wm-r-monash-data",
+      "programmeId": "wm-p-monash-data",
+      "name": "Monash Malaysia international qualification assessment",
+      "entryAfter": 11,
+      "pathway": "direct",
+      "cycle": "2027",
+      "applicant": "International undergraduate applicant from Kazakhstan",
+      "eligibility": "A recognised pre-university qualification, course prerequisites, English evidence and age requirements are needed. Ordinary Kazakhstan Grade 11 diploma equivalence is not confirmed.",
+      "recognition": "Ask Monash Malaysia to assess the exact diploma; a recognised foundation may add time and cost. Admission is not automatic.",
+      "subjects": "Higher-level Mathematics at Australian Year 12 equivalent or higher, plus English prerequisites.",
+      "tests": {
+        "ENGLISH": {
+          "status": "alternative",
+          "detail": "English evidence may be met through an approved qualification, eligible English-medium study, a language course or an accepted test. Exemptions are conditional."
+        },
+        "IELTS": {
+          "status": "alternative",
+          "detail": "Accepted test option: IELTS Academic 6.5 overall, at least 6.0 in every component."
+        },
+        "SAT": {
+          "status": "unknown",
+          "detail": "Not verified for this applicant route."
+        },
+        "UNT": {
+          "status": "unknown",
+          "detail": "Not verified for this applicant route."
+        }
+      },
+      "tuition": {
+        "amount": 63360,
+        "currency": "MYR",
+        "period": "year",
+        "note": "2027 international annual tuition before applicable 6% service tax; fees can change."
+      },
+      "mandatoryFees": "MYR 100 application, MYR 200 registration and MYR 100 amenities per semester; student-pass charges and applicable service tax are additional.",
+      "living": "Living costs are not verified; obtain a dated accommodation, food, transport and visa budget.",
+      "nextAction": "Request written diploma equivalence and a complete 2027 fee quote before choosing a preparatory qualification.",
+      "questions": [
+        "What recognised qualification, score and extra preparatory time would this exact Grade 11 diploma require?",
+        "Which funding awards accept this qualification and nationality for the selected intake?",
+        "What is the application closing date for the selected 2027 intake?"
+      ],
+      "sourceIds": [
+        "wm-s-monash-data",
+        "wm-s-monash-entry",
+        "wm-s-monash-english",
+        "wm-s-monash-tests",
+        "wm-s-monash-fees"
+      ]
+    },
+    {
+      "id": "wm-r-monash-media",
+      "programmeId": "wm-p-monash-media",
+      "name": "Monash Malaysia international qualification assessment",
+      "entryAfter": 11,
+      "pathway": "direct",
+      "cycle": "2027",
+      "applicant": "International undergraduate applicant from Kazakhstan",
+      "eligibility": "A recognised pre-university qualification, course prerequisites, English evidence and age requirements are needed. Ordinary Kazakhstan Grade 11 diploma equivalence is not confirmed.",
+      "recognition": "Ask Monash Malaysia to assess the exact diploma; a recognised foundation may add time and cost. Admission is not automatic.",
+      "subjects": "No formal subject prerequisites are listed; qualification, English and age conditions still apply.",
+      "tests": {
+        "ENGLISH": {
+          "status": "alternative",
+          "detail": "English evidence may be met through an approved qualification, eligible English-medium study, a language course or an accepted test. Exemptions are conditional."
+        },
+        "IELTS": {
+          "status": "alternative",
+          "detail": "Accepted test option: IELTS Academic 6.5 overall, at least 6.0 in every component."
+        },
+        "SAT": {
+          "status": "unknown",
+          "detail": "Not verified for this applicant route."
+        },
+        "UNT": {
+          "status": "unknown",
+          "detail": "Not verified for this applicant route."
+        }
+      },
+      "tuition": {
+        "amount": 53280,
+        "currency": "MYR",
+        "period": "year",
+        "note": "2027 international annual tuition before applicable 6% service tax; fees can change."
+      },
+      "mandatoryFees": "MYR 100 application, MYR 200 registration and MYR 100 amenities per semester; student-pass charges and applicable service tax are additional.",
+      "living": "Living costs are not verified; obtain a dated accommodation, food, transport and visa budget.",
+      "nextAction": "Request written diploma equivalence and a complete 2027 fee quote before choosing a preparatory qualification.",
+      "questions": [
+        "What recognised qualification, score and extra preparatory time would this exact Grade 11 diploma require?",
+        "Which funding awards accept this qualification and nationality for the selected intake?",
+        "What is the application closing date for the selected 2027 intake?"
+      ],
+      "sourceIds": [
+        "wm-s-monash-media",
+        "wm-s-monash-entry",
+        "wm-s-monash-english",
+        "wm-s-monash-tests",
+        "wm-s-monash-fees"
+      ]
+    },
+    {
+      "id": "wm-r-monash-food",
+      "programmeId": "wm-p-monash-food",
+      "name": "Monash Malaysia international qualification assessment",
+      "entryAfter": 11,
+      "pathway": "direct",
+      "cycle": "2027",
+      "applicant": "International undergraduate applicant from Kazakhstan",
+      "eligibility": "A recognised pre-university qualification, course prerequisites, English evidence and age requirements are needed. Ordinary Kazakhstan Grade 11 diploma equivalence is not confirmed.",
+      "recognition": "Ask Monash Malaysia to assess the exact diploma; a recognised foundation may add time and cost. Admission is not automatic.",
+      "subjects": "At least one of Biology, Chemistry or higher-level Mathematics at Australian Year 12 equivalent or higher, plus English.",
+      "tests": {
+        "ENGLISH": {
+          "status": "alternative",
+          "detail": "English evidence may be met through an approved qualification, eligible English-medium study, a language course or an accepted test. Exemptions are conditional."
+        },
+        "IELTS": {
+          "status": "alternative",
+          "detail": "Accepted test option: IELTS Academic 6.5 overall, at least 6.0 in every component."
+        },
+        "SAT": {
+          "status": "unknown",
+          "detail": "Not verified for this applicant route."
+        },
+        "UNT": {
+          "status": "unknown",
+          "detail": "Not verified for this applicant route."
+        }
+      },
+      "tuition": {
+        "amount": 63360,
+        "currency": "MYR",
+        "period": "year",
+        "note": "2027 international annual tuition before applicable 6% service tax; fees can change."
+      },
+      "mandatoryFees": "MYR 100 application, MYR 200 registration and MYR 100 amenities per semester; student-pass charges and applicable service tax are additional.",
+      "living": "Living costs are not verified; obtain a dated accommodation, food, transport and visa budget.",
+      "nextAction": "Request written diploma equivalence and a complete 2027 fee quote before choosing a preparatory qualification.",
+      "questions": [
+        "What recognised qualification, score and extra preparatory time would this exact Grade 11 diploma require?",
+        "Which funding awards accept this qualification and nationality for the selected intake?",
+        "What is the application closing date for the selected 2027 intake?"
+      ],
+      "sourceIds": [
+        "wm-s-monash-food",
+        "wm-s-monash-entry",
+        "wm-s-monash-english",
+        "wm-s-monash-tests",
+        "wm-s-monash-fees"
+      ]
+    },
+    {
+      "id": "wm-r-melb-data",
+      "programmeId": "wm-p-melb-data",
+      "name": "NIS Grade 12 entry to BSc; plan the Data Science major",
+      "entryAfter": 11,
+      "pathway": "direct",
+      "cycle": "2027",
+      "applicant": "International undergraduate applicant from Kazakhstan",
+      "eligibility": "The published Kazakhstan table lists NIS Grade 12 at BBB for Science, with subject and English prerequisites. Ordinary Grade 11 alone is not confirmed for direct entry.",
+      "recognition": "This direct route is scoped to the NIS credential. Other applicants must confirm a recognised alternative; foundation time, costs and progression are not verified here.",
+      "subjects": "Mathematics plus Biology, Chemistry or Physics; alternatively Mathematics plus Further Mathematics. Published prerequisite grade is C unless stated otherwise.",
+      "tests": {
+        "ENGLISH": {
+          "status": "alternative",
+          "detail": "Approved previous study, an accepted test or a language pathway may demonstrate English; documentary and validity conditions apply."
+        },
+        "IELTS": {
+          "status": "alternative",
+          "detail": "Accepted test option: IELTS Academic 6.5 overall, at least 6.0 in every component."
+        },
+        "SAT": {
+          "status": "not_required",
+          "detail": "SAT is not a listed requirement for this NIS Grade 12 route."
+        },
+        "UNT": {
+          "status": "unknown",
+          "detail": "Not verified for this applicant route."
+        }
+      },
+      "tuition": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "year",
+        "note": "Exact annual tuition for the Data Science subject combination is not verified; international BSc fees depend on subjects and load."
+      },
+      "mandatoryFees": "Published minimum initial tuition deposit is AUD 17,000 under an undated policy; overseas student health cover is mandatory. Obtain a current full quote.",
+      "living": "Living costs are not verified; obtain a dated accommodation, food, transport and visa budget.",
+      "nextAction": "Check your exact qualification against the NIS-only table and ask which first-year subjects keep the Data Science major available.",
+      "questions": [
+        "Which recognised route applies to an ordinary Kazakhstan Grade 11 diploma?",
+        "Which funding awards accept this qualification and nationality for the selected intake?"
+      ],
+      "sourceIds": [
+        "wm-s-melb-major",
+        "wm-s-melb-bsc",
+        "wm-s-melb-kz",
+        "wm-s-melb-english",
+        "wm-s-melb-fees",
+        "wm-s-melb-dates"
+      ]
+    },
+    {
+      "id": "wm-r-ntu-data",
+      "programmeId": "wm-p-ntu-data",
+      "name": "Kazakhstan certificate plus AP or UK A levels",
+      "entryAfter": 11,
+      "pathway": "direct",
+      "cycle": "2027",
+      "applicant": "International undergraduate applicant from Kazakhstan",
+      "eligibility": "Ordinary Kazakhstan High School Certificate requires additional qualifications: at least three AP tests with grades 4 and 5, or at least three UK A levels with good passes. Minimums do not guarantee admission.",
+      "recognition": "The ordinary certificate alone is insufficient. AP/A-level preparation may add time and costs; amounts are not verified. NIS Grade 12 has a separate route and is not ordinary Grade 11.",
+      "subjects": "Choose AP or A-level subjects against the programme prerequisites; verify the precise Mathematics and AP Calculus BC requirements before booking tests.",
+      "tests": {
+        "ENGLISH": {
+          "status": "alternative",
+          "detail": "English test evidence is required when school instruction is not English, or English is ESL/EAL. An eligible English-medium qualification can satisfy the conditional exemption."
+        },
+        "IELTS": {
+          "status": "alternative",
+          "detail": "English option: IELTS Academic 6.5 overall, with 6.5 in Writing and Speaking."
+        },
+        "SAT": {
+          "status": "alternative",
+          "detail": "English-evidence option only: 1250 total and 600 Reading and Writing. SAT does not replace the required AP/A-level academic qualification."
+        },
+        "AP": {
+          "status": "alternative",
+          "detail": "At least three AP tests with grades 4 and 5; subjects must meet programme prerequisites."
+        },
+        "UNT": {
+          "status": "unknown",
+          "detail": "Not verified for this applicant route."
+        }
+      },
+      "tuition": {
+        "amount": null,
+        "currency": "SGD",
+        "period": "year",
+        "note": "2027 international tuition and any tuition-grant conditions are not verified for this route."
+      },
+      "mandatoryFees": "Application, student-service, insurance and visa charges require a current official quote.",
+      "living": "Living costs are not verified; obtain a dated accommodation, food, transport and visa budget.",
+      "nextAction": "Ask NTU to confirm the exact DSAI subject prerequisites, selected-intake award title and AP document deadline before test registration.",
+      "questions": [
+        "Why do the programme heading and introductory prose use different Bachelor of Computing/Bachelor of Science award titles?",
+        "Which funding awards accept this qualification and nationality for the selected intake?",
+        "What is the application closing date for the selected 2027 intake?"
+      ],
+      "sourceIds": [
+        "wm-s-ntu-data",
+        "wm-s-ntu-entry"
+      ]
+    },
+    {
+      "id": "wm-r-waikato-data",
+      "programmeId": "wm-p-waikato-data",
+      "name": "International BSc entry; Data Analytics major",
+      "entryAfter": 11,
+      "pathway": "direct",
+      "cycle": "2027",
+      "applicant": "International undergraduate applicant from Kazakhstan",
+      "eligibility": "A recognised university-entrance qualification and undergraduate English evidence are needed. The 2027 BSc regulations permit Data Analytics as a major.",
+      "recognition": "Exact Kazakhstan diploma equivalence is not verified. Ask whether Grade 11 needs foundation or another qualification, with additional time and costs.",
+      "subjects": "Plan school Mathematics and confirm the first-year programming and statistics sequence; no Kazakhstan-specific subject threshold is verified.",
+      "tests": {
+        "ENGLISH": {
+          "status": "alternative",
+          "detail": "An accepted test or approved alternative evidence can meet English admission rules; prior-study exemptions are conditional."
+        },
+        "IELTS": {
+          "status": "alternative",
+          "detail": "General BSc option: IELTS Academic 6.0 overall, no band below 5.5."
+        },
+        "SAT": {
+          "status": "unknown",
+          "detail": "Not verified for this applicant route."
+        },
+        "UNT": {
+          "status": "unknown",
+          "detail": "Not verified for this applicant route."
+        }
+      },
+      "tuition": {
+        "amount": null,
+        "currency": "NZD",
+        "period": "year",
+        "note": "A cycle-specific 2027 international tuition quote is not verified; do not treat the undated website estimate as a fixed offer."
+      },
+      "mandatoryFees": "Student-services, insurance, visa and other mandatory charges are not yet verified for the chosen intake.",
+      "living": "Living costs are not verified; obtain a dated accommodation, food, transport and visa budget.",
+      "nextAction": "Send the exact diploma title to admissions and confirm a Data Analytics BSc study plan and full 2027 cost quote.",
+      "questions": [
+        "What recognised qualification, score and extra preparatory time would this exact Grade 11 diploma require?",
+        "Which funding awards accept this qualification and nationality for the selected intake?",
+        "What is the application closing date for the selected 2027 intake?"
+      ],
+      "sourceIds": [
+        "wm-s-waikato-data",
+        "wm-s-waikato-bsc",
+        "wm-s-waikato-data-practice",
+        "wm-s-waikato-entry",
+        "wm-s-waikato-english"
+      ]
+    },
+    {
+      "id": "wm-r-waikato-primary",
+      "programmeId": "wm-p-waikato-primary",
+      "name": "Initial Primary Teaching degree: international applicant",
+      "entryAfter": 11,
+      "pathway": "direct",
+      "cycle": "2027",
+      "applicant": "International undergraduate applicant from Kazakhstan",
+      "eligibility": "University entrance plus teacher-education selection: interview, literacy assessment, two eligible referees and police vetting. English requirements are higher than general BSc admission.",
+      "recognition": "Exact Kazakhstan diploma equivalence is not verified. Ask whether Grade 11 needs foundation or another qualification, with additional time and costs.",
+      "subjects": "Confirm academic equivalence and teacher-education suitability. This is the initial degree, not the upgrade route for existing teachers.",
+      "tests": {
+        "ENGLISH": {
+          "status": "alternative",
+          "detail": "Initial teacher education accepts specified test or qualification evidence; any prior-study alternative must meet the teacher-specific rules."
+        },
+        "IELTS": {
+          "status": "alternative",
+          "detail": "Teacher-education option: IELTS Academic 7.0 overall and at least 7.0 in every band; accepted alternatives are listed in the calendar."
+        },
+        "SAT": {
+          "status": "unknown",
+          "detail": "Not verified for this applicant route."
+        },
+        "UNT": {
+          "status": "unknown",
+          "detail": "Not verified for this applicant route."
+        }
+      },
+      "tuition": {
+        "amount": null,
+        "currency": "NZD",
+        "period": "year",
+        "note": "A cycle-specific 2027 international tuition quote is not verified; do not treat the undated website estimate as a fixed offer."
+      },
+      "mandatoryFees": "Student-services, insurance, visa and other mandatory charges are not yet verified for the chosen intake.",
+      "living": "Living costs are not verified; obtain a dated accommodation, food, transport and visa budget.",
+      "nextAction": "Ask the education admissions team about international school placements, English evidence and diploma equivalence before arranging the interview.",
+      "questions": [
+        "Can this international applicant undertake all required school placements, and which professional registration conditions remain after graduation?",
+        "Which funding awards accept this qualification and nationality for the selected intake?",
+        "The current guide has no fixed Bachelor of Teaching closing date; does a 2027 interview or placement cutoff apply?"
+      ],
+      "sourceIds": [
+        "wm-s-waikato-teaching",
+        "wm-s-waikato-primary",
+        "wm-s-waikato-teaching-entry",
+        "wm-s-waikato-entry",
+        "wm-s-waikato-english"
+      ]
+    },
+    {
+      "id": "wm-r-unnc-media",
+      "programmeId": "wm-p-unnc-media",
+      "name": "Kazakhstan Grade 11: preliminary year plus degree",
+      "entryAfter": 11,
+      "pathway": "foundation",
+      "cycle": "2027",
+      "applicant": "International undergraduate applicant from Kazakhstan",
+      "eligibility": "The Kazakhstan page lists Grade 11 Attestat with average 4 and 5 in relevant subjects for preliminary-year entry. Programme, English and age conditions also apply.",
+      "recognition": "This is the four-year route including preliminary study, not direct entry to the three-year degree. Confirm exact subject assessment and progression conditions.",
+      "subjects": "Relevant school subjects are assessed by admissions; no specific Kazakhstan subject list is verified.",
+      "tests": {
+        "ENGLISH": {
+          "status": "alternative",
+          "detail": "English evidence is needed unless an approved English-language qualification exemption applies; this is conditional."
+        },
+        "IELTS": {
+          "status": "alternative",
+          "detail": "Four-year option: IELTS 5.5 overall, no element below 5.0. Three-year direct-entry English requirements are higher."
+        },
+        "SAT": {
+          "status": "unknown",
+          "detail": "Not verified for this applicant route."
+        },
+        "UNT": {
+          "status": "unknown",
+          "detail": "Not verified for this applicant route."
+        }
+      },
+      "tuition": {
+        "amount": 120000,
+        "currency": "CNY",
+        "period": "year",
+        "note": "Current official international annual rate; the page is undated, so confirm the 2027 offer. Four years of tuition may apply on this route."
+      },
+      "mandatoryFees": "First-year tuition is payable before registration; insurance, visa, housing and other charges need a current quote.",
+      "living": "Living costs are not verified; obtain a dated accommodation, food, transport and visa budget.",
+      "nextAction": "Confirm the Attestat subject grades and the full four-year cost, including preliminary-year progression and any under-18 arrangements.",
+      "questions": [
+        "Which funding awards accept this qualification and nationality for the selected intake?",
+        "What is the application closing date for the selected 2027 intake?"
+      ],
+      "sourceIds": [
+        "wm-s-unnc-media",
+        "wm-s-unnc-kz",
+        "wm-s-unnc-fees"
+      ]
+    }
+  ],
+  "awards": [],
+  "deadlines": [
+    {
+      "id": "wm-d-melb-start",
+      "routeIds": [
+        "wm-r-melb-data"
+      ],
+      "type": "admission",
+      "label": "Melbourne direct international applications: start-year intake",
+      "date": "2026-11-30",
+      "time": null,
+      "timezone": null,
+      "cycle": "2027",
+      "applicant": "International undergraduate applicant from Kazakhstan",
+      "status": "confirmed",
+      "nextAction": "Submit the direct BSc application for the 2027 start-year intake with the correct qualification route.",
+      "sourceIds": [
+        "wm-s-melb-dates"
+      ]
+    },
+    {
+      "id": "wm-d-melb-mid",
+      "routeIds": [
+        "wm-r-melb-data"
+      ],
+      "type": "admission",
+      "label": "Melbourne direct international applications: mid-year intake",
+      "date": "2027-05-31",
+      "time": null,
+      "timezone": null,
+      "cycle": "2027",
+      "applicant": "International undergraduate applicant from Kazakhstan",
+      "status": "confirmed",
+      "nextAction": "Confirm mid-year BSc availability and Data Science subject sequencing before applying.",
+      "sourceIds": [
+        "wm-s-melb-dates"
+      ]
+    },
+    {
+      "id": "wm-d-ntu-ap",
+      "routeIds": [
+        "wm-r-ntu-data"
+      ],
+      "type": "document",
+      "label": "NTU: AP scores must reach admissions",
+      "date": "2027-07-15",
+      "time": null,
+      "timezone": null,
+      "cycle": "2027",
+      "applicant": "International undergraduate applicant from Kazakhstan",
+      "status": "confirmed",
+      "nextAction": "Arrange official AP score delivery; this is a document deadline, not the application closing date.",
+      "sourceIds": [
+        "wm-s-ntu-entry"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "wm-s-monash-data",
+      "url": "https://www.monash.edu.my/study/undergraduate/science/bachelor-of-applied-data-science",
+      "title": "Monash Malaysia: Bachelor of Applied Data Science",
+      "checked": "2026-11-16",
+      "cycle": "2027",
+      "applicant": "International undergraduate applicant from Kazakhstan",
+      "status": "verified",
+      "note": "Official page checked; exact qualification assessment still applies."
+    },
+    {
+      "id": "wm-s-monash-media",
+      "url": "https://www.monash.edu.my/study/undergraduate/arts-social-sciences/bachelor-of-digital-media-and-communication",
+      "title": "Monash Malaysia: Bachelor of Digital Media and Communication",
+      "checked": "2026-11-16",
+      "cycle": "current catalogue",
+      "applicant": "International undergraduate applicant from Kazakhstan",
+      "status": "verified",
+      "note": "Programme structure checked; its older fee figure is superseded here by the separate 2027 fee schedule."
+    },
+    {
+      "id": "wm-s-monash-food",
+      "url": "https://www.monash.edu.my/study/undergraduate/science/bachelor-science-food-science-technology",
+      "title": "Monash Malaysia: Bachelor of Food Science and Technology",
+      "checked": "2026-11-16",
+      "cycle": "current catalogue",
+      "applicant": "International undergraduate applicant from Kazakhstan",
+      "status": "verified",
+      "note": "Three-year degree and eight-week internship checked; fees use the separate 2027 schedule."
+    },
+    {
+      "id": "wm-s-monash-fees",
+      "url": "https://www.monash.edu.my/study/undergraduate/fees",
+      "title": "Monash Malaysia undergraduate fees 2027",
+      "checked": "2026-11-16",
+      "cycle": "2027",
+      "applicant": "International undergraduate applicant from Kazakhstan",
+      "status": "verified",
+      "note": "Official page checked; exact qualification assessment still applies."
+    },
+    {
+      "id": "wm-s-monash-entry",
+      "url": "https://www.monash.edu.my/study/entry-requirements/academic/undergraduate",
+      "title": "Monash Malaysia undergraduate academic entry",
+      "checked": "2026-11-16",
+      "cycle": "current catalogue",
+      "applicant": "International undergraduate applicant from Kazakhstan",
+      "status": "verified",
+      "note": "Official page checked; exact qualification assessment still applies."
+    },
+    {
+      "id": "wm-s-monash-english",
+      "url": "https://www.monash.edu.my/study/entry-requirements/english",
+      "title": "Monash Malaysia English evidence",
+      "checked": "2026-11-16",
+      "cycle": "current catalogue",
+      "applicant": "International undergraduate applicant from Kazakhstan",
+      "status": "verified",
+      "note": "Official page checked; exact qualification assessment still applies."
+    },
+    {
+      "id": "wm-s-monash-tests",
+      "url": "https://www.monash.edu.my/study/entry-requirements/english/tests",
+      "title": "Monash Malaysia English test scores",
+      "checked": "2026-11-16",
+      "cycle": "current catalogue",
+      "applicant": "International undergraduate applicant from Kazakhstan",
+      "status": "verified",
+      "note": "Official page checked; exact qualification assessment still applies."
+    },
+    {
+      "id": "wm-s-melb-major",
+      "url": "https://study.unimelb.edu.au/find/courses/major/data-science/structure/",
+      "title": "Melbourne Data Science major structure",
+      "checked": "2026-11-16",
+      "cycle": "current catalogue",
+      "applicant": "International undergraduate applicant from Kazakhstan",
+      "status": "verified",
+      "note": "Official page checked; exact qualification assessment still applies."
+    },
+    {
+      "id": "wm-s-melb-bsc",
+      "url": "https://study.unimelb.edu.au/find/courses/undergraduate/bachelor-of-science/structure/",
+      "title": "Melbourne Bachelor of Science structure",
+      "checked": "2026-11-16",
+      "cycle": "current catalogue",
+      "applicant": "International undergraduate applicant from Kazakhstan",
+      "status": "verified",
+      "note": "Official page checked; exact qualification assessment still applies."
+    },
+    {
+      "id": "wm-s-melb-kz",
+      "url": "https://study.unimelb.edu.au/how-to-apply/undergraduate-study/recognised-vce-equivalent-qualifications/qualifications/kazakhstan",
+      "title": "Melbourne recognised Kazakhstan qualifications",
+      "checked": "2026-11-16",
+      "cycle": "undated",
+      "applicant": "International undergraduate applicant from Kazakhstan",
+      "status": "verified",
+      "note": "The listed Kazakhstan credential is NIS Grade 12, not the ordinary Grade 11 Attestat."
+    },
+    {
+      "id": "wm-s-melb-english",
+      "url": "https://study.unimelb.edu.au/how-to-apply/english-language-requirements/undergraduate-english-language-requirements",
+      "title": "Melbourne undergraduate English requirements",
+      "checked": "2026-11-16",
+      "cycle": "current catalogue",
+      "applicant": "International undergraduate applicant from Kazakhstan",
+      "status": "verified",
+      "note": "Official page checked; exact qualification assessment still applies."
+    },
+    {
+      "id": "wm-s-melb-fees",
+      "url": "https://study.unimelb.edu.au/how-to-apply/undergraduate-study/international-applications/fees-and-payments",
+      "title": "Melbourne international undergraduate fees",
+      "checked": "2026-11-16",
+      "cycle": "undated",
+      "applicant": "International undergraduate applicant from Kazakhstan",
+      "status": "verified",
+      "note": "Official page checked; exact qualification assessment still applies."
+    },
+    {
+      "id": "wm-s-melb-dates",
+      "url": "https://study.unimelb.edu.au/how-to-apply/undergraduate-study/international-applications/applications",
+      "title": "Melbourne direct international applications",
+      "checked": "2026-11-16",
+      "cycle": "2027",
+      "applicant": "International undergraduate applicant from Kazakhstan",
+      "status": "verified",
+      "note": "Official page checked; exact qualification assessment still applies."
+    },
+    {
+      "id": "wm-s-ntu-data",
+      "url": "https://www.ntu.edu.sg/admissions/undergraduate/undergraduate-programme/bachelor-of-science-in-data-science-artificial-intelligence",
+      "title": "NTU Data Science and Artificial Intelligence",
+      "checked": "2026-11-16",
+      "cycle": "current catalogue",
+      "applicant": "International undergraduate applicant from Kazakhstan",
+      "status": "verified",
+      "note": "Heading and key degree table say Bachelor of Computing; introductory prose also retains Bachelor of Science. Confirm the award title for the selected intake."
+    },
+    {
+      "id": "wm-s-ntu-entry",
+      "url": "https://www.ntu.edu.sg/admissions/undergraduate/admissions/general-admission-requirements/international-qualifications/other-international-qualifications",
+      "title": "NTU other international qualifications",
+      "checked": "2026-11-16",
+      "cycle": "2027",
+      "applicant": "International undergraduate applicant from Kazakhstan",
+      "status": "verified",
+      "note": "Official page checked; exact qualification assessment still applies."
+    },
+    {
+      "id": "wm-s-waikato-data",
+      "url": "https://www.waikato.ac.nz/study/subject-regulations/data-analytics/2027/",
+      "title": "Waikato Data Analytics subject regulations 2027",
+      "checked": "2026-11-16",
+      "cycle": "2027",
+      "applicant": "International undergraduate applicant from Kazakhstan",
+      "status": "verified",
+      "note": "Official page checked; exact qualification assessment still applies."
+    },
+    {
+      "id": "wm-s-waikato-bsc",
+      "url": "https://www.waikato.ac.nz/study/qualifications/bachelor-of-science/",
+      "title": "Waikato Bachelor of Science",
+      "checked": "2026-11-16",
+      "cycle": "current catalogue",
+      "applicant": "International undergraduate applicant from Kazakhstan",
+      "status": "verified",
+      "note": "Official page checked; exact qualification assessment still applies."
+    },
+    {
+      "id": "wm-s-waikato-data-practice",
+      "url": "https://www.waikato.ac.nz/study/subjects/data-analytics/",
+      "title": "Waikato Data Analytics",
+      "checked": "2026-11-16",
+      "cycle": "current catalogue",
+      "applicant": "International undergraduate applicant from Kazakhstan",
+      "status": "verified",
+      "note": "Official page checked; exact qualification assessment still applies."
+    },
+    {
+      "id": "wm-s-waikato-teaching",
+      "url": "https://www.waikato.ac.nz/study/qualifications/bachelor-of-teaching/",
+      "title": "Waikato Bachelor of Teaching",
+      "checked": "2026-11-16",
+      "cycle": "current catalogue",
+      "applicant": "International undergraduate applicant from Kazakhstan",
+      "status": "verified",
+      "note": "Official page checked; exact qualification assessment still applies."
+    },
+    {
+      "id": "wm-s-waikato-primary",
+      "url": "https://www.waikato.ac.nz/study/subject-regulations/teaching/2027/",
+      "title": "Waikato Teaching subject regulations 2027",
+      "checked": "2026-11-16",
+      "cycle": "2027",
+      "applicant": "International undergraduate applicant from Kazakhstan",
+      "status": "verified",
+      "note": "Official page checked; exact qualification assessment still applies."
+    },
+    {
+      "id": "wm-s-waikato-teaching-entry",
+      "url": "https://www.waikato.ac.nz/study/options/subject-areas/education/onsite-initial-teaching-education/guide-to-applying/",
+      "title": "Waikato initial teacher education application guide",
+      "checked": "2026-11-16",
+      "cycle": "current catalogue",
+      "applicant": "International undergraduate applicant from Kazakhstan",
+      "status": "verified",
+      "note": "Bachelor of Teaching has no current fixed close-off date on this page; selection is still required."
+    },
+    {
+      "id": "wm-s-waikato-entry",
+      "url": "https://www.waikato.ac.nz/study/apply/international/entry-requirements-for-international-students/",
+      "title": "Waikato international entry requirements",
+      "checked": "2026-11-16",
+      "cycle": "current catalogue",
+      "applicant": "International undergraduate applicant from Kazakhstan",
+      "status": "verified",
+      "note": "Official page checked; exact qualification assessment still applies."
+    },
+    {
+      "id": "wm-s-waikato-english",
+      "url": "https://www.waikato.ac.nz/about/calendar/admission/english-language-requirements/",
+      "title": "Waikato English admission requirements",
+      "checked": "2026-11-16",
+      "cycle": "current catalogue",
+      "applicant": "International undergraduate applicant from Kazakhstan",
+      "status": "verified",
+      "note": "Official page checked; exact qualification assessment still applies."
+    },
+    {
+      "id": "wm-s-unnc-media",
+      "url": "https://www.nottingham.edu.cn/en/study-with-us/undergraduate/courses/prospectus.aspx?id=ebe16d20-457d-4771-99fa-f6a87e1d9c4a&language=en-GB",
+      "title": "UNNC International Communications Studies",
+      "checked": "2026-11-16",
+      "cycle": "current catalogue",
+      "applicant": "International undergraduate applicant from Kazakhstan",
+      "status": "verified",
+      "note": "Official page checked; exact qualification assessment still applies."
+    },
+    {
+      "id": "wm-s-unnc-kz",
+      "url": "https://www.nottingham.edu.cn/en/Study-with-us/Global-recruitment/International-applicants.aspx?country=Kazakhstan&level=Undergraduate+and+Postgraduate",
+      "title": "UNNC Kazakhstan entry requirements",
+      "checked": "2026-11-16",
+      "cycle": "undated",
+      "applicant": "International undergraduate applicant from Kazakhstan",
+      "status": "verified",
+      "note": "Official page checked; exact qualification assessment still applies."
+    },
+    {
+      "id": "wm-s-unnc-fees",
+      "url": "https://www.nottingham.edu.cn/en/study-with-us/undergraduate/fees-and-scholarships/",
+      "title": "UNNC international fees",
+      "checked": "2026-11-16",
+      "cycle": "undated",
+      "applicant": "International undergraduate applicant from Kazakhstan",
+      "status": "verified",
+      "note": "Official page checked; exact qualification assessment still applies."
+    }
+  ]
+}

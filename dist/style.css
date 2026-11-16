@@ -328,7 +328,23 @@ dialog::backdrop { background: #00000050; backdrop-filter: blur(7px); -webkit-ba
 
 .photo-context { position: absolute; top: 10px; left: 10px; right: 10px; padding: 6px 9px; border-radius: 6px; background: rgba(0,0,0,.65); color: #fff; font-size: 10px; line-height: 1.5; width: fit-content; max-width: calc(100% - 20px); }
 
-/* Region first; its country selector is rendered only after choosing a region. */
-.filters>label { min-width: 150px; }
-.filters { flex-wrap: wrap; }
-@media(max-width:700px){.filters>label{min-width:0}.filters>label:has(#subject){flex-basis:100%}}
+/* Two main controls: a nested location picker and study subjects. */
+.filters { flex-wrap: nowrap; }
+.filters > label,.location-filter { flex: 1; min-width: 0; }
+.location-filter { position: relative; font-size: 12px; font-weight: 500; color: var(--muted); }
+.location-picker { margin-top: 7px; }
+.location-picker > summary { display: flex; justify-content: space-between; align-items: center; gap: 12px; min-height: 46px; padding: 11px 13px; border: 1px solid var(--line); border-radius: 12px; background: white; color: var(--ink); font-size: 14px; font-weight: 400; cursor: pointer; list-style: none; }
+.location-picker > summary::-webkit-details-marker { display: none; }
+.location-panel { position: absolute; z-index: 5; top: 78px; left: 0; width: min(460px,calc(100vw - 72px)); padding: 18px; max-height: min(480px,70vh); overflow: auto; background: white; border: 1px solid var(--line); border-radius: 16px; box-shadow: 0 16px 48px #0002; color: var(--ink); }
+.location-panel > p { margin: 0 0 14px; font-size: 13px; color: var(--muted); font-weight: 400; }
+.region-choices { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.region-choice { border: 1px solid var(--line); border-radius: 10px; background: var(--paper); padding: 11px; min-height: 44px; text-align: left; font-size: 13px; }
+.region-choice.selected { background: #eaf3ff; border-color: var(--blue); color: var(--blue); }
+.country-refinement { margin-top: 16px; }
+.location-panel .location-done { display: block; margin: 10px 0 -5px auto; min-height: 44px; }
+@media(max-width:700px){
+  .filters { flex-wrap: wrap; gap: 14px; }
+  .filters > label,.location-filter { flex: 1 1 calc(50% - 7px); min-width: 0; }
+  .location-picker > summary { font-size: 13px; padding: 10px 8px; }
+  .location-panel { width: calc(100vw - 72px); }
+}

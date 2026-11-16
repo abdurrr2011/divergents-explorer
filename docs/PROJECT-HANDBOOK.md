@@ -8,7 +8,7 @@ Node 22+ and Python 3. No runtime dependencies; install the development-only DOM
 
 ```sh
 npm ci            # development-only test dependencies
-npm run check     # data validation, 69 scenario/localization/currency/world-filter tests, static build
+npm run check     # data validation, 82 scenario/localization/currency/world-filter tests, static build
 npm run links     # official-source link report (curl, network required)
 npm start         # http://localhost:4173 after building
 ```
@@ -19,7 +19,7 @@ See `docs/SCHEMA.md`, `docs/MAINTENANCE.md`, `docs/PLAN.md`, regional research n
 
 ## Current catalogue — 16 November 2026
 
-60 applicant routes across 54 programmes, 33 institutions and 146 official-source records (latest check 16 November 2026): Kazakhstan 22, North America 9, Europe 10, Asia 13, Latin America 1, Africa 2, Oceania 3. There are 14 award records and 50 deadline records; these are separate from the admissions routes. This update adds 20 actual universities, not just filter choices. This is representative coverage, not a comprehensive directory. The seven regions all exist in navigation and the schema. Each route names its applicant category and own source cycle. Admission, fee and award cycles can differ. No future deadline is inferred from a historical date.
+84 applicant routes across 78 programmes, 33 institutions and 205 official-source records (latest check 16 November 2026): Kazakhstan 30, North America 14, Europe 13, Asia 18, Latin America 1, Africa 2, Oceania 6. There are 14 award records and 61 deadline records; these are separate from the admissions routes. Earlier research added 20 universities. This expansion adds 24 degree/major options at existing institutions, so the institution count remains 33. This is representative coverage, not a comprehensive directory. The seven regions all exist in navigation and the schema. Each route names its applicant category and own source cycle. Admission, fee and award cycles can differ. No future deadline is inferred from a historical date.
 
 Full interface and catalogue text: English, Kazakh, Russian. Currency names and number/billing-period formatting follow the selected language; amounts stay in their original currency, without exchange-rate conversion. Canonical records retain ISO currency keys, source URLs and official exam identifiers. Translated programme, field and place names are searchable.
 
@@ -53,7 +53,7 @@ The minimal shared view supersedes the original grade-based product brief and br
 
 The country selector keeps all 249 ISO 3166-1 countries/territories. The interest selector now shows 12 understandable groups with a one-sentence explanation after selection: computers/programming; engineering/construction; business/economics; medicine/biology; design/arts/media; society/law; education/languages; science/mathematics; nature/animals; tourism/sport/services; transport/safety; preparation for entry. Labels and explanations are complete in English, Russian and Kazakh.
 
-`src/interests.mjs` owns these groups and their mappings. The 120 technical ISCED tags remain internal to `src/subject-data.mjs` and `src/subjects.mjs`; students no longer choose from that long hierarchy. All 54 programmes have valid tags and a simple interest group. `src/destination-data.mjs` stores multilingual destination names. See `docs/TAXONOMY.md` for attribution and editorial mapping rules.
+`src/interests.mjs` owns these groups and their mappings. The 120 technical ISCED tags remain internal to `src/subject-data.mjs` and `src/subjects.mjs`; students no longer choose from that long hierarchy. All 78 programmes have valid tags and a simple interest group. `src/destination-data.mjs` stores multilingual destination names. See `docs/TAXONOMY.md` for attribution and editorial mapping rules.
 
 The catalogue is researched separately from navigation. An unresearched country/interest shows an explicit coverage gap. A combination that excludes existing records shows the ordinary empty-search state. Country and interest IDs remain stable across languages. Transport/safety is currently an uncovered interest; other groups have examples. Africa and Latin America still have one institution each. Programme-specific recognition, extra preparation and future fees remain explicit checks, including Twente/NTU/UNNC Grade 11 limitations and TUM fee inconsistency. The four `docs/EXPANSION-*.md` files document this release's research.
 
@@ -89,6 +89,6 @@ Run `npm run validate:photos` or `npm run check` (69 tests). The photo validator
 
 The 12 interest labels now use everyday words: computers, engineering, business, health, creativity, society, teaching/languages, science, nature, tourism/services, transport and preparation. Their descriptions and classification rules remain the same.
 
-All 54 programmes have plain browsing names in `src/programme-names.mjs` for English/Russian/Kazakh. Cards, detail headings, saved options, comparison, calendar links and the comparison tray use these names. Full source-backed catalogue titles, qualification codes, curriculum and first-year/entry conditions remain in programme details. The underlying catalogue IDs, admission/funding rules and saved-route keys are unchanged. Search accepts both plain and full names in all three languages.
+All 78 programmes have plain browsing names in `src/programme-names.mjs` for English/Russian/Kazakh. Cards, detail headings, saved options, comparison, calendar links and the comparison tray use these names. Full source-backed catalogue titles, qualification codes, curriculum and first-year/entry conditions remain in programme details. The underlying catalogue IDs, admission/funding rules and saved-route keys are unchanged. Search accepts both plain and full names in all three languages.
 
 Add all three plain labels when adding a programme; `npm run validate` checks completeness. Prefer familiar subject words and retain a foundation/preparation cue where applicable. Do not change the source programme record merely to shorten a title. All 69 existing checks pass, including extended translated-search coverage.

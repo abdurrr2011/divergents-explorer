@@ -1,0 +1,873 @@
+{
+  "institutions": [],
+  "programmes": [
+    {
+      "id": "km-p-sdu-data",
+      "institutionId": "xk-i-sdu",
+      "name": "Statistics and Data Science · 6B05402",
+      "field": "Technology",
+      "subjectCodes": [
+        "0542",
+        "0613"
+      ],
+      "qualification": "Bachelor of Natural Sciences",
+      "duration": "4 years",
+      "credits": "Course credits are published; total ECTS needs confirmation.",
+      "languages": [
+        "English"
+      ],
+      "description": "Use statistics and programming to discover patterns in real data.",
+      "curriculum": "Probability, regression, Python, databases and data visualisation.",
+      "practical": "Research projects and data analysis of real problems are documented.",
+      "campus": "Kaskelen",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "km-sdu-data",
+        "km-sdu-admission"
+      ]
+    },
+    {
+      "id": "km-p-aitu-data",
+      "institutionId": "kz-aitu",
+      "name": "Big Data Analysis · 6B06103",
+      "field": "Technology",
+      "subjectCodes": [
+        "0613",
+        "0542"
+      ],
+      "qualification": "Bachelor of Science in Information and Communication Technology",
+      "duration": "3 years",
+      "credits": "Not yet verified",
+      "languages": [
+        "English"
+      ],
+      "description": "Build models that turn large datasets into useful predictions.",
+      "curriculum": "Programming, statistics, databases, machine learning and data mining.",
+      "practical": "Educational and industrial practice appear in the curriculum.",
+      "campus": "Astana EXPO campus",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "km-aitu-data",
+        "km-aitu-admission"
+      ]
+    },
+    {
+      "id": "km-p-kimep-cs",
+      "institutionId": "xk-i-kimep",
+      "name": "Computer Science · Data Analytics path",
+      "field": "Technology",
+      "subjectCodes": [
+        "0613",
+        "0542"
+      ],
+      "qualification": "Bachelor of Science in Computer Science",
+      "duration": "To be confirmed",
+      "credits": "146 KIMEP credits / 240 ECTS",
+      "languages": [
+        "English"
+      ],
+      "description": "Study Computer Science and explore its Data Analytics path.",
+      "curriculum": "Computer Science foundations with a Data Analytics concentration; confirm current concentration courses.",
+      "practical": "Projects and an external internship are described.",
+      "campus": "Almaty",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "km-kimep-cs",
+        "km-kimep-data-path"
+      ]
+    },
+    {
+      "id": "km-p-sdu-primary",
+      "institutionId": "xk-i-sdu",
+      "name": "Pedagogy and Methods of Primary Education · 6B01301",
+      "field": "Social sciences",
+      "subjectCodes": [
+        "0113"
+      ],
+      "qualification": "Bachelor of Education",
+      "duration": "4 years",
+      "credits": "240 ECTS",
+      "languages": [
+        "Kazakh"
+      ],
+      "description": "Learn to teach young children reading, mathematics and other school subjects.",
+      "curriculum": "Primary-school didactics, pedagogy, psychology, literacy and STEM teaching.",
+      "practical": "Educational, pedagogical and school practice modules are listed.",
+      "campus": "Kaskelen",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "km-sdu-primary",
+        "km-sdu-admission"
+      ]
+    },
+    {
+      "id": "km-p-kaznu-tour",
+      "institutionId": "xk-i-kaznu",
+      "name": "Tourism · 6B11101",
+      "field": "Business & economics",
+      "subjectCodes": [
+        "1015"
+      ],
+      "qualification": "Bachelor in Services",
+      "duration": "4 years",
+      "credits": "Not yet verified",
+      "languages": [
+        "To be confirmed"
+      ],
+      "description": "Plan travel experiences and learn how tourism businesses work.",
+      "curriculum": "Tour planning, destinations, tourism safety, service quality and tourism business management.",
+      "practical": "Practical tourism competencies are stated; a current placement schedule is not verified.",
+      "campus": "Almaty",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "km-kaznu-tour",
+        "km-kaznu-tour-length"
+      ]
+    },
+    {
+      "id": "km-p-kaznu-logistics",
+      "institutionId": "xk-i-kaznu",
+      "name": "Logistics by Industry · 6B11301",
+      "field": "Business & economics",
+      "subjectCodes": [
+        "1041",
+        "0413"
+      ],
+      "qualification": "Bachelor’s degree",
+      "duration": "To be confirmed",
+      "credits": "Not yet verified",
+      "languages": [
+        "To be confirmed"
+      ],
+      "description": "Work out how goods move through transport networks and supply chains.",
+      "curriculum": "Transport, warehouses, supply chains, logistics systems and digital analysis.",
+      "practical": "Applied logistics skills are described; placement arrangements need confirmation.",
+      "campus": "Almaty",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "km-kaznu-logistics"
+      ]
+    },
+    {
+      "id": "km-p-kimep-journalism",
+      "institutionId": "xk-i-kimep",
+      "name": "Bachelor of Journalism",
+      "field": "Arts & design",
+      "subjectCodes": [
+        "0321"
+      ],
+      "qualification": "Bachelor of Journalism degree",
+      "duration": "To be confirmed",
+      "credits": "146 KIMEP credits / 240 ECTS",
+      "languages": [
+        "English"
+      ],
+      "description": "Report stories, check facts and produce digital media.",
+      "curriculum": "News writing, media ethics, digital journalism and public relations.",
+      "practical": "Student media work and practice modules are documented.",
+      "campus": "Almaty",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "km-kimep-journalism"
+      ]
+    },
+    {
+      "id": "km-p-sdu-multimedia",
+      "institutionId": "xk-i-sdu",
+      "name": "Multimedia Sciences · 6B06104",
+      "field": "Arts & design",
+      "subjectCodes": [
+        "0211",
+        "0613"
+      ],
+      "qualification": "Bachelor of Multimedia Sciences",
+      "duration": "4 years",
+      "credits": "240 ECTS",
+      "languages": [
+        "English"
+      ],
+      "description": "Combine design and programming to make graphics, games and digital products.",
+      "curriculum": "Graphic design, game development, industrial design, 3D modelling and animation.",
+      "practical": "Capstone projects, prototyping and the Beta-Career programme are described.",
+      "campus": "Kaskelen",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "km-sdu-multimedia",
+        "km-sdu-admission"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "km-r-sdu-data",
+      "programmeId": "km-p-sdu-data",
+      "name": "School-leaver UNT admission",
+      "entryAfter": 11,
+      "pathway": "direct",
+      "cycle": "2026/27",
+      "applicant": "Kazakhstan school leavers",
+      "eligibility": "School certificate, UNT Mathematics–Physics and English evidence. Programme-page paid minimum 50 is undated and needs cycle confirmation.",
+      "recognition": "Domestic school-leaver route; confirm diploma and original-document requirements.",
+      "subjects": "Mathematics + Physics",
+      "tests": {
+        "UNT": {
+          "status": "required",
+          "detail": "Mathematics–Physics; the programme lists paid minimum 50 without an intake year."
+        },
+        "NUET": {
+          "status": "unknown",
+          "detail": "Requirement not verified for this applicant route."
+        },
+        "SAT": {
+          "status": "unknown",
+          "detail": "Requirement not verified for this applicant route."
+        },
+        "ACT": {
+          "status": "unknown",
+          "detail": "Requirement not verified for this applicant route."
+        },
+        "IELTS": {
+          "status": "alternative",
+          "detail": "One accepted route: IELTS 5.5 overall, each component at least 5.0."
+        },
+        "TOEFL": {
+          "status": "unknown",
+          "detail": "Requirement not verified for this applicant route."
+        },
+        "ENGLISH": {
+          "status": "required",
+          "detail": "IELTS 5.5 overall with each component 5.0, SDU language-school B1, or SDU English examination."
+        }
+      },
+      "tuition": {
+        "amount": null,
+        "currency": "KZT",
+        "period": "unknown",
+        "note": "Current domestic tuition and its billing period need verification."
+      },
+      "mandatoryFees": "Ask for the current mandatory-fee schedule.",
+      "living": "No verified living-cost estimate.",
+      "nextAction": "Try analysing a small public dataset, then compare SDU’s statistics modules with AITU’s data modules.",
+      "questions": [
+        "The programme-page paid minimum has no intake year; confirm its applicability before applying.",
+        "The displayed scholarship threshold 120 is undated; it does not establish a future grant cutoff.",
+        "Confirm the selected intake, tuition, funding conditions and document deadlines before applying."
+      ],
+      "sourceIds": [
+        "km-sdu-data",
+        "km-sdu-admission"
+      ]
+    },
+    {
+      "id": "km-r-aitu-data",
+      "programmeId": "km-p-aitu-data",
+      "name": "Big Data Analysis: UNT + AET",
+      "entryAfter": 11,
+      "pathway": "direct",
+      "cycle": "2026",
+      "applicant": "Kazakhstan school leavers",
+      "eligibility": "School-leaver UNT and AET. B057 grant-competition minimum is 100 for 2026; paid minimum 70 versus 80 remains unresolved.",
+      "recognition": "Domestic school-leaver route; confirm diploma and original-document requirements.",
+      "subjects": "Mathematics + Informatics",
+      "tests": {
+        "UNT": {
+          "status": "required",
+          "detail": "2026 grant-competition eligibility minimum 100; not an admission prediction. Confirm the conflicting paid minimum separately."
+        },
+        "NUET": {
+          "status": "unknown",
+          "detail": "Requirement not verified for this applicant route."
+        },
+        "SAT": {
+          "status": "unknown",
+          "detail": "Requirement not verified for this applicant route."
+        },
+        "ACT": {
+          "status": "unknown",
+          "detail": "Requirement not verified for this applicant route."
+        },
+        "IELTS": {
+          "status": "alternative",
+          "detail": "IELTS 5.5 is an accepted exemption from the AET English module."
+        },
+        "TOEFL": {
+          "status": "alternative",
+          "detail": "TOEFL ITP 460 or iBT 46–59 is listed for AET English-module exemption; confirm current score reporting."
+        },
+        "ENGLISH": {
+          "status": "required",
+          "detail": "Pass AET English or provide approved evidence/exemption; no IELTS score is assumed."
+        },
+        "AET": {
+          "status": "required",
+          "detail": "AET includes English and computer-science/logic modules; stated exemptions apply."
+        }
+      },
+      "tuition": {
+        "amount": null,
+        "currency": "KZT",
+        "period": "unknown",
+        "note": "Current domestic tuition and its billing period need verification."
+      },
+      "mandatoryFees": "AET fee is published as KZT 3,000 per attempt; confirm the applicable cycle and other mandatory fees.",
+      "living": "No verified living-cost estimate.",
+      "nextAction": "Choose Mathematics–Informatics and read the AET preparation guide before planning tests.",
+      "questions": [
+        "Ask admissions to resolve paid UNT minimum 70 versus 80 and confirm the next intake rules.",
+        "Confirm the selected intake, tuition, funding conditions and document deadlines before applying."
+      ],
+      "sourceIds": [
+        "km-aitu-data",
+        "km-aitu-admission",
+        "km-aitu-aet",
+        "km-aitu-paid-conflict"
+      ]
+    },
+    {
+      "id": "km-r-kimep-cs",
+      "programmeId": "km-p-kimep-cs",
+      "name": "Computer Science: Kazakhstan citizen admission",
+      "entryAfter": 11,
+      "pathway": "direct",
+      "cycle": "2026/27",
+      "applicant": "Kazakhstan school leavers",
+      "eligibility": "School certificate and UNT minimum 50, with literacy subjects at least 3 each and other subjects at least 5 each. Data Analytics remains a Computer Science concentration.",
+      "recognition": "Domestic school-leaver route; confirm diploma and original-document requirements.",
+      "subjects": "Mathematics + Informatics",
+      "tests": {
+        "UNT": {
+          "status": "required",
+          "detail": "At least 50 total, literacy subjects at least 3 each and other subjects at least 5 each."
+        },
+        "NUET": {
+          "status": "unknown",
+          "detail": "Requirement not verified for this applicant route."
+        },
+        "SAT": {
+          "status": "unknown",
+          "detail": "Requirement not verified for this applicant route."
+        },
+        "ACT": {
+          "status": "unknown",
+          "detail": "Requirement not verified for this applicant route."
+        },
+        "IELTS": {
+          "status": "alternative",
+          "detail": "IELTS is one accepted placement route; the university also offers its English test."
+        },
+        "TOEFL": {
+          "status": "alternative",
+          "detail": "TOEFL is accepted for placement; confirm current score-scale equivalence."
+        },
+        "ENGLISH": {
+          "status": "optional",
+          "detail": "English placement is optional for admission; without placement, beginner English courses apply and can add time and cost."
+        }
+      },
+      "tuition": {
+        "amount": null,
+        "currency": "KZT",
+        "period": "unknown",
+        "note": "Current domestic tuition and its billing period need verification."
+      },
+      "mandatoryFees": "Ask for the current mandatory-fee schedule.",
+      "living": "No verified living-cost estimate.",
+      "nextAction": "Ask which Data Analytics concentration courses are offered for your intake and compare them with a dedicated data degree.",
+      "questions": [
+        "Confirm concentration availability, degree duration and any extra English-course costs.",
+        "Confirm the selected intake, tuition, funding conditions and document deadlines before applying."
+      ],
+      "sourceIds": [
+        "km-kimep-cs",
+        "km-kimep-data-path",
+        "km-kimep-admission",
+        "km-kimep-english"
+      ]
+    },
+    {
+      "id": "km-r-sdu-primary",
+      "programmeId": "km-p-sdu-primary",
+      "name": "Primary teaching: UNT and pedagogical examination",
+      "entryAfter": 11,
+      "pathway": "direct",
+      "cycle": "2026/27",
+      "applicant": "Kazakhstan school leavers",
+      "eligibility": "School certificate, Biology–Geography UNT and pedagogical examination. Programme-page paid minimum 75 is undated. Kazakh instruction is published.",
+      "recognition": "Domestic school-leaver route; confirm diploma and original-document requirements.",
+      "subjects": "Biology + Geography",
+      "tests": {
+        "UNT": {
+          "status": "required",
+          "detail": "Biology–Geography; reconfirm undated paid minimum 75 for the selected intake."
+        },
+        "NUET": {
+          "status": "unknown",
+          "detail": "Requirement not verified for this applicant route."
+        },
+        "SAT": {
+          "status": "unknown",
+          "detail": "Requirement not verified for this applicant route."
+        },
+        "ACT": {
+          "status": "unknown",
+          "detail": "Requirement not verified for this applicant route."
+        },
+        "IELTS": {
+          "status": "unknown",
+          "detail": "Requirement not verified for this applicant route."
+        },
+        "TOEFL": {
+          "status": "unknown",
+          "detail": "Requirement not verified for this applicant route."
+        },
+        "ENGLISH": {
+          "status": "unknown",
+          "detail": "Kazakh-taught programme; the university-wide English-proof text is not scoped clearly enough to confirm a requirement or exemption here."
+        },
+        "PEDAGOGICAL": {
+          "status": "required",
+          "detail": "Teacher-education applicants must provide the pedagogical examination result."
+        }
+      },
+      "tuition": {
+        "amount": null,
+        "currency": "KZT",
+        "period": "unknown",
+        "note": "Current domestic tuition and its billing period need verification."
+      },
+      "mandatoryFees": "Ask for the current mandatory-fee schedule.",
+      "living": "No verified living-cost estimate.",
+      "nextAction": "Try explaining a primary-school lesson, then ask SDU about the pedagogical exam and language conditions.",
+      "questions": [
+        "The programme-page paid minimum has no intake year; confirm its applicability before applying.",
+        "Does the university-wide English evidence rule apply to this Kazakh-taught primary-education route?",
+        "Confirm the selected intake, tuition, funding conditions and document deadlines before applying."
+      ],
+      "sourceIds": [
+        "km-sdu-primary",
+        "km-sdu-admission"
+      ]
+    },
+    {
+      "id": "km-r-kaznu-tour",
+      "programmeId": "km-p-kaznu-tour",
+      "name": "Tourism: domestic UNT route",
+      "entryAfter": 11,
+      "pathway": "direct",
+      "cycle": "2026",
+      "applicant": "Kazakhstan school leavers",
+      "eligibility": "School certificate and UNT. Paid minimum is conflicting: programme page 75, general list 92; ask admissions for the correct cycle-specific threshold.",
+      "recognition": "Domestic school-leaver route; confirm diploma and original-document requirements.",
+      "subjects": "Programme-specific UNT profile subjects need confirmation.",
+      "tests": {
+        "UNT": {
+          "status": "required",
+          "detail": "UNT certificate is listed; numeric eligibility cannot be resolved from conflicting published minima 75 and 92."
+        },
+        "NUET": {
+          "status": "unknown",
+          "detail": "Requirement not verified for this applicant route."
+        },
+        "SAT": {
+          "status": "unknown",
+          "detail": "Requirement not verified for this applicant route."
+        },
+        "ACT": {
+          "status": "unknown",
+          "detail": "Requirement not verified for this applicant route."
+        },
+        "IELTS": {
+          "status": "unknown",
+          "detail": "Requirement not verified for this applicant route."
+        },
+        "TOEFL": {
+          "status": "unknown",
+          "detail": "Requirement not verified for this applicant route."
+        },
+        "ENGLISH": {
+          "status": "unknown",
+          "detail": "A generic admission list mentions a foreign-language certificate without clearly specifying this applicant category; English requirement remains unverified."
+        }
+      },
+      "tuition": {
+        "amount": null,
+        "currency": "KZT",
+        "period": "unknown",
+        "note": "Current domestic tuition and its billing period need verification."
+      },
+      "mandatoryFees": "Ask for the current mandatory-fee schedule.",
+      "living": "No verified living-cost estimate.",
+      "nextAction": "Plan a short travel itinerary, then ask KazNU to confirm Tourism’s UNT subjects and minimum.",
+      "questions": [
+        "Resolve Tourism paid minimum 75 versus 92, language evidence and the programme’s current duration.",
+        "Confirm the selected intake, tuition, funding conditions and document deadlines before applying."
+      ],
+      "sourceIds": [
+        "km-kaznu-tour",
+        "km-kaznu-minima",
+        "km-kaznu-tour-length"
+      ]
+    },
+    {
+      "id": "km-r-kaznu-logistics",
+      "programmeId": "km-p-kaznu-logistics",
+      "name": "Logistics: domestic UNT route",
+      "entryAfter": 11,
+      "pathway": "direct",
+      "cycle": "2026",
+      "applicant": "Kazakhstan school leavers",
+      "eligibility": "School certificate and UNT; both official programme and general pages list paid minimum 70 for Logistics. Grant and language conditions need separate confirmation.",
+      "recognition": "Domestic school-leaver route; confirm diploma and original-document requirements.",
+      "subjects": "Programme-specific UNT profile subjects need confirmation.",
+      "tests": {
+        "UNT": {
+          "status": "required",
+          "detail": "Published paid minimum 70; no verified grant-selection threshold is asserted."
+        },
+        "NUET": {
+          "status": "unknown",
+          "detail": "Requirement not verified for this applicant route."
+        },
+        "SAT": {
+          "status": "unknown",
+          "detail": "Requirement not verified for this applicant route."
+        },
+        "ACT": {
+          "status": "unknown",
+          "detail": "Requirement not verified for this applicant route."
+        },
+        "IELTS": {
+          "status": "unknown",
+          "detail": "Requirement not verified for this applicant route."
+        },
+        "TOEFL": {
+          "status": "unknown",
+          "detail": "Requirement not verified for this applicant route."
+        },
+        "ENGLISH": {
+          "status": "unknown",
+          "detail": "A generic admission list mentions a foreign-language certificate without clearly specifying this applicant category; English requirement remains unverified."
+        }
+      },
+      "tuition": {
+        "amount": null,
+        "currency": "KZT",
+        "period": "unknown",
+        "note": "Current domestic tuition and its billing period need verification."
+      },
+      "mandatoryFees": "Ask for the current mandatory-fee schedule.",
+      "living": "No verified living-cost estimate.",
+      "nextAction": "Map how an everyday product reaches your city, then request the current Logistics admission sheet.",
+      "questions": [
+        "Confirm the current Logistics UNT subject pair, language evidence, duration and placement plan.",
+        "Confirm the selected intake, tuition, funding conditions and document deadlines before applying."
+      ],
+      "sourceIds": [
+        "km-kaznu-logistics",
+        "km-kaznu-minima"
+      ]
+    },
+    {
+      "id": "km-r-kimep-journalism",
+      "programmeId": "km-p-kimep-journalism",
+      "name": "Journalism: UNT components and two creative exams",
+      "entryAfter": 11,
+      "pathway": "direct",
+      "cycle": "2026/27",
+      "applicant": "Kazakhstan school leavers",
+      "eligibility": "School certificate; History of Kazakhstan and Reading Literacy UNT results are considered, plus an essay and a written interview. Confirm numeric thresholds with admissions.",
+      "recognition": "Domestic school-leaver route; confirm diploma and original-document requirements.",
+      "subjects": "History of Kazakhstan and Reading Literacy; two creative exams.",
+      "tests": {
+        "UNT": {
+          "status": "required",
+          "detail": "Published route considers History of Kazakhstan and Reading Literacy; a numeric Journalism threshold was not verified."
+        },
+        "NUET": {
+          "status": "unknown",
+          "detail": "Requirement not verified for this applicant route."
+        },
+        "SAT": {
+          "status": "unknown",
+          "detail": "Requirement not verified for this applicant route."
+        },
+        "ACT": {
+          "status": "unknown",
+          "detail": "Requirement not verified for this applicant route."
+        },
+        "IELTS": {
+          "status": "alternative",
+          "detail": "IELTS is one accepted placement route; the university also offers its English test."
+        },
+        "TOEFL": {
+          "status": "alternative",
+          "detail": "TOEFL is accepted for placement; confirm current score-scale equivalence."
+        },
+        "ENGLISH": {
+          "status": "optional",
+          "detail": "English placement is optional for admission; without placement, beginner English courses apply and can add time and cost."
+        },
+        "CREATIVE": {
+          "status": "required",
+          "detail": "Two online creative exams: essay and written interview."
+        }
+      },
+      "tuition": {
+        "amount": null,
+        "currency": "KZT",
+        "period": "unknown",
+        "note": "Current domestic tuition and its billing period need verification."
+      },
+      "mandatoryFees": "Ask for the current mandatory-fee schedule.",
+      "living": "No verified living-cost estimate.",
+      "nextAction": "Write a short news story from verified sources and read KIMEP’s creative-exam instructions.",
+      "questions": [
+        "Confirm Journalism’s current combined score thresholds, exam dates and any English-course costs.",
+        "Confirm the selected intake, tuition, funding conditions and document deadlines before applying."
+      ],
+      "sourceIds": [
+        "km-kimep-journalism",
+        "km-kimep-admission",
+        "km-kimep-english"
+      ]
+    },
+    {
+      "id": "km-r-sdu-multimedia",
+      "programmeId": "km-p-sdu-multimedia",
+      "name": "Multimedia Sciences: domestic UNT route",
+      "entryAfter": 11,
+      "pathway": "direct",
+      "cycle": "2026/27",
+      "applicant": "Kazakhstan school leavers",
+      "eligibility": "School certificate, Mathematics–Informatics UNT and English evidence. Programme page lists paid minimum 50 without an intake year; confirm for your cycle.",
+      "recognition": "Domestic school-leaver route; confirm diploma and original-document requirements.",
+      "subjects": "Mathematics + Informatics",
+      "tests": {
+        "UNT": {
+          "status": "required",
+          "detail": "Mathematics–Informatics; undated programme-page paid minimum 50 needs intake confirmation."
+        },
+        "NUET": {
+          "status": "unknown",
+          "detail": "Requirement not verified for this applicant route."
+        },
+        "SAT": {
+          "status": "unknown",
+          "detail": "Requirement not verified for this applicant route."
+        },
+        "ACT": {
+          "status": "unknown",
+          "detail": "Requirement not verified for this applicant route."
+        },
+        "IELTS": {
+          "status": "alternative",
+          "detail": "One accepted route: IELTS 5.5 overall, each component at least 5.0."
+        },
+        "TOEFL": {
+          "status": "unknown",
+          "detail": "Requirement not verified for this applicant route."
+        },
+        "ENGLISH": {
+          "status": "required",
+          "detail": "IELTS 5.5 overall with each component 5.0, SDU language-school B1, or SDU English examination."
+        },
+        "PORTFOLIO": {
+          "status": "unknown",
+          "detail": "No programme-specific portfolio or creative-exam condition was verified; do not infer an exemption."
+        }
+      },
+      "tuition": {
+        "amount": null,
+        "currency": "KZT",
+        "period": "unknown",
+        "note": "Current domestic tuition and its billing period need verification."
+      },
+      "mandatoryFees": "Ask for the current mandatory-fee schedule.",
+      "living": "No verified living-cost estimate.",
+      "nextAction": "Make a small poster, interface or game prototype and ask which design path fits your interests.",
+      "questions": [
+        "The programme-page paid minimum has no intake year; confirm its applicability before applying.",
+        "Confirm design-path availability, any additional selection task and the cycle of displayed scholarship thresholds.",
+        "Confirm the selected intake, tuition, funding conditions and document deadlines before applying."
+      ],
+      "sourceIds": [
+        "km-sdu-multimedia",
+        "km-sdu-admission"
+      ]
+    }
+  ],
+  "awards": [],
+  "deadlines": [],
+  "sources": [
+    {
+      "id": "km-sdu-data",
+      "url": "https://sdu.edu.kz/en/statistics-and-data-science/",
+      "title": "SDU: Statistics and Data Science programme",
+      "checked": "2026-11-16",
+      "cycle": "current catalogue",
+      "applicant": "Kazakhstan school leavers",
+      "status": "verified",
+      "note": "Programme and subjects verified. Displayed paid minimum 50 and scholarship threshold 120 have no intake year; grant cutoff is not carried forward."
+    },
+    {
+      "id": "km-aitu-data",
+      "url": "https://astanait.edu.kz/en/BigDataAnalysis-bachelor",
+      "title": "AITU: Big Data Analysis 6B06103",
+      "checked": "2026-11-16",
+      "cycle": "current catalogue",
+      "applicant": "Kazakhstan school leavers",
+      "status": "verified",
+      "note": "Official programme facts checked; unpublished details remain unknown."
+    },
+    {
+      "id": "km-kimep-cs",
+      "url": "https://www.kimep.kz/school-of-computer-science-and-artificial-intelligence/kz/about-the-bachelor-of-science-in-computer-science-program/",
+      "title": "KIMEP: Computer Science degree requirements",
+      "checked": "2026-11-16",
+      "cycle": "current catalogue",
+      "applicant": "Kazakhstan school leavers",
+      "status": "verified",
+      "note": "Official programme facts checked; unpublished details remain unknown."
+    },
+    {
+      "id": "km-kimep-data-path",
+      "url": "https://www.kimep.kz/school-of-computer-science-and-artificial-intelligence/en/",
+      "title": "KIMEP: Computer Science paths including Data Analytics",
+      "checked": "2026-11-16",
+      "cycle": "current catalogue",
+      "applicant": "Kazakhstan school leavers",
+      "status": "verified",
+      "note": "Data Analytics is a path within Computer Science, not a separately verified Data Science degree."
+    },
+    {
+      "id": "km-sdu-primary",
+      "url": "https://sdu.edu.kz/en/pedagogy-methods-of-primary-education/",
+      "title": "SDU: Primary Education 6B01301",
+      "checked": "2026-11-16",
+      "cycle": "current catalogue",
+      "applicant": "Kazakhstan school leavers",
+      "status": "verified",
+      "note": "Kazakh instruction and teaching practice verified. Paid minimum 75 is undated. Confirm whether the university-wide English proof rule applies to this Kazakh-taught route."
+    },
+    {
+      "id": "km-kaznu-tour",
+      "url": "https://welcome.kaznu.kz/ru/education_programs/bachelor/speciality/1633",
+      "title": "KazNU: Tourism 6B11101 programme and admission",
+      "checked": "2026-11-16",
+      "cycle": "2026",
+      "applicant": "Kazakhstan school leavers",
+      "status": "partial",
+      "note": "Programme page gives paid minimum 75; the general programme list gives 92. No resolved tourism minimum is asserted."
+    },
+    {
+      "id": "km-kaznu-tour-length",
+      "url": "https://welcome.kaznu.kz/ru/7415/page",
+      "title": "KazNU: tourism department programme list",
+      "checked": "2026-11-16",
+      "cycle": "current catalogue",
+      "applicant": "Kazakhstan school leavers",
+      "status": "verified",
+      "note": "Undated department list gives four years and Bachelor in Services for Tourism; confirm for the selected intake."
+    },
+    {
+      "id": "km-kaznu-logistics",
+      "url": "https://welcome.kaznu.kz/ru/education_programs/bachelor/speciality/1516",
+      "title": "KazNU: Logistics 6B11301 programme and admission",
+      "checked": "2026-11-16",
+      "cycle": "2026",
+      "applicant": "Kazakhstan school leavers",
+      "status": "verified",
+      "note": "Official programme facts checked; unpublished details remain unknown."
+    },
+    {
+      "id": "km-kimep-journalism",
+      "url": "https://www.kimep.kz/college-of-social-sciences/kz/bachelor-of-journalism/",
+      "title": "KIMEP: Journalism degree and curriculum",
+      "checked": "2026-11-16",
+      "cycle": "current catalogue",
+      "applicant": "Kazakhstan school leavers",
+      "status": "verified",
+      "note": "Official programme facts checked; unpublished details remain unknown."
+    },
+    {
+      "id": "km-sdu-multimedia",
+      "url": "https://sdu.edu.kz/en/multimedia-sciences/",
+      "title": "SDU: Multimedia Sciences programme",
+      "checked": "2026-11-16",
+      "cycle": "current catalogue",
+      "applicant": "Kazakhstan school leavers",
+      "status": "verified",
+      "note": "Design, games and industrial-design paths verified. Paid minimum 50 is undated; scholarship threshold 120 is not treated as a future cutoff."
+    },
+    {
+      "id": "km-sdu-admission",
+      "url": "https://sdu.edu.kz/en/admission-3-2/",
+      "title": "SDU: domestic school-leaver admission 2026/27",
+      "checked": "2026-11-16",
+      "cycle": "2026/27",
+      "applicant": "Kazakhstan school leavers",
+      "status": "verified",
+      "note": "Current subject pairs, English alternatives and pedagogical exam verified. Older grant quantities on this page are excluded."
+    },
+    {
+      "id": "km-aitu-admission",
+      "url": "https://astanait.edu.kz/en/how-to-apply",
+      "title": "AITU: 2026 school-leaver UNT and AET requirements",
+      "checked": "2026-11-16",
+      "cycle": "2026",
+      "applicant": "Kazakhstan school leavers",
+      "status": "partial",
+      "note": "B057 lists grant-competition minimum 100. Paid minimum 70 conflicts with 80 on the university funding page; confirm rather than resolve automatically."
+    },
+    {
+      "id": "km-aitu-aet",
+      "url": "https://astanait.edu.kz/en/aitu-excellence-test",
+      "title": "AITU: AET modules and English exemptions",
+      "checked": "2026-11-16",
+      "cycle": "2026",
+      "applicant": "Kazakhstan school leavers",
+      "status": "verified",
+      "note": "Official programme facts checked; unpublished details remain unknown."
+    },
+    {
+      "id": "km-aitu-paid-conflict",
+      "url": "https://astanait.edu.kz/educational-grants",
+      "title": "AITU: page containing the conflicting paid minimum",
+      "checked": "2026-11-16",
+      "cycle": "2026/27",
+      "applicant": "Kazakhstan school leavers",
+      "status": "partial",
+      "note": "Used only to document the published 80 versus 70 conflict; no award eligibility is assigned from this page."
+    },
+    {
+      "id": "km-kaznu-minima",
+      "url": "https://welcome.kaznu.kz/ru/27304/page",
+      "title": "KazNU: general undergraduate admission minima",
+      "checked": "2026-11-16",
+      "cycle": "2026",
+      "applicant": "Kazakhstan school leavers",
+      "status": "partial",
+      "note": "Logistics 70 agrees with its programme page. Tourism 92 conflicts with programme-page 75."
+    },
+    {
+      "id": "km-kimep-admission",
+      "url": "https://www.kimep.kz/prospective-students/files/2026/02/HowToApplyENGUgrad_2026-27.pdf",
+      "title": "KIMEP: Kazakhstan citizen admissions 2026/27",
+      "checked": "2026-11-16",
+      "cycle": "2026/27",
+      "applicant": "Kazakhstan school leavers",
+      "status": "verified",
+      "note": "Official programme facts checked; unpublished details remain unknown."
+    },
+    {
+      "id": "km-kimep-english",
+      "url": "https://www.kimep.kz/prospective-students/kz/admission/high-school-graduates/",
+      "title": "KIMEP: English placement and beginner route",
+      "checked": "2026-11-16",
+      "cycle": "current catalogue",
+      "applicant": "Kazakhstan school leavers",
+      "status": "verified",
+      "note": "Placement is optional for admission; no placement means beginner English courses, potentially adding time and cost."
+    }
+  ]
+}

@@ -23,3 +23,5 @@ Programme `name` remains the full source-backed catalogue title. `src/programme-
 ### Geographic regions and focused study topics
 
 `src/destination-regions.mjs` maps stable ISO country codes to geographic browsing regions; it is independent of legacy institution research-region labels. Kazakhstan is also a shortcut. `src/interest-topics.mjs` contains `{id,parentId,programmeIds,labels,descriptions}` with all three languages. Topic IDs are local navigation values; programme IDs must exist. They neither create a degree nor change the source's admissions claims. `programmeNameAliases` retains previous display names for search.
+
+A catalogue programme must have at least one browsable applicant route. Degree majors/concentrations must name the parent qualification and any declaration/progression conditions; a subject topic references real programme IDs and does not create a degree. `npm run coverage` separates programme, institution and route totals.

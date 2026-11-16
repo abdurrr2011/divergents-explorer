@@ -6,13 +6,13 @@
 | --- | --- |
 | Source repository | Public, authorised by the owner |
 | Hosted application | Owner-private; no school/public rollout approved |
-| Catalogue | 33 institutions, 54 programmes, 60 admission routes |
-| Evidence | 146 source records; individual cycles and verification limits retained |
+| Catalogue | 33 institutions, 78 programmes, 84 admission routes |
+| Evidence | 205 source records; individual cycles and verification limits retained |
 | Languages | English, Russian, Kazakh |
-| Subject navigation | 33 focused specialities in 12 broad groups |
-| Destination navigation | Region first, then regional countries; Kazakhstan shortcut |
+| Subject navigation | 40 focused specialities in 12 broad groups |
+| Destination navigation | Country panel: main regions, then their countries; Kazakhstan shortcut |
 | Photographs | All 33 institutions covered; individual credits and rights notes recorded |
-| Automated verification | 75 logic/DOM checks, catalogue/photo validation and static build |
+| Automated verification | 82 logic/DOM checks, catalogue/photo validation and static build |
 | Remote CI | Runs on pull requests and main; see the current Actions result |
 | Browser visual verification | Pending: supported controls unavailable during development |
 | Data review | School-appointed teacher/counsellor still needed |

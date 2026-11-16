@@ -269,6 +269,126 @@ export const programmeNames = {
     "en": "University preparation",
     "ru": "Подготовка к университету",
     "kk": "Университетке дайындық"
+  },
+  "wm-p-monash-data": {
+    "en": "Applied Data Science",
+    "ru": "Прикладной анализ данных",
+    "kk": "Қолданбалы деректер ғылымы"
+  },
+  "wm-p-melb-data": {
+    "en": "Data Science (BSc major)",
+    "ru": "Анализ данных (специализация BSc)",
+    "kk": "Деректер ғылымы (BSc мамандануы)"
+  },
+  "wm-p-ntu-data": {
+    "en": "Data Science and Artificial Intelligence",
+    "ru": "Анализ данных и искусственный интеллект",
+    "kk": "Деректер ғылымы және жасанды интеллект"
+  },
+  "wm-p-waikato-data": {
+    "en": "Data Analytics (BSc major)",
+    "ru": "Анализ данных (специализация BSc)",
+    "kk": "Деректерді талдау (BSc мамандануы)"
+  },
+  "wm-p-monash-media": {
+    "en": "Digital Media and Communication",
+    "ru": "Цифровые медиа и коммуникация",
+    "kk": "Цифрлық медиа және коммуникация"
+  },
+  "wm-p-monash-food": {
+    "en": "Food Science and Technology",
+    "ru": "Пищевые технологии",
+    "kk": "Тағам технологиялары"
+  },
+  "wm-p-unnc-media": {
+    "en": "International Communications Studies",
+    "ru": "Международные коммуникационные исследования",
+    "kk": "Халықаралық коммуникация зерттеулері"
+  },
+  "wm-p-waikato-primary": {
+    "en": "Primary Teaching",
+    "ru": "Подготовка учителей начальной школы",
+    "kk": "Бастауыш мектеп мұғалімдерін даярлау"
+  },
+  "more-prog-asu-data": {
+    "en": "Data Science",
+    "ru": "Анализ данных",
+    "kk": "Деректерді талдау"
+  },
+  "more-prog-asu-biomedical-data": {
+    "en": "Biomedical Informatics and Data Science",
+    "ru": "Биомедицинская информатика и анализ данных",
+    "kk": "Биомедициналық информатика және деректерді талдау"
+  },
+  "more-prog-manitoba-data": {
+    "en": "Data Science",
+    "ru": "Анализ данных",
+    "kk": "Деректерді талдау"
+  },
+  "more-prog-manitoba-statistics": {
+    "en": "Statistics",
+    "ru": "Статистика",
+    "kk": "Статистика"
+  },
+  "km-p-sdu-data": {
+    "en": "Data Science and Statistics",
+    "ru": "Статистика и анализ данных",
+    "kk": "Статистика және деректерді талдау"
+  },
+  "km-p-aitu-data": {
+    "en": "Data Analysis",
+    "ru": "Анализ данных",
+    "kk": "Деректерді талдау"
+  },
+  "km-p-kimep-cs": {
+    "en": "Computer Science · Data Analytics",
+    "ru": "Информатика: анализ данных",
+    "kk": "Информатика: деректерді талдау"
+  },
+  "km-p-sdu-primary": {
+    "en": "Primary Teaching",
+    "ru": "Учитель начальных классов",
+    "kk": "Бастауыш сынып мұғалімі"
+  },
+  "km-p-kaznu-tour": {
+    "en": "Tourism",
+    "ru": "Туризм",
+    "kk": "Туризм"
+  },
+  "km-p-kaznu-logistics": {
+    "en": "Logistics",
+    "ru": "Логистика",
+    "kk": "Логистика"
+  },
+  "km-p-kimep-journalism": {
+    "en": "Journalism",
+    "ru": "Журналистика",
+    "kk": "Журналистика"
+  },
+  "km-p-sdu-multimedia": {
+    "en": "Multimedia Design",
+    "ru": "Мультимедиа и дизайн",
+    "kk": "Мультимедиа және дизайн"
+  },
+  "more-prog-unbc-cs": {
+    "en": "Computer Science",
+    "ru": "Информатика",
+    "kk": "Информатика"
+  },
+  "more-prog-twente-tcs": {
+    "en": "Technical Computer Science",
+    "ru": "Техническая информатика",
+    "kk": "Техникалық информатика"
+  },
+  "more-prog-bologna-stats-maths": {
+    "en": "Statistics and Mathematics",
+    "ru": "Статистика и математика",
+    "kk": "Статистика және математика"
+  },
+  "more-prog-aalto-finance": {
+    "en": "Finance",
+    "ru": "Финансы",
+    "kk": "Қаржы"
   }
 };
 export function programmeName(programme,lang='en'){return programmeNames[programme.id]?.[lang]||programme.name;}

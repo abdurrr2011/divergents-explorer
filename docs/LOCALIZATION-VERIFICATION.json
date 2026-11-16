@@ -1,21 +1,20 @@
 {
   "date": "2026-11-16",
-  "scope": "Region-to-country navigation, 33 focused topics and recognisable academic labels",
-  "cataloguePhrases": 1345,
-  "tests": 75,
+  "scope": "Two main filters, 40 programme-backed topics and 24 new options; complete Russian/Kazakh route journeys",
+  "cataloguePhrases": 1865,
+  "tests": 82,
   "automatedResult": "passed",
   "browserVerification": "Unavailable: no cua_repl.js tool exposed; DOM checks only",
-  "canonicalCatalogueChanged": false,
+  "canonicalCatalogueChanged": true,
   "institutionCount": 33,
-  "programmeCount": 54,
-  "routeCount": 60,
-  "sourceCount": 146,
+  "programmeCount": 78,
+  "routeCount": 84,
+  "sourceCount": 205,
   "access": "Owner-private; preserved",
   "visibleCurrencyCodes": false,
   "mainFilters": [
-    "region",
-    "country (after region selection)",
-    "subject"
+    "country (main regions, then country inside one panel)",
+    "study subjects"
   ],
   "detailGroups": 5,
   "destinations": 249,
@@ -27,8 +26,8 @@
   "comparisonFacts": 4,
   "campusPhotos": 33,
   "photoBytes": 6295136,
-  "plainProgrammeNames": 54,
-  "focusedTopics": 33,
+  "plainProgrammeNames": 78,
+  "focusedTopics": 40,
   "primaryGeographicRegions": 7,
   "geographicShortcuts": [
     "Kazakhstan"

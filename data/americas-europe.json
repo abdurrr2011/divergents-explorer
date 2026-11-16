@@ -958,7 +958,8 @@
         "route-aalto-data-science",
         "route-aalto-chemical",
         "route-aalto-economics",
-        "route-aalto-design"
+        "route-aalto-design",
+        "more-route-aalto-finance"
       ],
       "name": "Aalto University Excellence Scholarship",
       "coverage": "tuition_only",
@@ -1019,7 +1020,8 @@
       "routeIds": [
         "route-aalto-data-science",
         "route-aalto-chemical",
-        "route-aalto-economics"
+        "route-aalto-economics",
+        "more-route-aalto-finance"
       ],
       "type": "admission",
       "label": "Round A admission application",
@@ -1039,7 +1041,8 @@
       "routeIds": [
         "route-aalto-data-science",
         "route-aalto-chemical",
-        "route-aalto-economics"
+        "route-aalto-economics",
+        "more-route-aalto-finance"
       ],
       "type": "test",
       "label": "Official SAT/ACT and initial documents received",
@@ -1059,7 +1062,8 @@
       "routeIds": [
         "route-aalto-data-science",
         "route-aalto-chemical",
-        "route-aalto-economics"
+        "route-aalto-economics",
+        "more-route-aalto-finance"
       ],
       "type": "document",
       "label": "Final foreign diploma for spring 2027 graduates",
@@ -1116,7 +1120,8 @@
         "route-aalto-data-science",
         "route-aalto-chemical",
         "route-aalto-economics",
-        "route-aalto-design"
+        "route-aalto-design",
+        "more-route-aalto-finance"
       ],
       "type": "funding",
       "label": "Select Excellence Scholarship on admission application",

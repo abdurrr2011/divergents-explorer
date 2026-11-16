@@ -8,12 +8,15 @@ import {researchPhrases as kazakhstanPhrases} from './research-kazakhstan-i18n.m
 import {researchPhrases as europeAmericasPhrases} from './research-europe-americas-i18n.mjs';
 import {researchPhrases as asiaWorldPhrases} from './research-asia-world-i18n.mjs';
 import {researchPhrases as extraPhrases} from './research-extra-i18n.mjs';
+import {researchPhrases as worldMorePhrases} from './research-world-more-i18n.mjs';
+import {researchPhrases as kzMorePhrases} from './research-kz-more-i18n.mjs';
+import {researchPhrases as europeMorePhrases} from './research-europe-more-i18n.mjs';
 import {uiPhrases} from './ui-i18n.mjs';
 import {translations} from './i18n.mjs';
 const escapeRE=s=>s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
 const maps={ru:new Map(),kk:new Map()};
 const core=Object.entries(translations.en).map(([key,en])=>[en,translations.ru[key],translations.kk[key]]);
-export const allCataloguePhrases=[...cataloguePhrases,...kazakhstanPhrases,...europeAmericasPhrases,...asiaWorldPhrases,...extraPhrases];
+export const allCataloguePhrases=[...cataloguePhrases,...kazakhstanPhrases,...europeAmericasPhrases,...asiaWorldPhrases,...extraPhrases,...worldMorePhrases,...kzMorePhrases,...europeMorePhrases];
 for(const [en,ru,kk]of [...allCataloguePhrases,...core,...uiPhrases]){maps.ru.set(en,ru);maps.kk.set(en,kk);}
 const patterns=Object.fromEntries(Object.entries(maps).map(([lang,map])=>[lang,new RegExp(`(?<![\\p{L}\\p{N}_])(?:${[...map.keys()].sort((a,b)=>b.length-a.length).map(escapeRE).join('|')})(?![\\p{L}\\p{N}_])`,'gu')]));
 export function translateText(value,lang='en'){
@@ -41,5 +44,5 @@ export function localizeDOM(root,lang){
  }
  visit(root);
 }
-export function searchAliases(route){return [...Object.values(programmeNames[route.p.id]||{}),...(programmeNameAliases[route.p.id]||[]),...[...interests,...interestTopics].filter(row=>matchesInterest(subjectCodesFor(route.p),row.id,route.p.id)).flatMap(row=>Object.values(row.labels)),...['ru','kk'].flatMap(lang=>[route.name,route.p.name,route.p.field,route.p.qualification,route.i.name,route.i.city,route.i.country].map(text=>translateText(text,lang)).concat(countryRecords.find(row=>row.code===countryCode(route.i.country))?.labels[lang]||[],subjectRecords.filter(row=>subjectCodesFor(route.p).some(code=>code.startsWith(row.code))).map(row=>row.labels[lang])))];}
+export function searchAliases(route){const names=new Set([route.name,route.p.name,route.p.field,route.p.qualification,route.i.name,route.i.city,route.i.country]);const editorialAliases=allCataloguePhrases.filter(([en])=>names.has(en)).flatMap(([,ru,kk])=>[ru,kk]);return [...editorialAliases,...Object.values(programmeNames[route.p.id]||{}),...(programmeNameAliases[route.p.id]||[]),...[...interests,...interestTopics].filter(row=>matchesInterest(subjectCodesFor(route.p),row.id,route.p.id)).flatMap(row=>Object.values(row.labels)),...['ru','kk'].flatMap(lang=>[route.name,route.p.name,route.p.field,route.p.qualification,route.i.name,route.i.city,route.i.country].map(text=>translateText(text,lang)).concat(countryRecords.find(row=>row.code===countryCode(route.i.country))?.labels[lang]||[],subjectRecords.filter(row=>subjectCodesFor(route.p).some(code=>code.startsWith(row.code))).map(row=>row.labels[lang])))];}
 export function hasTranslation(text,lang){return lang==='en'||maps[lang]?.has(text);}
