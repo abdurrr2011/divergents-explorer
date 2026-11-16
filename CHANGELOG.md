@@ -1,8 +1,13 @@
 # Changelog
 
-This is a development history, not a list of published releases. Entries reflect preserved Git commits; the application remains a private review edition.
+Entries reflect preserved Git history and labelled source previews. The application remains a private review edition; a source tag does not announce school-wide availability.
 
-## Unreleased — repository maintenance
+## Source preview 1.0.0-preview.1
+
+- First labelled source snapshot for developer/editorial review, with project status and troubleshooting guides.
+- Repository presentation follows the owner’s timer-project reference while preserving Divergents branding and independent media/licence notes.
+
+## Repository maintenance
 
 - Contribution, security, licensing and editorial maintenance guidance.
 - GitHub validation/build workflow, issue forms, PR template and code ownership.
