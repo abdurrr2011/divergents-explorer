@@ -2,9 +2,13 @@
 
 **Find a direction. Compare your options. Take the next step.**
 
+[![Validate and build](https://github.com/abdurrr2011/divergents-explorer/actions/workflows/check.yml/badge.svg)](https://github.com/abdurrr2011/divergents-explorer/actions/workflows/check.yml)
+
+English · [Русский](docs/README.ru.md) · [Қазақша](docs/README.kk.md)
+
 A multilingual college and university explorer for students in Kazakhstan, developed for private review by Divergents Leadership School.
 
-[Private application](https://divergents-university-college-explorer.surecarrot2.chatgpt.site) · [Project handbook](docs/PROJECT-HANDBOOK.md) · [Maintenance guide](docs/MAINTENANCE.md) · [Roadmap](docs/ROADMAP.md)
+[Private application](https://divergents-university-college-explorer.surecarrot2.chatgpt.site) · [Project handbook](docs/PROJECT-HANDBOOK.md) · [Maintenance guide](docs/MAINTENANCE.md) · [Roadmap](docs/ROADMAP.md) · [Changelog](CHANGELOG.md)
 
 ## What students can do
 
@@ -53,6 +57,20 @@ docs/             Schema, evidence, coverage, handoff and maintenance
 .openai/          Existing private Sites hosting identity
 ```
 
+## Architecture
+
+```mermaid
+flowchart LR
+  Evidence[Official sources] --> Review[Editorial review]
+  Review --> Data[Versioned catalogue]
+  Data --> Build[Static build]
+  Media[Local photos and credits] --> Build
+  Build --> App[Browser application]
+  App --> Local[Local preferences and bookmarks]
+```
+
+See [architecture](docs/ARCHITECTURE.md) and [Git workflow](docs/GIT-WORKFLOW.md) for implementation and contribution details.
+
 ## Quality and maintenance
 
 `npm run check` validates catalogue and photographs, runs 69 automated checks and builds `dist/`. `npm run links` produces a separate source-link report. [GitHub Actions](https://github.com/abdurrr2011/divergents-explorer/actions/workflows/check.yml) repeats these checks for pull requests and pushes to main; its run page records the current result.
@@ -64,6 +82,8 @@ Browser visual QA is still pending because supported browser controls were unava
 The deployed application remains owner-private. The source repository is public at the owner's explicit request. This does not authorise public or school-wide access to the deployed application. Credentials, student records and local work files must never be committed.
 
 Photograph and taxonomy licences are recorded separately. Reuse terms for three source photographs covering four institution records need confirmation before wider distribution. See [photo credits](docs/PHOTO-CREDITS.md) and [licensing](LICENSE.md).
+
+For repository-level About fields and optional controls, see [repository setup](docs/REPOSITORY-SETUP.md).
 
 ## Maintainer
 

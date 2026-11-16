@@ -1,5 +1,7 @@
 # Contributing
 
+See [community expectations](CODE_OF_CONDUCT.md), [architecture](docs/ARCHITECTURE.md) and [Git workflow](docs/GIT-WORKFLOW.md).
+
 ## Make a focused change
 
 1. Create a branch from the latest main: `git switch -c feature/descriptive-name`.

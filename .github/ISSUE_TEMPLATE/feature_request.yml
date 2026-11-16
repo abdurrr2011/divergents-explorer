@@ -1,0 +1,21 @@
+name: Suggest an improvement
+description: Propose a student or maintainer workflow improvement.
+title: "[Idea] "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is difficult today?
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: What should become easier?
+    validations:
+      required: true
+  - type: textarea
+    id: constraints
+    attributes:
+      label: Relevant languages, entry stage or accessibility needs
+      description: Use a general example without personal student records.

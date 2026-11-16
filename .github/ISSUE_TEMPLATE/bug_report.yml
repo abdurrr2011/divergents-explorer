@@ -1,0 +1,30 @@
+name: Report a bug
+description: Describe a reproducible problem in the explorer.
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: Do not include student names, marks, contacts, credentials or private application documents.
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Include the page, selected language and filters.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behaviour
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behaviour
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Browser and screen size
