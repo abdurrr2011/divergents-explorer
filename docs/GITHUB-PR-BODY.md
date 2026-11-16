@@ -1,0 +1,3 @@
+The project needs a maintainable GitHub entry point while preserving its complete development history. This change adds a concise project README, a detailed handbook, contribution and security guidance, explicit third-party media/licensing notes, a catalogue-expansion roadmap, issue/PR templates and a Node 22 validation/build workflow.
+
+Validation: `npm run check` passes 69 automated checks plus catalogue/photo validation and the static build. Remote GitHub Actions and browser visual QA are not verified. Existing admissions and photo-rights review notes remain documented. No catalogue claims, deployed application or access audience are changed.
