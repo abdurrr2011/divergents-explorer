@@ -1,0 +1,730 @@
+{
+  "institutions": [
+    {
+      "id": "xk-i-sat",
+      "name": "Satbayev University",
+      "country": "Kazakhstan",
+      "region": "Kazakhstan",
+      "city": "Almaty",
+      "aliases": [],
+      "sourceIds": [
+        "xk-sat-programme"
+      ]
+    },
+    {
+      "id": "xk-i-med",
+      "name": "Asfendiyarov Kazakh National Medical University",
+      "country": "Kazakhstan",
+      "region": "Kazakhstan",
+      "city": "Almaty",
+      "aliases": [],
+      "sourceIds": [
+        "xk-med-programme"
+      ]
+    },
+    {
+      "id": "xk-i-mnu",
+      "name": "Maqsut Narikbayev University",
+      "country": "Kazakhstan",
+      "region": "Kazakhstan",
+      "city": "Astana",
+      "aliases": [],
+      "sourceIds": [
+        "xk-mnu-programme"
+      ]
+    },
+    {
+      "id": "xk-i-kimep",
+      "name": "KIMEP University",
+      "country": "Kazakhstan",
+      "region": "Kazakhstan",
+      "city": "Almaty",
+      "aliases": [],
+      "sourceIds": [
+        "xk-kimep-programme"
+      ]
+    },
+    {
+      "id": "xk-i-kaznu",
+      "name": "Al-Farabi Kazakh National University",
+      "country": "Kazakhstan",
+      "region": "Kazakhstan",
+      "city": "Almaty",
+      "aliases": [],
+      "sourceIds": [
+        "xk-kaznu-programme"
+      ]
+    },
+    {
+      "id": "xk-i-sdu",
+      "name": "SDU University",
+      "country": "Kazakhstan",
+      "region": "Kazakhstan",
+      "city": "Kaskelen",
+      "aliases": [],
+      "sourceIds": [
+        "xk-sdu-programme"
+      ]
+    }
+  ],
+  "programmes": [
+    {
+      "id": "xk-p-sat",
+      "institutionId": "xk-i-sat",
+      "name": "Civil Engineering",
+      "field": "Engineering",
+      "subjectCodes": [
+        "0732"
+      ],
+      "qualification": "Bachelor’s degree",
+      "duration": "To be confirmed",
+      "credits": "Not yet verified",
+      "languages": [
+        "To be confirmed"
+      ],
+      "description": "Learn how buildings are designed, built and maintained.",
+      "curriculum": "Building design, materials, construction and operation.",
+      "practical": "Programme-specific practice arrangements need verification.",
+      "campus": "Almaty",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "xk-sat-programme"
+      ]
+    },
+    {
+      "id": "xk-p-med",
+      "institutionId": "xk-i-med",
+      "name": "Medicine · 6B10116",
+      "field": "Health & life sciences",
+      "subjectCodes": [
+        "0912"
+      ],
+      "qualification": "University medical programme; final award needs confirmation",
+      "duration": "To be confirmed",
+      "credits": "Not yet verified",
+      "languages": [
+        "To be confirmed"
+      ],
+      "description": "Study the human body, disease and care for patients.",
+      "curriculum": "Biomedical and clinical modules, communication and public health.",
+      "practical": "Professional practice and internship sections are listed; licensing conditions need confirmation.",
+      "campus": "Almaty",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "xk-med-programme"
+      ]
+    },
+    {
+      "id": "xk-p-mnu",
+      "institutionId": "xk-i-mnu",
+      "name": "Law · 6B04204",
+      "field": "Social sciences",
+      "subjectCodes": [
+        "0421"
+      ],
+      "qualification": "Bachelor of Law",
+      "duration": "4 years",
+      "credits": "248 ECTS",
+      "languages": [
+        "To be confirmed"
+      ],
+      "description": "Understand laws and learn how to build a legal argument.",
+      "curriculum": "National, international and comparative law; legal writing and dispute resolution.",
+      "practical": "Moot Court skills and practice-oriented learning are documented.",
+      "campus": "Astana",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "xk-mnu-programme"
+      ]
+    },
+    {
+      "id": "xk-p-kimep",
+      "institutionId": "xk-i-kimep",
+      "name": "Management · BMGT",
+      "field": "Business & economics",
+      "subjectCodes": [
+        "0413"
+      ],
+      "qualification": "Bachelor of Management",
+      "duration": "To be confirmed",
+      "credits": "146 KIMEP credits / 240 ECTS",
+      "languages": [
+        "English"
+      ],
+      "description": "Explore how teams, money and business decisions fit together.",
+      "curriculum": "Management, accounting, finance and marketing; leadership or human resources specialisation.",
+      "practical": "Internship modules are listed; a case-study substitute is available for one module.",
+      "campus": "Almaty",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "xk-kimep-programme"
+      ]
+    },
+    {
+      "id": "xk-p-kaznu",
+      "institutionId": "xk-i-kaznu",
+      "name": "Management · 6B04102",
+      "field": "Business & economics",
+      "subjectCodes": [
+        "0413"
+      ],
+      "qualification": "Bachelor’s degree",
+      "duration": "To be confirmed",
+      "credits": "Not yet verified",
+      "languages": [
+        "To be confirmed"
+      ],
+      "description": "Learn to organise projects and make decisions in organisations.",
+      "curriculum": "Business processes, organisational strategy, financial analysis and planning.",
+      "practical": "Request the current placement and practical-training plan.",
+      "campus": "Almaty",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "xk-kaznu-programme"
+      ]
+    },
+    {
+      "id": "xk-p-sdu",
+      "institutionId": "xk-i-sdu",
+      "name": "Mathematics teacher education · 6B01501",
+      "field": "Social sciences",
+      "subjectCodes": [
+        "0114"
+      ],
+      "qualification": "Bachelor of Education",
+      "duration": "4 years",
+      "credits": "240 ECTS",
+      "languages": [
+        "English"
+      ],
+      "description": "Enjoy mathematics and learn how to help others understand it.",
+      "curriculum": "Mathematics, teaching methods and educational research.",
+      "practical": "Educational practice is included in the curriculum.",
+      "campus": "Kaskelen",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "xk-sdu-programme"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "xk-r-sat",
+      "programmeId": "xk-p-sat",
+      "name": "School-leaver UNT route",
+      "entryAfter": 11,
+      "pathway": "direct",
+      "cycle": "current catalogue",
+      "applicant": "Kazakhstan school leavers",
+      "eligibility": "Secondary-school completion and UNT; current programme minimum and additional conditions need confirmation.",
+      "recognition": "Domestic school-leaver route; confirm diploma and original-document requirements.",
+      "subjects": "Mathematics + Physics",
+      "tests": {
+        "UNT": {
+          "status": "required",
+          "detail": "UNT is part of the published domestic admission steps. Current programme minimum is not verified."
+        },
+        "SAT": {
+          "status": "unknown",
+          "detail": "Requirement not verified for this applicant route."
+        },
+        "ACT": {
+          "status": "unknown",
+          "detail": "Requirement not verified for this applicant route."
+        },
+        "IELTS": {
+          "status": "unknown",
+          "detail": "Requirement not verified for this applicant route."
+        },
+        "TOEFL": {
+          "status": "unknown",
+          "detail": "Requirement not verified for this applicant route."
+        },
+        "ENGLISH": {
+          "status": "unknown",
+          "detail": "Requirement not verified for this applicant route."
+        }
+      },
+      "tuition": {
+        "amount": null,
+        "currency": "KZT",
+        "period": "unknown",
+        "note": "Current domestic tuition and its billing period need verification."
+      },
+      "mandatoryFees": "Ask for the current mandatory-fee schedule.",
+      "living": "No verified living-cost estimate.",
+      "nextAction": "Try a simple building-design project, then request the current Civil Engineering admission sheet.",
+      "questions": [
+        "Confirm the selected intake, tuition, funding conditions and document deadlines before applying."
+      ],
+      "sourceIds": [
+        "xk-sat-programme",
+        "xk-sat-admissions"
+      ]
+    },
+    {
+      "id": "xk-r-med",
+      "programmeId": "xk-p-med",
+      "name": "Medicine: UNT and psychometric examination",
+      "entryAfter": 11,
+      "pathway": "direct",
+      "cycle": "2026/27",
+      "applicant": "Kazakhstan school leavers",
+      "eligibility": "School-leaver admission uses UNT and a psychometric pass. Medicine minima: 90 for grant competition, 80 for paid tuition.",
+      "recognition": "Domestic school-leaver route; confirm diploma and original-document requirements.",
+      "subjects": "Confirm the current Medicine profile-subject pair with admissions.",
+      "tests": {
+        "UNT": {
+          "status": "required",
+          "detail": "90 grant-competition minimum; 80 paid minimum in the PDF linked under 2026/27."
+        },
+        "SAT": {
+          "status": "unknown",
+          "detail": "Requirement not verified for this applicant route."
+        },
+        "ACT": {
+          "status": "unknown",
+          "detail": "Requirement not verified for this applicant route."
+        },
+        "IELTS": {
+          "status": "unknown",
+          "detail": "Requirement not verified for this applicant route."
+        },
+        "TOEFL": {
+          "status": "unknown",
+          "detail": "Requirement not verified for this applicant route."
+        },
+        "ENGLISH": {
+          "status": "unknown",
+          "detail": "Requirement not verified for this applicant route."
+        },
+        "PSYCHOMETRIC": {
+          "status": "required",
+          "detail": "Pass/fail psychometric examination is required for Medicine."
+        }
+      },
+      "tuition": {
+        "amount": null,
+        "currency": "KZT",
+        "period": "unknown",
+        "note": "Current domestic tuition and its billing period need verification."
+      },
+      "mandatoryFees": "Ask for the current mandatory-fee schedule.",
+      "living": "No verified living-cost estimate.",
+      "nextAction": "Read the psychometric-exam instructions and ask about the current medical training structure.",
+      "questions": [
+        "Confirm programme duration, final qualification, teaching language and professional licensing steps.",
+        "Confirm the selected intake, tuition, funding conditions and document deadlines before applying."
+      ],
+      "sourceIds": [
+        "xk-med-programme",
+        "xk-med-admissions",
+        "xk-med-minima"
+      ]
+    },
+    {
+      "id": "xk-r-mnu",
+      "programmeId": "xk-p-mnu",
+      "name": "Law: domestic UNT admission",
+      "entryAfter": 11,
+      "pathway": "direct",
+      "cycle": "2026",
+      "applicant": "Kazakhstan school leavers",
+      "eligibility": "Law lists total UNT 75, with World History 5 and Fundamentals of Law 10. Concentration-dependent language conditions need confirmation.",
+      "recognition": "Domestic school-leaver route; confirm diploma and original-document requirements.",
+      "subjects": "World History + Fundamentals of Law",
+      "tests": {
+        "UNT": {
+          "status": "required",
+          "detail": "Total 75; profile minima 5 in World History and 10 in Fundamentals of Law."
+        },
+        "SAT": {
+          "status": "unknown",
+          "detail": "Requirement not verified for this applicant route."
+        },
+        "ACT": {
+          "status": "unknown",
+          "detail": "Requirement not verified for this applicant route."
+        },
+        "IELTS": {
+          "status": "alternative",
+          "detail": "Programme table lists IELTS 3.0/5.5 by concentration; confirm your category and accepted alternatives."
+        },
+        "TOEFL": {
+          "status": "unknown",
+          "detail": "Requirement not verified for this applicant route."
+        },
+        "ENGLISH": {
+          "status": "unknown",
+          "detail": "Requirement not verified for this applicant route."
+        }
+      },
+      "tuition": {
+        "amount": null,
+        "currency": "KZT",
+        "period": "unknown",
+        "note": "Current domestic tuition and its billing period need verification."
+      },
+      "mandatoryFees": "Ask for the current mandatory-fee schedule.",
+      "living": "No verified living-cost estimate.",
+      "nextAction": "Choose a legal concentration and ask MNU which language requirement applies.",
+      "questions": [
+        "Language of instruction and grant-competition threshold are marked TBA.",
+        "Confirm the selected intake, tuition, funding conditions and document deadlines before applying."
+      ],
+      "sourceIds": [
+        "xk-mnu-programme",
+        "xk-mnu-admissions"
+      ]
+    },
+    {
+      "id": "xk-r-kimep",
+      "programmeId": "xk-p-kimep",
+      "name": "Management: Kazakhstan citizen admission",
+      "entryAfter": 11,
+      "pathway": "direct",
+      "cycle": "2026/27",
+      "applicant": "Kazakhstan school leavers",
+      "eligibility": "School certificate and UNT at least 50; literacy minima 3 each and other subjects 5 each. English placement determines the starting level.",
+      "recognition": "Domestic school-leaver route; confirm diploma and original-document requirements.",
+      "subjects": "Mathematics + Geography",
+      "tests": {
+        "UNT": {
+          "status": "required",
+          "detail": "At least 50 total, literacy subjects at least 3 each and other subjects at least 5 each."
+        },
+        "SAT": {
+          "status": "unknown",
+          "detail": "Requirement not verified for this applicant route."
+        },
+        "ACT": {
+          "status": "unknown",
+          "detail": "Requirement not verified for this applicant route."
+        },
+        "IELTS": {
+          "status": "alternative",
+          "detail": "IELTS is one accepted placement route; the university also offers its English test."
+        },
+        "TOEFL": {
+          "status": "alternative",
+          "detail": "TOEFL is accepted for placement; confirm current score-scale equivalence."
+        },
+        "ENGLISH": {
+          "status": "optional",
+          "detail": "English placement is optional for admission; without placement, beginner English courses apply and can add time and cost."
+        }
+      },
+      "tuition": {
+        "amount": null,
+        "currency": "KZT",
+        "period": "unknown",
+        "note": "Current domestic tuition and its billing period need verification."
+      },
+      "mandatoryFees": "Ask for the current mandatory-fee schedule.",
+      "living": "No verified living-cost estimate.",
+      "nextAction": "Compare the management curriculum with one other field and ask for a complete fee quote.",
+      "questions": [
+        "Confirm the selected intake, tuition, funding conditions and document deadlines before applying."
+      ],
+      "sourceIds": [
+        "xk-kimep-programme",
+        "xk-kimep-admissions",
+        "xk-kimep-english"
+      ]
+    },
+    {
+      "id": "xk-r-kaznu",
+      "programmeId": "xk-p-kaznu",
+      "name": "School-leaver UNT route",
+      "entryAfter": 11,
+      "pathway": "direct",
+      "cycle": "2026",
+      "applicant": "Kazakhstan school leavers",
+      "eligibility": "The programme page lists paid-admission minimum 70. Confirm the current UNT group, profile subjects and grant criteria.",
+      "recognition": "Domestic school-leaver route; confirm diploma and original-document requirements.",
+      "subjects": "Profile-subject pair needs programme-specific confirmation.",
+      "tests": {
+        "UNT": {
+          "status": "required",
+          "detail": "Paid-admission minimum shown: 70. No verified grant-selection threshold is claimed."
+        },
+        "SAT": {
+          "status": "unknown",
+          "detail": "Requirement not verified for this applicant route."
+        },
+        "ACT": {
+          "status": "unknown",
+          "detail": "Requirement not verified for this applicant route."
+        },
+        "IELTS": {
+          "status": "unknown",
+          "detail": "Requirement not verified for this applicant route."
+        },
+        "TOEFL": {
+          "status": "unknown",
+          "detail": "Requirement not verified for this applicant route."
+        },
+        "ENGLISH": {
+          "status": "unknown",
+          "detail": "Requirement not verified for this applicant route."
+        }
+      },
+      "tuition": {
+        "amount": null,
+        "currency": "KZT",
+        "period": "unknown",
+        "note": "Current domestic tuition and its billing period need verification."
+      },
+      "mandatoryFees": "Ask for the current mandatory-fee schedule.",
+      "living": "No verified living-cost estimate.",
+      "nextAction": "Ask KazNU for the Management programme admission sheet and try planning a small school project.",
+      "questions": [
+        "Confirm the selected intake, tuition, funding conditions and document deadlines before applying."
+      ],
+      "sourceIds": [
+        "xk-kaznu-programme",
+        "xk-kaznu-admissions"
+      ]
+    },
+    {
+      "id": "xk-r-sdu",
+      "programmeId": "xk-p-sdu",
+      "name": "Teacher education: UNT, English and pedagogical exam",
+      "entryAfter": 11,
+      "pathway": "direct",
+      "cycle": "2026/27",
+      "applicant": "Kazakhstan school leavers",
+      "eligibility": "School-leaver UNT, English evidence or SDU test, and pedagogical examination. Programme page lists paid minimum 80 without an intake year; confirm for your cycle.",
+      "recognition": "Domestic school-leaver route; confirm diploma and original-document requirements.",
+      "subjects": "Mathematics + Physics",
+      "tests": {
+        "UNT": {
+          "status": "required",
+          "detail": "Mathematics + Physics. Reconfirm the undated paid minimum 80 for the selected intake."
+        },
+        "SAT": {
+          "status": "unknown",
+          "detail": "Requirement not verified for this applicant route."
+        },
+        "ACT": {
+          "status": "unknown",
+          "detail": "Requirement not verified for this applicant route."
+        },
+        "IELTS": {
+          "status": "alternative",
+          "detail": "One accepted route: IELTS 5.5 overall, each component at least 5.0."
+        },
+        "TOEFL": {
+          "status": "unknown",
+          "detail": "Requirement not verified for this applicant route."
+        },
+        "ENGLISH": {
+          "status": "required",
+          "detail": "IELTS 5.5 overall with each component 5.0, SDU language-school B1, or SDU English examination."
+        },
+        "PEDAGOGICAL": {
+          "status": "required",
+          "detail": "Teacher-education applicants must provide the pedagogical examination result."
+        }
+      },
+      "tuition": {
+        "amount": null,
+        "currency": "KZT",
+        "period": "unknown",
+        "note": "Current domestic tuition and its billing period need verification."
+      },
+      "mandatoryFees": "Ask for the current mandatory-fee schedule.",
+      "living": "No verified living-cost estimate.",
+      "nextAction": "Try explaining a maths problem to a younger student, then read the pedagogical-exam instructions.",
+      "questions": [
+        "The page mixes current admission content and older grant statistics; confirm the grant call separately.",
+        "Confirm the selected intake, tuition, funding conditions and document deadlines before applying."
+      ],
+      "sourceIds": [
+        "xk-sdu-programme",
+        "xk-sdu-admissions"
+      ]
+    }
+  ],
+  "awards": [],
+  "deadlines": [
+    {
+      "id": "xk-d-sdu-admission",
+      "routeIds": [
+        "xk-r-sdu"
+      ],
+      "type": "admission",
+      "label": "SDU paid-admission closing date · 2026 reference",
+      "date": "2026-08-25",
+      "time": null,
+      "timezone": null,
+      "cycle": "2026/27",
+      "applicant": "Kazakhstan school leavers",
+      "status": "historical",
+      "nextAction": "Request the dated notice for your chosen intake.",
+      "sourceIds": [
+        "xk-sdu-admissions"
+      ]
+    },
+    {
+      "id": "xk-d-sdu-pedagogical",
+      "routeIds": [
+        "xk-r-sdu"
+      ],
+      "type": "test",
+      "label": "SDU pedagogical examinations end · 2026 reference",
+      "date": "2026-08-20",
+      "time": null,
+      "timezone": null,
+      "cycle": "2026/27",
+      "applicant": "Kazakhstan school leavers",
+      "status": "historical",
+      "nextAction": "Request the dated notice for your chosen intake.",
+      "sourceIds": [
+        "xk-sdu-admissions"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "xk-sat-programme",
+      "url": "https://satbayev.university/ru/specialties/stroitelnaya-inzheneriya-civil-engineering?professionSubjectId=2",
+      "title": "Satbayev: Civil Engineering programme",
+      "checked": "2026-11-16",
+      "cycle": "current catalogue",
+      "applicant": "Kazakhstan school leavers",
+      "status": "partial",
+      "note": "Official indexed programme text checked; direct page fetch timed out. Current duration, credits and language cohorts need manual review."
+    },
+    {
+      "id": "xk-sat-admissions",
+      "url": "https://satbayev.university/ru/undergraduate",
+      "title": "Satbayev: undergraduate admission steps",
+      "checked": "2026-11-16",
+      "cycle": "current catalogue",
+      "applicant": "Kazakhstan school leavers",
+      "status": "partial",
+      "note": "Official indexed admission steps require UNT; direct fetch timed out. Programme-specific current minima remain unverified."
+    },
+    {
+      "id": "xk-med-programme",
+      "url": "https://kaznmu.edu.kz/ru/образовательные-программы/бакалавриат/",
+      "title": "KazNMU: Medicine 6B10116 curriculum",
+      "checked": "2026-11-16",
+      "cycle": "current catalogue",
+      "applicant": "Kazakhstan school leavers",
+      "status": "verified",
+      "note": "Official page checked; only stated facts are included."
+    },
+    {
+      "id": "xk-med-admissions",
+      "url": "https://kaznmu.edu.kz/ru/бакалавриат/",
+      "title": "KazNMU: undergraduate admissions 2026/27",
+      "checked": "2026-11-16",
+      "cycle": "2026/27",
+      "applicant": "Kazakhstan school leavers",
+      "status": "verified",
+      "note": "Medicine requires UNT and a pass in the psychometric examination. Some timeline blocks omit the year."
+    },
+    {
+      "id": "xk-med-minima",
+      "url": "https://kaznmu.edu.kz/wp-content/uploads/Минимальные-пороговые-баллы-ЕНТ-для-поступления.pdf",
+      "title": "KazNMU: minimum UNT scores linked under 2026/27",
+      "checked": "2026-11-16",
+      "cycle": "2026/27",
+      "applicant": "Kazakhstan school leavers",
+      "status": "verified",
+      "note": "Medicine: 90 for grant-competition eligibility, 80 for paid tuition. These are minima, not admitted-score predictions. PDF itself is undated."
+    },
+    {
+      "id": "xk-mnu-programme",
+      "url": "https://mnu.kz/en/educational/law/",
+      "title": "MNU: Law programme and admission table",
+      "checked": "2026-11-16",
+      "cycle": "current catalogue",
+      "applicant": "Kazakhstan school leavers",
+      "status": "verified",
+      "note": "Language of instruction and grant threshold are TBA; English requirements depend on concentration."
+    },
+    {
+      "id": "xk-mnu-admissions",
+      "url": "https://admission.mnu.kz/programs/bachelor",
+      "title": "MNU: bachelor programmes 2026",
+      "checked": "2026-11-16",
+      "cycle": "2026",
+      "applicant": "Kazakhstan school leavers",
+      "status": "verified",
+      "note": "Official page checked; only stated facts are included."
+    },
+    {
+      "id": "xk-kimep-programme",
+      "url": "https://www.kimep.kz/bang-college-of-business/kz/bachelor-of-management/",
+      "title": "KIMEP: Bachelor of Management",
+      "checked": "2026-11-16",
+      "cycle": "current catalogue",
+      "applicant": "Kazakhstan school leavers",
+      "status": "verified",
+      "note": "Official page checked; only stated facts are included."
+    },
+    {
+      "id": "xk-kimep-admissions",
+      "url": "https://www.kimep.kz/prospective-students/files/2026/02/HowToApplyENGUgrad_2026-27.pdf",
+      "title": "KIMEP: admission for Kazakhstan citizens 2026/27",
+      "checked": "2026-11-16",
+      "cycle": "2026/27",
+      "applicant": "Kazakhstan school leavers",
+      "status": "verified",
+      "note": "Official page checked; only stated facts are included."
+    },
+    {
+      "id": "xk-kimep-english",
+      "url": "https://www.kimep.kz/prospective-students/kz/admission/high-school-graduates/",
+      "title": "KIMEP: school-leaver admission and English placement",
+      "checked": "2026-11-16",
+      "cycle": "current catalogue",
+      "applicant": "Kazakhstan school leavers",
+      "status": "verified",
+      "note": "English placement or accepted evidence determines starting level; extra English courses can add time and cost."
+    },
+    {
+      "id": "xk-kaznu-programme",
+      "url": "https://welcome.kaznu.kz/ru/education_programs/bachelor/speciality/1447",
+      "title": "KazNU: Management 6B04102",
+      "checked": "2026-11-16",
+      "cycle": "2026",
+      "applicant": "Kazakhstan school leavers",
+      "status": "verified",
+      "note": "Official page checked; only stated facts are included."
+    },
+    {
+      "id": "xk-kaznu-admissions",
+      "url": "https://welcome.kaznu.kz/ru/27304/page",
+      "title": "KazNU: undergraduate programme admission minima",
+      "checked": "2026-11-16",
+      "cycle": "2026",
+      "applicant": "Kazakhstan school leavers",
+      "status": "verified",
+      "note": "Official page checked; only stated facts are included."
+    },
+    {
+      "id": "xk-sdu-programme",
+      "url": "https://sdu.edu.kz/en/mathematics/",
+      "title": "SDU: Mathematics teacher education",
+      "checked": "2026-11-16",
+      "cycle": "current catalogue",
+      "applicant": "Kazakhstan school leavers",
+      "status": "verified",
+      "note": "Page shows paid minimum 80 and a state-scholarship threshold 127 without a cycle. Do not interpret 127 as a future grant cutoff."
+    },
+    {
+      "id": "xk-sdu-admissions",
+      "url": "https://sdu.edu.kz/en/admission-3-2/",
+      "title": "SDU: domestic admission 2026/27",
+      "checked": "2026-11-16",
+      "cycle": "2026/27",
+      "applicant": "Kazakhstan school leavers",
+      "status": "verified",
+      "note": "Current admission steps and 2026 dates checked. Page also retains older grant counts; those counts are excluded."
+    }
+  ]
+}

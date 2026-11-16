@@ -257,8 +257,8 @@ export const cataloguePhrases=[
  ],
  [
   "Astana IT University College",
-  "Колледж Astana IT University",
-  "Astana IT University колледжі"
+  "Колледж Университета информационных технологий Астаны",
+  "Астана ақпараттық технологиялар университетінің колледжі"
  ],
  [
   "Астана IT колледж",

@@ -1,0 +1,277 @@
+{
+  "institutions": [
+    {
+      "id": "extra-taylor",
+      "name": "Taylor’s University",
+      "country": "Malaysia",
+      "region": "Asia",
+      "city": "Subang Jaya",
+      "aliases": [
+        "Taylor’s",
+        "Taylors"
+      ],
+      "sourceIds": [
+        "extra-taylor-programme"
+      ]
+    },
+    {
+      "id": "extra-unbc",
+      "name": "University of Northern British Columbia",
+      "country": "Canada",
+      "region": "North America",
+      "city": "Prince George",
+      "aliases": [
+        "UNBC"
+      ],
+      "sourceIds": [
+        "extra-unbc-programme"
+      ]
+    }
+  ],
+  "programmes": [
+    {
+      "id": "extra-taylor-hospitality",
+      "institutionId": "extra-taylor",
+      "name": "International Hospitality Management",
+      "field": "Business & economics",
+      "subjectCodes": [
+        "1013"
+      ],
+      "qualification": "Bachelor of International Hospitality Management (Honours)",
+      "duration": "3 years",
+      "credits": "Not published",
+      "languages": [
+        "English"
+      ],
+      "description": "Learn to manage hotels, restaurants and guest services.",
+      "curriculum": "Hotel operations, revenue, service quality and hospitality projects.",
+      "practical": "An internship is included in the third year.",
+      "campus": "Taylor’s Lakeside Campus",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "extra-taylor-programme"
+      ]
+    },
+    {
+      "id": "extra-unbc-conservation",
+      "institutionId": "extra-unbc",
+      "name": "Conservation Science and Practice",
+      "field": "Health & life sciences",
+      "subjectCodes": [
+        "0521",
+        "0522"
+      ],
+      "qualification": "Bachelor of Science",
+      "duration": "4 years",
+      "credits": "120 UNBC credits",
+      "languages": [
+        "English"
+      ],
+      "description": "Study ecosystems and how to protect natural landscapes.",
+      "curriculum": "Wildland conservation and recreation or landscape conservation and management.",
+      "practical": "Field school, research and co-op opportunities are listed; individual placements are not guaranteed.",
+      "campus": "Prince George campus",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "extra-unbc-programme"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "extra-taylor-hospitality-international",
+      "programmeId": "extra-taylor-hospitality",
+      "name": "International admission with an accepted pre-university qualification",
+      "entryAfter": 11,
+      "pathway": "direct",
+      "cycle": "2027 intake awaiting confirmation",
+      "applicant": "Kazakhstan school leaver applying as an international student",
+      "eligibility": "Accepted pre-university or diploma qualification required; examples include A-level DD or IB 24. An ordinary Kazakhstan Attestat is not confirmed as equivalent.",
+      "recognition": "Obtain written equivalence advice; an additional foundation may add time and cost.",
+      "subjects": "Confirm school-subject equivalence for the selected qualification route.",
+      "tests": {
+        "ENGLISH": {
+          "status": "alternative",
+          "detail": "International applicants: IELTS 5.0 or completed English-taught pre-university/diploma study. The education-based alternative is conditional."
+        },
+        "IELTS": {
+          "status": "alternative",
+          "detail": "IELTS 5.0 is one published international English route."
+        },
+        "SAT": {
+          "status": "unknown",
+          "detail": "Not verified; confirm with admissions."
+        },
+        "TOEFL": {
+          "status": "unknown",
+          "detail": "Not verified; confirm with admissions."
+        }
+      },
+      "tuition": {
+        "amount": null,
+        "currency": "USD",
+        "period": "unknown",
+        "note": "A 2026 international price is displayed, but the full billing scope and 2027 quote need confirmation."
+      },
+      "mandatoryFees": "The page states 6% service tax on most international fees; obtain a full quote including visa and deposits.",
+      "living": "Not verified; confirm with admissions.",
+      "nextAction": "Ask whether your exact Attestat needs a foundation and request the full intake budget.",
+      "questions": [
+        "Confirm 2027 tuition, scholarship eligibility and application dates."
+      ],
+      "sourceIds": [
+        "extra-taylor-programme",
+        "extra-taylor-intakes",
+        "extra-taylor-apply"
+      ]
+    },
+    {
+      "id": "extra-unbc-conservation-international",
+      "programmeId": "extra-unbc-conservation",
+      "name": "International admission with Kazakhstan credential review",
+      "entryAfter": 11,
+      "pathway": "direct",
+      "cycle": "2027 intake awaiting confirmation",
+      "applicant": "Kazakhstan school leaver applying as an international student",
+      "eligibility": "The linked 2021 sheet lists the Kazakhstan Attestat with average 3 across English, three academic subjects and an elective. Confirm current degree-specific prerequisites.",
+      "recognition": "Country guidance is a historical reference still linked today; obtain confirmation for 2027 before relying on it.",
+      "subjects": "Confirm science and mathematics course equivalencies for this degree.",
+      "tests": {
+        "ENGLISH": {
+          "status": "alternative",
+          "detail": "English evidence is required; tests and approved education-based alternatives are published."
+        },
+        "IELTS": {
+          "status": "alternative",
+          "detail": "Academic IELTS 6.5 overall, no module below 6.0, is one accepted route."
+        },
+        "TOEFL": {
+          "status": "alternative",
+          "detail": "TOEFL iBT 90, each component at least 20; confirm current test-version handling."
+        },
+        "SAT": {
+          "status": "unknown",
+          "detail": "Not verified; confirm with admissions."
+        }
+      },
+      "tuition": {
+        "amount": 31200,
+        "currency": "CAD",
+        "period": "year",
+        "note": "Approximate official international tuition for 30 credit hours. The fee year is not stated; request a 2027 quote."
+      },
+      "mandatoryFees": "Approximate student fees CAD 1,500 per academic year; course fees, books and insurance need checking.",
+      "living": "Not verified; confirm with admissions.",
+      "nextAction": "Confirm the current Kazakhstan credential rules and degree prerequisites before applying.",
+      "questions": [
+        "Obtain 2027 deadlines, current fee totals and individually confirmed funding eligibility."
+      ],
+      "sourceIds": [
+        "extra-unbc-programme",
+        "extra-unbc-country",
+        "extra-unbc-english"
+      ]
+    }
+  ],
+  "awards": [],
+  "deadlines": [
+    {
+      "id": "extra-taylor-deadline",
+      "routeIds": [
+        "extra-taylor-hospitality-international"
+      ],
+      "type": "admission",
+      "label": "Selected intake application deadline to confirm",
+      "date": null,
+      "time": null,
+      "timezone": null,
+      "cycle": "2027 intake awaiting confirmation",
+      "applicant": "Kazakhstan school leaver applying as an international student",
+      "status": "awaiting_publication",
+      "nextAction": "Request the exact application and document deadlines for the selected intake.",
+      "sourceIds": [
+        "extra-taylor-intakes"
+      ]
+    },
+    {
+      "id": "extra-unbc-deadline",
+      "routeIds": [
+        "extra-unbc-conservation-international"
+      ],
+      "type": "admission",
+      "label": "Selected intake application deadline to confirm",
+      "date": null,
+      "time": null,
+      "timezone": null,
+      "cycle": "2027 intake awaiting confirmation",
+      "applicant": "Kazakhstan school leaver applying as an international student",
+      "status": "awaiting_publication",
+      "nextAction": "Request the exact application and document deadlines for the selected intake.",
+      "sourceIds": [
+        "extra-unbc-english"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "extra-taylor-programme",
+      "url": "https://university.taylors.edu.my/en/study/explore-all-programmes/hospitality-tourism-and-events/undergraduate/bachelor-of-international-hospitality-management.html",
+      "title": "Taylor’s: International Hospitality Management",
+      "checked": "2026-11-16",
+      "cycle": "2026 programme information",
+      "applicant": "Kazakhstan school leaver applying as an international student",
+      "status": "verified",
+      "note": "Programme, entry routes and international English criteria verified; Kazakhstan equivalence and the next fee quote require confirmation."
+    },
+    {
+      "id": "extra-taylor-intakes",
+      "url": "https://university.taylors.edu.my/en/study/how-to-apply/key-intakes.html",
+      "title": "Taylor’s: Key Intakes 2027",
+      "checked": "2026-11-16",
+      "cycle": "2027",
+      "applicant": "Kazakhstan school leaver applying as an international student",
+      "status": "verified",
+      "note": "February, April and September are intake months, not application deadlines."
+    },
+    {
+      "id": "extra-taylor-apply",
+      "url": "https://university.taylors.edu.my/en/study/how-to-apply/undergraduate-admission.html",
+      "title": "Taylor’s: Undergraduate admission",
+      "checked": "2026-11-16",
+      "cycle": "Current admissions policy",
+      "applicant": "Kazakhstan school leaver applying as an international student",
+      "status": "verified",
+      "note": "Confirm the offer, documents and visa timetable for the chosen intake."
+    },
+    {
+      "id": "extra-unbc-programme",
+      "url": "https://www.unbc.ca/programs-and-admissions/undergraduate/programs/environmental-science-0",
+      "title": "UNBC: Conservation Science and Practice",
+      "checked": "2026-11-16",
+      "cycle": "Current catalogue; undated fee estimate",
+      "applicant": "Kazakhstan school leaver applying as an international student",
+      "status": "verified",
+      "note": "Current degree and approximate international annual fees verified; a 2027 fee year is not stated."
+    },
+    {
+      "id": "extra-unbc-english",
+      "url": "https://www.unbc.ca/calendar/undergraduate/international-admissions",
+      "title": "UNBC: International Admissions",
+      "checked": "2026-11-16",
+      "cycle": "Policy updated 23 October 2025",
+      "applicant": "Kazakhstan school leaver applying as an international student",
+      "status": "verified",
+      "note": "English evidence alternatives are published; education waivers are conditional."
+    },
+    {
+      "id": "extra-unbc-country",
+      "url": "https://www.unbc.ca/sites/default/files/sections/admissions/undergraduate/kazakhstan-admissionrequirementssept2021.pdf",
+      "title": "UNBC: Kazakhstan admission reference sheet",
+      "checked": "2026-11-16",
+      "cycle": "2021",
+      "applicant": "Kazakhstan school leaver applying as an international student",
+      "status": "partial",
+      "note": "A 2021 Kazakhstan sheet remains linked by current admissions; confirm applicability to the selected intake."
+    }
+  ]
+}

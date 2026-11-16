@@ -1,5 +1,5 @@
 // Presentation only. Source amounts and ISO currency keys remain unchanged.
-export const currencyCodes=['USD','EUR','KZT','GBP','HKD','KRW','AUD','ZAR','ARS'];
+export const currencyCodes=['USD','EUR','KZT','GBP','HKD','KRW','AUD','ZAR','ARS','CAD','MYR','JPY','SGD','TRY','CNY','NZD'];
 const supported=new Set(currencyCodes);
 const displays=new Map();
 export function currencyName(code,locale='en'){

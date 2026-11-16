@@ -1,0 +1,916 @@
+{
+  "institutions": [
+    {
+      "id": "exp-aw-i-apu",
+      "name": "Ritsumeikan Asia Pacific University",
+      "country": "Japan",
+      "region": "Asia",
+      "city": "Beppu",
+      "aliases": [],
+      "sourceIds": [
+        "exp-aw-s-apu-program"
+      ]
+    },
+    {
+      "id": "exp-aw-i-unnc",
+      "name": "University of Nottingham Ningbo China",
+      "country": "China",
+      "region": "Asia",
+      "city": "Ningbo",
+      "aliases": [],
+      "sourceIds": [
+        "exp-aw-s-unnc-program"
+      ]
+    },
+    {
+      "id": "exp-aw-i-ntu",
+      "name": "Nanyang Technological University",
+      "country": "Singapore",
+      "region": "Asia",
+      "city": "Singapore",
+      "aliases": [],
+      "sourceIds": [
+        "exp-aw-s-ntu-program"
+      ]
+    },
+    {
+      "id": "exp-aw-i-metu",
+      "name": "Middle East Technical University",
+      "country": "Turkey",
+      "region": "Asia",
+      "city": "Ankara",
+      "aliases": [],
+      "sourceIds": [
+        "exp-aw-s-metu-program"
+      ]
+    },
+    {
+      "id": "exp-aw-i-monash",
+      "name": "Monash University Malaysia",
+      "country": "Malaysia",
+      "region": "Asia",
+      "city": "Sunway City",
+      "aliases": [],
+      "sourceIds": [
+        "exp-aw-s-monash-program"
+      ]
+    },
+    {
+      "id": "exp-aw-i-waikato",
+      "name": "University of Waikato",
+      "country": "New Zealand",
+      "region": "Oceania",
+      "city": "Hamilton",
+      "aliases": [],
+      "sourceIds": [
+        "exp-aw-s-waikato-degree"
+      ]
+    }
+  ],
+  "programmes": [
+    {
+      "id": "exp-aw-p-apu",
+      "institutionId": "exp-aw-i-apu",
+      "name": "Sustainability and Tourism",
+      "field": "Social sciences",
+      "subjectCodes": [
+        "1015",
+        "0521"
+      ],
+      "qualification": "Bachelor of Sustainability and Tourism",
+      "duration": "4 years",
+      "credits": "At least 124 APU credits",
+      "languages": [
+        "English",
+        "Japanese"
+      ],
+      "description": "Explore how tourism affects places, communities and the environment.",
+      "curriculum": "Tourism, sustainable society, research methods, languages and a final project.",
+      "practical": "Off-campus study and internship options are documented; places and extra costs need checking.",
+      "campus": "Beppu campus",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "exp-aw-s-apu-program",
+        "exp-aw-s-apu-credits",
+        "exp-aw-s-apu-practice"
+      ]
+    },
+    {
+      "id": "exp-aw-p-unnc",
+      "institutionId": "exp-aw-i-unnc",
+      "name": "International Studies",
+      "field": "Social sciences",
+      "subjectCodes": [
+        "0312"
+      ],
+      "qualification": "BA (Hons)",
+      "duration": "4 years including preliminary year; 3-year entry depends on qualification",
+      "credits": "120 Nottingham credits in preliminary year; confirm full degree total",
+      "languages": [
+        "English"
+      ],
+      "description": "Explore politics, history and how countries and societies interact.",
+      "curriculum": "Academic English, politics and history, then thematic options and a dissertation.",
+      "practical": "Seminars and a supervised final research project; no guaranteed internship verified.",
+      "campus": "Ningbo campus",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "exp-aw-s-unnc-program"
+      ]
+    },
+    {
+      "id": "exp-aw-p-ntu",
+      "institutionId": "exp-aw-i-ntu",
+      "name": "Computer Science",
+      "field": "Technology",
+      "subjectCodes": [
+        "0613"
+      ],
+      "qualification": "Bachelor of Computing (Hons)",
+      "duration": "4 years",
+      "credits": "Total credits not verified",
+      "languages": [
+        "English"
+      ],
+      "description": "Learn to build software and understand algorithms and computer systems.",
+      "curriculum": "Computing foundations, algorithms, data systems, software design and electives.",
+      "practical": "Mandatory industrial attachment, group design projects and a final-year capstone.",
+      "campus": "NTU Singapore campus",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "exp-aw-s-ntu-program"
+      ]
+    },
+    {
+      "id": "exp-aw-p-metu",
+      "institutionId": "exp-aw-i-metu",
+      "name": "Industrial Design",
+      "field": "Arts & design",
+      "subjectCodes": [
+        "0212"
+      ],
+      "qualification": "Bachelor of Industrial Design",
+      "duration": "4 years; English preparation can add 1 year",
+      "credits": "At least 240 ECTS",
+      "languages": [
+        "English"
+      ],
+      "description": "Design useful products by combining creativity, materials and how people use things.",
+      "curriculum": "Design studios, materials, manufacturing, ergonomics, design history and communication.",
+      "practical": "Final-year studios collaborate with industry; confirm summer-practice rules.",
+      "campus": "Ankara campus",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "exp-aw-s-metu-program",
+        "exp-aw-s-metu-degree",
+        "exp-aw-s-metu-english"
+      ]
+    },
+    {
+      "id": "exp-aw-p-monash",
+      "institutionId": "exp-aw-i-monash",
+      "name": "Psychology",
+      "field": "Social sciences",
+      "subjectCodes": [
+        "0313"
+      ],
+      "qualification": "Bachelor of Psychology",
+      "duration": "3 years",
+      "credits": "Total credits not verified",
+      "languages": [
+        "English"
+      ],
+      "description": "Explore behaviour, the brain and evidence-based ways to support people.",
+      "curriculum": "Psychology, research and statistics; choose mental health and wellbeing or applied psychology.",
+      "practical": "Laboratory and research learning; further study is required to register as a psychologist.",
+      "campus": "Sunway City, Selangor campus",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "exp-aw-s-monash-program"
+      ]
+    },
+    {
+      "id": "exp-aw-p-waikato",
+      "institutionId": "exp-aw-i-waikato",
+      "name": "Environmental Sciences",
+      "field": "Health & life sciences",
+      "subjectCodes": [
+        "0521"
+      ],
+      "qualification": "Bachelor of Science",
+      "duration": "3 years",
+      "credits": "360 New Zealand qualification points",
+      "languages": [
+        "English"
+      ],
+      "description": "Investigate how people affect water, land, biodiversity and climate.",
+      "curriculum": "Ecology, earth sciences and environmental chemistry within a flexible science degree.",
+      "practical": "Laboratory work and field trips in freshwater, coastal and forest environments.",
+      "campus": "Hamilton or Tauranga; confirm paper locations",
+      "descriptionLanguage": "en",
+      "sourceIds": [
+        "exp-aw-s-waikato-program",
+        "exp-aw-s-waikato-degree"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "exp-aw-r-apu",
+      "programmeId": "exp-aw-p-apu",
+      "name": "English-basis international freshman: qualification review",
+      "entryAfter": 11,
+      "pathway": "direct",
+      "cycle": "2027",
+      "applicant": "International undergraduate applicants from Kazakhstan",
+      "eligibility": "Published routes require appropriate school education and language evidence. An 11-year school system may require an additional university-level or equivalent year; confirm the exact exception rules.",
+      "recognition": "Exact acceptance of the student’s Kazakhstan Grade 11 diploma is unconfirmed.",
+      "subjects": "School-subject prerequisites need confirmation.",
+      "tests": {
+        "ENGLISH": {
+          "status": "unknown",
+          "detail": "English-basis language evidence is required; current exemption and score details could not be fully checked."
+        },
+        "SAT": {
+          "status": "unknown",
+          "detail": "Not verified"
+        },
+        "IELTS": {
+          "status": "unknown",
+          "detail": "Official indexed pages show different tables; verify the exact 2027 freshman threshold before booking."
+        }
+      },
+      "tuition": {
+        "amount": null,
+        "currency": "JPY",
+        "period": "year",
+        "note": "2027 tuition amount not fully verified."
+      },
+      "mandatoryFees": "Mandatory fees and insurance need a current quote.",
+      "living": "No dated living-cost estimate verified.",
+      "nextAction": "Ask APU to assess the exact diploma and English-basis requirements.",
+      "questions": [
+        "Confirm the exact qualification, applicant category and selected intake with admissions.",
+        "What extra study, time and cost are needed after Grade 11?"
+      ],
+      "sourceIds": [
+        "exp-aw-s-apu-entry",
+        "exp-aw-s-apu-credits",
+        "exp-aw-s-apu-faq"
+      ]
+    },
+    {
+      "id": "exp-aw-r-unnc",
+      "programmeId": "exp-aw-p-unnc",
+      "name": "Kazakhstan Attestat through preliminary year",
+      "entryAfter": 11,
+      "pathway": "foundation",
+      "cycle": "2027",
+      "applicant": "International undergraduate applicants from Kazakhstan",
+      "eligibility": "Grade 11 Attestat normally enters the preliminary year; typical average 4 with 5 in relevant subjects. Individual assessment and English evidence still apply.",
+      "recognition": "Kazakhstan Grade 11 Attestat is explicitly listed for preliminary-year entry; this is not direct entry to year two.",
+      "subjects": "Confirm which subjects must carry grade 5 for International Studies.",
+      "tests": {
+        "ENGLISH": {
+          "status": "alternative",
+          "detail": "English evidence required unless approved prior English-medium education qualifies."
+        },
+        "IELTS": {
+          "status": "alternative",
+          "detail": "Four-year route: IELTS 5.5 overall, no element below 5.0. The three-year route has higher thresholds."
+        },
+        "SAT": {
+          "status": "not_required",
+          "detail": "No SAT requirement is published for the listed Kazakhstan Attestat preliminary-year route."
+        }
+      },
+      "tuition": {
+        "amount": 120000,
+        "currency": "CNY",
+        "period": "year",
+        "note": "Current undated international annual tuition; preliminary year is part of the four-year route. Recheck 2027 fees."
+      },
+      "mandatoryFees": "Compulsory insurance and other mandatory charges need confirmation. New students must pay the full year before registration.",
+      "living": "No dated living-cost estimate verified.",
+      "nextAction": "Request a preliminary-year offer assessment and the exact 2027 fee schedule.",
+      "questions": [
+        "Confirm the exact qualification, applicant category and selected intake with admissions."
+      ],
+      "sourceIds": [
+        "exp-aw-s-unnc-kz",
+        "exp-aw-s-unnc-program",
+        "exp-aw-s-unnc-fees"
+      ]
+    },
+    {
+      "id": "exp-aw-r-ntu",
+      "programmeId": "exp-aw-p-ntu",
+      "name": "Kazakhstan school certificate plus AP or A-level qualifications",
+      "entryAfter": 11,
+      "pathway": "direct",
+      "cycle": "2027",
+      "applicant": "International undergraduate applicants from Kazakhstan",
+      "eligibility": "Ordinary Kazakhstan school certificate needs at least 3 AP tests with grades 4 and 5, or at least 3 qualifying UK A-level subjects. Subject and timing rules apply; this is extra preparation.",
+      "recognition": "Ordinary Kazakhstan certificate alone is not accepted for direct admission. NIS Grade 12 is a separate qualification route.",
+      "subjects": "Confirm the current Mathematics, Physics or Computing subject equivalents before choosing AP or A-level subjects.",
+      "tests": {
+        "ENGLISH": {
+          "status": "alternative",
+          "detail": "English test required if school teaching was not in English or English is ESL/EAL; an approved schooling exemption is conditional."
+        },
+        "IELTS": {
+          "status": "alternative",
+          "detail": "IELTS Academic 6.5 overall, writing 6.5 and speaking 6.5 is one accepted English route."
+        },
+        "SAT": {
+          "status": "alternative",
+          "detail": "SAT 1250 with Reading and Writing 600 is an English-evidence option; it does not replace the additional AP/A-level requirement."
+        }
+      },
+      "tuition": {
+        "amount": null,
+        "currency": "SGD",
+        "period": "year",
+        "note": "Current international tuition and any Tuition Grant obligations were not verified."
+      },
+      "mandatoryFees": "Mandatory fees and insurance need a current quote.",
+      "living": "No dated living-cost estimate verified.",
+      "nextAction": "Check additional qualification subjects and costs before planning an NTU application.",
+      "questions": [
+        "Confirm the exact qualification, applicant category and selected intake with admissions."
+      ],
+      "sourceIds": [
+        "exp-aw-s-ntu-entry",
+        "exp-aw-s-ntu-program"
+      ]
+    },
+    {
+      "id": "exp-aw-r-metu",
+      "programmeId": "exp-aw-p-metu",
+      "name": "Kazakhstan UNT primary-qualification route",
+      "entryAfter": 11,
+      "pathway": "direct",
+      "cycle": "2026/27",
+      "applicant": "International undergraduate applicants from Kazakhstan",
+      "eligibility": "Published Kazakhstan minimum: UNT 125/140 in five subjects including two relevant profile subjects. Meet citizenship, diploma and holistic review conditions; the minimum does not guarantee admission.",
+      "recognition": "UNT is explicitly accepted as a primary application document. Exact diploma recognition and registration documentation still need confirmation.",
+      "subjects": "Two UNT profile subjects must relate to the programme; ask which combination applies to Industrial Design.",
+      "tests": {
+        "UNT": {
+          "status": "required",
+          "detail": "125/140 in five subjects for this chosen primary-qualification route."
+        },
+        "SAT": {
+          "status": "not_required",
+          "detail": "SAT is not required when applying with the accepted Kazakhstan UNT route."
+        },
+        "ENGLISH": {
+          "status": "alternative",
+          "detail": "No external English score is obligatory at application. After admission, use an accepted result or METU English exam; failing proficiency can add a one-year English preparatory class."
+        },
+        "IELTS": {
+          "status": "not_required",
+          "detail": "IELTS taken on or after 24 December 2022 is not accepted; do not book it for METU exemption."
+        }
+      },
+      "tuition": {
+        "amount": 2400,
+        "currency": "USD",
+        "period": "year",
+        "note": "2026/27 reference: USD 1200 per semester, shown as USD 2400 for two semesters. Pay in TRY under official conversion and floor rules; 2027/28 fee is unverified."
+      },
+      "mandatoryFees": "English preparatory students pay the same faculty tuition; insurance and other fees need checking.",
+      "living": "No dated living-cost estimate verified.",
+      "nextAction": "Ask METU to confirm Industrial Design profile subjects and the next intake rules.",
+      "questions": [
+        "Confirm the exact qualification, applicant category and selected intake with admissions."
+      ],
+      "sourceIds": [
+        "exp-aw-s-metu-entry",
+        "exp-aw-s-metu-english",
+        "exp-aw-s-metu-fees",
+        "exp-aw-s-metu-dates"
+      ]
+    },
+    {
+      "id": "exp-aw-r-monash",
+      "programmeId": "exp-aw-p-monash",
+      "name": "International applicant with an approved pre-university qualification",
+      "entryAfter": 11,
+      "pathway": "direct",
+      "cycle": "2027",
+      "applicant": "International undergraduate applicants from Kazakhstan",
+      "eligibility": "Meet an accepted pre-university qualification score, Mathematics and science prerequisites, age rules and English evidence. Ordinary Kazakhstan Grade 11 acceptance is not established.",
+      "recognition": "Exact Kazakh diploma equivalence is unknown; an approved foundation may add time and cost.",
+      "subjects": "Mathematics and one science: credit average at Australian Year 11 equivalent or pass average at Year 12 equivalent.",
+      "tests": {
+        "ENGLISH": {
+          "status": "alternative",
+          "detail": "Accepted English study, English-medium schooling, approved tests or Monash English may meet the rule; documentary evidence and time limits apply."
+        },
+        "IELTS": {
+          "status": "alternative",
+          "detail": "IELTS Academic 6.5 overall and 6.0 in each component; other accepted measures are listed."
+        },
+        "SAT": {
+          "status": "unknown",
+          "detail": "Not verified"
+        }
+      },
+      "tuition": {
+        "amount": 53280,
+        "currency": "MYR",
+        "period": "year",
+        "note": "Published international tuition per year in 2027, before applicable service tax and extra charges."
+      },
+      "mandatoryFees": "MYR 100 application, MYR 200 registration, MYR 100 amenities per semester; student-pass fee extra. International tuition and related fees carry 6% service tax.",
+      "living": "No dated living-cost estimate verified.",
+      "nextAction": "Request a qualification assessment and full 2027 international fee quote including tax.",
+      "questions": [
+        "Confirm the exact qualification, applicant category and selected intake with admissions."
+      ],
+      "sourceIds": [
+        "exp-aw-s-monash-program",
+        "exp-aw-s-monash-english",
+        "exp-aw-s-monash-tests"
+      ]
+    },
+    {
+      "id": "exp-aw-r-waikato",
+      "programmeId": "exp-aw-p-waikato",
+      "name": "International BSc applicant: qualification assessment",
+      "entryAfter": 11,
+      "pathway": "direct",
+      "cycle": "2027",
+      "applicant": "International undergraduate applicants from Kazakhstan",
+      "eligibility": "Meet University Entrance equivalence and English evidence. Kazakhstan Grade 11 requirements are not listed in the checked country table; direct entry must be assessed.",
+      "recognition": "Exact Grade 11 diploma recognition is unknown; a foundation route may add time and fees.",
+      "subjects": "Confirm the science and Mathematics background needed for the chosen first-year papers.",
+      "tests": {
+        "ENGLISH": {
+          "status": "alternative",
+          "detail": "Approved English evidence is required; accepted tests, qualifications or recognised pathways can satisfy it. No personal exemption is assumed."
+        },
+        "IELTS": {
+          "status": "alternative",
+          "detail": "IELTS Academic 6.0 overall with no band below 5.5 is one accepted route."
+        },
+        "SAT": {
+          "status": "unknown",
+          "detail": "Not verified"
+        }
+      },
+      "tuition": {
+        "amount": null,
+        "currency": "NZD",
+        "period": "year",
+        "note": "Official BSc page shows a range; exact 2027 major-specific tuition was not verified."
+      },
+      "mandatoryFees": "Mandatory fees and insurance need a current quote.",
+      "living": "No dated living-cost estimate verified.",
+      "nextAction": "Ask for diploma equivalence and an Environmental Sciences BSc fee quote.",
+      "questions": [
+        "Confirm the exact qualification, applicant category and selected intake with admissions."
+      ],
+      "sourceIds": [
+        "exp-aw-s-waikato-entry",
+        "exp-aw-s-waikato-english",
+        "exp-aw-s-waikato-degree"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "id": "exp-aw-a-unnc",
+      "routeIds": [
+        "exp-aw-r-unnc"
+      ],
+      "name": "UNNC Provost International Excellence 100% Scholarship",
+      "coverage": "tuition_only",
+      "benefits": "100% of first-year tuition only; later tuition and all living costs remain.",
+      "eligibility": "Full-time international undergraduate offer holders; competitive selection.",
+      "application": "Submit a scholarship statement of up to 500 words through the application hub; confirm the selected-cycle deadline.",
+      "renewal": "Entry award for first year only; not automatically renewable.",
+      "upfront": "Tuition can be waived or refunded if already paid; visa, insurance and living costs remain.",
+      "cycle": "undated",
+      "sourceIds": [
+        "exp-aw-s-unnc-award"
+      ]
+    },
+    {
+      "id": "exp-aw-a-waikato",
+      "routeIds": [
+        "exp-aw-r-waikato"
+      ],
+      "name": "Waikato Vice-Chancellor’s International Excellence Scholarship",
+      "coverage": "partial",
+      "benefits": "2027 regulations: NZD 8000–15000 tuition credit; no living support.",
+      "eligibility": "New full-time international student, offer of place and at least B+ equivalent. Must not qualify for a country-specific version; current Waikato/College students, sponsored and exchange routes are excluded.",
+      "application": "Apply after receiving an offer, before paying tuition or applying for a visa. Offshore A-trimester applicants must apply before 30 November; B-trimester before 31 May. Confirm the year and cutoff.",
+      "renewal": "12-month award; retain full-time on-campus international status and the offered qualification.",
+      "upfront": "Do not pay tuition or apply for a visa before the scholarship application; remaining tuition, insurance, travel and living costs need funding.",
+      "cycle": "2027",
+      "sourceIds": [
+        "exp-aw-s-waikato-award"
+      ]
+    }
+  ],
+  "deadlines": [
+    {
+      "id": "exp-aw-d-ntu-ap",
+      "routeIds": [
+        "exp-aw-r-ntu"
+      ],
+      "type": "document",
+      "label": "NTU AP scores must reach admissions",
+      "date": "2027-07-15",
+      "time": null,
+      "timezone": null,
+      "cycle": "2027",
+      "applicant": "International undergraduate applicants from Kazakhstan",
+      "status": "confirmed",
+      "nextAction": "Arrange official AP score delivery; this is not the application deadline.",
+      "sourceIds": [
+        "exp-aw-s-ntu-entry"
+      ]
+    },
+    {
+      "id": "exp-aw-d-metu-reference",
+      "routeIds": [
+        "exp-aw-r-metu"
+      ],
+      "type": "admission",
+      "label": "METU 2026/27 international application closes: historical",
+      "date": "2026-07-12",
+      "time": "23:59",
+      "timezone": "Europe/Istanbul",
+      "cycle": "2026/27",
+      "applicant": "International undergraduate applicants from Kazakhstan",
+      "status": "historical",
+      "nextAction": "Check the selected intake dates on the official admissions page.",
+      "sourceIds": [
+        "exp-aw-s-metu-dates"
+      ]
+    },
+    {
+      "id": "exp-aw-d-apu-review",
+      "routeIds": [
+        "exp-aw-r-apu"
+      ],
+      "type": "admission",
+      "label": "Selected-intake application dates need confirmation",
+      "date": null,
+      "time": null,
+      "timezone": null,
+      "cycle": "2027",
+      "applicant": "International undergraduate applicants from Kazakhstan",
+      "status": "awaiting_publication",
+      "nextAction": "Check the selected intake dates on the official admissions page.",
+      "sourceIds": [
+        "exp-aw-s-apu-entry"
+      ]
+    },
+    {
+      "id": "exp-aw-d-unnc-review",
+      "routeIds": [
+        "exp-aw-r-unnc"
+      ],
+      "type": "admission",
+      "label": "Selected-intake application dates need confirmation",
+      "date": null,
+      "time": null,
+      "timezone": null,
+      "cycle": "2027",
+      "applicant": "International undergraduate applicants from Kazakhstan",
+      "status": "awaiting_publication",
+      "nextAction": "Check the selected intake dates on the official admissions page.",
+      "sourceIds": [
+        "exp-aw-s-unnc-kz"
+      ]
+    },
+    {
+      "id": "exp-aw-d-ntu-review",
+      "routeIds": [
+        "exp-aw-r-ntu"
+      ],
+      "type": "admission",
+      "label": "Selected-intake application dates need confirmation",
+      "date": null,
+      "time": null,
+      "timezone": null,
+      "cycle": "2027",
+      "applicant": "International undergraduate applicants from Kazakhstan",
+      "status": "awaiting_publication",
+      "nextAction": "Check the selected intake dates on the official admissions page.",
+      "sourceIds": [
+        "exp-aw-s-ntu-entry"
+      ]
+    },
+    {
+      "id": "exp-aw-d-metu-review",
+      "routeIds": [
+        "exp-aw-r-metu"
+      ],
+      "type": "admission",
+      "label": "Selected-intake application dates need confirmation",
+      "date": null,
+      "time": null,
+      "timezone": null,
+      "cycle": "2027",
+      "applicant": "International undergraduate applicants from Kazakhstan",
+      "status": "awaiting_publication",
+      "nextAction": "Check the selected intake dates on the official admissions page.",
+      "sourceIds": [
+        "exp-aw-s-metu-entry"
+      ]
+    },
+    {
+      "id": "exp-aw-d-monash-review",
+      "routeIds": [
+        "exp-aw-r-monash"
+      ],
+      "type": "admission",
+      "label": "Selected-intake application dates need confirmation",
+      "date": null,
+      "time": null,
+      "timezone": null,
+      "cycle": "2027",
+      "applicant": "International undergraduate applicants from Kazakhstan",
+      "status": "awaiting_publication",
+      "nextAction": "Check the selected intake dates on the official admissions page.",
+      "sourceIds": [
+        "exp-aw-s-monash-program"
+      ]
+    },
+    {
+      "id": "exp-aw-d-waikato-review",
+      "routeIds": [
+        "exp-aw-r-waikato"
+      ],
+      "type": "admission",
+      "label": "Selected-intake application dates need confirmation",
+      "date": null,
+      "time": null,
+      "timezone": null,
+      "cycle": "2027",
+      "applicant": "International undergraduate applicants from Kazakhstan",
+      "status": "awaiting_publication",
+      "nextAction": "Check the selected intake dates on the official admissions page.",
+      "sourceIds": [
+        "exp-aw-s-waikato-entry"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "exp-aw-s-apu-program",
+      "url": "https://en.apu.ac.jp/st/st_about/",
+      "title": "APU College of Sustainability and Tourism: overview",
+      "checked": "2026-11-16",
+      "cycle": "current catalogue",
+      "applicant": "International undergraduate applicants from Kazakhstan",
+      "status": "verified",
+      "note": "Degree, duration and Beppu address verified."
+    },
+    {
+      "id": "exp-aw-s-apu-credits",
+      "url": "https://en.apu.ac.jp/academic/st/graduation_requirements/",
+      "title": "APU Sustainability and Tourism: graduation requirements",
+      "checked": "2026-11-16",
+      "cycle": "current catalogue",
+      "applicant": "International undergraduate applicants from Kazakhstan",
+      "status": "verified",
+      "note": "Current curriculum; English-basis and Japanese-basis study are distinct."
+    },
+    {
+      "id": "exp-aw-s-apu-practice",
+      "url": "https://en.apu.ac.jp/st/st_off-campus/",
+      "title": "APU off-campus programmes",
+      "checked": "2026-11-16",
+      "cycle": "current catalogue",
+      "applicant": "International undergraduate applicants from Kazakhstan",
+      "status": "verified",
+      "note": "Examples are for academic year 2026 and can change."
+    },
+    {
+      "id": "exp-aw-s-apu-entry",
+      "url": "https://admissions.apu.ac.jp/admissions/application_eligibility/?lang=en",
+      "title": "APU application eligibility",
+      "checked": "2026-11-16",
+      "cycle": "2027",
+      "applicant": "International undergraduate applicants from Kazakhstan",
+      "status": "partial",
+      "note": "Official indexed information checked; direct page redirects and PDF fetch was blocked. Exact Grade 11 eligibility and English threshold need manual review."
+    },
+    {
+      "id": "exp-aw-s-unnc-program",
+      "url": "https://www.nottingham.edu.cn/en/study-with-us/undergraduate/courses/prospectus.aspx?id=e2fb67bf-c345-4ea6-8c1a-eba3135d7638&language=en-GB",
+      "title": "UNNC BA International Studies prospectus",
+      "checked": "2026-11-16",
+      "cycle": "2026/27",
+      "applicant": "International undergraduate applicants from Kazakhstan",
+      "status": "verified",
+      "note": "Module listing is 2026/27; programme language thresholds checked on the current page."
+    },
+    {
+      "id": "exp-aw-s-unnc-kz",
+      "url": "https://www.nottingham.edu.cn/en/Study-with-us/Global-recruitment/International-applicants.aspx?country=Kazakhstan&level=Undergraduate+and+Postgraduate",
+      "title": "UNNC entry requirements for Kazakhstan",
+      "checked": "2026-11-16",
+      "cycle": "current catalogue",
+      "applicant": "International undergraduate applicants from Kazakhstan",
+      "status": "verified",
+      "note": "Grade 11 Attestat normally leads to the preliminary year; typical grades are not admission guarantees."
+    },
+    {
+      "id": "exp-aw-s-unnc-fees",
+      "url": "https://www.nottingham.edu.cn/en/study-with-us/undergraduate/fees-and-scholarships/",
+      "title": "UNNC undergraduate fees and scholarships",
+      "checked": "2026-11-16",
+      "cycle": "undated",
+      "applicant": "International undergraduate applicants from Kazakhstan",
+      "status": "verified",
+      "note": "Current fee page does not identify an intake; recheck the offer."
+    },
+    {
+      "id": "exp-aw-s-unnc-award",
+      "url": "https://www.nottingham.edu.cn/en/study-with-us/undergraduate/fees-and-scholarships/international.aspx",
+      "title": "UNNC scholarships for international students",
+      "checked": "2026-11-16",
+      "cycle": "undated",
+      "applicant": "International undergraduate applicants from Kazakhstan",
+      "status": "verified",
+      "note": "First-year tuition awards only; no maintenance package verified."
+    },
+    {
+      "id": "exp-aw-s-ntu-program",
+      "url": "https://www.ntu.edu.sg/admissions/undergraduate/undergraduate-programme/bachelor-of-computing-in-computer-science",
+      "title": "NTU Bachelor of Computing in Computer Science",
+      "checked": "2026-11-16",
+      "cycle": "current catalogue",
+      "applicant": "International undergraduate applicants from Kazakhstan",
+      "status": "verified",
+      "note": "Four-year honours degree and industrial attachment verified."
+    },
+    {
+      "id": "exp-aw-s-ntu-entry",
+      "url": "https://www.ntu.edu.sg/admissions/undergraduate/admissions/general-admission-requirements/international-qualifications/other-international-qualifications",
+      "title": "NTU other international qualifications",
+      "checked": "2026-11-16",
+      "cycle": "2027",
+      "applicant": "International undergraduate applicants from Kazakhstan",
+      "status": "verified",
+      "note": "Kazakhstan school certificate requires additional qualifications; NIS Grade 12 has separate rules."
+    },
+    {
+      "id": "exp-aw-s-metu-program",
+      "url": "https://id.metu.edu.tr/en/undergraduate/",
+      "title": "METU Industrial Design undergraduate programme",
+      "checked": "2026-11-16",
+      "cycle": "current catalogue",
+      "applicant": "International undergraduate applicants from Kazakhstan",
+      "status": "verified",
+      "note": "Design studios and industry projects verified."
+    },
+    {
+      "id": "exp-aw-s-metu-degree",
+      "url": "https://oidb.metu.edu.tr/en/undergraduate-programs-and-degrees",
+      "title": "METU undergraduate programmes and degrees",
+      "checked": "2026-11-16",
+      "cycle": "current catalogue",
+      "applicant": "International undergraduate applicants from Kazakhstan",
+      "status": "verified",
+      "note": "Official page checked."
+    },
+    {
+      "id": "exp-aw-s-metu-entry",
+      "url": "https://iso.metu.edu.tr/en/system/files/odtu_iso_requirements.pdf",
+      "title": "METU accepted examinations and minimum scores",
+      "checked": "2026-11-16",
+      "cycle": "undated",
+      "applicant": "International undergraduate applicants from Kazakhstan",
+      "status": "verified",
+      "note": "Kazakhstan UNT 125/140 is an application minimum, not a selection prediction."
+    },
+    {
+      "id": "exp-aw-s-metu-english",
+      "url": "https://iso.metu.edu.tr/en/english-proficiency",
+      "title": "METU English proficiency",
+      "checked": "2026-11-16",
+      "cycle": "current catalogue",
+      "applicant": "International undergraduate applicants from Kazakhstan",
+      "status": "verified",
+      "note": "Updated September 2026; recent IELTS tests are not accepted."
+    },
+    {
+      "id": "exp-aw-s-metu-fees",
+      "url": "https://iso.metu.edu.tr/en/system/files/2026-2027_tuition_fees_14092026.pdf",
+      "title": "METU international tuition fees 2026/27",
+      "checked": "2026-11-16",
+      "cycle": "2026/27",
+      "applicant": "International undergraduate applicants from Kazakhstan",
+      "status": "verified",
+      "note": "USD-denominated semester fee is paid in TRY under the published conversion and minimum-fee rules."
+    },
+    {
+      "id": "exp-aw-s-metu-dates",
+      "url": "https://iso.metu.edu.tr/en/application-dates",
+      "title": "METU international application dates",
+      "checked": "2026-11-16",
+      "cycle": "2026/27",
+      "applicant": "International undergraduate applicants from Kazakhstan",
+      "status": "verified",
+      "note": "Historical 2026 application window; not rolled forward."
+    },
+    {
+      "id": "exp-aw-s-monash-program",
+      "url": "https://www.monash.edu.my/study/undergraduate/jeffrey-cheah-school-medicine-health-sciences/bachelor-of-psychology",
+      "title": "Monash Malaysia Bachelor of Psychology",
+      "checked": "2026-11-16",
+      "cycle": "2027",
+      "applicant": "International undergraduate applicants from Kazakhstan",
+      "status": "verified",
+      "note": "2027 international tuition and general fees verified; degree requires further training for psychologist registration."
+    },
+    {
+      "id": "exp-aw-s-monash-english",
+      "url": "https://www.monash.edu.my/study/entry-requirements/english",
+      "title": "Monash Malaysia English language requirements",
+      "checked": "2026-11-16",
+      "cycle": "current catalogue",
+      "applicant": "International undergraduate applicants from Kazakhstan",
+      "status": "verified",
+      "note": "Official page checked."
+    },
+    {
+      "id": "exp-aw-s-monash-tests",
+      "url": "https://www.monash.edu.my/study/entry-requirements/english/tests",
+      "title": "Monash Malaysia English proficiency tests",
+      "checked": "2026-11-16",
+      "cycle": "current catalogue",
+      "applicant": "International undergraduate applicants from Kazakhstan",
+      "status": "verified",
+      "note": "Official page checked."
+    },
+    {
+      "id": "exp-aw-s-waikato-program",
+      "url": "https://www.waikato.ac.nz/study/subjects/environmental-sciences/",
+      "title": "Waikato Environmental Sciences",
+      "checked": "2026-11-16",
+      "cycle": "current catalogue",
+      "applicant": "International undergraduate applicants from Kazakhstan",
+      "status": "verified",
+      "note": "Official page checked."
+    },
+    {
+      "id": "exp-aw-s-waikato-degree",
+      "url": "https://www.waikato.ac.nz/study/qualifications/bachelor-of-science/",
+      "title": "Waikato Bachelor of Science",
+      "checked": "2026-11-16",
+      "cycle": "current catalogue",
+      "applicant": "International undergraduate applicants from Kazakhstan",
+      "status": "verified",
+      "note": "Official page checked."
+    },
+    {
+      "id": "exp-aw-s-waikato-entry",
+      "url": "https://www.waikato.ac.nz/study/apply/international/entry-requirements-for-international-students/",
+      "title": "Waikato international entry requirements",
+      "checked": "2026-11-16",
+      "cycle": "current catalogue",
+      "applicant": "International undergraduate applicants from Kazakhstan",
+      "status": "verified",
+      "note": "Kazakhstan is not listed in the checked country table; exact diploma recognition is unresolved."
+    },
+    {
+      "id": "exp-aw-s-waikato-english",
+      "url": "https://www.waikato.ac.nz/about/calendar/admission/english-language-requirements/",
+      "title": "Waikato English language admission requirements",
+      "checked": "2026-11-16",
+      "cycle": "current catalogue",
+      "applicant": "International undergraduate applicants from Kazakhstan",
+      "status": "verified",
+      "note": "Official page checked."
+    },
+    {
+      "id": "exp-aw-s-waikato-award",
+      "url": "https://www.waikato.ac.nz/assets/Uploads/VCIES-2027-Other.pdf",
+      "title": "Waikato International Excellence Scholarship regulations 2027",
+      "checked": "2026-11-16",
+      "cycle": "2027",
+      "applicant": "International undergraduate applicants from Kazakhstan",
+      "status": "verified",
+      "note": "Tuition contribution; B+ equivalence and offer required. Visa applications and tuition payments before scholarship application cause ineligibility."
+    },
+    {
+      "id": "exp-aw-s-apu-faq",
+      "url": "https://admissions.apu.ac.jp/ar/faq/general/",
+      "title": "APU international admissions FAQ",
+      "checked": "2026-11-16",
+      "cycle": "2027",
+      "applicant": "International undergraduate applicants from Kazakhstan",
+      "status": "partial",
+      "note": "Official indexed FAQ says an 11-year school system needs an additional university-level or equivalent year; individual exception rules require confirmation."
+    }
+  ]
+}

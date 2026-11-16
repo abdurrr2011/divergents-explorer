@@ -1,3 +1,4 @@
+import {interestById,matchesInterest} from './interests.mjs';
 import {subjectRecords} from './subject-data.mjs';
 export {subjectRecords};
 // Editorial discovery tags; not an institution's formal classification or entry guarantee.
@@ -21,6 +22,7 @@ export const programmeSubjects={
 };
 export function subjectCodesFor(programme){return programme.subjectCodes||programmeSubjects[programme.id]||[];}
 export function subjectMatches(programme,selected){
+ if(interestById(selected))return matchesInterest(subjectCodesFor(programme),selected);
  if(!/^\d{2,4}$/.test(selected))return programme.field===selected;
  return subjectCodesFor(programme).some(code=>code.startsWith(selected));
 }

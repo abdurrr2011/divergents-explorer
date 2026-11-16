@@ -1,20 +1,23 @@
 {
-  "date": "2026-11-15",
-  "scope": "Worldwide country and subject selectors in three languages",
-  "cataloguePhrases": 769,
-  "tests": 45,
+  "date": "2026-11-16",
+  "scope": "Twelve simple interests and twenty researched university additions",
+  "cataloguePhrases": 1345,
+  "tests": 50,
   "automatedResult": "passed",
   "browserVerification": "Unavailable: no cua_repl.js tool exposed; DOM checks only",
-  "canonicalCatalogueChanged": false,
-  "routeCount": 40,
+  "canonicalCatalogueChanged": true,
+  "institutionCount": 33,
+  "programmeCount": 54,
+  "routeCount": 60,
+  "sourceCount": 146,
   "access": "Owner-private; preserved",
   "visibleCurrencyCodes": false,
   "mainFilters": [
     "country",
-    "subject"
+    "interest"
   ],
   "detailGroups": 5,
   "destinations": 249,
-  "subjectChoices": 120,
-  "broadSubjectGroups": 11
+  "interestChoices": 12,
+  "internalSubjectTags": 120
 }

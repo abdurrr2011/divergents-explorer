@@ -6,7 +6,7 @@ export const fields=['Technology','Engineering','Business & economics','Health &
 export const coverageLabels={full_scholarship:'Full scholarship · tuition + living support',tuition_limited_support:'Full tuition + limited support',tuition_only:'Full tuition only',partial:'Partial award',conditional:'Conditional aid'};
 export const testLabels={required:'Required',alternative:'One accepted route',optional:'Optional',not_required:'Explicitly not required',unknown:'Awaiting verification'};
 export function testState(r,key){return r.tests?.[key]?.status||'unknown';}
-export function noEnglish(r){return testState(r,'ENGLISH')==='not_required';}
+export function noEnglish(r){return ['not_required','optional'].includes(testState(r,'ENGLISH'));}
 export function noSAT(r){return ['not_required','optional'].includes(testState(r,'SAT'));}
 export function money(t,locale='en'){
  const labels={en:{unknown:'Price to confirm',year:'year',programme:'programme',credit:'credit',unknownPeriod:'period to confirm'},ru:{unknown:'Стоимость уточняется',year:'год',programme:'программу',credit:'кредит',unknownPeriod:'период уточняется'},kk:{unknown:'Бағасы нақтыланады',year:'жыл',programme:'бағдарлама',credit:'кредит',unknownPeriod:'кезеңі нақтыланады'}}[locale];

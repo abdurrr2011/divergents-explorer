@@ -2,12 +2,17 @@ import {countryRecords,countryCode} from './destinations.mjs';
 import {subjectRecords,subjectCodesFor} from './subjects.mjs';
 import {localizeCurrencies} from './currency.mjs';
 import {cataloguePhrases} from './catalogue-i18n.mjs';
+import {researchPhrases as kazakhstanPhrases} from './research-kazakhstan-i18n.mjs';
+import {researchPhrases as europeAmericasPhrases} from './research-europe-americas-i18n.mjs';
+import {researchPhrases as asiaWorldPhrases} from './research-asia-world-i18n.mjs';
+import {researchPhrases as extraPhrases} from './research-extra-i18n.mjs';
 import {uiPhrases} from './ui-i18n.mjs';
 import {translations} from './i18n.mjs';
 const escapeRE=s=>s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
 const maps={ru:new Map(),kk:new Map()};
 const core=Object.entries(translations.en).map(([key,en])=>[en,translations.ru[key],translations.kk[key]]);
-for(const [en,ru,kk]of [...cataloguePhrases,...core,...uiPhrases]){maps.ru.set(en,ru);maps.kk.set(en,kk);}
+export const allCataloguePhrases=[...cataloguePhrases,...kazakhstanPhrases,...europeAmericasPhrases,...asiaWorldPhrases,...extraPhrases];
+for(const [en,ru,kk]of [...allCataloguePhrases,...core,...uiPhrases]){maps.ru.set(en,ru);maps.kk.set(en,kk);}
 const patterns=Object.fromEntries(Object.entries(maps).map(([lang,map])=>[lang,new RegExp(`(?<![\\p{L}\\p{N}_])(?:${[...map.keys()].sort((a,b)=>b.length-a.length).map(escapeRE).join('|')})(?![\\p{L}\\p{N}_])`,'gu')]));
 export function translateText(value,lang='en'){
  const text=String(value??'');if(lang==='en'||!maps[lang])return localizeCurrencies(text,lang);

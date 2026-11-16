@@ -1,51 +1,38 @@
-# Private-review verification — 14 November 2026
+# Private-review verification — 16 November 2026
+
+## Current result
+
+`npm run check` passes: validation has zero structural errors, all 50 logic/DOM/localisation/currency tests pass, and the static build contains 60 routes across 54 programmes and 33 institutions. A separate `node --check src/app.mjs` passes. There are 160 editorial warnings/questions, deliberately recorded in `VALIDATION-REPORT.json`; a green structural check does not confirm every applicant's eligibility.
+
+The interface now has 12 simple interest choices with explanations instead of a 120-item technical hierarchy. Every programme maps to a group; detailed classification stays internal. Country navigation retains 249 multilingual ISO entries. Counts distinguish institutions from admissions options. Current catalogue has 146 official-source records, 14 award records and 50 deadline records. Latest source check: 16 November 2026.
 
 ## Automated scope
 
-- `npm run validate`: zero structural errors; 109 editorial warnings remain intentionally visible in `docs/VALIDATION-REPORT.json`. Checks include stable IDs, cross-references, official-source metadata, date/time and currency formats, tuition units, required test aggregate, duplicate/conflicting route keys and scholarship coverage evidence.
-- `npm test`: 18 scenario tests pass. Covers interests without scores, Grade 9/11 browsing, two fields/profile subjects, UNT/NUET/SAT separation, regular-GPA prerequisite, unknown English exclusion, full-scholarship coverage, native-currency/period budget handling, comparison limit, persistence serialization, corrupt/disabled storage, historical cycles, search and translation label completeness.
-- `npm run build`: static output is generated with 40 routes and 34 programmes. Source descriptions are English; core labels have three dictionaries.
-- `node --check src/app.mjs`: JavaScript parses. There are no external runtime dependencies or third-party asset fetches.
-- `npm run links`: 74/74 distinct official URLs returned successful HTTP responses. See `docs/LINK-REPORT.json` for results. An HTTP success establishes reachability, not factual correctness or absence of a bot page. The first Node-fetch attempt could not use the managed proxy; the final checker uses curl with inherited proxy/CA configuration. A timeout, 403 or bot gate requires a manual check, not an invented broken-link conclusion. Research itself used official pages through the web research tool.
+- `npm run validate`: IDs, foreign keys, source metadata/cycles, dates/times, currencies, tuition units, aggregate English state, duplicate/conflicting route keys, funding labels, valid subject tags and simple-interest mapping. Full report: `VALIDATION-REPORT.json`.
+- `npm test`: 50 checks covering entry paths, legacy grade preferences, friendly interests/descriptions, country/stage combinations, appropriate coverage gaps, translated search, every human-readable catalogue value, every route detail and page in Russian/Kazakh, threshold preservation, unknown English exclusion, optional English application step, UNT/NUET/SAT distinction, funding coverage, native currency names/periods, shortlist/comparison, storage logic, deadline cycles and switching languages. DOM checks use development-only linkedom and preserve IDs/URLs/user notes.
+- `npm run build`: copies static sources and combines independent data batches into dist/catalogue.json. Metadata uses the latest source check rather than a hardcoded date.
+- `npm run links`: 137 successful HTTP responses, 5 manual checks/timeouts and 4 unavailable HTTP 503 responses out of 146 distinct URLs. The Sciences Po site timed out; Satbayev and UKPTK returned 503 to curl. Research used official pages/indexed official evidence with limitations recorded in the sources. A blocked or temporarily unavailable response is not proof that a URL is permanently broken. Full report: `LINK-REPORT.json`. Manual rechecks remain necessary.
 
-## Browser verification blocker
+## Catalogue coverage
 
-The selected managed environment has `SITES_MANAGED_LINUX_CONTAINER=1`, but no `cua_repl.js` browser-control tool is exposed. The installed Sites skill's managed-preview instructions require that tool and direct us not to improvise a replacement browser path or launch a preview server when it is missing. As a result, desktop/mobile interactions, screenshots, keyboard flow, actual browser reload persistence, phone comparison scrolling and signed-in owner navigation are **not browser-verified** in this release. The scenario checks above are data/logic checks, not a substitute for those interactions. A complete repeatable manual checklist is in `docs/MAINTENANCE.md`.
+| Region | Institutions | Programmes | Routes |
+| --- | ---: | ---: | ---: |
+| Kazakhstan | 10 | 16 | 22 |
+| North America | 5 | 9 | 9 |
+| Europe | 6 | 10 | 10 |
+| Asia | 8 | 13 | 13 |
+| Latin America | 1 | 1 | 1 |
+| Africa | 1 | 2 | 2 |
+| Oceania | 2 | 3 | 3 |
 
-The Sites source helper scripts were also absent from the installed filesystem and unavailable as cloud skill resources. Source synchronisation therefore uses ordinary Git with a short-lived credential held only in process memory; packaging uses the documented static manifest and exact dist output. No credential is tracked.
+20 actual universities were added in this release. Transport/safety has no researched programme yet; all other interest groups have examples. Africa/Latin America remain thin. The catalogue is representative, not comprehensive. Four `EXPANSION-*.md` documents describe new evidence and individual limits.
 
-This is a private build for review with explicit QA and editorial limits. Do not treat it as school-rollout ready until the browser checklist and relevant unresolved eligibility checks are complete.
+Important open questions include foreign diploma recognition, NTU/Twente additional-qualification requirements, UNNC preliminary-year entry, TUM fee inconsistency, APU admissions pages blocked to automated fetching, historical UNBC Kazakhstan guidance, current fees and awards. Older questions about AITU's conflicting paid UNT minimum, college funded-place allocations, NU support-package details and other routes remain visible. Admission, fee and award cycles are kept independently; no historical date was moved forward.
 
-## Access/deployment
+## Browser and access scope
 
-The new Site was created independently from the personal explorer. The initial native access-policy inspection confirmed custom access containing only the owner, zero external visitors and no allowed groups/editors. The release uses the native owner-private deployment operation. The access method and release procedure are recorded in `docs/DEPLOYMENT.md`; the final native receipt accompanies the delivered source bundle.
+The managed environment exposes no cua_repl.js browser-control tool. The Sites skill directs us not to improvise a replacement browser path or launch preview without it. Desktop/mobile layout, actual browser reload persistence, keyboard interactions, phone scrolling and signed-in owner navigation are therefore not browser-verified. DOM tests are not a substitute. The current manual checklist is in `MAINTENANCE.md`.
 
-## Editorial scope
+Native Sites access inspection on 16 November confirms custom owner-only access, no groups and zero external visitors. Deployment preserves that audience. Signed-out HTTP and service-authorised asset checks establish the private gate and whether published files match the package; they do not establish an interactive authenticated browser session.
 
-40 routes / 34 programmes / 13 institutions / 74 official-source records / 9 awards / 31 deadline records. Region counts: Kazakhstan 16; North America 6; Europe 6; Asia 7; Latin America 1; Africa 2; Oceania 2. Breadth is deliberately sparse outside the main regions; foreign diploma recognition is not universally settled.
-
-Key open questions: AITU paid UNT threshold conflict, college funded-place allocations, current tuition periods, programme-specific foreign diploma recognition, KAIST English validity wording, HKUST scholarship nationality eligibility, Melbourne/UCT fees, UBA equivalence/fees/duration and NU complete grant package/renewal. See regional notes and validation report. A school-appointed teacher or counsellor must review source claims before using a route to advise an individual application.
-
-
-## Complete localisation update — 15 November 2026
-
-Added Russian and Kazakh translations for all 769 distinct human-readable catalogue strings, plus the remaining interface copy. Grade guidance, subject and country values, programme descriptions, qualifications, admissions details, funding, deadlines, source notes, accessibility labels, empty states and copied feedback are covered. Official exam/award names, currency codes, qualification codes and source URLs retain their identifiers. English prose and canonical records remain unchanged.
-
-`npm test` now contains 25 checks, including DOM-rendered checks of all five grades, every main page, all 40 programme-route details in each language, populated shortlist/comparison, future-cycle messages, translated search, copied corrections and switching between all three languages. Catalogue translation coverage, important thresholds, number/billing-period formatting and preservation of IDs/URLs/user input are checked separately. These are DOM tests, not a claim of desktop/mobile browser verification; the browser-tool limitation above still applies.
-
-
-## Simplified shared browsing — 15 November 2026
-
-Removed current-grade selection and grade-specific content. All visitors get the same after-9/after-11/undecided entry controls; advanced filters and detail sections are collapsed. Updated translation journeys and added five legacy-grade migration checks. Total: 30 logic/DOM checks. Visual browser QA remains unavailable in this environment.
-
-
-## Minimal interface and currency names — 15 November 2026
-
-Currency prices and source-derived prose now use names in English, Russian or Kazakh instead of visible ISO codes. Numeric source records and currency keys remain unchanged. Removed the interest panel and advanced controls from the main view, shortened cards, and merged detailed information into five sections. Added dedicated currency regressions and minimal-view DOM assertions; the full suite has 37 checks. No browser-visual verification is claimed.
-
-
-## Complete destination and subject selectors — 15 November 2026
-
-Added 249 ISO country/territory options and 120 ISCED-based subject choices (11 broad, 29 narrow, 80 defined detailed fields), with all three language labels. Verified the 80 detailed IDs against the downloaded official UNESCO 2015 list; see `TAXONOMY-REFERENCE.json`. Editorial classification tags cover all 34 programmes. The 40 source-backed routes and their admissions/financial facts were not expanded or invented.
-
-The 45-check suite verifies destination uniqueness, translations and locale sorting, legacy country compatibility, hierarchy matching, all programme mappings, country/field/stage combinations, distinct empty/coverage states and selection persistence through language switching. Existing currency, admissions and minimal-interface checks still run. Actual browser visual QA remains unavailable.
+The personal explorer is a separate Site and was not edited. Source synchronisation uses ordinary Git with short-lived credentials held only in process memory because the supported helper scripts are absent. The release packages the exact pushed source's dist and hosting manifest and uses the native owner-private deployment operation. `DEPLOYMENT.md` records the procedure. School invitations still require explicit approval of audience and sign-in method.

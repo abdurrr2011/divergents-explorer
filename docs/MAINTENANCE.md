@@ -33,20 +33,22 @@ Use a simple review log with record ID, changed claim, exact source URL, intake,
 
 Run `npm run build`, then `npm start` outside managed Sites preview, and open http://localhost:4173. In a managed Sites environment with browser controls, use `sites-preview start /workspace/sites/divergents-explorer` and its exact returned URL instead of a separate server.
 
-At desktop (1440×1000) and phone (390×844):
+At desktop (1440×1000) and phone (390×844), when a supported browser tool is available:
 
-- Choose Grades 7 and 8, browse interests, check college-after-9 vs university-after-11 explanation; no score entry or dates should appear initially.
-- Choose Grade 9, filter a Kazakhstan technology college, read practical qualification/funding, then browse after Grade 11.
-- Choose Grade 10, combine Technology and Business, select UNT, read Math/Informatics vs Math/Geography preparation.
-- Choose Grade 11, find UNT with no SAT requirement, then add an international route for comparison; no scores are assumed.
-- Open NUET for NU Computer Science: English, 120/50 thresholds, regular GPA offer prerequisite, separate funding application and exact dates. Follow the prerequisite link. Compare with the SAT/ACT category and foundation.
-- Filter required/alternative/not-required/unknown test states. Enable unknowns, then confirm the no-required-English filter still excludes unverified routes and AET-English requirements.
-- Filter full scholarship; Berea/KAIST appear, tuition-only and conditional awards do not. Check USD per credit, GBP foundation total, unknown tuition and EUR annual tuition.
+- Every student sees the same After Grade 9 / After Grade 11 / All options choices. Legacy grade preferences must not restrict access. No score entry is required.
+- Select an interest: the menu has 12 simple groups and a short explanation appears below it. Select country and search. Reset clears all controls and hides the explanation.
+- Find a Kazakhstan college after Grade 9, read its qualification/practical training/funding, then browse after Grade 11. Compare a domestic university with an international option.
+- Open NUET for NU Computer Science: English, 120/50 thresholds, regular GPA offer prerequisite, separate funding steps and applicable dates. Follow the prerequisite link. Compare with the SAT/ACT category and foundation.
+- Open new university routes. Confirm foreign diploma-recognition limitations, extra preparation, historical fee references and unknown amounts stay visible. No ordinary Grade 11 certificate is assumed equivalent everywhere.
 - Save routes, reload, remove saved routes. Compare up to three, refuse a fourth with a message, remove a comparison. Scroll the comparison on a phone.
-- Reset filters, create an empty search, compare a region with insufficient coverage if a future release has one.
-- Change entry year to 2029: older records stay reference-only; new dates await confirmation. Check admission/funding/test/document distinctions and official-source check dates.
-- Tab through header, grade choices, filters, card actions, dialog, comparison and calendar; visible focus and Escape work. Check labels, no page overflow, language switching, English description fallback labels and narrow layout.
-- At the private deployed URL, a signed-out browser sees ChatGPT sign-in; the owner can sign in. Verify allowed users/groups in Sites. Do not change access to test it.
+- Check that institution counts differ from route counts where a university has multiple admission options.
+- Select Iceland or transport/safety to see an honest coverage gap; choose a covered country/stage combination with no result to see an ordinary empty search. Never add demo programmes to fill a gap.
+- Change entry year to 2029: older records stay reference-only; new dates await confirmation. Check deadline types, applicant scope, source dates and funding conditions.
+- Switch English/Russian/Kazakh on every page and detail. Check interest explanations, currencies, costs and fee periods. Official acronyms/URLs remain canonical; explanatory prose must be translated completely.
+- Tab through header, entry choices, filters, card actions, dialog, comparison and calendar; visible focus and Escape work. Check labels, no page overflow and narrow layout.
+- At the private deployed URL, signed-out requests are access-gated; the owner can sign in. Verify allowed users/groups in Sites. Do not change access to test it.
+
+Pure logic tests retain advanced admissions-test, funding and budget-filter scenarios for data correctness; the main interface only exposes search, country and interest. Browser visual/interaction verification remains unavailable in this managed environment. DOM tests do not establish browser layout or signed-in navigation.
 
 ## Approved school access later
 
@@ -55,29 +57,21 @@ This release has a custom Sites policy containing only the owner. Sites owns aut
 
 ## Complete language coverage
 
-`src/i18n.mjs` contains core labels, `src/ui-i18n.mjs` contains all other interface phrases and `src/catalogue-i18n.mjs` contains catalogue translations. Phrase rows are `[English, Russian, Kazakh]`. Keep the English source string exact and translate the full meaning, including uncertainty, cycle, applicant category and fee period. Preserve numerical thresholds, original URLs and official exam/degree/currency identifiers. Translate names and explanatory text; official brand/test names may remain recognisable. A translation is not a newly verified admissions claim.
+`src/i18n.mjs` contains core labels, `src/ui-i18n.mjs` contains all other interface phrases and `src/catalogue-i18n.mjs` and `src/research-*-i18n.mjs` contain catalogue translations. Phrase rows are `[English, Russian, Kazakh]`. Keep the English source string exact and translate the full meaning, including uncertainty, cycle, applicant category and fee period. Preserve numerical thresholds, original URLs and official exam/degree/currency identifiers. Translate names and explanatory text; official brand/test names may remain recognisable. A translation is not a newly verified admissions claim.
 
-When adding or changing catalogue prose, add/update both translations in the same change. `tests/localization.test.mjs` fails if a human-readable catalogue value lacks either language. It renders every grade, all pages, every route detail, filled comparison, deadlines and correction feedback in a DOM and checks for untranslated English outside an explicit list of official names/codes. These checks use development-only `linkedom`, installed by `npm ci`; they do not launch a browser. Add every new interaction or message to this audit.
+When adding or changing catalogue prose, add/update both translations in the same change. `tests/localization.test.mjs` fails if a human-readable catalogue value lacks either language. It checks legacy grade preferences, all pages, every route detail, filled comparison, deadlines and correction feedback in a DOM and checks for untranslated English outside an explicit list of official names/codes. These checks use development-only `linkedom`, installed by `npm ci`; they do not launch a browser. Add every new interaction or message to this audit.
 
 The renderer translates visible text and accessible labels, preserving canonical filter values, source URLs, stable record IDs and user-written notes. Its original-text tracking prevents repeated passes from duplicating translated labels and supports switching back to English. Search indexes all three languages. Do not translate keys/IDs or filter values at rest.
 
 
-## Simplified shared browsing — 15 November 2026
+## Current simple interface — 16 November 2026
 
-The latest user direction replaces current-grade selection and grade-specific recommendations with three entry choices: after Grade 9, after Grade 11, still deciding. All students use the same catalogue. Test both entry paths from each legacy grade preference; preferences must not restrict the initial catalogue. Check that the two primary filters are visible on mobile, advanced filters start closed, and expanded settings remain open during edits. Details use native disclosure controls. Search, bookmarks, comparison, funding, sources and deadlines remain available. This update supersedes earlier checklist items requiring grade buttons.
+Only search, country, interest and after-9/after-11/all-options choices are on the main view. Primary navigation is Explore, Shortlist and Compare; deadlines and About stay in the footer. Five collapsible detail groups preserve admissions, costs, funding, deadlines and evidence. Reference tuition on cards may have an older source cycle; the detail must state it.
 
+Keep all 249 destination choices. Use the 12 student-facing groups from `src/interests.mjs`, with complete English/Russian/Kazakh labels and explanations. The 120 detailed ISCED tags stay internal. Add source-backed `subjectCodes` or update the fallback map; every programme must belong to a simple group. See `TAXONOMY.md`. This replaces the older 120-option technical menu.
 
-## Minimal catalogue and localised currencies — 15 November 2026
+Counts must distinguish institutions, programmes and applicant routes. Current catalogue: 33 institutions / 54 programmes / 60 routes / 14 awards / 50 deadline records / 146 source records. The four `EXPANSION-*.md` notes document 20 new universities researched for this release. Africa/Latin America and transport/safety remain sparse; do not imply complete worldwide programme coverage.
 
-The latest user direction removes the interests and advanced-filter panels from the main view. Only search, country, subject and the after-9/after-11/all-options choices remain. Do not restore the large filter panel or repeated guidance without a specific request. Five collapsible detail groups preserve the substantive admissions, costs, funding, deadlines and evidence. Main card prices are explicitly reference tuition; the applicable fee cycle remains in detail.
+`src/currency.mjs` owns display names and amount formatting for the 16 supported currency codes. Apply localisation after translating prose. Retain source amounts and ISO keys in data; do not convert costs when switching language. Extend the supported codes when introducing another currency, then check all three languages. URLs, IDs and student-written notes stay unchanged.
 
-`src/currency.mjs` owns display names and amount formatting for all nine catalogue currencies. The renderer applies it after translating catalogue prose, so ISO codes do not leak from hand-translated source notes. `data/` retains the exact native amount and ISO currency; never change an amount merely because the interface language changes. The displayed currency is not converted to another currency. Currency tests cover suffix/prefix/attached codes and every catalogue phrase. When introducing a new currency, extend the supported code list and verify native labels in all three languages. URLs, canonical IDs and student-written notes remain untouched.
-
-The earlier checklist for advanced filters applies to the pure logic library, not the current main-page controls. Run `npm run check` for the current 37-check suite. Browser visual QA remains unavailable in this environment; DOM tests are labelled accordingly.
-
-
-## Worldwide selectors — 15 November 2026
-
-Keep all 249 destination choices and all 120 subject choices available even where programme coverage is empty. Updating a selector never makes its admission route verified. Maintain distinctions between an uncovered destination, an uncovered field and a combination of filters that happens to return zero matches. Do not add invented examples to fill an empty category.
-
-New programme records need discovery tags via optional `subjectCodes` or the programme-ID map in `src/subjects.mjs`. Choose the most specific category supported by the programme content. Use a broad code for general or preparatory study rather than matching it to every child field. Parent selections include tagged descendants; child selections do not claim precision absent from broad tags. Country and subject codes must stay stable across languages. The main interface remains two selectors and search; do not add more panels to expose this hierarchy. See `docs/TAXONOMY.md` and run `npm run check` (45 checks).
+Run `npm run check` (50 tests) and inspect link/validation reports. Unknown English never passes a no-required-English query; an explicitly optional test may pass for the application step, while later language coursework/exams must remain in the detail. A conditional education waiver is an alternative, not an unconditional exemption.
