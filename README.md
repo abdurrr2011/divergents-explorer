@@ -55,7 +55,7 @@ docs/             Schema, evidence, coverage, handoff and maintenance
 
 ## Quality and maintenance
 
-`npm run check` validates catalogue and photographs, runs 69 automated checks and builds `dist/`. `npm run links` produces a separate source-link report. GitHub Actions is configured to repeat the local check; a remote CI run has not yet been verified.
+`npm run check` validates catalogue and photographs, runs 69 automated checks and builds `dist/`. `npm run links` produces a separate source-link report. [GitHub Actions](https://github.com/abdurrr2011/divergents-explorer/actions/workflows/check.yml) repeats these checks for pull requests and pushes to main; its run page records the current result.
 
 Browser visual QA is still pending because supported browser controls were unavailable during development. Editorial questions remain in the validation reports. New data must identify the official source, applicable intake, applicant category and date checked. Read [CONTRIBUTING.md](CONTRIBUTING.md) before editing.
 
